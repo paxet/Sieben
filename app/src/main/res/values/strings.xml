@@ -15,7 +15,7 @@
     //Titles
     <string name="act">1. Übung | Hampelmänner</string>
     <string name="act_2">2. Übung | Wand sitzen</string>
-    <string name="act_3">3. Übung | Liegestütz</string>
+    <string name="act_3">3. Übung | Liegestützen</string>
     <string name="act_4">4. Übung | Sit Ups</string>
     <string name="act_5">5. Übung | Auf den Stuhl steigen</string>
     <string name="act_6">6. Übung | Kniebeugen</string>
@@ -23,19 +23,19 @@
     <string name="act_8">8. Übung | Planke</string>
     <string name="act_9">9. Übung | Auf der Stelle laufen</string>
     <string name="act_10">10. Übung | Ausholschritt</string>
-    <string name="act_11">11. Übung | Liegestütz - Drehung</string>
+    <string name="act_11">11. Übung | Liegestützen - Drehung</string>
     <string name="act_12">12. Übung | Planke - Seite</string>
 
     <string name="pau">Pause | dann: Wand sitzen</string>
-    <string name="pau_2">Pause | dann: Liegestütz"</string>
+    <string name="pau_2">Pause | dann: Liegestützen</string>
     <string name="pau_3">Pause | dann: Sit Ups</string>
     <string name="pau_4">Pause | dann: Auf den Stuhl steigen</string>
     <string name="pau_5">Pause | dann: Kniebeugen</string>
-    <string name="pau_6">Pause | dann: Tricepts - Stuhl"</string>
+    <string name="pau_6">Pause | dann: Tricepts - Stuhl</string>
     <string name="pau_7">Pause | dann: Planke</string>
     <string name="pau_8">Pause | dann: Auf der Stelle laufen</string>
     <string name="pau_9">Pause | dann: Ausholschritt</string>
-    <string name="pau_10">Pause | dann: Liegestütz - Drehung"</string>
+    <string name="pau_10">Pause | dann: Liegestützen - Drehung</string>
     <string name="pau_11">Pause | dann: Planke - Seite</string>
 
 
