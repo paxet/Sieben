@@ -144,12 +144,12 @@
         "source": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/drawable/a03.png"
     },
     {
-        "merged": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/res/merged/debug/drawable/a06.png",
-        "source": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/drawable/a06.png"
-    },
-    {
         "merged": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/res/merged/debug/drawable/a11.png",
         "source": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/drawable/a11.png"
+    },
+    {
+        "merged": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/res/merged/debug/drawable/a06.png",
+        "source": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/drawable/a06.png"
     },
     {
         "merged": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",

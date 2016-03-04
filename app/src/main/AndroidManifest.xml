@@ -130,6 +130,5 @@
         </activity>
     </application>
 
-    <service android:name="com.alexfu.countdownview.core.TimerService"/>
 
 </manifest>
