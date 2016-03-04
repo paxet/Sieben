@@ -5,6 +5,7 @@ A small application to perform the seven minutes workout. It's very basic:
 - pause and resume an exercice
 - jump to previous or next exercice
 
+### Links:
 - Download [APK](https://github.com/scoute-dich/Sieben/releases)
 - Watch [Changelog](https://github.com/scoute-dich/Sieben/blob/master/CHANGELOG.md)
 - See [license](https://github.com/scoute-dich/Sieben/blob/master/LICENSE.md)
