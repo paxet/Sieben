@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/res/merged/release/menu/menu_start.xml",
+        "source": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/menu/menu_start.xml"
+    },
+    {
+        "merged": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/res/merged/release/menu/menu_main.xml",
+        "source": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/menu/menu_main.xml"
+    },
+    {
+        "merged": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/res/merged/release/menu/menu_main2.xml",
+        "source": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/menu/menu_main2.xml"
+    },
+    {
+        "merged": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/res/merged/release/menu/menu_end.xml",
+        "source": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/menu/menu_end.xml"
+    }
+]
