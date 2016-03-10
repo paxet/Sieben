@@ -4,14 +4,15 @@
 
     //Menu
     <string name="action_license">License</string>
-    <string name="action_next">Next exercise</string>
-    <string name="action_before">Previous exercise</string>
-    <string name="action_again">Start from beginning</string>
+    <string name="action_help">Help</string>
+    <string name="action_changelog">Changelog</string>
 
     //Snackbar
     <string name="sn_pause">A short pause ...</string>
     <string name="sn_weiter">... let\'s start again!</string>
     <string name="end">Done!</string>
+    <string name="sn_first">That\'s the first exercice.</string>
+    <string name="sn_last">That\'s the last exercice.</string>
 
     //Titles
     <string name="act">1. Exercise | Jumping jacks</string>
@@ -39,27 +40,60 @@
     <string name="pau_10">Pause | then: Push up - rotation</string>
     <string name="pau_11">Pause | then: Side plank</string>
 
-
     //License Dialog
-    <string name="about_yes">Visit projectsite on Github</string>
-    <string name="about_yes2">Visit blog of \"C. Gilbert\"</string>
-    <string name="about_no">OK</string>
+    <string name="about_yes">OK</string>
     <string name="about_title">Copyright © 2016  by scoute-dich</string>
     <string name="about_text">
+        &lt;i>First of all: I am not a developer. I understand a few basics and most of my work is done
+        by \"copy and paste\". A big thanks to all developers, who share their code on tutorials, on github or
+        other places.&lt;/i> &lt;br> &lt;br>
 
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
+        This program is free software: you can redistribute it and/or modify
+        it under the terms of the GNU General Public License as published by
+        the Free Software Foundation, either version 3 of the License, or
+        (at your option) any later version.
 
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
+        This program is distributed in the hope that it will be useful,
+        but WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+        GNU General Public License for more details.
 
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see http://www.gnu.org/licenses/.\n\n
+        You should have received a copy of the GNU General Public License
+        along with this program.  If not, see http://www.gnu.org/licenses.&lt;br> &lt;br>
 
-    The pictures from the workout can be found on the Blog of \"C. Gilbert\".Thanks to her
-    for the permission to use them in the app.</string>
+        &lt;i>The pictures from the workout can be found on the Blog of \"C. Gilbert\"
+        (http://almostfearless.com/the-21-minute-workout-or-7-minutes-if-youre-really-fit).Thanks to her
+        for the permission to use them in the app.&lt;/i></string>
+
+    //Changelog Dialog
+    <string name="changelog_text">
+        &lt;i>For more informations visit the projectsite on github:&lt;br>
+        https://github.com/scoute-dich/Seven&lt;/i>&lt;br>&lt;br>
+
+        &lt;b>v1.3:&lt;/b>&lt;br>
+        &#8226; added swipe function (see help dialog)&lt;br>
+        &#8226; keep screen awake&lt;br>
+        &#8226; new dialogs (help/changelog)&lt;br>&lt;br>
+
+        &lt;b>v1.2:&lt;/b>&lt;br>
+        &#8226; changed default language to english&lt;br>&lt;br>
+
+        &lt;b>v1.1:&lt;/b>&lt;br>
+        &#8226; better integration of snackbar&lt;br>&lt;br>
+
+        &lt;b>v1.0:&lt;/b>&lt;br>
+        &#8226; first release
+    </string>
+
+    //Help Dialog
+    <string name="help_text">
+        &lt;i>Swipe on left: &lt;/i>switch to next exercice&lt;br>&lt;br>
+
+        &lt;i>Swipe on right: &lt;/i>switch to previous exercice&lt;br>&lt;br>
+
+        &lt;i>Swipe on bottom: &lt;/i>make a pause&lt;br>&lt;br>
+
+        &lt;i>Swipe on top: &lt;/i>restart actual exercice
+    </string>
+
 </resources>

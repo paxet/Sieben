@@ -12,9 +12,14 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.Html;
+import android.text.SpannableString;
+import android.text.method.LinkMovementMethod;
+import android.text.util.Linkify;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
@@ -34,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         progressBar = (ProgressBar)findViewById(R.id.progressBar);
+        final ImageView imageView = (ImageView) findViewById(R.id.imageView);
+
         setSupportActionBar(toolbar);
 
         final FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
@@ -55,6 +62,37 @@ public class MainActivity extends AppCompatActivity {
                     Snackbar.make(view, R.string.sn_pause, Snackbar.LENGTH_LONG)
                             .setAction("Action", null).show();
                 }
+            }
+        });
+
+        imageView.setOnTouchListener(new OnSwipeTouchListener(MainActivity.this) {
+            public void onSwipeTop() {
+                countDownTimer.start();
+                timerStarted = true;
+                fab.setImageResource(R.drawable.pause);
+                Snackbar.make(imageView, R.string.sn_weiter, Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
+            }
+
+            public void onSwipeRight() {
+                Snackbar.make(imageView, R.string.sn_first, Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
+            }
+
+            public void onSwipeLeft() {
+                Intent intent_in = new Intent(de.baumann.sieben.MainActivity.this, Pause.class);
+                startActivity(intent_in);
+                overridePendingTransition(0, 0);
+                countDownTimer.cancel();
+                finish();
+            }
+
+            public void onSwipeBottom() {
+                countDownTimer.cancel();
+                timerStarted = false;
+                fab.setImageResource(R.drawable.play);
+                Snackbar.make(imageView, R.string.sn_pause, Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
             }
         });
 
@@ -93,7 +131,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_start, menu);
+        getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
 
@@ -106,39 +144,53 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_license) {
-            new AlertDialog.Builder(MainActivity.this)
-                    .setTitle(getString(R.string.about_title))
-                    .setMessage(getString(R.string.about_text))
+            final SpannableString s = new SpannableString(Html.fromHtml(getString(R.string.about_text)));
+            Linkify.addLinks(s, Linkify.WEB_URLS);
+
+            final AlertDialog d = new AlertDialog.Builder(MainActivity.this)
+                    .setTitle(R.string.about_title)
+                    .setMessage( s )
                     .setPositiveButton(getString(R.string.about_yes),
                             new DialogInterface.OnClickListener() {
                                 public void onClick(DialogInterface dialog, int id) {
-                                    Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/scoute-dich/Sieben"));
-                                    startActivity(i);
-                                    dialog.cancel();
-                                }
-                            })
-                    .setNeutralButton(getString(R.string.about_no),
-                            new DialogInterface.OnClickListener() {
-                                public void onClick(DialogInterface dialog, int id) {
-                                    dialog.cancel();
-                                }
-                            })
-                    .setNegativeButton(getString(R.string.about_yes2),
-                            new DialogInterface.OnClickListener() {
-                                public void onClick(DialogInterface dialog, int id) {
-                                    Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("http://almostfearless.com/the-21-minute-workout-or-7-minutes-if-youre-really-fit/"));
-                                    startActivity(i);
                                     dialog.cancel();
                                 }
                             }).show();
+            d.show();
+            ((TextView)d.findViewById(android.R.id.message)).setMovementMethod(LinkMovementMethod.getInstance());
         }
 
-        if (id == R.id.action_next) {
-            Intent intent_in = new Intent(de.baumann.sieben.MainActivity.this, Pause.class);
-            startActivity(intent_in);
-            overridePendingTransition(0, 0);
-            countDownTimer.cancel();
-            finish();
+        if (id == R.id.action_changelog) {
+            final SpannableString s = new SpannableString(Html.fromHtml(getString(R.string.changelog_text)));
+            Linkify.addLinks(s, Linkify.WEB_URLS);
+
+            final AlertDialog d = new AlertDialog.Builder(MainActivity.this)
+                    .setTitle(R.string.action_changelog)
+                    .setMessage( s )
+                    .setPositiveButton(getString(R.string.about_yes),
+                            new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int id) {
+                                    dialog.cancel();
+                                }
+                            }).show();
+            d.show();
+            ((TextView)d.findViewById(android.R.id.message)).setMovementMethod(LinkMovementMethod.getInstance());
+        }
+
+        if (id == R.id.action_help) {
+            final SpannableString s = new SpannableString(Html.fromHtml(getString(R.string.help_text)));
+            Linkify.addLinks(s, Linkify.WEB_URLS);
+
+            final AlertDialog d = new AlertDialog.Builder(MainActivity.this)
+                    .setMessage( s )
+                    .setPositiveButton(getString(R.string.about_yes),
+                            new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int id) {
+                                    dialog.cancel();
+                                }
+                            }).show();
+            d.show();
+            ((TextView)d.findViewById(android.R.id.message)).setMovementMethod(LinkMovementMethod.getInstance());
         }
 
         return super.onOptionsItemSelected(item);

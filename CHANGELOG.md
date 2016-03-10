@@ -1,6 +1,12 @@
+### v1.3
+
+- added swipe function (see help dialog)
+- keep screen awake
+- new dialogs (help/changelog)
+
 ### v1.2
 
-- changed default language to englis
+- changed default language to english
 
 ### v1.1
 

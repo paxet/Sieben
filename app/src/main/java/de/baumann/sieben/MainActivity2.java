@@ -59,6 +59,30 @@ public class MainActivity2 extends AppCompatActivity {
             }
         });
 
+        imageView.setOnTouchListener(new OnSwipeTouchListener(MainActivity2.this) {
+            public void onSwipeTop() {
+            }
+
+            public void onSwipeRight() {
+                Intent intent_in = new Intent(de.baumann.sieben.MainActivity2.this, MainActivity.class);
+                startActivity(intent_in);
+                overridePendingTransition(0, 0);
+                countDownTimer.cancel();
+                finish();
+            }
+
+            public void onSwipeLeft() {
+                Intent intent_in = new Intent(de.baumann.sieben.MainActivity2.this, Pause2.class);
+                startActivity(intent_in);
+                overridePendingTransition(0, 0);
+                countDownTimer.cancel();
+                finish();
+            }
+
+            public void onSwipeBottom() {
+            }
+        });
+
         textView = (TextView) this.findViewById(R.id.timer);
         countDownTimer = new CountDownTimerActivity(startTime, interval);
         textView.setText(textView.getText() + String.valueOf(startTime / 1000));
@@ -111,47 +135,6 @@ public class MainActivity2 extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_license) {
-            new AlertDialog.Builder(MainActivity2.this)
-                    .setTitle(getString(R.string.about_title))
-                    .setMessage(getString(R.string.about_text))
-                    .setPositiveButton(getString(R.string.about_yes),
-                            new DialogInterface.OnClickListener() {
-                                public void onClick(DialogInterface dialog, int id) {
-                                    Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/scoute-dich/Sieben"));
-                                    startActivity(i);
-                                    dialog.cancel();
-                                }
-                            })
-                    .setNeutralButton(getString(R.string.about_no),
-                            new DialogInterface.OnClickListener() {
-                                public void onClick(DialogInterface dialog, int id) {
-                                    dialog.cancel();
-                                }
-                            })
-                    .setNegativeButton(getString(R.string.about_yes2),
-                            new DialogInterface.OnClickListener() {
-                                public void onClick(DialogInterface dialog, int id) {
-                                    Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("http://almostfearless.com/the-21-minute-workout-or-7-minutes-if-youre-really-fit/"));
-                                    startActivity(i);
-                                    dialog.cancel();
-                                }
-                            }).show();
-        }
-
-        if (id == R.id.action_next) {
-            Intent intent_in = new Intent(de.baumann.sieben.MainActivity2.this, Pause2.class);
-            startActivity(intent_in);
-            overridePendingTransition(0, 0);
-            countDownTimer.cancel();
-            finish();
-        }
-
-        if (id == R.id.action_before) {
-            Intent intent_in = new Intent(de.baumann.sieben.MainActivity2.this, MainActivity.class);
-            startActivity(intent_in);
-            overridePendingTransition(0, 0);
-            countDownTimer.cancel();
-            finish();
         }
 
         return super.onOptionsItemSelected(item);
