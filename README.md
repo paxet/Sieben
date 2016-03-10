@@ -1,5 +1,7 @@
+[![F-Droid](https://f-droid.org/wiki/images/0/06/F-Droid-button_get-it-on.png)](https://f-droid.org/repository/browse/?fdfilter=baumann&fdid=de.baumann.sieben)
+
 # Sieben
-A small application to perform the seven minutes workout. It's very basic:
+A small android application to perform the seven minutes workout. It's very basic:
 
 - you can perform the workout
 - pause and resume an exercice
