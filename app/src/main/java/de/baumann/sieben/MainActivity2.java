@@ -35,7 +35,7 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         progressBar = (ProgressBar)findViewById(R.id.progressBar);
-        ImageView imageView = (ImageView) findViewById(R.id.imageView);
+        final ImageView imageView = (ImageView) findViewById(R.id.imageView);
         setSupportActionBar(toolbar);
         setTitle(R.string.act_2);
 
@@ -61,6 +61,11 @@ public class MainActivity2 extends AppCompatActivity {
 
         imageView.setOnTouchListener(new OnSwipeTouchListener(MainActivity2.this) {
             public void onSwipeTop() {
+                countDownTimer.start();
+                timerStarted = true;
+                fab.setImageResource(R.drawable.pause);
+                Snackbar.make(imageView, R.string.sn_weiter, Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
             }
 
             public void onSwipeRight() {
@@ -80,6 +85,11 @@ public class MainActivity2 extends AppCompatActivity {
             }
 
             public void onSwipeBottom() {
+                countDownTimer.cancel();
+                timerStarted = false;
+                fab.setImageResource(R.drawable.play);
+                Snackbar.make(imageView, R.string.sn_pause, Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
             }
         });
 
