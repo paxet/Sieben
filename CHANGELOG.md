@@ -1,3 +1,7 @@
+### v1.3.1
+
+- added Japanese translation (thanks to naofum)
+
 ### v1.3
 
 - added swipe function (see help dialog)
