@@ -5,7 +5,7 @@
     //Menu
     <string name="action_license">Lizenz</string>
     <string name="action_help">Hilfe</string>
-    <string name="action_changelog">Hilfe</string>
+    <string name="action_changelog">Changelog</string>
 
     //Snackbar
     <string name="sn_pause">Eine kurze Pause ...</string>

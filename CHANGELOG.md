@@ -1,3 +1,7 @@
+### v1.4
+
+- set screenorientation to portrait
+
 ### v1.3.1
 
 - added Japanese translation (thanks to naofum)
