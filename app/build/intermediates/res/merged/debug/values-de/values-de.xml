@@ -60,8 +60,14 @@
     <string name="action_license">Lizenz</string>
     <string name="app_name">Sieben</string>
     <string name="changelog_text">
-        &lt;i>BEsuche für mehr Informationen die Projektseite auf Github:&lt;br>
+        &lt;i>Besuche für mehr Informationen die Projektseite auf Github:&lt;br>
         https://github.com/scoute-dich/Seven&lt;/i>&lt;br>&lt;br>
+
+        &lt;b>v1.4:&lt;/b>&lt;br>
+        • Bildschirmorientierung: Portrait&lt;br>&lt;br>
+
+        &lt;b>v1.3.1:&lt;/b>&lt;br>
+        • Japanische Übersetzung (Danke an naofum)&lt;br>&lt;br>
 
         &lt;b>v1.3:&lt;/b>&lt;br>
         • Wischfunktion hinzugefügt (siehe Hilfe Dialog)&lt;br>

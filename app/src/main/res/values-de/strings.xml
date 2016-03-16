@@ -68,8 +68,14 @@
 
     //Changelog Dialog
     <string name="changelog_text">
-        &lt;i>BEsuche für mehr Informationen die Projektseite auf Github:&lt;br>
+        &lt;i>Besuche für mehr Informationen die Projektseite auf Github:&lt;br>
         https://github.com/scoute-dich/Seven&lt;/i>&lt;br>&lt;br>
+
+        &lt;b>v1.4:&lt;/b>&lt;br>
+        &#8226; Bildschirmorientierung: Portrait&lt;br>&lt;br>
+
+        &lt;b>v1.3.1:&lt;/b>&lt;br>
+        &#8226; Japanische Übersetzung (Danke an naofum)&lt;br>&lt;br>
 
         &lt;b>v1.3:&lt;/b>&lt;br>
         &#8226; Wischfunktion hinzugefügt (siehe Hilfe Dialog)&lt;br>
