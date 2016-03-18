@@ -69,10 +69,11 @@
     //Changelog Dialog
     <string name="changelog_text">
         &lt;i>Besuche für mehr Informationen die Projektseite auf Github:&lt;br>
-        https://github.com/scoute-dich/Seven&lt;/i>&lt;br>&lt;br>
+        https://github.com/scoute-dich/Sieben&lt;/i>&lt;br>&lt;br>
 
         &lt;b>v1.4:&lt;/b>&lt;br>
-        &#8226; Bildschirmorientierung: Portrait&lt;br>&lt;br>
+        &#8226; Bildschirmorientierung: Portrait&lt;br>
+        &#8226; Projektlink gefixed&lt;br>&lt;br>
 
         &lt;b>v1.3.1:&lt;/b>&lt;br>
         &#8226; Japanische Übersetzung (Danke an naofum)&lt;br>&lt;br>

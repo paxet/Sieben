@@ -1440,10 +1440,11 @@
         (http://almostfearless.com/the-21-minute-workout-or-7-minutes-if-youre-really-fit).Thanks to her
         for the permission to use them in the app.&lt;/i></string><string name="pau_9">Pause | then: Lunge</string><string name="about_yes">OK</string><string name="sn_weiter">... let\'s start again!</string><string name="pau">Pause | then: Wall sit</string><string name="action_changelog">Changelog</string><string name="act_2">2. Exercise | Wall sit</string><string name="act_3">3. Exercise | Push ups</string><string name="act_4">4. Exercise | Abdominal crunch</string><string name="action_help">Help</string><string name="sn_last">That\'s the last exercice.</string><string name="act_5">5. Exercise | Step up on chair</string><string name="pau_11">Pause | then: Side plank</string><string name="act_6">6. Exercise | Squat</string><string name="pau_10">Pause | then: Push up - rotation</string><string name="act_7">7. Exercise | Tricepts - on chair</string><string name="about_title">Copyright © 2016  by scoute-dich</string><string name="act_8">8. Exercise | Plank</string><string name="act_9">9. Exercise | High knees running</string><string name="sn_pause">A short pause ...</string><string name="app_name">Seven</string><string name="changelog_text">
         &lt;i>For more informations visit the projectsite on github:&lt;br>
-        https://github.com/scoute-dich/Seven&lt;/i>&lt;br>&lt;br>
+        https://github.com/scoute-dich/Sieben&lt;/i>&lt;br>&lt;br>
 
         &lt;b>v1.4:&lt;/b>&lt;br>
-        • set screenorientation to portrait&lt;br>&lt;br>
+        • set screenorientation to portrait&lt;br>
+        • fixed project-link&lt;br>&lt;br>
 
         &lt;b>v1.3.1:&lt;/b>&lt;br>
         • added Japanese translation (thanks to naofum)&lt;br>&lt;br>
@@ -1532,10 +1533,11 @@
         &lt;i>Nach oben wischen: &lt;/i>die aktuelle Übung von vorne beginnen
     </string><string name="act_10">10. Übung | Ausholschritt</string><string name="act_11">11. Übung | Liegestützen - Drehung</string><string name="changelog_text">
         &lt;i>Besuche für mehr Informationen die Projektseite auf Github:&lt;br>
-        https://github.com/scoute-dich/Seven&lt;/i>&lt;br>&lt;br>
+        https://github.com/scoute-dich/Sieben&lt;/i>&lt;br>&lt;br>
 
         &lt;b>v1.4:&lt;/b>&lt;br>
-        • Bildschirmorientierung: Portrait&lt;br>&lt;br>
+        • Bildschirmorientierung: Portrait&lt;br>
+        • Projektlink gefixed&lt;br>&lt;br>
 
         &lt;b>v1.3.1:&lt;/b>&lt;br>
         • Japanische Übersetzung (Danke an naofum)&lt;br>&lt;br>

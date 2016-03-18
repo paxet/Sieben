@@ -311,10 +311,11 @@
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="changelog_text">
         &lt;i>For more informations visit the projectsite on github:&lt;br>
-        https://github.com/scoute-dich/Seven&lt;/i>&lt;br>&lt;br>
+        https://github.com/scoute-dich/Sieben&lt;/i>&lt;br>&lt;br>
 
         &lt;b>v1.4:&lt;/b>&lt;br>
-        • set screenorientation to portrait&lt;br>&lt;br>
+        • set screenorientation to portrait&lt;br>
+        • fixed project-link&lt;br>&lt;br>
 
         &lt;b>v1.3.1:&lt;/b>&lt;br>
         • added Japanese translation (thanks to naofum)&lt;br>&lt;br>

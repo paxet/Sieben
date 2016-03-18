@@ -61,10 +61,11 @@
     <string name="app_name">Sieben</string>
     <string name="changelog_text">
         &lt;i>Besuche für mehr Informationen die Projektseite auf Github:&lt;br>
-        https://github.com/scoute-dich/Seven&lt;/i>&lt;br>&lt;br>
+        https://github.com/scoute-dich/Sieben&lt;/i>&lt;br>&lt;br>
 
         &lt;b>v1.4:&lt;/b>&lt;br>
-        • Bildschirmorientierung: Portrait&lt;br>&lt;br>
+        • Bildschirmorientierung: Portrait&lt;br>
+        • Projektlink gefixed&lt;br>&lt;br>
 
         &lt;b>v1.3.1:&lt;/b>&lt;br>
         • Japanische Übersetzung (Danke an naofum)&lt;br>&lt;br>

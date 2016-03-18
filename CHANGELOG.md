@@ -1,6 +1,7 @@
 ### v1.4
 
 - set screenorientation to portrait
+- fixed project-link
 
 ### v1.3.1
 
