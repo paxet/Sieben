@@ -99,7 +99,7 @@
     <string name="pau_9">休止 | その後: ランジ</string>
     <string name="sn_first">最初のエクササイズです。</string>
     <string name="sn_last">最後のエクササイズです。</string>
-    <string name="sn_pause">一時休止 ...</string>
-    <string name="sn_weiter">... 再開しましょう!</string>
+    <string name="sn_pause">一時休止 …</string>
+    <string name="sn_weiter">… 再開しましょう!</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

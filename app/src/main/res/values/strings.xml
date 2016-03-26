@@ -8,37 +8,37 @@
     <string name="action_changelog">Changelog</string>
 
     //Snackbar
-    <string name="sn_pause">A short pause ...</string>
-    <string name="sn_weiter">... let\'s start again!</string>
+    <string name="sn_pause">A short pause …</string>
+    <string name="sn_weiter">… let\'s start again!</string>
     <string name="end">Done!</string>
     <string name="sn_first">That\'s the first exercice.</string>
     <string name="sn_last">That\'s the last exercice.</string>
 
     //Titles
-    <string name="act">1. Exercise | Jumping jacks</string>
-    <string name="act_2">2. Exercise | Wall sit</string>
-    <string name="act_3">3. Exercise | Push ups</string>
-    <string name="act_4">4. Exercise | Abdominal crunch</string>
-    <string name="act_5">5. Exercise | Step up on chair</string>
-    <string name="act_6">6. Exercise | Squat</string>
-    <string name="act_7">7. Exercise | Tricepts - on chair</string>
-    <string name="act_8">8. Exercise | Plank</string>
-    <string name="act_9">9. Exercise | High knees running</string>
-    <string name="act_10">10. Exercise | Lunge</string>
-    <string name="act_11">11. Exercise | Push up - rotation</string>
-    <string name="act_12">12. Exercise | Side plank</string>
+    <string name="act">1. Exercise - Jumping jacks</string>
+    <string name="act_2">2. Exercise - Wall sit</string>
+    <string name="act_3">3. Exercise - Push ups</string>
+    <string name="act_4">4. Exercise - Abdominal crunch</string>
+    <string name="act_5">5. Exercise - Step up on chair</string>
+    <string name="act_6">6. Exercise - Squat</string>
+    <string name="act_7">7. Exercise - Tricepts - on chair</string>
+    <string name="act_8">8. Exercise - Plank</string>
+    <string name="act_9">9. Exercise - High knees running</string>
+    <string name="act_10">10. Exercise - Lunge</string>
+    <string name="act_11">11. Exercise - Push up - rotation</string>
+    <string name="act_12">12. Exercise - Side plank</string>
 
-    <string name="pau">Pause | then: Wall sit</string>
-    <string name="pau_2">Pause | then: Push ups"</string>
-    <string name="pau_3">Pause | then: Abdominal crunch</string>
-    <string name="pau_4">Pause | then: Step up on chair</string>
-    <string name="pau_5">Pause | then: Squat</string>
-    <string name="pau_6">Pause | then: Tricepts - on chair"</string>
-    <string name="pau_7">Pause | then: Plank</string>
-    <string name="pau_8">Pause | then: High knees running</string>
-    <string name="pau_9">Pause | then: Lunge</string>
-    <string name="pau_10">Pause | then: Push up - rotation</string>
-    <string name="pau_11">Pause | then: Side plank</string>
+    <string name="pau">Pause - then: Wall sit</string>
+    <string name="pau_2">Pause - then: Push ups"</string>
+    <string name="pau_3">Pause - then: Abdominal crunch</string>
+    <string name="pau_4">Pause - then: Step up on chair</string>
+    <string name="pau_5">Pause - then: Squat</string>
+    <string name="pau_6">Pause - then: Tricepts - on chair"</string>
+    <string name="pau_7">Pause - then: Plank</string>
+    <string name="pau_8">Pause - then: High knees running</string>
+    <string name="pau_9">Pause - then: Lunge</string>
+    <string name="pau_10">Pause - then: Push up - rotation</string>
+    <string name="pau_11">Pause - then: Side plank</string>
 
     //License Dialog
     <string name="about_yes">OK</string>
@@ -69,6 +69,10 @@
     <string name="changelog_text">
         &lt;i>For more informations visit the projectsite on github:&lt;br>
         https://github.com/scoute-dich/Sieben&lt;/i>&lt;br>&lt;br>
+
+        &lt;b>v1.5:&lt;/b>&lt;br>
+        &#8226; code improvements&lt;br>
+        &#8226; Text to Speech at exercice end&lt;br>&lt;br>
 
         &lt;b>v1.4:&lt;/b>&lt;br>
         &#8226; set screenorientation to portrait&lt;br>

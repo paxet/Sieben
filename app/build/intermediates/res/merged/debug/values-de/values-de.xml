@@ -43,18 +43,18 @@
         zu dürfen.&lt;/i></string>
     <string name="about_title">Copyright © 2016  by scoute-dich</string>
     <string name="about_yes">OK</string>
-    <string name="act">1. Übung | Hampelmänner</string>
-    <string name="act_10">10. Übung | Ausholschritt</string>
-    <string name="act_11">11. Übung | Liegestützen - Drehung</string>
-    <string name="act_12">12. Übung | Planke - Seite</string>
-    <string name="act_2">2. Übung | Wand sitzen</string>
-    <string name="act_3">3. Übung | Liegestützen</string>
-    <string name="act_4">4. Übung | Sit Ups</string>
-    <string name="act_5">5. Übung | Auf den Stuhl steigen</string>
-    <string name="act_6">6. Übung | Kniebeugen</string>
-    <string name="act_7">7. Übung | Tricepts - Stuhl</string>
-    <string name="act_8">8. Übung | Planke</string>
-    <string name="act_9">9. Übung | Auf der Stelle laufen</string>
+    <string name="act">1. Übung - Hampelmänner</string>
+    <string name="act_10">10. Übung - Ausholschritt</string>
+    <string name="act_11">11. Übung - Liegestützen - Drehung</string>
+    <string name="act_12">12. Übung - Planke - Seite</string>
+    <string name="act_2">2. Übung - Wand sitzen</string>
+    <string name="act_3">3. Übung - Liegestützen</string>
+    <string name="act_4">4. Übung - Sit Ups</string>
+    <string name="act_5">5. Übung - Auf den Stuhl steigen</string>
+    <string name="act_6">6. Übung - Kniebeugen</string>
+    <string name="act_7">7. Übung - Tricepts - Stuhl</string>
+    <string name="act_8">8. Übung - Planke</string>
+    <string name="act_9">9. Übung - Auf der Stelle laufen</string>
     <string name="action_changelog">Changelog</string>
     <string name="action_help">Hilfe</string>
     <string name="action_license">Lizenz</string>
@@ -62,6 +62,10 @@
     <string name="changelog_text">
         &lt;i>Besuche für mehr Informationen die Projektseite auf Github:&lt;br>
         https://github.com/scoute-dich/Sieben&lt;/i>&lt;br>&lt;br>
+
+        &lt;b>v1.5:&lt;/b>&lt;br>
+        • Code Verbesserungen&lt;br>
+        • Text zu Sprache am Ende einer Übung&lt;br>&lt;br>
 
         &lt;b>v1.4:&lt;/b>&lt;br>
         • Bildschirmorientierung: Portrait&lt;br>
@@ -94,20 +98,20 @@
 
         &lt;i>Nach oben wischen: &lt;/i>die aktuelle Übung von vorne beginnen
     </string>
-    <string name="pau">Pause | dann: Wand sitzen</string>
-    <string name="pau_10">Pause | dann: Liegestützen - Drehung</string>
-    <string name="pau_11">Pause | dann: Planke - Seite</string>
-    <string name="pau_2">Pause | dann: Liegestützen</string>
-    <string name="pau_3">Pause | dann: Sit Ups</string>
-    <string name="pau_4">Pause | dann: Auf den Stuhl steigen</string>
-    <string name="pau_5">Pause | dann: Kniebeugen</string>
-    <string name="pau_6">Pause | dann: Tricepts - Stuhl</string>
-    <string name="pau_7">Pause | dann: Planke</string>
-    <string name="pau_8">Pause | dann: Auf der Stelle laufen</string>
-    <string name="pau_9">Pause | dann: Ausholschritt</string>
+    <string name="pau">Pause - dann: Wand sitzen</string>
+    <string name="pau_10">Pause - dann: Liegestützen - Drehung</string>
+    <string name="pau_11">Pause - dann: Planke - Seite</string>
+    <string name="pau_2">Pause - dann: Liegestützen</string>
+    <string name="pau_3">Pause - dann: Sit Ups</string>
+    <string name="pau_4">Pause - dann: Auf den Stuhl steigen</string>
+    <string name="pau_5">Pause - dann: Kniebeugen</string>
+    <string name="pau_6">Pause - dann: Tricepts - Stuhl</string>
+    <string name="pau_7">Pause - dann: Planke</string>
+    <string name="pau_8">Pause - dann: Auf der Stelle laufen</string>
+    <string name="pau_9">Pause - dann: Ausholschritt</string>
     <string name="sn_first">Das ist die erste Übung.</string>
     <string name="sn_last">Das ist die letzte Übung.</string>
-    <string name="sn_pause">Eine kurze Pause ...</string>
-    <string name="sn_weiter">... und weiter geht\'s!</string>
+    <string name="sn_pause">Eine kurze Pause …</string>
+    <string name="sn_weiter">… und weiter geht\'s!</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>
