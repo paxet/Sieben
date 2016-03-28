@@ -31,15 +31,15 @@ public class Pause extends AppCompatActivity {
     private TextView textView;
     private ProgressBar progressBar;
     private TTSManager ttsManager = null;
+    private ImageView imageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main2);
 
-        final ImageView imageView = (ImageView) findViewById(R.id.imageView);
-        imageView.setImageResource(R.drawable.a02);
+        imageView = (ImageView) findViewById(R.id.imageView);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -84,8 +84,6 @@ public class Pause extends AppCompatActivity {
 
         imageView.setOnTouchListener(new OnSwipeTouchListener(Pause.this) {
             public void onSwipeTop() {
-                String text = getResources().getString(R.string.sn_weiter);
-                ttsManager.initQueue(text);
                 countDownTimer.start();
                 timerStarted = true;
                 fab.setImageResource(R.drawable.pause);
@@ -143,7 +141,7 @@ public class Pause extends AppCompatActivity {
         @Override
         public void onTick(long millisUntilFinished) {
 
-            if (millisUntilFinished > 9700) {
+            if (millisUntilFinished > 9650) {
                 String text = getResources().getString(R.string.pau);
                 ttsManager.initQueue(text);
             }
@@ -225,7 +223,6 @@ public class Pause extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         countDownTimer.cancel();
-        ttsManager.shutDown();
         finish();
     }
 }

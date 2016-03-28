@@ -31,15 +31,15 @@ public class MainActivity10 extends AppCompatActivity {
     private TextView textView;
     private ProgressBar progressBar;
     private TTSManager ttsManager = null;
+    private ImageView imageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main10);
 
-        final ImageView imageView = (ImageView) findViewById(R.id.imageView);
-        imageView.setImageResource(R.drawable.a10);
+        imageView = (ImageView) findViewById(R.id.imageView);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -96,6 +96,7 @@ public class MainActivity10 extends AppCompatActivity {
                 startActivity(intent_in);
                 overridePendingTransition(0, 0);
                 countDownTimer.cancel();
+                ttsManager.shutDown();
                 finish();
             }
 
@@ -104,6 +105,7 @@ public class MainActivity10 extends AppCompatActivity {
                 startActivity(intent_in);
                 overridePendingTransition(0, 0);
                 countDownTimer.cancel();
+                ttsManager.shutDown();
                 finish();
             }
 
@@ -132,6 +134,7 @@ public class MainActivity10 extends AppCompatActivity {
             Intent intent_in = new Intent(MainActivity10.this, Pause10.class);
             startActivity(intent_in);
             overridePendingTransition(0, 0);
+            ttsManager.shutDown();
             finish();
         }
 

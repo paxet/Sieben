@@ -31,15 +31,15 @@ public class Pause3 extends AppCompatActivity {
     private TextView textView;
     private ProgressBar progressBar;
     private TTSManager ttsManager = null;
+    private ImageView imageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main4);
 
-        final ImageView imageView = (ImageView) findViewById(R.id.imageView);
-        imageView.setImageResource(R.drawable.a04);
+        imageView = (ImageView) findViewById(R.id.imageView);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -141,7 +141,7 @@ public class Pause3 extends AppCompatActivity {
         @Override
         public void onTick(long millisUntilFinished) {
 
-            if (millisUntilFinished > 9700) {
+            if (millisUntilFinished > 9650) {
                 String text = getResources().getString(R.string.pau_3);
                 ttsManager.initQueue(text);
             }
@@ -223,7 +223,6 @@ public class Pause3 extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         countDownTimer.cancel();
-        ttsManager.shutDown();
         finish();
     }
 }
