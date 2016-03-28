@@ -4,8 +4,6 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
-import android.media.AudioManager;
-import android.media.ToneGenerator;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.support.design.widget.FloatingActionButton;
@@ -134,7 +132,6 @@ public class Pause2 extends AppCompatActivity {
             Intent intent_in = new Intent(Pause2.this, MainActivity3.class);
             startActivity(intent_in);
             overridePendingTransition(0, 0);
-            ttsManager.shutDown();
             finish();
         }
 

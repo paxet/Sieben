@@ -38,17 +38,19 @@ class TTSManager {
         mTts.shutdown();
     }
 
-    public void addQueue(String text) {
-        if (isLoaded) {
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                mTts.speak(text, TextToSpeech.QUEUE_FLUSH, null, null);
-            } else {
-                mTts.speak(text, TextToSpeech.QUEUE_FLUSH, null);
-            }
-        }
-        else
-            Log.e("error", "TTS Not Initialized");
-    }
+// --Commented out by Inspection START (28.03.16 22:50):
+//    public void addQueue(String text) {
+//        if (isLoaded) {
+//            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+//                mTts.speak(text, TextToSpeech.QUEUE_FLUSH, null, null);
+//            } else {
+//                mTts.speak(text, TextToSpeech.QUEUE_FLUSH, null);
+//            }
+//        }
+//        else
+//            Log.e("error", "TTS Not Initialized");
+//    }
+// --Commented out by Inspection STOP (28.03.16 22:50)
 
     public void initQueue(String text) {
         if (isLoaded) {

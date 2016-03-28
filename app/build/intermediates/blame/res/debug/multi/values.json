@@ -2962,7 +2962,7 @@
                     "startOffset": 40141,
                     "endLine": 339,
                     "endColumn": 13,
-                    "endOffset": 41099
+                    "endOffset": 41102
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values/strings.xml",
@@ -2972,7 +2972,7 @@
                         "startOffset": 3391,
                         "endLine": 96,
                         "endColumn": 13,
-                        "endOffset": 4415
+                        "endOffset": 4418
                     }
                 }
             },
@@ -2980,9 +2980,9 @@
                 "to": {
                     "startLine": 340,
                     "startColumn": 4,
-                    "startOffset": 41104,
+                    "startOffset": 41107,
                     "endColumn": 86,
-                    "endOffset": 41186
+                    "endOffset": 41189
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/values/values.xml"
@@ -2992,9 +2992,9 @@
                 "to": {
                     "startLine": 341,
                     "startColumn": 4,
-                    "startOffset": 41191,
+                    "startOffset": 41194,
                     "endColumn": 37,
-                    "endOffset": 41224
+                    "endOffset": 41227
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values/strings.xml"
@@ -3004,22 +3004,30 @@
                 "to": {
                     "startLine": 342,
                     "startColumn": 4,
-                    "startOffset": 41229,
+                    "startOffset": 41232,
                     "endLine": 350,
                     "endColumn": 13,
-                    "endOffset": 41548
+                    "endOffset": 41551
                 },
                 "from": {
-                    "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values/strings.xml"
+                    "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 99,
+                        "startColumn": 4,
+                        "startOffset": 4442,
+                        "endLine": 107,
+                        "endColumn": 13,
+                        "endOffset": 4761
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 351,
                     "startColumn": 4,
-                    "startOffset": 41553,
+                    "startOffset": 41556,
                     "endColumn": 54,
-                    "endOffset": 41603
+                    "endOffset": 41606
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values/strings.xml"
@@ -3029,9 +3037,9 @@
                 "to": {
                     "startLine": 352,
                     "startColumn": 4,
-                    "startOffset": 41608,
+                    "startOffset": 41611,
                     "endColumn": 70,
-                    "endOffset": 41674
+                    "endOffset": 41677
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values/strings.xml"
@@ -3041,9 +3049,9 @@
                 "to": {
                     "startLine": 353,
                     "startColumn": 4,
-                    "startOffset": 41679,
+                    "startOffset": 41682,
                     "endColumn": 59,
-                    "endOffset": 41734
+                    "endOffset": 41737
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values/strings.xml"
@@ -3053,9 +3061,9 @@
                 "to": {
                     "startLine": 354,
                     "startColumn": 4,
-                    "startOffset": 41739,
+                    "startOffset": 41742,
                     "endColumn": 57,
-                    "endOffset": 41792
+                    "endOffset": 41795
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values/strings.xml"
@@ -3065,9 +3073,9 @@
                 "to": {
                     "startLine": 355,
                     "startColumn": 4,
-                    "startOffset": 41797,
+                    "startOffset": 41800,
                     "endColumn": 64,
-                    "endOffset": 41857
+                    "endOffset": 41860
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values/strings.xml"
@@ -3077,9 +3085,9 @@
                 "to": {
                     "startLine": 356,
                     "startColumn": 4,
-                    "startOffset": 41862,
+                    "startOffset": 41865,
                     "endColumn": 64,
-                    "endOffset": 41922
+                    "endOffset": 41925
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values/strings.xml"
@@ -3089,9 +3097,9 @@
                 "to": {
                     "startLine": 357,
                     "startColumn": 4,
-                    "startOffset": 41927,
+                    "startOffset": 41930,
                     "endColumn": 53,
-                    "endOffset": 41976
+                    "endOffset": 41979
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values/strings.xml"
@@ -3101,9 +3109,9 @@
                 "to": {
                     "startLine": 358,
                     "startColumn": 4,
-                    "startOffset": 41981,
+                    "startOffset": 41984,
                     "endColumn": 66,
-                    "endOffset": 42043
+                    "endOffset": 42046
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values/strings.xml"
@@ -3113,9 +3121,9 @@
                 "to": {
                     "startLine": 359,
                     "startColumn": 4,
-                    "startOffset": 42048,
+                    "startOffset": 42051,
                     "endColumn": 53,
-                    "endOffset": 42097
+                    "endOffset": 42100
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values/strings.xml"
@@ -3125,9 +3133,9 @@
                 "to": {
                     "startLine": 360,
                     "startColumn": 4,
-                    "startOffset": 42102,
+                    "startOffset": 42105,
                     "endColumn": 66,
-                    "endOffset": 42164
+                    "endOffset": 42167
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values/strings.xml"
@@ -3137,9 +3145,9 @@
                 "to": {
                     "startLine": 361,
                     "startColumn": 4,
-                    "startOffset": 42169,
+                    "startOffset": 42172,
                     "endColumn": 53,
-                    "endOffset": 42218
+                    "endOffset": 42221
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values/strings.xml"
@@ -3149,33 +3157,47 @@
                 "to": {
                     "startLine": 362,
                     "startColumn": 4,
-                    "startOffset": 42223,
-                    "endColumn": 52,
-                    "endOffset": 42271
+                    "startOffset": 42226,
+                    "endColumn": 64,
+                    "endOffset": 42286
                 },
                 "from": {
-                    "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values/strings.xml"
+                    "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 428,
+                        "endColumn": 64,
+                        "endOffset": 488
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 363,
                     "startColumn": 4,
-                    "startOffset": 42276,
-                    "endColumn": 64,
-                    "endOffset": 42336
+                    "startOffset": 42291,
+                    "endColumn": 62,
+                    "endOffset": 42349
                 },
                 "from": {
-                    "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values/strings.xml"
+                    "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 493,
+                        "endColumn": 62,
+                        "endOffset": 551
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 364,
                     "startColumn": 4,
-                    "startOffset": 42341,
-                    "endColumn": 62,
-                    "endOffset": 42399
+                    "startOffset": 42354,
+                    "endColumn": 52,
+                    "endOffset": 42402
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values/strings.xml"
@@ -3185,9 +3207,9 @@
                 "to": {
                     "startLine": 365,
                     "startColumn": 4,
-                    "startOffset": 42404,
+                    "startOffset": 42407,
                     "endColumn": 59,
-                    "endOffset": 42459
+                    "endOffset": 42462
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values/strings.xml"
@@ -3197,9 +3219,9 @@
                 "to": {
                     "startLine": 366,
                     "startColumn": 4,
-                    "startOffset": 42464,
+                    "startOffset": 42467,
                     "endColumn": 70,
-                    "endOffset": 42530
+                    "endOffset": 42533
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3209,9 +3231,9 @@
                 "to": {
                     "startLine": 367,
                     "startColumn": 4,
-                    "startOffset": 42535,
+                    "startOffset": 42538,
                     "endColumn": 77,
-                    "endOffset": 42608
+                    "endOffset": 42611
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3221,9 +3243,9 @@
                 "to": {
                     "startLine": 368,
                     "startColumn": 4,
-                    "startOffset": 42613,
+                    "startOffset": 42616,
                     "endColumn": 89,
-                    "endOffset": 42698
+                    "endOffset": 42701
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3233,9 +3255,9 @@
                 "to": {
                     "startLine": 369,
                     "startColumn": 4,
-                    "startOffset": 42703,
+                    "startOffset": 42706,
                     "endColumn": 87,
-                    "endOffset": 42786
+                    "endOffset": 42789
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3245,9 +3267,9 @@
                 "to": {
                     "startLine": 370,
                     "startColumn": 4,
-                    "startOffset": 42791,
+                    "startOffset": 42794,
                     "endColumn": 95,
-                    "endOffset": 42882
+                    "endOffset": 42885
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3257,10 +3279,10 @@
                 "to": {
                     "startLine": 371,
                     "startColumn": 4,
-                    "startOffset": 42887,
+                    "startOffset": 42890,
                     "endLine": 376,
                     "endColumn": 12,
-                    "endOffset": 43201
+                    "endOffset": 43204
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values/styles.xml"
@@ -3270,9 +3292,9 @@
                 "to": {
                     "startLine": 377,
                     "startColumn": 4,
-                    "startOffset": 43206,
+                    "startOffset": 43209,
                     "endColumn": 89,
-                    "endOffset": 43291
+                    "endOffset": 43294
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values/styles.xml"
@@ -3282,10 +3304,10 @@
                 "to": {
                     "startLine": 378,
                     "startColumn": 4,
-                    "startOffset": 43296,
+                    "startOffset": 43299,
                     "endLine": 381,
                     "endColumn": 12,
-                    "endOffset": 43441
+                    "endOffset": 43444
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values/styles.xml"
@@ -3295,9 +3317,9 @@
                 "to": {
                     "startLine": 382,
                     "startColumn": 4,
-                    "startOffset": 43446,
+                    "startOffset": 43449,
                     "endColumn": 79,
-                    "endOffset": 43521
+                    "endOffset": 43524
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values/styles.xml"
@@ -3307,10 +3329,10 @@
                 "to": {
                     "startLine": 383,
                     "startColumn": 4,
-                    "startOffset": 43526,
+                    "startOffset": 43529,
                     "endLine": 389,
                     "endColumn": 12,
-                    "endOffset": 44022
+                    "endOffset": 44025
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3320,9 +3342,9 @@
                 "to": {
                     "startLine": 390,
                     "startColumn": 4,
-                    "startOffset": 44027,
+                    "startOffset": 44030,
                     "endColumn": 88,
-                    "endOffset": 44111
+                    "endOffset": 44114
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3332,10 +3354,10 @@
                 "to": {
                     "startLine": 391,
                     "startColumn": 4,
-                    "startOffset": 44116,
+                    "startOffset": 44119,
                     "endLine": 394,
                     "endColumn": 12,
-                    "endOffset": 44358
+                    "endOffset": 44361
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3345,10 +3367,10 @@
                 "to": {
                     "startLine": 395,
                     "startColumn": 4,
-                    "startOffset": 44363,
+                    "startOffset": 44366,
                     "endLine": 398,
                     "endColumn": 12,
-                    "endOffset": 44639
+                    "endOffset": 44642
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3358,10 +3380,10 @@
                 "to": {
                     "startLine": 399,
                     "startColumn": 4,
-                    "startOffset": 44644,
+                    "startOffset": 44647,
                     "endLine": 403,
                     "endColumn": 12,
-                    "endOffset": 44924
+                    "endOffset": 44927
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3371,10 +3393,10 @@
                 "to": {
                     "startLine": 404,
                     "startColumn": 4,
-                    "startOffset": 44929,
+                    "startOffset": 44932,
                     "endLine": 409,
                     "endColumn": 12,
-                    "endOffset": 45317
+                    "endOffset": 45320
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3384,10 +3406,10 @@
                 "to": {
                     "startLine": 410,
                     "startColumn": 4,
-                    "startOffset": 45322,
+                    "startOffset": 45325,
                     "endLine": 416,
                     "endColumn": 12,
-                    "endOffset": 45794
+                    "endOffset": 45797
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3397,10 +3419,10 @@
                 "to": {
                     "startLine": 417,
                     "startColumn": 4,
-                    "startOffset": 45799,
+                    "startOffset": 45802,
                     "endLine": 420,
                     "endColumn": 12,
-                    "endOffset": 46016
+                    "endOffset": 46019
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3410,10 +3432,10 @@
                 "to": {
                     "startLine": 421,
                     "startColumn": 4,
-                    "startOffset": 46021,
+                    "startOffset": 46024,
                     "endLine": 424,
                     "endColumn": 12,
-                    "endOffset": 46238
+                    "endOffset": 46241
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3423,10 +3445,10 @@
                 "to": {
                     "startLine": 425,
                     "startColumn": 4,
-                    "startOffset": 46243,
+                    "startOffset": 46246,
                     "endLine": 429,
                     "endColumn": 12,
-                    "endOffset": 46506
+                    "endOffset": 46509
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3436,10 +3458,10 @@
                 "to": {
                     "startLine": 430,
                     "startColumn": 4,
-                    "startOffset": 46511,
+                    "startOffset": 46514,
                     "endLine": 433,
                     "endColumn": 12,
-                    "endOffset": 46733
+                    "endOffset": 46736
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3449,10 +3471,10 @@
                 "to": {
                     "startLine": 434,
                     "startColumn": 4,
-                    "startOffset": 46738,
+                    "startOffset": 46741,
                     "endLine": 437,
                     "endColumn": 12,
-                    "endOffset": 46963
+                    "endOffset": 46966
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3462,10 +3484,10 @@
                 "to": {
                     "startLine": 438,
                     "startColumn": 4,
-                    "startOffset": 46968,
+                    "startOffset": 46971,
                     "endLine": 441,
                     "endColumn": 12,
-                    "endOffset": 47193
+                    "endOffset": 47196
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3475,10 +3497,10 @@
                 "to": {
                     "startLine": 442,
                     "startColumn": 4,
-                    "startOffset": 47198,
+                    "startOffset": 47201,
                     "endLine": 445,
                     "endColumn": 12,
-                    "endOffset": 47423
+                    "endOffset": 47426
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3488,10 +3510,10 @@
                 "to": {
                     "startLine": 446,
                     "startColumn": 4,
-                    "startOffset": 47428,
+                    "startOffset": 47431,
                     "endLine": 449,
                     "endColumn": 12,
-                    "endOffset": 47653
+                    "endOffset": 47656
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3501,10 +3523,10 @@
                 "to": {
                     "startLine": 450,
                     "startColumn": 4,
-                    "startOffset": 47658,
+                    "startOffset": 47661,
                     "endLine": 453,
                     "endColumn": 12,
-                    "endOffset": 47880
+                    "endOffset": 47883
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3514,10 +3536,10 @@
                 "to": {
                     "startLine": 454,
                     "startColumn": 4,
-                    "startOffset": 47885,
+                    "startOffset": 47888,
                     "endLine": 457,
                     "endColumn": 12,
-                    "endOffset": 48119
+                    "endOffset": 48122
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3527,10 +3549,10 @@
                 "to": {
                     "startLine": 458,
                     "startColumn": 4,
-                    "startOffset": 48124,
+                    "startOffset": 48127,
                     "endLine": 461,
                     "endColumn": 12,
-                    "endOffset": 48345
+                    "endOffset": 48348
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3540,10 +3562,10 @@
                 "to": {
                     "startLine": 462,
                     "startColumn": 4,
-                    "startOffset": 48350,
+                    "startOffset": 48353,
                     "endLine": 465,
                     "endColumn": 12,
-                    "endOffset": 48590
+                    "endOffset": 48593
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3553,10 +3575,10 @@
                 "to": {
                     "startLine": 466,
                     "startColumn": 4,
-                    "startOffset": 48595,
+                    "startOffset": 48598,
                     "endLine": 467,
                     "endColumn": 12,
-                    "endOffset": 48720
+                    "endOffset": 48723
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3566,10 +3588,10 @@
                 "to": {
                     "startLine": 468,
                     "startColumn": 4,
-                    "startOffset": 48725,
+                    "startOffset": 48728,
                     "endLine": 469,
                     "endColumn": 12,
-                    "endOffset": 48850
+                    "endOffset": 48853
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3579,10 +3601,10 @@
                 "to": {
                     "startLine": 470,
                     "startColumn": 4,
-                    "startOffset": 48855,
+                    "startOffset": 48858,
                     "endLine": 473,
                     "endColumn": 12,
-                    "endOffset": 49080
+                    "endOffset": 49083
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3592,10 +3614,10 @@
                 "to": {
                     "startLine": 474,
                     "startColumn": 4,
-                    "startOffset": 49085,
+                    "startOffset": 49088,
                     "endLine": 477,
                     "endColumn": 12,
-                    "endOffset": 49328
+                    "endOffset": 49331
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3605,10 +3627,10 @@
                 "to": {
                     "startLine": 478,
                     "startColumn": 4,
-                    "startOffset": 49333,
+                    "startOffset": 49336,
                     "endLine": 481,
                     "endColumn": 12,
-                    "endOffset": 49547
+                    "endOffset": 49550
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3618,10 +3640,10 @@
                 "to": {
                     "startLine": 482,
                     "startColumn": 4,
-                    "startOffset": 49552,
+                    "startOffset": 49555,
                     "endLine": 486,
                     "endColumn": 12,
-                    "endOffset": 49830
+                    "endOffset": 49833
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3631,10 +3653,10 @@
                 "to": {
                     "startLine": 487,
                     "startColumn": 4,
-                    "startOffset": 49835,
+                    "startOffset": 49838,
                     "endLine": 490,
                     "endColumn": 12,
-                    "endOffset": 50038
+                    "endOffset": 50041
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3644,10 +3666,10 @@
                 "to": {
                     "startLine": 491,
                     "startColumn": 4,
-                    "startOffset": 50043,
+                    "startOffset": 50046,
                     "endLine": 493,
                     "endColumn": 12,
-                    "endOffset": 50169
+                    "endOffset": 50172
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3657,10 +3679,10 @@
                 "to": {
                     "startLine": 494,
                     "startColumn": 4,
-                    "startOffset": 50174,
+                    "startOffset": 50177,
                     "endLine": 497,
                     "endColumn": 12,
-                    "endOffset": 50396
+                    "endOffset": 50399
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3670,10 +3692,10 @@
                 "to": {
                     "startLine": 498,
                     "startColumn": 4,
-                    "startOffset": 50401,
+                    "startOffset": 50404,
                     "endLine": 501,
                     "endColumn": 12,
-                    "endOffset": 50642
+                    "endOffset": 50645
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3683,10 +3705,10 @@
                 "to": {
                     "startLine": 502,
                     "startColumn": 4,
-                    "startOffset": 50647,
+                    "startOffset": 50650,
                     "endLine": 505,
                     "endColumn": 12,
-                    "endOffset": 50867
+                    "endOffset": 50870
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3696,10 +3718,10 @@
                 "to": {
                     "startLine": 506,
                     "startColumn": 4,
-                    "startOffset": 50872,
+                    "startOffset": 50875,
                     "endLine": 509,
                     "endColumn": 12,
-                    "endOffset": 51114
+                    "endOffset": 51117
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3709,10 +3731,10 @@
                 "to": {
                     "startLine": 510,
                     "startColumn": 4,
-                    "startOffset": 51119,
+                    "startOffset": 51122,
                     "endLine": 513,
                     "endColumn": 12,
-                    "endOffset": 51335
+                    "endOffset": 51338
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3722,10 +3744,10 @@
                 "to": {
                     "startLine": 514,
                     "startColumn": 4,
-                    "startOffset": 51340,
+                    "startOffset": 51343,
                     "endLine": 517,
                     "endColumn": 12,
-                    "endOffset": 51580
+                    "endOffset": 51583
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3735,10 +3757,10 @@
                 "to": {
                     "startLine": 518,
                     "startColumn": 4,
-                    "startOffset": 51585,
+                    "startOffset": 51588,
                     "endLine": 521,
                     "endColumn": 12,
-                    "endOffset": 51854
+                    "endOffset": 51857
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3748,10 +3770,10 @@
                 "to": {
                     "startLine": 522,
                     "startColumn": 4,
-                    "startOffset": 51859,
+                    "startOffset": 51862,
                     "endLine": 525,
                     "endColumn": 12,
-                    "endOffset": 52155
+                    "endOffset": 52158
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3761,10 +3783,10 @@
                 "to": {
                     "startLine": 526,
                     "startColumn": 4,
-                    "startOffset": 52160,
+                    "startOffset": 52163,
                     "endLine": 529,
                     "endColumn": 12,
-                    "endOffset": 52479
+                    "endOffset": 52482
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3774,10 +3796,10 @@
                 "to": {
                     "startLine": 530,
                     "startColumn": 4,
-                    "startOffset": 52484,
+                    "startOffset": 52487,
                     "endLine": 533,
                     "endColumn": 12,
-                    "endOffset": 52770
+                    "endOffset": 52773
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3787,10 +3809,10 @@
                 "to": {
                     "startLine": 534,
                     "startColumn": 4,
-                    "startOffset": 52775,
+                    "startOffset": 52778,
                     "endLine": 537,
                     "endColumn": 12,
-                    "endOffset": 53084
+                    "endOffset": 53087
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3800,9 +3822,9 @@
                 "to": {
                     "startLine": 538,
                     "startColumn": 4,
-                    "startOffset": 53089,
+                    "startOffset": 53092,
                     "endColumn": 136,
-                    "endOffset": 53221
+                    "endOffset": 53224
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3812,9 +3834,9 @@
                 "to": {
                     "startLine": 539,
                     "startColumn": 4,
-                    "startOffset": 53226,
+                    "startOffset": 53229,
                     "endColumn": 130,
-                    "endOffset": 53352
+                    "endOffset": 53355
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3824,9 +3846,9 @@
                 "to": {
                     "startLine": 540,
                     "startColumn": 4,
-                    "startOffset": 53357,
+                    "startOffset": 53360,
                     "endColumn": 104,
-                    "endOffset": 53457
+                    "endOffset": 53460
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3836,10 +3858,10 @@
                 "to": {
                     "startLine": 541,
                     "startColumn": 4,
-                    "startOffset": 53462,
+                    "startOffset": 53465,
                     "endLine": 543,
                     "endColumn": 12,
-                    "endOffset": 53661
+                    "endOffset": 53664
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3849,10 +3871,10 @@
                 "to": {
                     "startLine": 544,
                     "startColumn": 4,
-                    "startOffset": 53666,
+                    "startOffset": 53669,
                     "endLine": 546,
                     "endColumn": 12,
-                    "endOffset": 53869
+                    "endOffset": 53872
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3862,10 +3884,10 @@
                 "to": {
                     "startLine": 547,
                     "startColumn": 4,
-                    "startOffset": 53874,
+                    "startOffset": 53877,
                     "endLine": 548,
                     "endColumn": 12,
-                    "endOffset": 53993
+                    "endOffset": 53996
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3875,10 +3897,10 @@
                 "to": {
                     "startLine": 549,
                     "startColumn": 4,
-                    "startOffset": 53998,
+                    "startOffset": 54001,
                     "endLine": 550,
                     "endColumn": 12,
-                    "endOffset": 54117
+                    "endOffset": 54120
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3888,9 +3910,9 @@
                 "to": {
                     "startLine": 551,
                     "startColumn": 4,
-                    "startOffset": 54122,
+                    "startOffset": 54125,
                     "endColumn": 104,
-                    "endOffset": 54222
+                    "endOffset": 54225
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3900,9 +3922,9 @@
                 "to": {
                     "startLine": 552,
                     "startColumn": 4,
-                    "startOffset": 54227,
+                    "startOffset": 54230,
                     "endColumn": 116,
-                    "endOffset": 54339
+                    "endOffset": 54342
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3912,10 +3934,10 @@
                 "to": {
                     "startLine": 553,
                     "startColumn": 4,
-                    "startOffset": 54344,
+                    "startOffset": 54347,
                     "endLine": 555,
                     "endColumn": 12,
-                    "endOffset": 54553
+                    "endOffset": 54556
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3925,10 +3947,10 @@
                 "to": {
                     "startLine": 556,
                     "startColumn": 4,
-                    "startOffset": 54558,
+                    "startOffset": 54561,
                     "endLine": 557,
                     "endColumn": 12,
-                    "endOffset": 54699
+                    "endOffset": 54702
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3938,10 +3960,10 @@
                 "to": {
                     "startLine": 558,
                     "startColumn": 4,
-                    "startOffset": 54704,
+                    "startOffset": 54707,
                     "endLine": 559,
                     "endColumn": 12,
-                    "endOffset": 54839
+                    "endOffset": 54842
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3951,10 +3973,10 @@
                 "to": {
                     "startLine": 560,
                     "startColumn": 4,
-                    "startOffset": 54844,
+                    "startOffset": 54847,
                     "endLine": 561,
                     "endColumn": 12,
-                    "endOffset": 54925
+                    "endOffset": 54928
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3964,10 +3986,10 @@
                 "to": {
                     "startLine": 562,
                     "startColumn": 4,
-                    "startOffset": 54930,
+                    "startOffset": 54933,
                     "endLine": 566,
                     "endColumn": 12,
-                    "endOffset": 55273
+                    "endOffset": 55276
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3977,9 +3999,9 @@
                 "to": {
                     "startLine": 567,
                     "startColumn": 4,
-                    "startOffset": 55278,
+                    "startOffset": 55281,
                     "endColumn": 87,
-                    "endOffset": 55361
+                    "endOffset": 55364
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -3989,10 +4011,10 @@
                 "to": {
                     "startLine": 568,
                     "startColumn": 4,
-                    "startOffset": 55366,
+                    "startOffset": 55369,
                     "endLine": 571,
                     "endColumn": 12,
-                    "endOffset": 55591
+                    "endOffset": 55594
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4002,10 +4024,10 @@
                 "to": {
                     "startLine": 572,
                     "startColumn": 4,
-                    "startOffset": 55596,
+                    "startOffset": 55599,
                     "endLine": 577,
                     "endColumn": 12,
-                    "endOffset": 56009
+                    "endOffset": 56012
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4015,10 +4037,10 @@
                 "to": {
                     "startLine": 578,
                     "startColumn": 4,
-                    "startOffset": 56014,
+                    "startOffset": 56017,
                     "endLine": 581,
                     "endColumn": 12,
-                    "endOffset": 56242
+                    "endOffset": 56245
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4028,9 +4050,9 @@
                 "to": {
                     "startLine": 582,
                     "startColumn": 4,
-                    "startOffset": 56247,
+                    "startOffset": 56250,
                     "endColumn": 81,
-                    "endOffset": 56324
+                    "endOffset": 56327
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4040,10 +4062,10 @@
                 "to": {
                     "startLine": 583,
                     "startColumn": 4,
-                    "startOffset": 56329,
+                    "startOffset": 56332,
                     "endLine": 584,
                     "endColumn": 12,
-                    "endOffset": 56422
+                    "endOffset": 56425
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4053,10 +4075,10 @@
                 "to": {
                     "startLine": 585,
                     "startColumn": 4,
-                    "startOffset": 56427,
+                    "startOffset": 56430,
                     "endLine": 595,
                     "endColumn": 12,
-                    "endOffset": 57039
+                    "endOffset": 57042
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4066,9 +4088,9 @@
                 "to": {
                     "startLine": 596,
                     "startColumn": 4,
-                    "startOffset": 57044,
+                    "startOffset": 57047,
                     "endColumn": 99,
-                    "endOffset": 57139
+                    "endOffset": 57142
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4078,10 +4100,10 @@
                 "to": {
                     "startLine": 597,
                     "startColumn": 4,
-                    "startOffset": 57144,
+                    "startOffset": 57147,
                     "endLine": 600,
                     "endColumn": 12,
-                    "endOffset": 57375
+                    "endOffset": 57378
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4091,10 +4113,10 @@
                 "to": {
                     "startLine": 601,
                     "startColumn": 4,
-                    "startOffset": 57380,
+                    "startOffset": 57383,
                     "endLine": 606,
                     "endColumn": 12,
-                    "endOffset": 57799
+                    "endOffset": 57802
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4104,10 +4126,10 @@
                 "to": {
                     "startLine": 607,
                     "startColumn": 4,
-                    "startOffset": 57804,
+                    "startOffset": 57807,
                     "endLine": 610,
                     "endColumn": 12,
-                    "endOffset": 58038
+                    "endOffset": 58041
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4117,9 +4139,9 @@
                 "to": {
                     "startLine": 611,
                     "startColumn": 4,
-                    "startOffset": 58043,
+                    "startOffset": 58046,
                     "endColumn": 93,
-                    "endOffset": 58132
+                    "endOffset": 58135
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4129,9 +4151,9 @@
                 "to": {
                     "startLine": 612,
                     "startColumn": 4,
-                    "startOffset": 58137,
+                    "startOffset": 58140,
                     "endColumn": 88,
-                    "endOffset": 58221
+                    "endOffset": 58224
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4141,10 +4163,10 @@
                 "to": {
                     "startLine": 613,
                     "startColumn": 4,
-                    "startOffset": 58226,
+                    "startOffset": 58229,
                     "endLine": 616,
                     "endColumn": 12,
-                    "endOffset": 58458
+                    "endOffset": 58461
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4154,10 +4176,10 @@
                 "to": {
                     "startLine": 617,
                     "startColumn": 4,
-                    "startOffset": 58463,
+                    "startOffset": 58466,
                     "endLine": 642,
                     "endColumn": 12,
-                    "endOffset": 60409
+                    "endOffset": 60412
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4167,10 +4189,10 @@
                 "to": {
                     "startLine": 643,
                     "startColumn": 4,
-                    "startOffset": 60414,
+                    "startOffset": 60417,
                     "endLine": 646,
                     "endColumn": 12,
-                    "endOffset": 60651
+                    "endOffset": 60654
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4180,10 +4202,10 @@
                 "to": {
                     "startLine": 647,
                     "startColumn": 4,
-                    "startOffset": 60656,
+                    "startOffset": 60659,
                     "endLine": 673,
                     "endColumn": 12,
-                    "endOffset": 62733
+                    "endOffset": 62736
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4193,10 +4215,10 @@
                 "to": {
                     "startLine": 674,
                     "startColumn": 4,
-                    "startOffset": 62738,
+                    "startOffset": 62741,
                     "endLine": 826,
                     "endColumn": 12,
-                    "endOffset": 72415
+                    "endOffset": 72418
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4206,10 +4228,10 @@
                 "to": {
                     "startLine": 827,
                     "startColumn": 4,
-                    "startOffset": 72420,
+                    "startOffset": 72423,
                     "endLine": 848,
                     "endColumn": 12,
-                    "endOffset": 73682
+                    "endOffset": 73685
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4219,10 +4241,10 @@
                 "to": {
                     "startLine": 849,
                     "startColumn": 4,
-                    "startOffset": 73687,
+                    "startOffset": 73690,
                     "endLine": 1001,
                     "endColumn": 12,
-                    "endOffset": 83474
+                    "endOffset": 83477
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4232,10 +4254,10 @@
                 "to": {
                     "startLine": 1002,
                     "startColumn": 4,
-                    "startOffset": 83479,
+                    "startOffset": 83482,
                     "endLine": 1023,
                     "endColumn": 12,
-                    "endOffset": 84755
+                    "endOffset": 84758
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4245,10 +4267,10 @@
                 "to": {
                     "startLine": 1024,
                     "startColumn": 4,
-                    "startOffset": 84760,
+                    "startOffset": 84763,
                     "endLine": 1030,
                     "endColumn": 12,
-                    "endOffset": 85291
+                    "endOffset": 85294
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4258,10 +4280,10 @@
                 "to": {
                     "startLine": 1031,
                     "startColumn": 4,
-                    "startOffset": 85296,
+                    "startOffset": 85299,
                     "endLine": 1035,
                     "endColumn": 12,
-                    "endOffset": 85621
+                    "endOffset": 85624
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4271,10 +4293,10 @@
                 "to": {
                     "startLine": 1036,
                     "startColumn": 4,
-                    "startOffset": 85626,
+                    "startOffset": 85629,
                     "endLine": 1056,
                     "endColumn": 12,
-                    "endOffset": 86744
+                    "endOffset": 86747
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4284,10 +4306,10 @@
                 "to": {
                     "startLine": 1057,
                     "startColumn": 4,
-                    "startOffset": 86749,
+                    "startOffset": 86752,
                     "endLine": 1061,
                     "endColumn": 12,
-                    "endOffset": 87000
+                    "endOffset": 87003
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4297,10 +4319,10 @@
                 "to": {
                     "startLine": 1062,
                     "startColumn": 4,
-                    "startOffset": 87005,
+                    "startOffset": 87008,
                     "endLine": 1066,
                     "endColumn": 12,
-                    "endOffset": 87236
+                    "endOffset": 87239
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4310,10 +4332,10 @@
                 "to": {
                     "startLine": 1067,
                     "startColumn": 4,
-                    "startOffset": 87241,
+                    "startOffset": 87244,
                     "endLine": 1076,
                     "endColumn": 12,
-                    "endOffset": 87783
+                    "endOffset": 87786
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4323,10 +4345,10 @@
                 "to": {
                     "startLine": 1077,
                     "startColumn": 4,
-                    "startOffset": 87788,
+                    "startOffset": 87791,
                     "endLine": 1085,
                     "endColumn": 12,
-                    "endOffset": 88277
+                    "endOffset": 88280
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4336,10 +4358,10 @@
                 "to": {
                     "startLine": 1086,
                     "startColumn": 4,
-                    "startOffset": 88282,
+                    "startOffset": 88285,
                     "endLine": 1094,
                     "endColumn": 12,
-                    "endOffset": 88882
+                    "endOffset": 88885
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4349,10 +4371,10 @@
                 "to": {
                     "startLine": 1095,
                     "startColumn": 4,
-                    "startOffset": 88887,
+                    "startOffset": 88890,
                     "endLine": 1097,
                     "endColumn": 12,
-                    "endOffset": 89030
+                    "endOffset": 89033
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4362,10 +4384,10 @@
                 "to": {
                     "startLine": 1098,
                     "startColumn": 4,
-                    "startOffset": 89035,
+                    "startOffset": 89038,
                     "endLine": 1104,
                     "endColumn": 12,
-                    "endOffset": 89618
+                    "endOffset": 89621
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4375,10 +4397,10 @@
                 "to": {
                     "startLine": 1105,
                     "startColumn": 4,
-                    "startOffset": 89623,
+                    "startOffset": 89626,
                     "endLine": 1112,
                     "endColumn": 12,
-                    "endOffset": 90182
+                    "endOffset": 90185
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4388,10 +4410,10 @@
                 "to": {
                     "startLine": 1113,
                     "startColumn": 4,
-                    "startOffset": 90187,
+                    "startOffset": 90190,
                     "endLine": 1119,
                     "endColumn": 12,
-                    "endOffset": 90557
+                    "endOffset": 90560
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4401,9 +4423,9 @@
                 "to": {
                     "startLine": 1120,
                     "startColumn": 4,
-                    "startOffset": 90562,
+                    "startOffset": 90565,
                     "endColumn": 117,
-                    "endOffset": 90675
+                    "endOffset": 90678
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4413,10 +4435,10 @@
                 "to": {
                     "startLine": 1121,
                     "startColumn": 4,
-                    "startOffset": 90680,
+                    "startOffset": 90683,
                     "endLine": 1129,
                     "endColumn": 12,
-                    "endOffset": 91213
+                    "endOffset": 91216
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4426,10 +4448,10 @@
                 "to": {
                     "startLine": 1130,
                     "startColumn": 4,
-                    "startOffset": 91218,
+                    "startOffset": 91221,
                     "endLine": 1132,
                     "endColumn": 12,
-                    "endOffset": 91370
+                    "endOffset": 91373
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4439,10 +4461,10 @@
                 "to": {
                     "startLine": 1133,
                     "startColumn": 4,
-                    "startOffset": 91375,
+                    "startOffset": 91378,
                     "endLine": 1135,
                     "endColumn": 12,
-                    "endOffset": 91514
+                    "endOffset": 91517
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4452,10 +4474,10 @@
                 "to": {
                     "startLine": 1136,
                     "startColumn": 4,
-                    "startOffset": 91519,
+                    "startOffset": 91522,
                     "endLine": 1140,
                     "endColumn": 12,
-                    "endOffset": 91834
+                    "endOffset": 91837
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4465,10 +4487,10 @@
                 "to": {
                     "startLine": 1141,
                     "startColumn": 4,
-                    "startOffset": 91839,
+                    "startOffset": 91842,
                     "endLine": 1144,
                     "endColumn": 12,
-                    "endOffset": 92090
+                    "endOffset": 92093
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4478,10 +4500,10 @@
                 "to": {
                     "startLine": 1145,
                     "startColumn": 4,
-                    "startOffset": 92095,
+                    "startOffset": 92098,
                     "endLine": 1148,
                     "endColumn": 12,
-                    "endOffset": 92260
+                    "endOffset": 92263
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4491,10 +4513,10 @@
                 "to": {
                     "startLine": 1149,
                     "startColumn": 4,
-                    "startOffset": 92265,
+                    "startOffset": 92268,
                     "endLine": 1151,
                     "endColumn": 12,
-                    "endOffset": 92401
+                    "endOffset": 92404
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4504,9 +4526,9 @@
                 "to": {
                     "startLine": 1152,
                     "startColumn": 4,
-                    "startOffset": 92406,
+                    "startOffset": 92409,
                     "endColumn": 63,
-                    "endOffset": 92465
+                    "endOffset": 92468
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4516,10 +4538,10 @@
                 "to": {
                     "startLine": 1153,
                     "startColumn": 4,
-                    "startOffset": 92470,
+                    "startOffset": 92473,
                     "endLine": 1156,
                     "endColumn": 12,
-                    "endOffset": 92747
+                    "endOffset": 92750
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4529,10 +4551,10 @@
                 "to": {
                     "startLine": 1157,
                     "startColumn": 4,
-                    "startOffset": 92752,
+                    "startOffset": 92755,
                     "endLine": 1160,
                     "endColumn": 12,
-                    "endOffset": 93033
+                    "endOffset": 93036
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4542,10 +4564,10 @@
                 "to": {
                     "startLine": 1161,
                     "startColumn": 4,
-                    "startOffset": 93038,
+                    "startOffset": 93041,
                     "endLine": 1170,
                     "endColumn": 12,
-                    "endOffset": 93709
+                    "endOffset": 93712
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4555,10 +4577,10 @@
                 "to": {
                     "startLine": 1171,
                     "startColumn": 4,
-                    "startOffset": 93714,
+                    "startOffset": 93717,
                     "endLine": 1175,
                     "endColumn": 12,
-                    "endOffset": 93973
+                    "endOffset": 93976
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4568,10 +4590,10 @@
                 "to": {
                     "startLine": 1176,
                     "startColumn": 4,
-                    "startOffset": 93978,
+                    "startOffset": 93981,
                     "endLine": 1182,
                     "endColumn": 12,
-                    "endOffset": 94311
+                    "endOffset": 94314
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4581,10 +4603,10 @@
                 "to": {
                     "startLine": 1183,
                     "startColumn": 4,
-                    "startOffset": 94316,
+                    "startOffset": 94319,
                     "endLine": 1188,
                     "endColumn": 12,
-                    "endOffset": 94664
+                    "endOffset": 94667
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4594,9 +4616,9 @@
                 "to": {
                     "startLine": 1189,
                     "startColumn": 4,
-                    "startOffset": 94669,
+                    "startOffset": 94672,
                     "endColumn": 93,
-                    "endOffset": 94758
+                    "endOffset": 94761
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4606,10 +4628,10 @@
                 "to": {
                     "startLine": 1190,
                     "startColumn": 4,
-                    "startOffset": 94763,
+                    "startOffset": 94766,
                     "endLine": 1192,
                     "endColumn": 12,
-                    "endOffset": 94944
+                    "endOffset": 94947
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4619,10 +4641,10 @@
                 "to": {
                     "startLine": 1193,
                     "startColumn": 4,
-                    "startOffset": 94949,
+                    "startOffset": 94952,
                     "endLine": 1196,
                     "endColumn": 12,
-                    "endOffset": 95250
+                    "endOffset": 95253
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4632,10 +4654,10 @@
                 "to": {
                     "startLine": 1197,
                     "startColumn": 4,
-                    "startOffset": 95255,
+                    "startOffset": 95258,
                     "endLine": 1201,
                     "endColumn": 12,
-                    "endOffset": 95512
+                    "endOffset": 95515
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4645,10 +4667,10 @@
                 "to": {
                     "startLine": 1202,
                     "startColumn": 4,
-                    "startOffset": 95517,
+                    "startOffset": 95520,
                     "endLine": 1203,
                     "endColumn": 12,
-                    "endOffset": 95637
+                    "endOffset": 95640
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4658,10 +4680,10 @@
                 "to": {
                     "startLine": 1204,
                     "startColumn": 4,
-                    "startOffset": 95642,
+                    "startOffset": 95645,
                     "endLine": 1205,
                     "endColumn": 12,
-                    "endOffset": 95764
+                    "endOffset": 95767
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4671,10 +4693,10 @@
                 "to": {
                     "startLine": 1206,
                     "startColumn": 4,
-                    "startOffset": 95769,
+                    "startOffset": 95772,
                     "endLine": 1208,
                     "endColumn": 12,
-                    "endOffset": 96003
+                    "endOffset": 96006
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4684,10 +4706,10 @@
                 "to": {
                     "startLine": 1209,
                     "startColumn": 4,
-                    "startOffset": 96008,
+                    "startOffset": 96011,
                     "endLine": 1211,
                     "endColumn": 12,
-                    "endOffset": 96214
+                    "endOffset": 96217
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4697,10 +4719,10 @@
                 "to": {
                     "startLine": 1212,
                     "startColumn": 4,
-                    "startOffset": 96219,
+                    "startOffset": 96222,
                     "endLine": 1213,
                     "endColumn": 12,
-                    "endOffset": 96333
+                    "endOffset": 96336
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4710,10 +4732,10 @@
                 "to": {
                     "startLine": 1214,
                     "startColumn": 4,
-                    "startOffset": 96338,
+                    "startOffset": 96341,
                     "endLine": 1217,
                     "endColumn": 12,
-                    "endOffset": 96526
+                    "endOffset": 96529
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4723,10 +4745,10 @@
                 "to": {
                     "startLine": 1218,
                     "startColumn": 4,
-                    "startOffset": 96531,
+                    "startOffset": 96534,
                     "endLine": 1224,
                     "endColumn": 12,
-                    "endOffset": 96981
+                    "endOffset": 96984
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4736,10 +4758,10 @@
                 "to": {
                     "startLine": 1225,
                     "startColumn": 4,
-                    "startOffset": 96986,
+                    "startOffset": 96989,
                     "endLine": 1227,
                     "endColumn": 12,
-                    "endOffset": 97162
+                    "endOffset": 97165
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4749,10 +4771,10 @@
                 "to": {
                     "startLine": 1228,
                     "startColumn": 4,
-                    "startOffset": 97167,
+                    "startOffset": 97170,
                     "endLine": 1230,
                     "endColumn": 12,
-                    "endOffset": 97284
+                    "endOffset": 97287
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4762,10 +4784,10 @@
                 "to": {
                     "startLine": 1231,
                     "startColumn": 4,
-                    "startOffset": 97289,
+                    "startOffset": 97292,
                     "endLine": 1234,
                     "endColumn": 12,
-                    "endOffset": 97543
+                    "endOffset": 97546
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4775,10 +4797,10 @@
                 "to": {
                     "startLine": 1235,
                     "startColumn": 4,
-                    "startOffset": 97548,
+                    "startOffset": 97551,
                     "endLine": 1236,
                     "endColumn": 12,
-                    "endOffset": 97656
+                    "endOffset": 97659
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4788,10 +4810,10 @@
                 "to": {
                     "startLine": 1237,
                     "startColumn": 4,
-                    "startOffset": 97661,
+                    "startOffset": 97664,
                     "endLine": 1240,
                     "endColumn": 12,
-                    "endOffset": 97843
+                    "endOffset": 97846
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4801,10 +4823,10 @@
                 "to": {
                     "startLine": 1241,
                     "startColumn": 4,
-                    "startOffset": 97848,
+                    "startOffset": 97851,
                     "endLine": 1242,
                     "endColumn": 12,
-                    "endOffset": 97945
+                    "endOffset": 97948
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4814,10 +4836,10 @@
                 "to": {
                     "startLine": 1243,
                     "startColumn": 4,
-                    "startOffset": 97950,
+                    "startOffset": 97953,
                     "endLine": 1248,
                     "endColumn": 12,
-                    "endOffset": 98389
+                    "endOffset": 98392
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4827,10 +4849,10 @@
                 "to": {
                     "startLine": 1249,
                     "startColumn": 4,
-                    "startOffset": 98394,
+                    "startOffset": 98397,
                     "endLine": 1250,
                     "endColumn": 12,
-                    "endOffset": 98513
+                    "endOffset": 98516
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4840,10 +4862,10 @@
                 "to": {
                     "startLine": 1251,
                     "startColumn": 4,
-                    "startOffset": 98518,
+                    "startOffset": 98521,
                     "endLine": 1254,
                     "endColumn": 12,
-                    "endOffset": 98798
+                    "endOffset": 98801
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4853,10 +4875,10 @@
                 "to": {
                     "startLine": 1255,
                     "startColumn": 4,
-                    "startOffset": 98803,
+                    "startOffset": 98806,
                     "endLine": 1266,
                     "endColumn": 12,
-                    "endOffset": 99685
+                    "endOffset": 99688
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4866,10 +4888,10 @@
                 "to": {
                     "startLine": 1267,
                     "startColumn": 4,
-                    "startOffset": 99690,
+                    "startOffset": 99693,
                     "endLine": 1272,
                     "endColumn": 12,
-                    "endOffset": 99979
+                    "endOffset": 99982
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4879,10 +4901,10 @@
                 "to": {
                     "startLine": 1273,
                     "startColumn": 4,
-                    "startOffset": 99984,
+                    "startOffset": 99987,
                     "endLine": 1281,
                     "endColumn": 12,
-                    "endOffset": 100549
+                    "endOffset": 100552
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4892,10 +4914,10 @@
                 "to": {
                     "startLine": 1282,
                     "startColumn": 4,
-                    "startOffset": 100554,
+                    "startOffset": 100557,
                     "endLine": 1292,
                     "endColumn": 12,
-                    "endOffset": 101281
+                    "endOffset": 101284
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4905,10 +4927,10 @@
                 "to": {
                     "startLine": 1293,
                     "startColumn": 4,
-                    "startOffset": 101286,
+                    "startOffset": 101289,
                     "endLine": 1295,
                     "endColumn": 12,
-                    "endOffset": 101453
+                    "endOffset": 101456
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4918,10 +4940,10 @@
                 "to": {
                     "startLine": 1296,
                     "startColumn": 4,
-                    "startOffset": 101458,
+                    "startOffset": 101461,
                     "endLine": 1300,
                     "endColumn": 12,
-                    "endOffset": 101789
+                    "endOffset": 101792
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4931,10 +4953,10 @@
                 "to": {
                     "startLine": 1301,
                     "startColumn": 4,
-                    "startOffset": 101794,
+                    "startOffset": 101797,
                     "endLine": 1312,
                     "endColumn": 12,
-                    "endOffset": 102656
+                    "endOffset": 102659
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4944,10 +4966,10 @@
                 "to": {
                     "startLine": 1313,
                     "startColumn": 4,
-                    "startOffset": 102661,
+                    "startOffset": 102664,
                     "endLine": 1317,
                     "endColumn": 12,
-                    "endOffset": 102934
+                    "endOffset": 102937
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4957,10 +4979,10 @@
                 "to": {
                     "startLine": 1318,
                     "startColumn": 4,
-                    "startOffset": 102939,
+                    "startOffset": 102942,
                     "endLine": 1327,
                     "endColumn": 12,
-                    "endOffset": 103525
+                    "endOffset": 103528
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/values/values.xml"
@@ -4970,10 +4992,10 @@
                 "to": {
                     "startLine": 1328,
                     "startColumn": 4,
-                    "startOffset": 103530,
+                    "startOffset": 103533,
                     "endLine": 1365,
                     "endColumn": 12,
-                    "endOffset": 106387
+                    "endOffset": 106390
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4983,10 +5005,10 @@
                 "to": {
                     "startLine": 1366,
                     "startColumn": 4,
-                    "startOffset": 106392,
+                    "startOffset": 106395,
                     "endLine": 1404,
                     "endColumn": 12,
-                    "endOffset": 109389
+                    "endOffset": 109392
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -4996,9 +5018,9 @@
                 "to": {
                     "startLine": 1405,
                     "startColumn": 4,
-                    "startOffset": 109394,
+                    "startOffset": 109397,
                     "endColumn": 61,
-                    "endOffset": 109451
+                    "endOffset": 109454
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5008,10 +5030,10 @@
                 "to": {
                     "startLine": 1406,
                     "startColumn": 4,
-                    "startOffset": 109456,
+                    "startOffset": 109459,
                     "endLine": 1415,
                     "endColumn": 12,
-                    "endOffset": 110081
+                    "endOffset": 110084
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5021,10 +5043,10 @@
                 "to": {
                     "startLine": 1416,
                     "startColumn": 4,
-                    "startOffset": 110086,
+                    "startOffset": 110089,
                     "endLine": 1424,
                     "endColumn": 12,
-                    "endOffset": 110695
+                    "endOffset": 110698
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5034,9 +5056,9 @@
                 "to": {
                     "startLine": 1425,
                     "startColumn": 4,
-                    "startOffset": 110700,
+                    "startOffset": 110703,
                     "endColumn": 85,
-                    "endOffset": 110781
+                    "endOffset": 110784
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5046,10 +5068,10 @@
                 "to": {
                     "startLine": 1426,
                     "startColumn": 4,
-                    "startOffset": 110786,
+                    "startOffset": 110789,
                     "endLine": 1427,
                     "endColumn": 12,
-                    "endOffset": 110894
+                    "endOffset": 110897
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5059,10 +5081,10 @@
                 "to": {
                     "startLine": 1428,
                     "startColumn": 4,
-                    "startOffset": 110899,
+                    "startOffset": 110902,
                     "endLine": 1431,
                     "endColumn": 12,
-                    "endOffset": 111123
+                    "endOffset": 111126
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5072,10 +5094,10 @@
                 "to": {
                     "startLine": 1432,
                     "startColumn": 4,
-                    "startOffset": 111128,
+                    "startOffset": 111131,
                     "endLine": 1434,
                     "endColumn": 12,
-                    "endOffset": 111283
+                    "endOffset": 111286
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5085,10 +5107,10 @@
                 "to": {
                     "startLine": 1435,
                     "startColumn": 4,
-                    "startOffset": 111288,
+                    "startOffset": 111291,
                     "endLine": 1437,
                     "endColumn": 12,
-                    "endOffset": 111435
+                    "endOffset": 111438
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5098,10 +5120,10 @@
                 "to": {
                     "startLine": 1438,
                     "startColumn": 4,
-                    "startOffset": 111440,
+                    "startOffset": 111443,
                     "endLine": 1440,
                     "endColumn": 12,
-                    "endOffset": 111606
+                    "endOffset": 111609
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5111,10 +5133,10 @@
                 "to": {
                     "startLine": 1441,
                     "startColumn": 4,
-                    "startOffset": 111611,
+                    "startOffset": 111614,
                     "endLine": 1443,
                     "endColumn": 12,
-                    "endOffset": 111773
+                    "endOffset": 111776
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5124,10 +5146,10 @@
                 "to": {
                     "startLine": 1444,
                     "startColumn": 4,
-                    "startOffset": 111778,
+                    "startOffset": 111781,
                     "endLine": 1447,
                     "endColumn": 12,
-                    "endOffset": 112016
+                    "endOffset": 112019
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5137,10 +5159,10 @@
                 "to": {
                     "startLine": 1448,
                     "startColumn": 4,
-                    "startOffset": 112021,
+                    "startOffset": 112024,
                     "endLine": 1450,
                     "endColumn": 12,
-                    "endOffset": 112186
+                    "endOffset": 112189
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5150,10 +5172,10 @@
                 "to": {
                     "startLine": 1451,
                     "startColumn": 4,
-                    "startOffset": 112191,
+                    "startOffset": 112194,
                     "endLine": 1453,
                     "endColumn": 12,
-                    "endOffset": 112359
+                    "endOffset": 112362
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5163,10 +5185,10 @@
                 "to": {
                     "startLine": 1454,
                     "startColumn": 4,
-                    "startOffset": 112364,
+                    "startOffset": 112367,
                     "endLine": 1456,
                     "endColumn": 12,
-                    "endOffset": 112530
+                    "endOffset": 112533
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5176,10 +5198,10 @@
                 "to": {
                     "startLine": 1457,
                     "startColumn": 4,
-                    "startOffset": 112535,
+                    "startOffset": 112538,
                     "endLine": 1460,
                     "endColumn": 12,
-                    "endOffset": 112804
+                    "endOffset": 112807
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5189,10 +5211,10 @@
                 "to": {
                     "startLine": 1461,
                     "startColumn": 4,
-                    "startOffset": 112809,
+                    "startOffset": 112812,
                     "endLine": 1463,
                     "endColumn": 12,
-                    "endOffset": 113003
+                    "endOffset": 113006
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5202,10 +5224,10 @@
                 "to": {
                     "startLine": 1464,
                     "startColumn": 4,
-                    "startOffset": 113008,
+                    "startOffset": 113011,
                     "endLine": 1467,
                     "endColumn": 12,
-                    "endOffset": 113208
+                    "endOffset": 113211
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5215,10 +5237,10 @@
                 "to": {
                     "startLine": 1468,
                     "startColumn": 4,
-                    "startOffset": 113213,
+                    "startOffset": 113216,
                     "endLine": 1471,
                     "endColumn": 12,
-                    "endOffset": 113538
+                    "endOffset": 113541
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5228,9 +5250,9 @@
                 "to": {
                     "startLine": 1472,
                     "startColumn": 4,
-                    "startOffset": 113543,
+                    "startOffset": 113546,
                     "endColumn": 83,
-                    "endOffset": 113622
+                    "endOffset": 113625
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5240,9 +5262,9 @@
                 "to": {
                     "startLine": 1473,
                     "startColumn": 4,
-                    "startOffset": 113627,
+                    "startOffset": 113630,
                     "endColumn": 95,
-                    "endOffset": 113718
+                    "endOffset": 113721
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5252,9 +5274,9 @@
                 "to": {
                     "startLine": 1474,
                     "startColumn": 4,
-                    "startOffset": 113723,
+                    "startOffset": 113726,
                     "endColumn": 95,
-                    "endOffset": 113814
+                    "endOffset": 113817
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5264,9 +5286,9 @@
                 "to": {
                     "startLine": 1475,
                     "startColumn": 4,
-                    "startOffset": 113819,
+                    "startOffset": 113822,
                     "endColumn": 97,
-                    "endOffset": 113912
+                    "endOffset": 113915
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5276,9 +5298,9 @@
                 "to": {
                     "startLine": 1476,
                     "startColumn": 4,
-                    "startOffset": 113917,
+                    "startOffset": 113920,
                     "endColumn": 99,
-                    "endOffset": 114012
+                    "endOffset": 114015
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5288,9 +5310,9 @@
                 "to": {
                     "startLine": 1477,
                     "startColumn": 4,
-                    "startOffset": 114017,
+                    "startOffset": 114020,
                     "endColumn": 101,
-                    "endOffset": 114114
+                    "endOffset": 114117
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5300,9 +5322,9 @@
                 "to": {
                     "startLine": 1478,
                     "startColumn": 4,
-                    "startOffset": 114119,
+                    "startOffset": 114122,
                     "endColumn": 101,
-                    "endOffset": 114216
+                    "endOffset": 114219
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5312,9 +5334,9 @@
                 "to": {
                     "startLine": 1479,
                     "startColumn": 4,
-                    "startOffset": 114221,
+                    "startOffset": 114224,
                     "endColumn": 101,
-                    "endOffset": 114318
+                    "endOffset": 114321
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5324,9 +5346,9 @@
                 "to": {
                     "startLine": 1480,
                     "startColumn": 4,
-                    "startOffset": 114323,
+                    "startOffset": 114326,
                     "endColumn": 101,
-                    "endOffset": 114420
+                    "endOffset": 114423
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5336,9 +5358,9 @@
                 "to": {
                     "startLine": 1481,
                     "startColumn": 4,
-                    "startOffset": 114425,
+                    "startOffset": 114428,
                     "endColumn": 101,
-                    "endOffset": 114522
+                    "endOffset": 114525
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5348,9 +5370,9 @@
                 "to": {
                     "startLine": 1482,
                     "startColumn": 4,
-                    "startOffset": 114527,
+                    "startOffset": 114530,
                     "endColumn": 99,
-                    "endOffset": 114622
+                    "endOffset": 114625
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5360,9 +5382,9 @@
                 "to": {
                     "startLine": 1483,
                     "startColumn": 4,
-                    "startOffset": 114627,
+                    "startOffset": 114630,
                     "endColumn": 95,
-                    "endOffset": 114718
+                    "endOffset": 114721
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5372,9 +5394,9 @@
                 "to": {
                     "startLine": 1484,
                     "startColumn": 4,
-                    "startOffset": 114723,
+                    "startOffset": 114726,
                     "endColumn": 111,
-                    "endOffset": 114830
+                    "endOffset": 114833
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5384,9 +5406,9 @@
                 "to": {
                     "startLine": 1485,
                     "startColumn": 4,
-                    "startOffset": 114835,
+                    "startOffset": 114838,
                     "endColumn": 128,
-                    "endOffset": 114959
+                    "endOffset": 114962
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5396,9 +5418,9 @@
                 "to": {
                     "startLine": 1486,
                     "startColumn": 4,
-                    "startOffset": 114964,
+                    "startOffset": 114967,
                     "endColumn": 122,
-                    "endOffset": 115082
+                    "endOffset": 115085
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5408,10 +5430,10 @@
                 "to": {
                     "startLine": 1487,
                     "startColumn": 4,
-                    "startOffset": 115087,
+                    "startOffset": 115090,
                     "endLine": 1488,
                     "endColumn": 12,
-                    "endOffset": 115236
+                    "endOffset": 115239
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5421,10 +5443,10 @@
                 "to": {
                     "startLine": 1489,
                     "startColumn": 4,
-                    "startOffset": 115241,
+                    "startOffset": 115244,
                     "endLine": 1490,
                     "endColumn": 12,
-                    "endOffset": 115390
+                    "endOffset": 115393
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5434,9 +5456,9 @@
                 "to": {
                     "startLine": 1491,
                     "startColumn": 4,
-                    "startOffset": 115395,
+                    "startOffset": 115398,
                     "endColumn": 97,
-                    "endOffset": 115488
+                    "endOffset": 115491
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5446,9 +5468,9 @@
                 "to": {
                     "startLine": 1492,
                     "startColumn": 4,
-                    "startOffset": 115493,
+                    "startOffset": 115496,
                     "endColumn": 113,
-                    "endOffset": 115602
+                    "endOffset": 115605
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5458,9 +5480,9 @@
                 "to": {
                     "startLine": 1493,
                     "startColumn": 4,
-                    "startOffset": 115607,
+                    "startOffset": 115610,
                     "endColumn": 93,
-                    "endOffset": 115696
+                    "endOffset": 115699
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5470,10 +5492,10 @@
                 "to": {
                     "startLine": 1494,
                     "startColumn": 4,
-                    "startOffset": 115701,
+                    "startOffset": 115704,
                     "endLine": 1495,
                     "endColumn": 12,
-                    "endOffset": 115836
+                    "endOffset": 115839
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5483,10 +5505,10 @@
                 "to": {
                     "startLine": 1496,
                     "startColumn": 4,
-                    "startOffset": 115841,
+                    "startOffset": 115844,
                     "endLine": 1497,
                     "endColumn": 12,
-                    "endOffset": 115970
+                    "endOffset": 115973
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5496,9 +5518,9 @@
                 "to": {
                     "startLine": 1498,
                     "startColumn": 4,
-                    "startOffset": 115975,
+                    "startOffset": 115978,
                     "endColumn": 95,
-                    "endOffset": 116066
+                    "endOffset": 116069
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5508,9 +5530,9 @@
                 "to": {
                     "startLine": 1499,
                     "startColumn": 4,
-                    "startOffset": 116071,
+                    "startOffset": 116074,
                     "endColumn": 111,
-                    "endOffset": 116178
+                    "endOffset": 116181
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5520,9 +5542,9 @@
                 "to": {
                     "startLine": 1500,
                     "startColumn": 4,
-                    "startOffset": 116183,
+                    "startOffset": 116186,
                     "endColumn": 99,
-                    "endOffset": 116278
+                    "endOffset": 116281
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5532,9 +5554,9 @@
                 "to": {
                     "startLine": 1501,
                     "startColumn": 4,
-                    "startOffset": 116283,
+                    "startOffset": 116286,
                     "endColumn": 115,
-                    "endOffset": 116394
+                    "endOffset": 116397
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5544,9 +5566,9 @@
                 "to": {
                     "startLine": 1502,
                     "startColumn": 4,
-                    "startOffset": 116399,
+                    "startOffset": 116402,
                     "endColumn": 95,
-                    "endOffset": 116490
+                    "endOffset": 116493
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5556,9 +5578,9 @@
                 "to": {
                     "startLine": 1503,
                     "startColumn": 4,
-                    "startOffset": 116495,
+                    "startOffset": 116498,
                     "endColumn": 111,
-                    "endOffset": 116602
+                    "endOffset": 116605
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5568,10 +5590,10 @@
                 "to": {
                     "startLine": 1504,
                     "startColumn": 4,
-                    "startOffset": 116607,
+                    "startOffset": 116610,
                     "endLine": 1505,
                     "endColumn": 12,
-                    "endOffset": 116742
+                    "endOffset": 116745
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5581,9 +5603,9 @@
                 "to": {
                     "startLine": 1506,
                     "startColumn": 4,
-                    "startOffset": 116747,
+                    "startOffset": 116750,
                     "endColumn": 135,
-                    "endOffset": 116878
+                    "endOffset": 116881
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5593,10 +5615,10 @@
                 "to": {
                     "startLine": 1507,
                     "startColumn": 4,
-                    "startOffset": 116883,
+                    "startOffset": 116886,
                     "endLine": 1508,
                     "endColumn": 12,
-                    "endOffset": 117042
+                    "endOffset": 117045
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5606,9 +5628,9 @@
                 "to": {
                     "startLine": 1509,
                     "startColumn": 4,
-                    "startOffset": 117047,
+                    "startOffset": 117050,
                     "endColumn": 129,
-                    "endOffset": 117172
+                    "endOffset": 117175
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5618,10 +5640,10 @@
                 "to": {
                     "startLine": 1510,
                     "startColumn": 4,
-                    "startOffset": 117177,
+                    "startOffset": 117180,
                     "endLine": 1511,
                     "endColumn": 12,
-                    "endOffset": 117330
+                    "endOffset": 117333
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5631,10 +5653,10 @@
                 "to": {
                     "startLine": 1512,
                     "startColumn": 4,
-                    "startOffset": 117335,
+                    "startOffset": 117338,
                     "endLine": 1513,
                     "endColumn": 12,
-                    "endOffset": 117480
+                    "endOffset": 117483
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5644,9 +5666,9 @@
                 "to": {
                     "startLine": 1514,
                     "startColumn": 4,
-                    "startOffset": 117485,
+                    "startOffset": 117488,
                     "endColumn": 140,
-                    "endOffset": 117621
+                    "endOffset": 117624
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5656,10 +5678,10 @@
                 "to": {
                     "startLine": 1515,
                     "startColumn": 4,
-                    "startOffset": 117626,
+                    "startOffset": 117629,
                     "endLine": 1516,
                     "endColumn": 12,
-                    "endOffset": 117765
+                    "endOffset": 117768
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5669,9 +5691,9 @@
                 "to": {
                     "startLine": 1517,
                     "startColumn": 4,
-                    "startOffset": 117770,
+                    "startOffset": 117773,
                     "endColumn": 134,
-                    "endOffset": 117900
+                    "endOffset": 117903
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5681,9 +5703,9 @@
                 "to": {
                     "startLine": 1518,
                     "startColumn": 4,
-                    "startOffset": 117905,
+                    "startOffset": 117908,
                     "endColumn": 111,
-                    "endOffset": 118012
+                    "endOffset": 118015
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5693,9 +5715,9 @@
                 "to": {
                     "startLine": 1519,
                     "startColumn": 4,
-                    "startOffset": 118017,
+                    "startOffset": 118020,
                     "endColumn": 127,
-                    "endOffset": 118140
+                    "endOffset": 118143
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5705,10 +5727,10 @@
                 "to": {
                     "startLine": 1520,
                     "startColumn": 4,
-                    "startOffset": 118145,
+                    "startOffset": 118148,
                     "endLine": 1521,
                     "endColumn": 12,
-                    "endOffset": 118276
+                    "endOffset": 118279
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5718,10 +5740,10 @@
                 "to": {
                     "startLine": 1522,
                     "startColumn": 4,
-                    "startOffset": 118281,
+                    "startOffset": 118284,
                     "endLine": 1523,
                     "endColumn": 12,
-                    "endOffset": 118418
+                    "endOffset": 118421
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5731,10 +5753,10 @@
                 "to": {
                     "startLine": 1524,
                     "startColumn": 4,
-                    "startOffset": 118423,
+                    "startOffset": 118426,
                     "endLine": 1525,
                     "endColumn": 12,
-                    "endOffset": 118560
+                    "endOffset": 118563
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5744,9 +5766,9 @@
                 "to": {
                     "startLine": 1526,
                     "startColumn": 4,
-                    "startOffset": 118565,
+                    "startOffset": 118568,
                     "endColumn": 111,
-                    "endOffset": 118672
+                    "endOffset": 118675
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5756,9 +5778,9 @@
                 "to": {
                     "startLine": 1527,
                     "startColumn": 4,
-                    "startOffset": 118677,
+                    "startOffset": 118680,
                     "endColumn": 139,
-                    "endOffset": 118812
+                    "endOffset": 118815
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5768,10 +5790,10 @@
                 "to": {
                     "startLine": 1528,
                     "startColumn": 4,
-                    "startOffset": 118817,
+                    "startOffset": 118820,
                     "endLine": 1530,
                     "endColumn": 12,
-                    "endOffset": 119013
+                    "endOffset": 119016
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/values/values.xml"
@@ -5781,9 +5803,9 @@
                 "to": {
                     "startLine": 1531,
                     "startColumn": 4,
-                    "startOffset": 119018,
+                    "startOffset": 119021,
                     "endColumn": 91,
-                    "endOffset": 119105
+                    "endOffset": 119108
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/values/values.xml"
@@ -5793,10 +5815,10 @@
                 "to": {
                     "startLine": 1532,
                     "startColumn": 4,
-                    "startOffset": 119110,
+                    "startOffset": 119113,
                     "endLine": 1534,
                     "endColumn": 12,
-                    "endOffset": 119300
+                    "endOffset": 119303
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/values/values.xml"
@@ -5806,10 +5828,10 @@
                 "to": {
                     "startLine": 1535,
                     "startColumn": 4,
-                    "startOffset": 119305,
+                    "startOffset": 119308,
                     "endLine": 1537,
                     "endColumn": 12,
-                    "endOffset": 119484
+                    "endOffset": 119487
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/values/values.xml"
@@ -5819,10 +5841,10 @@
                 "to": {
                     "startLine": 1538,
                     "startColumn": 4,
-                    "startOffset": 119489,
+                    "startOffset": 119492,
                     "endLine": 1540,
                     "endColumn": 12,
-                    "endOffset": 119659
+                    "endOffset": 119662
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/values/values.xml"
@@ -5832,10 +5854,10 @@
                 "to": {
                     "startLine": 1541,
                     "startColumn": 4,
-                    "startOffset": 119664,
+                    "startOffset": 119667,
                     "endLine": 1544,
                     "endColumn": 12,
-                    "endOffset": 119912
+                    "endOffset": 119915
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/values/values.xml"
@@ -5845,10 +5867,10 @@
                 "to": {
                     "startLine": 1545,
                     "startColumn": 4,
-                    "startOffset": 119917,
+                    "startOffset": 119920,
                     "endLine": 1549,
                     "endColumn": 12,
-                    "endOffset": 120203
+                    "endOffset": 120206
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/values/values.xml"
@@ -5858,9 +5880,9 @@
                 "to": {
                     "startLine": 1550,
                     "startColumn": 4,
-                    "startOffset": 120208,
+                    "startOffset": 120211,
                     "endColumn": 67,
-                    "endOffset": 120271
+                    "endOffset": 120274
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5870,9 +5892,9 @@
                 "to": {
                     "startLine": 1551,
                     "startColumn": 4,
-                    "startOffset": 120276,
+                    "startOffset": 120279,
                     "endColumn": 72,
-                    "endOffset": 120344
+                    "endOffset": 120347
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5882,9 +5904,9 @@
                 "to": {
                     "startLine": 1552,
                     "startColumn": 4,
-                    "startOffset": 120349,
+                    "startOffset": 120352,
                     "endColumn": 73,
-                    "endOffset": 120418
+                    "endOffset": 120421
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5894,9 +5916,9 @@
                 "to": {
                     "startLine": 1553,
                     "startColumn": 4,
-                    "startOffset": 120423,
+                    "startOffset": 120426,
                     "endColumn": 72,
-                    "endOffset": 120491
+                    "endOffset": 120494
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5906,9 +5928,9 @@
                 "to": {
                     "startLine": 1554,
                     "startColumn": 4,
-                    "startOffset": 120496,
+                    "startOffset": 120499,
                     "endColumn": 73,
-                    "endOffset": 120565
+                    "endOffset": 120568
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5918,10 +5940,10 @@
                 "to": {
                     "startLine": 1555,
                     "startColumn": 4,
-                    "startOffset": 120570,
+                    "startOffset": 120573,
                     "endLine": 1556,
                     "endColumn": 12,
-                    "endOffset": 120711
+                    "endOffset": 120714
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5931,10 +5953,10 @@
                 "to": {
                     "startLine": 1557,
                     "startColumn": 4,
-                    "startOffset": 120716,
+                    "startOffset": 120719,
                     "endLine": 1558,
                     "endColumn": 12,
-                    "endOffset": 120855
+                    "endOffset": 120858
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5944,10 +5966,10 @@
                 "to": {
                     "startLine": 1559,
                     "startColumn": 4,
-                    "startOffset": 120860,
+                    "startOffset": 120863,
                     "endLine": 1560,
                     "endColumn": 12,
-                    "endOffset": 120993
+                    "endOffset": 120996
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5957,9 +5979,9 @@
                 "to": {
                     "startLine": 1561,
                     "startColumn": 4,
-                    "startOffset": 120998,
+                    "startOffset": 121001,
                     "endColumn": 65,
-                    "endOffset": 121059
+                    "endOffset": 121062
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5969,9 +5991,9 @@
                 "to": {
                     "startLine": 1562,
                     "startColumn": 4,
-                    "startOffset": 121064,
+                    "startOffset": 121067,
                     "endColumn": 89,
-                    "endOffset": 121149
+                    "endOffset": 121152
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5981,9 +6003,9 @@
                 "to": {
                     "startLine": 1563,
                     "startColumn": 4,
-                    "startOffset": 121154,
+                    "startOffset": 121157,
                     "endColumn": 79,
-                    "endOffset": 121229
+                    "endOffset": 121232
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -5993,9 +6015,9 @@
                 "to": {
                     "startLine": 1564,
                     "startColumn": 4,
-                    "startOffset": 121234,
+                    "startOffset": 121237,
                     "endColumn": 91,
-                    "endOffset": 121321
+                    "endOffset": 121324
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6005,9 +6027,9 @@
                 "to": {
                     "startLine": 1565,
                     "startColumn": 4,
-                    "startOffset": 121326,
+                    "startOffset": 121329,
                     "endColumn": 97,
-                    "endOffset": 121419
+                    "endOffset": 121422
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6017,10 +6039,10 @@
                 "to": {
                     "startLine": 1566,
                     "startColumn": 4,
-                    "startOffset": 121424,
+                    "startOffset": 121427,
                     "endLine": 1567,
                     "endColumn": 12,
-                    "endOffset": 121529
+                    "endOffset": 121532
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6030,9 +6052,9 @@
                 "to": {
                     "startLine": 1568,
                     "startColumn": 4,
-                    "startOffset": 121534,
+                    "startOffset": 121537,
                     "endColumn": 77,
-                    "endOffset": 121607
+                    "endOffset": 121610
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6042,9 +6064,9 @@
                 "to": {
                     "startLine": 1569,
                     "startColumn": 4,
-                    "startOffset": 121612,
+                    "startOffset": 121615,
                     "endColumn": 105,
-                    "endOffset": 121713
+                    "endOffset": 121716
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6054,9 +6076,9 @@
                 "to": {
                     "startLine": 1570,
                     "startColumn": 4,
-                    "startOffset": 121718,
+                    "startOffset": 121721,
                     "endColumn": 91,
-                    "endOffset": 121805
+                    "endOffset": 121808
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6066,9 +6088,9 @@
                 "to": {
                     "startLine": 1571,
                     "startColumn": 4,
-                    "startOffset": 121810,
+                    "startOffset": 121813,
                     "endColumn": 103,
-                    "endOffset": 121909
+                    "endOffset": 121912
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6078,9 +6100,9 @@
                 "to": {
                     "startLine": 1572,
                     "startColumn": 4,
-                    "startOffset": 121914,
+                    "startOffset": 121917,
                     "endColumn": 109,
-                    "endOffset": 122019
+                    "endOffset": 122022
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6090,10 +6112,10 @@
                 "to": {
                     "startLine": 1573,
                     "startColumn": 4,
-                    "startOffset": 122024,
+                    "startOffset": 122027,
                     "endLine": 1574,
                     "endColumn": 12,
-                    "endOffset": 122141
+                    "endOffset": 122144
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6103,10 +6125,10 @@
                 "to": {
                     "startLine": 1575,
                     "startColumn": 4,
-                    "startOffset": 122146,
+                    "startOffset": 122149,
                     "endLine": 1578,
                     "endColumn": 12,
-                    "endOffset": 122304
+                    "endOffset": 122307
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6116,10 +6138,10 @@
                 "to": {
                     "startLine": 1579,
                     "startColumn": 4,
-                    "startOffset": 122309,
+                    "startOffset": 122312,
                     "endLine": 1582,
                     "endColumn": 12,
-                    "endOffset": 122461
+                    "endOffset": 122464
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6129,9 +6151,9 @@
                 "to": {
                     "startLine": 1583,
                     "startColumn": 4,
-                    "startOffset": 122466,
+                    "startOffset": 122469,
                     "endColumn": 79,
-                    "endOffset": 122541
+                    "endOffset": 122544
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6141,9 +6163,9 @@
                 "to": {
                     "startLine": 1584,
                     "startColumn": 4,
-                    "startOffset": 122546,
+                    "startOffset": 122549,
                     "endColumn": 99,
-                    "endOffset": 122641
+                    "endOffset": 122644
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6153,9 +6175,9 @@
                 "to": {
                     "startLine": 1585,
                     "startColumn": 4,
-                    "startOffset": 122646,
+                    "startOffset": 122649,
                     "endColumn": 89,
-                    "endOffset": 122731
+                    "endOffset": 122734
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6165,9 +6187,9 @@
                 "to": {
                     "startLine": 1586,
                     "startColumn": 4,
-                    "startOffset": 122736,
+                    "startOffset": 122739,
                     "endColumn": 109,
-                    "endOffset": 122841
+                    "endOffset": 122844
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6177,9 +6199,9 @@
                 "to": {
                     "startLine": 1587,
                     "startColumn": 4,
-                    "startOffset": 122846,
+                    "startOffset": 122849,
                     "endColumn": 91,
-                    "endOffset": 122933
+                    "endOffset": 122936
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6189,10 +6211,10 @@
                 "to": {
                     "startLine": 1588,
                     "startColumn": 4,
-                    "startOffset": 122938,
+                    "startOffset": 122941,
                     "endLine": 1589,
                     "endColumn": 12,
-                    "endOffset": 123033
+                    "endOffset": 123036
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6202,10 +6224,10 @@
                 "to": {
                     "startLine": 1590,
                     "startColumn": 4,
-                    "startOffset": 123038,
+                    "startOffset": 123041,
                     "endLine": 1591,
                     "endColumn": 12,
-                    "endOffset": 123145
+                    "endOffset": 123148
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6215,10 +6237,10 @@
                 "to": {
                     "startLine": 1592,
                     "startColumn": 4,
-                    "startOffset": 123150,
+                    "startOffset": 123153,
                     "endLine": 1593,
                     "endColumn": 12,
-                    "endOffset": 123259
+                    "endOffset": 123262
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6228,10 +6250,10 @@
                 "to": {
                     "startLine": 1594,
                     "startColumn": 4,
-                    "startOffset": 123264,
+                    "startOffset": 123267,
                     "endLine": 1595,
                     "endColumn": 12,
-                    "endOffset": 123375
+                    "endOffset": 123378
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6241,10 +6263,10 @@
                 "to": {
                     "startLine": 1596,
                     "startColumn": 4,
-                    "startOffset": 123380,
+                    "startOffset": 123383,
                     "endLine": 1597,
                     "endColumn": 12,
-                    "endOffset": 123491
+                    "endOffset": 123494
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6254,9 +6276,9 @@
                 "to": {
                     "startLine": 1598,
                     "startColumn": 4,
-                    "startOffset": 123496,
+                    "startOffset": 123499,
                     "endColumn": 93,
-                    "endOffset": 123585
+                    "endOffset": 123588
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6266,9 +6288,9 @@
                 "to": {
                     "startLine": 1599,
                     "startColumn": 4,
-                    "startOffset": 123590,
+                    "startOffset": 123593,
                     "endColumn": 113,
-                    "endOffset": 123699
+                    "endOffset": 123702
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6278,9 +6300,9 @@
                 "to": {
                     "startLine": 1600,
                     "startColumn": 4,
-                    "startOffset": 123704,
+                    "startOffset": 123707,
                     "endColumn": 111,
-                    "endOffset": 123811
+                    "endOffset": 123814
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6290,10 +6312,10 @@
                 "to": {
                     "startLine": 1601,
                     "startColumn": 4,
-                    "startOffset": 123816,
+                    "startOffset": 123819,
                     "endLine": 1602,
                     "endColumn": 12,
-                    "endOffset": 123913
+                    "endOffset": 123916
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6303,10 +6325,10 @@
                 "to": {
                     "startLine": 1603,
                     "startColumn": 4,
-                    "startOffset": 123918,
+                    "startOffset": 123921,
                     "endLine": 1604,
                     "endColumn": 12,
-                    "endOffset": 124033
+                    "endOffset": 124036
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6316,10 +6338,10 @@
                 "to": {
                     "startLine": 1605,
                     "startColumn": 4,
-                    "startOffset": 124038,
+                    "startOffset": 124041,
                     "endLine": 1606,
                     "endColumn": 12,
-                    "endOffset": 124155
+                    "endOffset": 124158
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6329,9 +6351,9 @@
                 "to": {
                     "startLine": 1607,
                     "startColumn": 4,
-                    "startOffset": 124160,
+                    "startOffset": 124163,
                     "endColumn": 81,
-                    "endOffset": 124237
+                    "endOffset": 124240
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6341,9 +6363,9 @@
                 "to": {
                     "startLine": 1608,
                     "startColumn": 4,
-                    "startOffset": 124242,
+                    "startOffset": 124245,
                     "endColumn": 103,
-                    "endOffset": 124341
+                    "endOffset": 124344
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6353,9 +6375,9 @@
                 "to": {
                     "startLine": 1609,
                     "startColumn": 4,
-                    "startOffset": 124346,
+                    "startOffset": 124349,
                     "endColumn": 119,
-                    "endOffset": 124461
+                    "endOffset": 124464
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6365,9 +6387,9 @@
                 "to": {
                     "startLine": 1610,
                     "startColumn": 4,
-                    "startOffset": 124466,
+                    "startOffset": 124469,
                     "endColumn": 125,
-                    "endOffset": 124587
+                    "endOffset": 124590
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6377,9 +6399,9 @@
                 "to": {
                     "startLine": 1611,
                     "startColumn": 4,
-                    "startOffset": 124592,
+                    "startOffset": 124595,
                     "endColumn": 97,
-                    "endOffset": 124685
+                    "endOffset": 124688
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6389,9 +6411,9 @@
                 "to": {
                     "startLine": 1612,
                     "startColumn": 4,
-                    "startOffset": 124690,
+                    "startOffset": 124693,
                     "endColumn": 93,
-                    "endOffset": 124779
+                    "endOffset": 124782
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6401,9 +6423,9 @@
                 "to": {
                     "startLine": 1613,
                     "startColumn": 4,
-                    "startOffset": 124784,
+                    "startOffset": 124787,
                     "endColumn": 87,
-                    "endOffset": 124867
+                    "endOffset": 124870
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6413,9 +6435,9 @@
                 "to": {
                     "startLine": 1614,
                     "startColumn": 4,
-                    "startOffset": 124872,
+                    "startOffset": 124875,
                     "endColumn": 111,
-                    "endOffset": 124979
+                    "endOffset": 124982
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6425,9 +6447,9 @@
                 "to": {
                     "startLine": 1615,
                     "startColumn": 4,
-                    "startOffset": 124984,
+                    "startOffset": 124987,
                     "endColumn": 115,
-                    "endOffset": 125095
+                    "endOffset": 125098
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6437,9 +6459,9 @@
                 "to": {
                     "startLine": 1616,
                     "startColumn": 4,
-                    "startOffset": 125100,
+                    "startOffset": 125103,
                     "endColumn": 121,
-                    "endOffset": 125217
+                    "endOffset": 125220
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6449,9 +6471,9 @@
                 "to": {
                     "startLine": 1617,
                     "startColumn": 4,
-                    "startOffset": 125222,
+                    "startOffset": 125225,
                     "endColumn": 111,
-                    "endOffset": 125329
+                    "endOffset": 125332
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6461,10 +6483,10 @@
                 "to": {
                     "startLine": 1618,
                     "startColumn": 4,
-                    "startOffset": 125334,
+                    "startOffset": 125337,
                     "endLine": 1620,
                     "endColumn": 12,
-                    "endOffset": 125504
+                    "endOffset": 125507
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6474,9 +6496,9 @@
                 "to": {
                     "startLine": 1621,
                     "startColumn": 4,
-                    "startOffset": 125509,
+                    "startOffset": 125512,
                     "endColumn": 115,
-                    "endOffset": 125620
+                    "endOffset": 125623
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6486,9 +6508,9 @@
                 "to": {
                     "startLine": 1622,
                     "startColumn": 4,
-                    "startOffset": 125625,
+                    "startOffset": 125628,
                     "endColumn": 85,
-                    "endOffset": 125706
+                    "endOffset": 125709
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6498,9 +6520,9 @@
                 "to": {
                     "startLine": 1623,
                     "startColumn": 4,
-                    "startOffset": 125711,
+                    "startOffset": 125714,
                     "endColumn": 91,
-                    "endOffset": 125798
+                    "endOffset": 125801
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6510,10 +6532,10 @@
                 "to": {
                     "startLine": 1624,
                     "startColumn": 4,
-                    "startOffset": 125803,
+                    "startOffset": 125806,
                     "endLine": 1625,
                     "endColumn": 12,
-                    "endOffset": 125910
+                    "endOffset": 125913
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6523,10 +6545,10 @@
                 "to": {
                     "startLine": 1626,
                     "startColumn": 4,
-                    "startOffset": 125915,
+                    "startOffset": 125918,
                     "endLine": 1627,
                     "endColumn": 12,
-                    "endOffset": 126034
+                    "endOffset": 126037
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6536,9 +6558,9 @@
                 "to": {
                     "startLine": 1628,
                     "startColumn": 4,
-                    "startOffset": 126039,
+                    "startOffset": 126042,
                     "endColumn": 66,
-                    "endOffset": 126101
+                    "endOffset": 126104
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6548,10 +6570,10 @@
                 "to": {
                     "startLine": 1629,
                     "startColumn": 4,
-                    "startOffset": 126106,
+                    "startOffset": 126109,
                     "endLine": 1630,
                     "endColumn": 12,
-                    "endOffset": 126227
+                    "endOffset": 126230
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6561,9 +6583,9 @@
                 "to": {
                     "startLine": 1631,
                     "startColumn": 4,
-                    "startOffset": 126232,
+                    "startOffset": 126235,
                     "endColumn": 67,
-                    "endOffset": 126295
+                    "endOffset": 126298
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6573,10 +6595,10 @@
                 "to": {
                     "startLine": 1632,
                     "startColumn": 4,
-                    "startOffset": 126300,
+                    "startOffset": 126303,
                     "endLine": 1633,
                     "endColumn": 12,
-                    "endOffset": 126423
+                    "endOffset": 126426
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6586,10 +6608,10 @@
                 "to": {
                     "startLine": 1634,
                     "startColumn": 4,
-                    "startOffset": 126428,
+                    "startOffset": 126431,
                     "endLine": 1635,
                     "endColumn": 12,
-                    "endOffset": 126567
+                    "endOffset": 126570
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6599,10 +6621,10 @@
                 "to": {
                     "startLine": 1636,
                     "startColumn": 4,
-                    "startOffset": 126572,
+                    "startOffset": 126575,
                     "endLine": 1637,
                     "endColumn": 12,
-                    "endOffset": 126695
+                    "endOffset": 126698
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6612,9 +6634,9 @@
                 "to": {
                     "startLine": 1638,
                     "startColumn": 4,
-                    "startOffset": 126700,
+                    "startOffset": 126703,
                     "endColumn": 68,
-                    "endOffset": 126764
+                    "endOffset": 126767
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6624,9 +6646,9 @@
                 "to": {
                     "startLine": 1639,
                     "startColumn": 4,
-                    "startOffset": 126769,
+                    "startOffset": 126772,
                     "endColumn": 94,
-                    "endOffset": 126859
+                    "endOffset": 126862
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6636,9 +6658,9 @@
                 "to": {
                     "startLine": 1640,
                     "startColumn": 4,
-                    "startOffset": 126864,
+                    "startOffset": 126867,
                     "endColumn": 114,
-                    "endOffset": 126974
+                    "endOffset": 126977
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6648,9 +6670,9 @@
                 "to": {
                     "startLine": 1641,
                     "startColumn": 4,
-                    "startOffset": 126979,
+                    "startOffset": 126982,
                     "endColumn": 112,
-                    "endOffset": 127087
+                    "endOffset": 127090
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6660,9 +6682,9 @@
                 "to": {
                     "startLine": 1642,
                     "startColumn": 4,
-                    "startOffset": 127092,
+                    "startOffset": 127095,
                     "endColumn": 98,
-                    "endOffset": 127186
+                    "endOffset": 127189
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6672,9 +6694,9 @@
                 "to": {
                     "startLine": 1643,
                     "startColumn": 4,
-                    "startOffset": 127191,
+                    "startOffset": 127194,
                     "endColumn": 108,
-                    "endOffset": 127295
+                    "endOffset": 127298
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6684,9 +6706,9 @@
                 "to": {
                     "startLine": 1644,
                     "startColumn": 4,
-                    "startOffset": 127300,
+                    "startOffset": 127303,
                     "endColumn": 110,
-                    "endOffset": 127406
+                    "endOffset": 127409
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6696,9 +6718,9 @@
                 "to": {
                     "startLine": 1645,
                     "startColumn": 4,
-                    "startOffset": 127411,
+                    "startOffset": 127414,
                     "endColumn": 110,
-                    "endOffset": 127517
+                    "endOffset": 127520
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6708,9 +6730,9 @@
                 "to": {
                     "startLine": 1646,
                     "startColumn": 4,
-                    "startOffset": 127522,
+                    "startOffset": 127525,
                     "endColumn": 100,
-                    "endOffset": 127618
+                    "endOffset": 127621
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6720,9 +6742,9 @@
                 "to": {
                     "startLine": 1647,
                     "startColumn": 4,
-                    "startOffset": 127623,
+                    "startOffset": 127626,
                     "endColumn": 104,
-                    "endOffset": 127723
+                    "endOffset": 127726
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6732,10 +6754,10 @@
                 "to": {
                     "startLine": 1648,
                     "startColumn": 4,
-                    "startOffset": 127728,
+                    "startOffset": 127731,
                     "endLine": 1649,
                     "endColumn": 12,
-                    "endOffset": 127835
+                    "endOffset": 127838
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6745,10 +6767,10 @@
                 "to": {
                     "startLine": 1650,
                     "startColumn": 4,
-                    "startOffset": 127840,
+                    "startOffset": 127843,
                     "endLine": 1651,
                     "endColumn": 12,
-                    "endOffset": 127965
+                    "endOffset": 127968
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6758,9 +6780,9 @@
                 "to": {
                     "startLine": 1652,
                     "startColumn": 4,
-                    "startOffset": 127970,
+                    "startOffset": 127973,
                     "endColumn": 90,
-                    "endOffset": 128056
+                    "endOffset": 128059
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6770,9 +6792,9 @@
                 "to": {
                     "startLine": 1653,
                     "startColumn": 4,
-                    "startOffset": 128061,
+                    "startOffset": 128064,
                     "endColumn": 122,
-                    "endOffset": 128179
+                    "endOffset": 128182
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6782,10 +6804,10 @@
                 "to": {
                     "startLine": 1654,
                     "startColumn": 4,
-                    "startOffset": 128184,
+                    "startOffset": 128187,
                     "endLine": 1655,
                     "endColumn": 12,
-                    "endOffset": 128291
+                    "endOffset": 128294
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6795,9 +6817,9 @@
                 "to": {
                     "startLine": 1656,
                     "startColumn": 4,
-                    "startOffset": 128296,
+                    "startOffset": 128299,
                     "endColumn": 85,
-                    "endOffset": 128377
+                    "endOffset": 128380
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6807,9 +6829,9 @@
                 "to": {
                     "startLine": 1657,
                     "startColumn": 4,
-                    "startOffset": 128382,
+                    "startOffset": 128385,
                     "endColumn": 103,
-                    "endOffset": 128481
+                    "endOffset": 128484
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6819,10 +6841,10 @@
                 "to": {
                     "startLine": 1658,
                     "startColumn": 4,
-                    "startOffset": 128486,
+                    "startOffset": 128489,
                     "endLine": 1659,
                     "endColumn": 12,
-                    "endOffset": 128589
+                    "endOffset": 128592
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6832,10 +6854,10 @@
                 "to": {
                     "startLine": 1660,
                     "startColumn": 4,
-                    "startOffset": 128594,
+                    "startOffset": 128597,
                     "endLine": 1661,
                     "endColumn": 12,
-                    "endOffset": 128689
+                    "endOffset": 128692
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6845,10 +6867,10 @@
                 "to": {
                     "startLine": 1662,
                     "startColumn": 4,
-                    "startOffset": 128694,
+                    "startOffset": 128697,
                     "endLine": 1663,
                     "endColumn": 12,
-                    "endOffset": 128807
+                    "endOffset": 128810
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6858,10 +6880,10 @@
                 "to": {
                     "startLine": 1664,
                     "startColumn": 4,
-                    "startOffset": 128812,
+                    "startOffset": 128815,
                     "endLine": 1665,
                     "endColumn": 12,
-                    "endOffset": 128911
+                    "endOffset": 128914
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6871,10 +6893,10 @@
                 "to": {
                     "startLine": 1666,
                     "startColumn": 4,
-                    "startOffset": 128916,
+                    "startOffset": 128919,
                     "endLine": 1667,
                     "endColumn": 12,
-                    "endOffset": 129015
+                    "endOffset": 129018
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6884,10 +6906,10 @@
                 "to": {
                     "startLine": 1668,
                     "startColumn": 4,
-                    "startOffset": 129020,
+                    "startOffset": 129023,
                     "endLine": 1669,
                     "endColumn": 12,
-                    "endOffset": 129141
+                    "endOffset": 129144
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6897,9 +6919,9 @@
                 "to": {
                     "startLine": 1670,
                     "startColumn": 4,
-                    "startOffset": 129146,
+                    "startOffset": 129149,
                     "endColumn": 87,
-                    "endOffset": 129229
+                    "endOffset": 129232
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6909,9 +6931,9 @@
                 "to": {
                     "startLine": 1671,
                     "startColumn": 4,
-                    "startOffset": 129234,
+                    "startOffset": 129237,
                     "endColumn": 89,
-                    "endOffset": 129319
+                    "endOffset": 129322
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6921,9 +6943,9 @@
                 "to": {
                     "startLine": 1672,
                     "startColumn": 4,
-                    "startOffset": 129324,
+                    "startOffset": 129327,
                     "endColumn": 109,
-                    "endOffset": 129429
+                    "endOffset": 129432
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6933,9 +6955,9 @@
                 "to": {
                     "startLine": 1673,
                     "startColumn": 4,
-                    "startOffset": 129434,
+                    "startOffset": 129437,
                     "endColumn": 83,
-                    "endOffset": 129513
+                    "endOffset": 129516
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6945,9 +6967,9 @@
                 "to": {
                     "startLine": 1674,
                     "startColumn": 4,
-                    "startOffset": 129518,
+                    "startOffset": 129521,
                     "endColumn": 83,
-                    "endOffset": 129597
+                    "endOffset": 129600
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6957,9 +6979,9 @@
                 "to": {
                     "startLine": 1675,
                     "startColumn": 4,
-                    "startOffset": 129602,
+                    "startOffset": 129605,
                     "endColumn": 53,
-                    "endOffset": 129651
+                    "endOffset": 129654
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6969,9 +6991,9 @@
                 "to": {
                     "startLine": 1676,
                     "startColumn": 4,
-                    "startOffset": 129656,
+                    "startOffset": 129659,
                     "endColumn": 63,
-                    "endOffset": 129715
+                    "endOffset": 129718
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6981,9 +7003,9 @@
                 "to": {
                     "startLine": 1677,
                     "startColumn": 4,
-                    "startOffset": 129720,
+                    "startOffset": 129723,
                     "endColumn": 105,
-                    "endOffset": 129821
+                    "endOffset": 129824
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -6993,9 +7015,9 @@
                 "to": {
                     "startLine": 1678,
                     "startColumn": 4,
-                    "startOffset": 129826,
+                    "startOffset": 129829,
                     "endColumn": 109,
-                    "endOffset": 129931
+                    "endOffset": 129934
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -7005,9 +7027,9 @@
                 "to": {
                     "startLine": 1679,
                     "startColumn": 4,
-                    "startOffset": 129936,
+                    "startOffset": 129939,
                     "endColumn": 83,
-                    "endOffset": 130015
+                    "endOffset": 130018
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -7017,9 +7039,9 @@
                 "to": {
                     "startLine": 1680,
                     "startColumn": 4,
-                    "startOffset": 130020,
+                    "startOffset": 130023,
                     "endColumn": 119,
-                    "endOffset": 130135
+                    "endOffset": 130138
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml"
@@ -7029,10 +7051,10 @@
                 "to": {
                     "startLine": 1681,
                     "startColumn": 4,
-                    "startOffset": 130140,
+                    "startOffset": 130143,
                     "endLine": 1684,
                     "endColumn": 12,
-                    "endOffset": 130353
+                    "endOffset": 130356
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/values/values.xml"
@@ -7042,10 +7064,10 @@
                 "to": {
                     "startLine": 1685,
                     "startColumn": 4,
-                    "startOffset": 130358,
+                    "startOffset": 130361,
                     "endLine": 1688,
                     "endColumn": 12,
-                    "endOffset": 130560
+                    "endOffset": 130563
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/values/values.xml"
@@ -7055,10 +7077,10 @@
                 "to": {
                     "startLine": 1689,
                     "startColumn": 4,
-                    "startOffset": 130565,
+                    "startOffset": 130568,
                     "endLine": 1691,
                     "endColumn": 12,
-                    "endOffset": 130719
+                    "endOffset": 130722
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/values/values.xml"
@@ -7068,10 +7090,10 @@
                 "to": {
                     "startLine": 1692,
                     "startColumn": 4,
-                    "startOffset": 130724,
+                    "startOffset": 130727,
                     "endLine": 1700,
                     "endColumn": 12,
-                    "endOffset": 131286
+                    "endOffset": 131289
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/values/values.xml"
@@ -7081,10 +7103,10 @@
                 "to": {
                     "startLine": 1701,
                     "startColumn": 4,
-                    "startOffset": 131291,
+                    "startOffset": 131294,
                     "endLine": 1706,
                     "endColumn": 12,
-                    "endOffset": 131647
+                    "endOffset": 131650
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/values/values.xml"
@@ -7094,10 +7116,10 @@
                 "to": {
                     "startLine": 1707,
                     "startColumn": 4,
-                    "startOffset": 131652,
+                    "startOffset": 131655,
                     "endLine": 1709,
                     "endColumn": 12,
-                    "endOffset": 131776
+                    "endOffset": 131779
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/values/values.xml"
@@ -7107,10 +7129,10 @@
                 "to": {
                     "startLine": 1710,
                     "startColumn": 4,
-                    "startOffset": 131781,
+                    "startOffset": 131784,
                     "endLine": 1719,
                     "endColumn": 12,
-                    "endOffset": 132520
+                    "endOffset": 132523
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/values/values.xml"
@@ -7120,10 +7142,10 @@
                 "to": {
                     "startLine": 1720,
                     "startColumn": 4,
-                    "startOffset": 132525,
+                    "startOffset": 132528,
                     "endLine": 1723,
                     "endColumn": 12,
-                    "endOffset": 132700
+                    "endOffset": 132703
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/values/values.xml"
@@ -7133,10 +7155,10 @@
                 "to": {
                     "startLine": 1724,
                     "startColumn": 4,
-                    "startOffset": 132705,
+                    "startOffset": 132708,
                     "endLine": 1729,
                     "endColumn": 12,
-                    "endOffset": 133141
+                    "endOffset": 133144
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/values/values.xml"

@@ -8,11 +8,11 @@
     <string name="action_changelog">Changelog</string>
 
     //Snackbar
-    <string name="sn_Break">A short Break …</string>
+    <string name="sn_pause">A short Break …</string>
     <string name="sn_weiter">… let\'s start again!</string>
     <string name="end">Done!</string>
-    <string name="sn_first">That\'s the first exercice.</string>
-    <string name="sn_last">That\'s the last exercice.</string>
+    <string name="sn_first">That\'s the first exercise.</string>
+    <string name="sn_last">That\'s the last exercise.</string>
 
     //Titles
     <string name="act">1. Exercise - Jumping jacks</string>
@@ -67,15 +67,15 @@
 
     //Changelog Dialog
     <string name="changelog_text">
-        &lt;i>For more informations visit the projectsite on github:&lt;br>
+        &lt;i>For more informations visit the project site on github:&lt;br>
         https://github.com/scoute-dich/Sieben&lt;/i>&lt;br>&lt;br>
 
         &lt;b>v1.5:&lt;/b>&lt;br>
         &#8226; text to speech support&lt;br>
-        &#8226; code clenaup&lt;br>&lt;br>
+        &#8226; code clean up&lt;br>&lt;br>
 
         &lt;b>v1.4:&lt;/b>&lt;br>
-        &#8226; set screenorientation to portrait&lt;br>
+        &#8226; set screen orientation to portrait&lt;br>
         &#8226; fixed project-link&lt;br>&lt;br>
 
         &lt;b>v1.3.1:&lt;/b>&lt;br>
@@ -98,13 +98,13 @@
 
     //Help Dialog
     <string name="help_text">
-        &lt;i>Swipe on left: &lt;/i>switch to next exercice&lt;br>&lt;br>
+        &lt;i>Swipe on left: &lt;/i>switch to next exercise&lt;br>&lt;br>
 
-        &lt;i>Swipe on right: &lt;/i>switch to previous exercice&lt;br>&lt;br>
+        &lt;i>Swipe on right: &lt;/i>switch to previous exercise&lt;br>&lt;br>
 
         &lt;i>Swipe on bottom: &lt;/i>make a break&lt;br>&lt;br>
 
-        &lt;i>Swipe on top: &lt;/i>restart actual exercice
+        &lt;i>Swipe on top: &lt;/i>restart actual exercise
     </string>
 
 </resources>

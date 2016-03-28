@@ -1,6 +1,54 @@
 [
     {
+        "merged": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/a03.png",
+        "source": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/mipmap-mdpi/a03.png"
+    },
+    {
+        "merged": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/a06.png",
+        "source": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/mipmap-mdpi/a06.png"
+    },
+    {
+        "merged": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/a10.png",
+        "source": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/mipmap-mdpi/a10.png"
+    },
+    {
+        "merged": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/a11.png",
+        "source": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/mipmap-mdpi/a11.png"
+    },
+    {
+        "merged": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/a07.png",
+        "source": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/mipmap-mdpi/a07.png"
+    },
+    {
+        "merged": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/a04.png",
+        "source": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/mipmap-mdpi/a04.png"
+    },
+    {
+        "merged": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/a01.png",
+        "source": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/mipmap-mdpi/a01.png"
+    },
+    {
+        "merged": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/a09.png",
+        "source": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/mipmap-mdpi/a09.png"
+    },
+    {
+        "merged": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/a12.png",
+        "source": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/mipmap-mdpi/a12.png"
+    },
+    {
+        "merged": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/a08.png",
+        "source": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/mipmap-mdpi/a08.png"
+    },
+    {
+        "merged": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/a02.png",
+        "source": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/mipmap-mdpi/a02.png"
+    },
+    {
         "merged": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_launcher.png",
         "source": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/a05.png",
+        "source": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/mipmap-mdpi/a05.png"
     }
 ]
