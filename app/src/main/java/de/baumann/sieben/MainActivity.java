@@ -134,7 +134,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onTick(long millisUntilFinished) {
 
-            if (millisUntilFinished > 29700) {
+            if (millisUntilFinished > 29650) {
                 String text = getResources().getString(R.string.act);
                 ttsManager.initQueue(text);
             }

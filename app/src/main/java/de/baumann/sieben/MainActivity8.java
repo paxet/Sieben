@@ -35,9 +35,10 @@ public class MainActivity8 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-        setContentView(R.layout.activity_main8);
+        setContentView(R.layout.activity_main);
 
         imageView = (ImageView) findViewById(R.id.imageView);
+        imageView.setImageResource(R.mipmap.a08);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -140,7 +141,7 @@ public class MainActivity8 extends AppCompatActivity {
         @Override
         public void onTick(long millisUntilFinished) {
 
-            if (millisUntilFinished > 29700) {
+            if (millisUntilFinished > 29650) {
                 String text = getResources().getString(R.string.act_8);
                 ttsManager.initQueue(text);
             }
