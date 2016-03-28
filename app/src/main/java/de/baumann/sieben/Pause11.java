@@ -96,6 +96,7 @@ public class Pause11 extends AppCompatActivity {
                 startActivity(intent_in);
                 overridePendingTransition(0, 0);
                 countDownTimer.cancel();
+                ttsManager.shutDown();
                 finish();
             }
 
@@ -131,13 +132,14 @@ public class Pause11 extends AppCompatActivity {
             Intent intent_in = new Intent(Pause11.this, MainActivity12.class);
             startActivity(intent_in);
             overridePendingTransition(0, 0);
+            ttsManager.shutDown();
             finish();
         }
 
         @Override
         public void onTick(long millisUntilFinished) {
 
-            if (millisUntilFinished > 9500) {
+            if (millisUntilFinished > 9700) {
                 String text = getResources().getString(R.string.pau_11);
                 ttsManager.initQueue(text);
             }
@@ -219,6 +221,7 @@ public class Pause11 extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         countDownTimer.cancel();
+        ttsManager.shutDown();
         finish();
     }
 }

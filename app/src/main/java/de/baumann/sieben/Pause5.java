@@ -95,8 +95,9 @@ public class Pause5 extends AppCompatActivity {
                 Intent intent_in = new Intent(de.baumann.sieben.Pause5.this, Pause4.class);
                 startActivity(intent_in);
                 overridePendingTransition(0, 0);
-                finish();
                 countDownTimer.cancel();
+                ttsManager.shutDown();
+                finish();
             }
 
             public void onSwipeLeft() {
@@ -104,6 +105,7 @@ public class Pause5 extends AppCompatActivity {
                 startActivity(intent_in);
                 overridePendingTransition(0, 0);
                 countDownTimer.cancel();
+                ttsManager.shutDown();
                 finish();
             }
 
@@ -132,13 +134,14 @@ public class Pause5 extends AppCompatActivity {
             Intent intent_in = new Intent(Pause5.this, MainActivity6.class);
             startActivity(intent_in);
             overridePendingTransition(0, 0);
+            ttsManager.shutDown();
             finish();
         }
 
         @Override
         public void onTick(long millisUntilFinished) {
 
-            if (millisUntilFinished > 9500) {
+            if (millisUntilFinished > 9700) {
                 String text = getResources().getString(R.string.pau_5);
                 ttsManager.initQueue(text);
             }
@@ -220,6 +223,7 @@ public class Pause5 extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         countDownTimer.cancel();
+        ttsManager.shutDown();
         finish();
     }
 }

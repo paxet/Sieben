@@ -96,6 +96,7 @@ public class Pause7 extends AppCompatActivity {
                 startActivity(intent_in);
                 overridePendingTransition(0, 0);
                 countDownTimer.cancel();
+                ttsManager.shutDown();
                 finish();
             }
 
@@ -104,6 +105,7 @@ public class Pause7 extends AppCompatActivity {
                 startActivity(intent_in);
                 overridePendingTransition(0, 0);
                 countDownTimer.cancel();
+                ttsManager.shutDown();
                 finish();
             }
 
@@ -132,13 +134,14 @@ public class Pause7 extends AppCompatActivity {
             Intent intent_in = new Intent(Pause7.this, MainActivity8.class);
             startActivity(intent_in);
             overridePendingTransition(0, 0);
+            ttsManager.shutDown();
             finish();
         }
 
         @Override
         public void onTick(long millisUntilFinished) {
 
-            if (millisUntilFinished > 9500) {
+            if (millisUntilFinished > 9700) {
                 String text = getResources().getString(R.string.pau_7);
                 ttsManager.initQueue(text);
             }
@@ -220,6 +223,7 @@ public class Pause7 extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         countDownTimer.cancel();
+        ttsManager.shutDown();
         finish();
     }
 }

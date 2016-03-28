@@ -137,6 +137,12 @@ public class MainActivity11 extends AppCompatActivity {
 
         @Override
         public void onTick(long millisUntilFinished) {
+
+            if (millisUntilFinished > 29700) {
+                String text = getResources().getString(R.string.act_11);
+                ttsManager.initQueue(text);
+            }
+
             textView.setText("" + millisUntilFinished/1000);
             int progress = (int) (millisUntilFinished/300);
             progressBar.setProgress(progress);

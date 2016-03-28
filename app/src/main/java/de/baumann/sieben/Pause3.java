@@ -96,6 +96,7 @@ public class Pause3 extends AppCompatActivity {
                 startActivity(intent_in);
                 overridePendingTransition(0, 0);
                 countDownTimer.cancel();
+                ttsManager.shutDown();
                 finish();
             }
 
@@ -104,6 +105,7 @@ public class Pause3 extends AppCompatActivity {
                 startActivity(intent_in);
                 overridePendingTransition(0, 0);
                 countDownTimer.cancel();
+                ttsManager.shutDown();
                 finish();
             }
 
@@ -132,16 +134,18 @@ public class Pause3 extends AppCompatActivity {
             Intent intent_in = new Intent(Pause3.this, MainActivity4.class);
             startActivity(intent_in);
             overridePendingTransition(0, 0);
+            ttsManager.shutDown();
             finish();
         }
 
         @Override
         public void onTick(long millisUntilFinished) {
 
-            if (millisUntilFinished > 9500) {
+            if (millisUntilFinished > 9700) {
                 String text = getResources().getString(R.string.pau_3);
                 ttsManager.initQueue(text);
             }
+
             textView.setText("" + millisUntilFinished/1000);
             int progress = (int) (millisUntilFinished/100);
             progressBar.setProgress(progress);
@@ -219,6 +223,7 @@ public class Pause3 extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         countDownTimer.cancel();
+        ttsManager.shutDown();
         finish();
     }
 }

@@ -2468,6 +2468,7 @@ containing a value of this type.
         public static final int pau_7=0x7f060032;
         public static final int pau_8=0x7f060033;
         public static final int pau_9=0x7f060034;
+        public static final int sn_Break=0x7f06003b;
         public static final int sn_first=0x7f060035;
         public static final int sn_last=0x7f060036;
         public static final int sn_pause=0x7f060037;

@@ -812,6 +812,7 @@ int string pau_6 0x7f060031
 int string pau_7 0x7f060032
 int string pau_8 0x7f060033
 int string pau_9 0x7f060034
+int string sn_Break 0x7f06003b
 int string sn_first 0x7f060035
 int string sn_last 0x7f060036
 int string sn_pause 0x7f060037

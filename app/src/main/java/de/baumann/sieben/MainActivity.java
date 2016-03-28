@@ -100,6 +100,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent_in);
                 overridePendingTransition(0, 0);
                 countDownTimer.cancel();
+                ttsManager.shutDown();
                 finish();
             }
 
@@ -128,13 +129,14 @@ public class MainActivity extends AppCompatActivity {
             Intent intent_in = new Intent(de.baumann.sieben.MainActivity.this, Pause.class);
             startActivity(intent_in);
             overridePendingTransition(0, 0);
+            ttsManager.shutDown();
             finish();
         }
 
         @Override
         public void onTick(long millisUntilFinished) {
 
-            if (millisUntilFinished > 29500) {
+            if (millisUntilFinished > 29700) {
                 String text = getResources().getString(R.string.act);
                 ttsManager.initQueue(text);
             }
