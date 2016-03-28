@@ -9,7 +9,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".exercices.MainActivity"
+    tools:context="de.baumann.sieben.MainActivity"
     tools:showIn="@layout/activity_main">
 
 
@@ -51,7 +51,6 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
         android:progressTint="@color/colorAccent"
         android:progressBackgroundTint="@color/colorPrimary"/>
 

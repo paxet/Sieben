@@ -5,18 +5,17 @@
     android:versionName="1.4" >
 
     <uses-sdk
-        android:minSdkVersion="16"
+        android:minSdkVersion="15"
         android:targetSdkVersion="23" />
 
     <application
         android:allowBackup="true"
-        android:fullBackupContent="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="de.baumann.sieben.exercices.MainActivity"
+            android:name="de.baumann.sieben.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
@@ -26,112 +25,112 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="de.baumann.sieben.pauses.Pause"
+            android:name="de.baumann.sieben.Pause"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name="de.baumann.sieben.pauses.Pause2"
+            android:name="de.baumann.sieben.Pause2"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name="de.baumann.sieben.pauses.Pause3"
+            android:name="de.baumann.sieben.Pause3"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name="de.baumann.sieben.pauses.Pause4"
+            android:name="de.baumann.sieben.Pause4"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name="de.baumann.sieben.pauses.Pause5"
+            android:name="de.baumann.sieben.Pause5"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name="de.baumann.sieben.pauses.Pause6"
+            android:name="de.baumann.sieben.Pause6"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name="de.baumann.sieben.pauses.Pause7"
+            android:name="de.baumann.sieben.Pause7"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name="de.baumann.sieben.pauses.Pause8"
+            android:name="de.baumann.sieben.Pause8"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name="de.baumann.sieben.pauses.Pause9"
+            android:name="de.baumann.sieben.Pause9"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name="de.baumann.sieben.pauses.Pause10"
+            android:name="de.baumann.sieben.Pause10"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name="de.baumann.sieben.pauses.Pause11"
+            android:name="de.baumann.sieben.Pause11"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name="de.baumann.sieben.exercices.MainActivity2"
+            android:name="de.baumann.sieben.MainActivity2"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name="de.baumann.sieben.exercices.MainActivity3"
+            android:name="de.baumann.sieben.MainActivity3"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name="de.baumann.sieben.exercices.MainActivity4"
+            android:name="de.baumann.sieben.MainActivity4"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name="de.baumann.sieben.exercices.MainActivity5"
+            android:name="de.baumann.sieben.MainActivity5"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name="de.baumann.sieben.exercices.MainActivity6"
+            android:name="de.baumann.sieben.MainActivity6"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name="de.baumann.sieben.exercices.MainActivity7"
+            android:name="de.baumann.sieben.MainActivity7"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name="de.baumann.sieben.exercices.MainActivity8"
+            android:name="de.baumann.sieben.MainActivity8"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name="de.baumann.sieben.exercices.MainActivity9"
+            android:name="de.baumann.sieben.MainActivity9"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name="de.baumann.sieben.exercices.MainActivity10"
+            android:name="de.baumann.sieben.MainActivity10"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name="de.baumann.sieben.exercices.MainActivity11"
+            android:name="de.baumann.sieben.MainActivity11"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name="de.baumann.sieben.exercices.MainActivity12"
+            android:name="de.baumann.sieben.MainActivity12"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
