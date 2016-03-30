@@ -31,6 +31,8 @@ public class MainActivity12 extends AppCompatActivity {
     private TTSManager ttsManager = null;
     private ImageView imageView;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
