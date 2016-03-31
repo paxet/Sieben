@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
     private boolean isPaused = false;
     private boolean isCanceled = false;
-    private long timeRemaining = 0;
+    private long timeRemaining = 30000;
 
 
     @Override
@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         ttsManager.init(this);
 
         CountDownTimer timer;
-        long millisInFuture = 10000;
+        long millisInFuture = 30000;
         long countDownInterval = 100;
 
 
@@ -68,12 +68,12 @@ public class MainActivity extends AppCompatActivity {
                     cancel();
                 }
                 else {
-                    if (millisUntilFinished > 9650) {
+                    if (millisUntilFinished > 29650) {
                         String text = getResources().getString(R.string.pau);
                         ttsManager.initQueue(text);
                     }
                     textView.setText("" + millisUntilFinished / 1000);
-                    int progress = (int) (millisUntilFinished/100);
+                    int progress = (int) (millisUntilFinished/300);
                     progressBar.setProgress(progress);
                     timeRemaining = millisUntilFinished;
                 }
@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
                             }
                             else {
                                 textView.setText("" + millisUntilFinished / 1000);
-                                int progress = (int) (millisUntilFinished/100);
+                                int progress = (int) (millisUntilFinished/300);
                                 progressBar.setProgress(progress);
                                 timeRemaining = millisUntilFinished;
                             }
@@ -153,7 +153,7 @@ public class MainActivity extends AppCompatActivity {
                         }
                         else {
                             textView.setText("" + millisUntilFinished / 1000);
-                            int progress = (int) (millisUntilFinished/100);
+                            int progress = (int) (millisUntilFinished/300);
                             progressBar.setProgress(progress);
                             timeRemaining = millisUntilFinished;
                         }

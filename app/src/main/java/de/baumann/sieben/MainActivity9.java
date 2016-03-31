@@ -68,12 +68,12 @@ public class MainActivity9 extends AppCompatActivity {
                     cancel();
                 }
                 else {
-                    if (millisUntilFinished > 9650) {
+                    if (millisUntilFinished > 29650) {
                         String text = getResources().getString(R.string.pau);
                         ttsManager.initQueue(text);
                     }
                     textView.setText("" + millisUntilFinished / 1000);
-                    int progress = (int) (millisUntilFinished/100);
+                    int progress = (int) (millisUntilFinished/300);
                     progressBar.setProgress(progress);
                     timeRemaining = millisUntilFinished;
                 }
@@ -108,7 +108,7 @@ public class MainActivity9 extends AppCompatActivity {
                             }
                             else {
                                 textView.setText("" + millisUntilFinished / 1000);
-                                int progress = (int) (millisUntilFinished/100);
+                                int progress = (int) (millisUntilFinished/300);
                                 progressBar.setProgress(progress);
                                 timeRemaining = millisUntilFinished;
                             }
@@ -154,7 +154,7 @@ public class MainActivity9 extends AppCompatActivity {
                         }
                         else {
                             textView.setText("" + millisUntilFinished / 1000);
-                            int progress = (int) (millisUntilFinished/100);
+                            int progress = (int) (millisUntilFinished/300);
                             progressBar.setProgress(progress);
                             timeRemaining = millisUntilFinished;
                         }
