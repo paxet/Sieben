@@ -368,9 +368,9 @@
                     "startLine": 21,
                     "startColumn": 4,
                     "startOffset": 1895,
-                    "endLine": 41,
+                    "endLine": 42,
                     "endColumn": 66,
-                    "endOffset": 3046
+                    "endOffset": 3071
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values-ja/strings.xml",
@@ -378,19 +378,19 @@
                         "startLine": 45,
                         "startColumn": 4,
                         "startOffset": 1878,
-                        "endLine": 65,
+                        "endLine": 66,
                         "endColumn": 66,
-                        "endOffset": 3029
+                        "endOffset": 3066
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 42,
+                    "startLine": 43,
                     "startColumn": 4,
-                    "startOffset": 3051,
+                    "startOffset": 3076,
                     "endColumn": 72,
-                    "endOffset": 3119
+                    "endOffset": 3144
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values-ja/strings.xml",
@@ -405,11 +405,11 @@
             },
             {
                 "to": {
-                    "startLine": 43,
+                    "startLine": 44,
                     "startColumn": 4,
-                    "startOffset": 3124,
+                    "startOffset": 3149,
                     "endColumn": 40,
-                    "endOffset": 3160
+                    "endOffset": 3185
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values-ja/strings.xml",
@@ -424,11 +424,11 @@
             },
             {
                 "to": {
-                    "startLine": 44,
+                    "startLine": 45,
                     "startColumn": 4,
-                    "startOffset": 3165,
+                    "startOffset": 3190,
                     "endColumn": 51,
-                    "endOffset": 3212
+                    "endOffset": 3237
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values-ja/strings.xml",
@@ -443,11 +443,11 @@
             },
             {
                 "to": {
-                    "startLine": 45,
+                    "startLine": 46,
                     "startColumn": 4,
-                    "startOffset": 3217,
+                    "startOffset": 3242,
                     "endColumn": 51,
-                    "endOffset": 3264
+                    "endOffset": 3289
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values-ja/strings.xml",
@@ -462,11 +462,11 @@
             },
             {
                 "to": {
-                    "startLine": 46,
+                    "startLine": 47,
                     "startColumn": 4,
-                    "startOffset": 3269,
+                    "startOffset": 3294,
                     "endColumn": 63,
-                    "endOffset": 3328
+                    "endOffset": 3353
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values-ja/strings.xml",
@@ -481,11 +481,11 @@
             },
             {
                 "to": {
-                    "startLine": 47,
+                    "startLine": 48,
                     "startColumn": 4,
-                    "startOffset": 3333,
+                    "startOffset": 3358,
                     "endColumn": 56,
-                    "endOffset": 3385
+                    "endOffset": 3410
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values-ja/strings.xml",
@@ -500,11 +500,11 @@
             },
             {
                 "to": {
-                    "startLine": 48,
+                    "startLine": 49,
                     "startColumn": 4,
-                    "startOffset": 3390,
+                    "startOffset": 3415,
                     "endColumn": 58,
-                    "endOffset": 3444
+                    "endOffset": 3469
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values-ja/strings.xml",
@@ -519,11 +519,11 @@
             },
             {
                 "to": {
-                    "startLine": 49,
+                    "startLine": 50,
                     "startColumn": 4,
-                    "startOffset": 3449,
+                    "startOffset": 3474,
                     "endColumn": 51,
-                    "endOffset": 3496
+                    "endOffset": 3521
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values-ja/strings.xml",
@@ -538,11 +538,11 @@
             },
             {
                 "to": {
-                    "startLine": 50,
+                    "startLine": 51,
                     "startColumn": 4,
-                    "startOffset": 3501,
+                    "startOffset": 3526,
                     "endColumn": 48,
-                    "endOffset": 3545
+                    "endOffset": 3570
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values-ja/strings.xml",
@@ -557,11 +557,11 @@
             },
             {
                 "to": {
-                    "startLine": 51,
+                    "startLine": 52,
                     "startColumn": 4,
-                    "startOffset": 3550,
+                    "startOffset": 3575,
                     "endColumn": 56,
-                    "endOffset": 3602
+                    "endOffset": 3627
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values-ja/strings.xml",
@@ -576,11 +576,11 @@
             },
             {
                 "to": {
-                    "startLine": 52,
+                    "startLine": 53,
                     "startColumn": 4,
-                    "startOffset": 3607,
+                    "startOffset": 3632,
                     "endColumn": 51,
-                    "endOffset": 3654
+                    "endOffset": 3679
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values-ja/strings.xml",
@@ -595,11 +595,11 @@
             },
             {
                 "to": {
-                    "startLine": 53,
+                    "startLine": 54,
                     "startColumn": 4,
-                    "startOffset": 3659,
+                    "startOffset": 3684,
                     "endColumn": 59,
-                    "endOffset": 3714
+                    "endOffset": 3739
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values-ja/strings.xml",
@@ -614,11 +614,11 @@
             },
             {
                 "to": {
-                    "startLine": 54,
+                    "startLine": 55,
                     "startColumn": 4,
-                    "startOffset": 3719,
+                    "startOffset": 3744,
                     "endColumn": 50,
-                    "endOffset": 3765
+                    "endOffset": 3790
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values-ja/strings.xml",
@@ -633,11 +633,11 @@
             },
             {
                 "to": {
-                    "startLine": 55,
+                    "startLine": 56,
                     "startColumn": 4,
-                    "startOffset": 3770,
+                    "startOffset": 3795,
                     "endColumn": 50,
-                    "endOffset": 3816
+                    "endOffset": 3841
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values-ja/strings.xml",
@@ -652,11 +652,11 @@
             },
             {
                 "to": {
-                    "startLine": 56,
+                    "startLine": 57,
                     "startColumn": 4,
-                    "startOffset": 3821,
+                    "startOffset": 3846,
                     "endColumn": 49,
-                    "endOffset": 3866
+                    "endOffset": 3891
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values-ja/strings.xml",
@@ -671,11 +671,11 @@
             },
             {
                 "to": {
-                    "startLine": 57,
+                    "startLine": 58,
                     "startColumn": 4,
-                    "startOffset": 3871,
+                    "startOffset": 3896,
                     "endColumn": 43,
-                    "endOffset": 3910
+                    "endOffset": 3935
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values-ja/strings.xml",
@@ -690,11 +690,11 @@
             },
             {
                 "to": {
-                    "startLine": 58,
+                    "startLine": 59,
                     "startColumn": 4,
-                    "startOffset": 3915,
+                    "startOffset": 3940,
                     "endColumn": 48,
-                    "endOffset": 3959
+                    "endOffset": 3984
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values-ja/strings.xml",
@@ -709,11 +709,11 @@
             },
             {
                 "to": {
-                    "startLine": 59,
+                    "startLine": 60,
                     "startColumn": 4,
-                    "startOffset": 3964,
+                    "startOffset": 3989,
                     "endColumn": 40,
-                    "endOffset": 4000
+                    "endOffset": 4025
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values-ja/strings.xml",
@@ -728,32 +728,32 @@
             },
             {
                 "to": {
-                    "startLine": 60,
+                    "startLine": 61,
                     "startColumn": 4,
-                    "startOffset": 4005,
-                    "endLine": 77,
+                    "startOffset": 4030,
+                    "endLine": 83,
                     "endColumn": 13,
-                    "endOffset": 4533
+                    "endOffset": 4723
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values-ja/strings.xml",
                     "position": {
-                        "startLine": 68,
+                        "startLine": 69,
                         "startColumn": 4,
-                        "startOffset": 3058,
-                        "endLine": 85,
+                        "startOffset": 3095,
+                        "endLine": 91,
                         "endColumn": 13,
-                        "endOffset": 3622
+                        "endOffset": 3842
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 78,
+                    "startLine": 84,
                     "startColumn": 4,
-                    "startOffset": 4538,
+                    "startOffset": 4728,
                     "endColumn": 35,
-                    "endOffset": 4569
+                    "endOffset": 4759
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values-ja/strings.xml",
@@ -768,32 +768,32 @@
             },
             {
                 "to": {
-                    "startLine": 79,
+                    "startLine": 85,
                     "startColumn": 4,
-                    "startOffset": 4574,
-                    "endLine": 87,
+                    "startOffset": 4764,
+                    "endLine": 93,
                     "endColumn": 13,
-                    "endOffset": 4827
+                    "endOffset": 5017
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values-ja/strings.xml",
                     "position": {
-                        "startLine": 88,
+                        "startLine": 94,
                         "startColumn": 4,
-                        "startOffset": 3646,
-                        "endLine": 96,
+                        "startOffset": 3866,
+                        "endLine": 102,
                         "endColumn": 13,
-                        "endOffset": 3899
+                        "endOffset": 4119
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 88,
+                    "startLine": 94,
                     "startColumn": 4,
-                    "startOffset": 4832,
+                    "startOffset": 5022,
                     "endColumn": 54,
-                    "endOffset": 4882
+                    "endOffset": 5072
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values-ja/strings.xml",
@@ -808,11 +808,11 @@
             },
             {
                 "to": {
-                    "startLine": 89,
+                    "startLine": 95,
                     "startColumn": 4,
-                    "startOffset": 4887,
+                    "startOffset": 5077,
                     "endColumn": 60,
-                    "endOffset": 4943
+                    "endOffset": 5133
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values-ja/strings.xml",
@@ -827,11 +827,11 @@
             },
             {
                 "to": {
-                    "startLine": 90,
+                    "startLine": 96,
                     "startColumn": 4,
-                    "startOffset": 4948,
+                    "startOffset": 5138,
                     "endColumn": 53,
-                    "endOffset": 4997
+                    "endOffset": 5187
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values-ja/strings.xml",
@@ -846,11 +846,11 @@
             },
             {
                 "to": {
-                    "startLine": 91,
+                    "startLine": 97,
                     "startColumn": 4,
-                    "startOffset": 5002,
+                    "startOffset": 5192,
                     "endColumn": 49,
-                    "endOffset": 5047
+                    "endOffset": 5237
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values-ja/strings.xml",
@@ -865,11 +865,11 @@
             },
             {
                 "to": {
-                    "startLine": 92,
+                    "startLine": 98,
                     "startColumn": 4,
-                    "startOffset": 5052,
+                    "startOffset": 5242,
                     "endColumn": 46,
-                    "endOffset": 5094
+                    "endOffset": 5284
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values-ja/strings.xml",
@@ -884,11 +884,11 @@
             },
             {
                 "to": {
-                    "startLine": 93,
+                    "startLine": 99,
                     "startColumn": 4,
-                    "startOffset": 5099,
+                    "startOffset": 5289,
                     "endColumn": 54,
-                    "endOffset": 5149
+                    "endOffset": 5339
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values-ja/strings.xml",
@@ -903,11 +903,11 @@
             },
             {
                 "to": {
-                    "startLine": 94,
+                    "startLine": 100,
                     "startColumn": 4,
-                    "startOffset": 5154,
+                    "startOffset": 5344,
                     "endColumn": 49,
-                    "endOffset": 5199
+                    "endOffset": 5389
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values-ja/strings.xml",
@@ -922,11 +922,11 @@
             },
             {
                 "to": {
-                    "startLine": 95,
+                    "startLine": 101,
                     "startColumn": 4,
-                    "startOffset": 5204,
+                    "startOffset": 5394,
                     "endColumn": 57,
-                    "endOffset": 5257
+                    "endOffset": 5447
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values-ja/strings.xml",
@@ -941,11 +941,11 @@
             },
             {
                 "to": {
-                    "startLine": 96,
+                    "startLine": 102,
                     "startColumn": 4,
-                    "startOffset": 5262,
+                    "startOffset": 5452,
                     "endColumn": 48,
-                    "endOffset": 5306
+                    "endOffset": 5496
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values-ja/strings.xml",
@@ -960,11 +960,11 @@
             },
             {
                 "to": {
-                    "startLine": 97,
+                    "startLine": 103,
                     "startColumn": 4,
-                    "startOffset": 5311,
+                    "startOffset": 5501,
                     "endColumn": 48,
-                    "endOffset": 5355
+                    "endOffset": 5545
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values-ja/strings.xml",
@@ -979,11 +979,11 @@
             },
             {
                 "to": {
-                    "startLine": 98,
+                    "startLine": 104,
                     "startColumn": 4,
-                    "startOffset": 5360,
+                    "startOffset": 5550,
                     "endColumn": 47,
-                    "endOffset": 5403
+                    "endOffset": 5593
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values-ja/strings.xml",
@@ -998,11 +998,11 @@
             },
             {
                 "to": {
-                    "startLine": 99,
+                    "startLine": 105,
                     "startColumn": 4,
-                    "startOffset": 5408,
+                    "startOffset": 5598,
                     "endColumn": 49,
-                    "endOffset": 5453
+                    "endOffset": 5643
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values-ja/strings.xml",
@@ -1017,11 +1017,11 @@
             },
             {
                 "to": {
-                    "startLine": 100,
+                    "startLine": 106,
                     "startColumn": 4,
-                    "startOffset": 5458,
+                    "startOffset": 5648,
                     "endColumn": 48,
-                    "endOffset": 5502
+                    "endOffset": 5692
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values-ja/strings.xml",
@@ -1036,11 +1036,11 @@
             },
             {
                 "to": {
-                    "startLine": 101,
+                    "startLine": 107,
                     "startColumn": 4,
-                    "startOffset": 5507,
+                    "startOffset": 5697,
                     "endColumn": 43,
-                    "endOffset": 5546
+                    "endOffset": 5736
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values-ja/strings.xml",
@@ -1055,11 +1055,11 @@
             },
             {
                 "to": {
-                    "startLine": 102,
+                    "startLine": 108,
                     "startColumn": 4,
-                    "startOffset": 5551,
+                    "startOffset": 5741,
                     "endColumn": 48,
-                    "endOffset": 5595
+                    "endOffset": 5785
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values-ja/strings.xml",
@@ -1074,11 +1074,11 @@
             },
             {
                 "to": {
-                    "startLine": 103,
+                    "startLine": 109,
                     "startColumn": 4,
-                    "startOffset": 5600,
+                    "startOffset": 5790,
                     "endColumn": 100,
-                    "endOffset": 5696
+                    "endOffset": 5886
                 },
                 "from": {
                     "file": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-ja/values-ja.xml",

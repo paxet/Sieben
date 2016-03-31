@@ -270,9 +270,10 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="about_text">
-        &lt;i>First of all: I am not a developer. I understand a few basics and most of my work is done
-        by \"copy and paste\". A big thanks to all developers, who share their code on tutorials, on github or
-        other places.&lt;/i> &lt;br> &lt;br>
+        &lt;b>Contributors:&lt;/b>&lt;br>
+
+        • Development: scoute-dich https://github.com/scoute-dich&lt;br>
+        • Japanese translation:naofum https://github.com/naofum&lt;br> &lt;br>
 
         This program is free software: you can redistribute it and/or modify
         it under the terms of the GNU General Public License as published by
@@ -315,6 +316,7 @@
 
         &lt;b>v1.5:&lt;/b>&lt;br>
         • text to speech support&lt;br>
+        • countdown pause and resume support&lt;br>
         • code clean up&lt;br>&lt;br>
 
         &lt;b>v1.4:&lt;/b>&lt;br>
@@ -322,7 +324,7 @@
         • fixed project-link&lt;br>&lt;br>
 
         &lt;b>v1.3.1:&lt;/b>&lt;br>
-        • added Japanese translation (thanks to naofum)&lt;br>&lt;br>
+        • added Japanese translation&lt;br>&lt;br>
 
         &lt;b>v1.3:&lt;/b>&lt;br>
         • added swipe function (see help dialog)&lt;br>

@@ -1,3 +1,8 @@
+### v1.5
+- text to speech support
+- countdown pause and resume support
+- code clean up
+
 ### v1.4
 
 - set screenorientation to portrait

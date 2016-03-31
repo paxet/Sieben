@@ -44,9 +44,10 @@
     <string name="about_yes">OK</string>
     <string name="about_title">Copyright © 2016  by scoute-dich</string>
     <string name="about_text">
-        &lt;i>Zuerst einmal: ich bin kein Programmierer. Ich verstehe ein paar Grundlagen, aber das meiste meiner
-        Arbeit wurde durch \"copy and paste\" erledigt. Mein Dank gilt daher in erster Linie allen Entwicklern,
-        die ihren Code in Tutorials, auf Github oder an anderer Stelle zur Verfügung stellen.&lt;/i> &lt;br> &lt;br>
+        &lt;b>Mitwirkende:&lt;/b>&lt;br>
+
+        &#8226; Entwickler: scoute-dich https://github.com/scoute-dich&lt;br>
+        &#8226; Japanische Übersetzung:naofum https://github.com/naofum&lt;br> &lt;br>
 
         This program is free software: you can redistribute it and/or modify
         it under the terms of the GNU General Public License as published by
@@ -73,6 +74,7 @@
 
         &lt;b>v1.5:&lt;/b>&lt;br>
         &#8226; Text zu Sprache Unterstützung&lt;br>
+        &#8226; Countdown Pause und fortfahren&lt;br>
         &#8226; Code Verbesserungen&lt;br>&lt;br>
 
         &lt;b>v1.4:&lt;/b>&lt;br>
@@ -80,7 +82,7 @@
         &#8226; Projektlink gefixed&lt;br>&lt;br>
 
         &lt;b>v1.3.1:&lt;/b>&lt;br>
-        &#8226; Japanische Übersetzung (Danke an naofum)&lt;br>&lt;br>
+        &#8226; Japanische Übersetzung&lt;br>&lt;br>
 
         &lt;b>v1.3:&lt;/b>&lt;br>
         &#8226; Wischfunktion hinzugefügt (siehe Hilfe Dialog)&lt;br>

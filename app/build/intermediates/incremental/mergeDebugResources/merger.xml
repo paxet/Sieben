@@ -1419,9 +1419,10 @@
         <item name="tabGravity">center</item>
         <item name="tabMode">fixed</item>
     </style></file><file name="design_fab_in" path="/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/anim/design_fab_in.xml" qualifiers="" type="anim"/><file name="design_snackbar_in" path="/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/anim/design_snackbar_in.xml" qualifiers="" type="anim"/><file name="design_snackbar_out" path="/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/anim/design_snackbar_out.xml" qualifiers="" type="anim"/><file name="design_fab_out" path="/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/anim/design_fab_out.xml" qualifiers="" type="anim"/><file path="/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/values-v21/values-v21.xml" qualifiers="v21"><dimen name="design_navigation_padding_top_default">24dp</dimen></file></source></dataSet><dataSet config="main" generated-set="main$Generated"><source path="/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res"><file path="/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values-w820dp/dimens.xml" qualifiers="w820dp-v13"><dimen name="activity_horizontal_margin">64dp</dimen></file><file name="a12" path="/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/mipmap-xxhdpi/a12.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="a04" path="/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/mipmap-xxhdpi/a04.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher" path="/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="a09" path="/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/mipmap-xxhdpi/a09.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="a05" path="/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/mipmap-xxhdpi/a05.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="a10" path="/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/mipmap-xxhdpi/a10.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="a08" path="/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/mipmap-xxhdpi/a08.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="a02" path="/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/mipmap-xxhdpi/a02.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="a03" path="/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/mipmap-xxhdpi/a03.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="a11" path="/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/mipmap-xxhdpi/a11.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="a01" path="/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/mipmap-xxhdpi/a01.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="a07" path="/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/mipmap-xxhdpi/a07.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="a06" path="/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/mipmap-xxhdpi/a06.png" qualifiers="xxhdpi-v4" type="mipmap"/><file path="/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/values/strings.xml" qualifiers=""><string name="action_license">License</string><string name="about_text">
-        &lt;i>First of all: I am not a developer. I understand a few basics and most of my work is done
-        by \"copy and paste\". A big thanks to all developers, who share their code on tutorials, on github or
-        other places.&lt;/i> &lt;br> &lt;br>
+        &lt;b>Contributors:&lt;/b>&lt;br>
+
+        • Development: scoute-dich https://github.com/scoute-dich&lt;br>
+        • Japanese translation:naofum https://github.com/naofum&lt;br> &lt;br>
 
         This program is free software: you can redistribute it and/or modify
         it under the terms of the GNU General Public License as published by
@@ -1444,6 +1445,7 @@
 
         &lt;b>v1.5:&lt;/b>&lt;br>
         • text to speech support&lt;br>
+        • countdown pause and resume support&lt;br>
         • code clean up&lt;br>&lt;br>
 
         &lt;b>v1.4:&lt;/b>&lt;br>
@@ -1451,7 +1453,7 @@
         • fixed project-link&lt;br>&lt;br>
 
         &lt;b>v1.3.1:&lt;/b>&lt;br>
-        • added Japanese translation (thanks to naofum)&lt;br>&lt;br>
+        • added Japanese translation&lt;br>&lt;br>
 
         &lt;b>v1.3:&lt;/b>&lt;br>
         • added swipe function (see help dialog)&lt;br>
@@ -1494,6 +1496,11 @@
         &lt;i>さらに詳しい情報は、GitHub のプロジェクトサイトを参照してください:&lt;br>
         https://github.com/scoute-dich/Seven&lt;/i>&lt;br>&lt;br>
 
+        &lt;b>v1.5:&lt;/b>&lt;br>
+        • text to speech support&lt;br>
+        • countdown pause and resume support&lt;br>
+        • code clean up&lt;br>&lt;br>
+
         &lt;b>v1.3:&lt;/b>&lt;br>
         • スワイプ機能を追加しました (ヘルプダイアログを参照してください)&lt;br>
         • 画面をオンのままにします&lt;br>
@@ -1508,9 +1515,10 @@
         &lt;b>v1.0:&lt;/b>&lt;br>
         • 初回リリース
     </string><string name="act">1. エクササイズ | 足広げジャンプ</string><string name="sn_weiter">… 再開しましょう!</string><string name="about_text">
-        &lt;i>はじめに: 私は開発者ではありません。少しの基本を理解していますが、ほとんどの作業は
-        \"コピー＆ペースト\" によるものです。GitHub やその他の場所で、チュートリアルのコードを共有してくれた
-        すべての開発者に大変感謝します。&lt;/i> &lt;br> &lt;br>
+        &lt;b>Contributors:&lt;/b>&lt;br>
+
+        • Development: scoute-dich https://github.com/scoute-dich&lt;br>
+        • Japanese translation:naofum https://github.com/naofum&lt;br> &lt;br>
 
         このプログラムはフリーソフトウェアです: you can redistribute it and/or modify
         it under the terms of the GNU General Public License as published by
@@ -1541,6 +1549,7 @@
 
         &lt;b>v1.5:&lt;/b>&lt;br>
         • Text zu Sprache Unterstützung&lt;br>
+        • Countdown Pause und fortfahren&lt;br>
         • Code Verbesserungen&lt;br>&lt;br>
 
         &lt;b>v1.4:&lt;/b>&lt;br>
@@ -1548,7 +1557,7 @@
         • Projektlink gefixed&lt;br>&lt;br>
 
         &lt;b>v1.3.1:&lt;/b>&lt;br>
-        • Japanische Übersetzung (Danke an naofum)&lt;br>&lt;br>
+        • Japanische Übersetzung&lt;br>&lt;br>
 
         &lt;b>v1.3:&lt;/b>&lt;br>
         • Wischfunktion hinzugefügt (siehe Hilfe Dialog)&lt;br>
@@ -1564,9 +1573,10 @@
         &lt;b>v1.0:&lt;/b>&lt;br>
         • erste Version
     </string><string name="pau">Pause - dann: Wand sitzen</string><string name="action_help">Hilfe</string><string name="sn_first">Das ist die erste Übung.</string><string name="sn_last">Das ist die letzte Übung.</string><string name="about_yes">OK</string><string name="app_name">Sieben</string><string name="act_2">2. Übung - Wand sitzen</string><string name="act_5">5. Übung - Auf den Stuhl steigen</string><string name="pau_11">Pause - dann: Planke auf Seite</string><string name="act">1. Übung - Hampelmänner</string><string name="act_6">6. Übung - Kniebeugen</string><string name="pau_10">Pause - dann: Liegestützen mit Drehung</string><string name="act_3">3. Übung - Liegestützen</string><string name="act_4">4. Übung - Sit Ups</string><string name="act_9">9. Übung - Auf der Stelle laufen</string><string name="act_7">7. Übung - Tricepts mit Stuhl</string><string name="act_8">8. Übung - Planke</string><string name="about_title">Copyright © 2016  by scoute-dich</string><string name="end">Geschafft!</string><string name="action_license">Lizenz</string><string name="action_changelog">Changelog</string><string name="pau_2">Pause - dann: Liegestützen</string><string name="pau_4">Pause - dann: Auf den Stuhl steigen</string><string name="pau_3">Pause - dann: Sit Ups</string><string name="about_text">
-        &lt;i>Zuerst einmal: ich bin kein Programmierer. Ich verstehe ein paar Grundlagen, aber das meiste meiner
-        Arbeit wurde durch \"copy and paste\" erledigt. Mein Dank gilt daher in erster Linie allen Entwicklern,
-        die ihren Code in Tutorials, auf Github oder an anderer Stelle zur Verfügung stellen.&lt;/i> &lt;br> &lt;br>
+        &lt;b>Mitwirkende:&lt;/b>&lt;br>
+
+        • Entwickler: scoute-dich https://github.com/scoute-dich&lt;br>
+        • Japanische Übersetzung:naofum https://github.com/naofum&lt;br> &lt;br>
 
         This program is free software: you can redistribute it and/or modify
         it under the terms of the GNU General Public License as published by

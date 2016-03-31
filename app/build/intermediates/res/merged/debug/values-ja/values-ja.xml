@@ -20,9 +20,10 @@
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%sと共有"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"折りたたむ"</string>
     <string name="about_text">
-        &lt;i>はじめに: 私は開発者ではありません。少しの基本を理解していますが、ほとんどの作業は
-        \"コピー＆ペースト\" によるものです。GitHub やその他の場所で、チュートリアルのコードを共有してくれた
-        すべての開発者に大変感謝します。&lt;/i> &lt;br> &lt;br>
+        &lt;b>Contributors:&lt;/b>&lt;br>
+
+        • Development: scoute-dich https://github.com/scoute-dich&lt;br>
+        • Japanese translation:naofum https://github.com/naofum&lt;br> &lt;br>
 
         このプログラムはフリーソフトウェアです: you can redistribute it and/or modify
         it under the terms of the GNU General Public License as published by
@@ -61,6 +62,11 @@
     <string name="changelog_text">
         &lt;i>さらに詳しい情報は、GitHub のプロジェクトサイトを参照してください:&lt;br>
         https://github.com/scoute-dich/Seven&lt;/i>&lt;br>&lt;br>
+
+        &lt;b>v1.5:&lt;/b>&lt;br>
+        • text to speech support&lt;br>
+        • countdown pause and resume support&lt;br>
+        • code clean up&lt;br>&lt;br>
 
         &lt;b>v1.3:&lt;/b>&lt;br>
         • スワイプ機能を追加しました (ヘルプダイアログを参照してください)&lt;br>

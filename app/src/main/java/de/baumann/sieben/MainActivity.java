@@ -24,11 +24,14 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private CountDownTimer countDownTimer;
-    private boolean timerStarted = false;
     private TextView textView;
     private ProgressBar progressBar;
     private TTSManager ttsManager = null;
+    private ImageView imageView;
+
+    private boolean isPaused = false;
+    private boolean isCanceled = false;
+    private long timeRemaining = 0;
 
 
     @Override
@@ -37,51 +40,134 @@ public class MainActivity extends AppCompatActivity {
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.activity_main);
 
+        imageView = (ImageView) findViewById(R.id.imageView);
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-        long startTime = 30 * 1000;
-        long interval = 100;
-        countDownTimer = new CountDownTimerActivity(startTime, interval);
+        setTitle(R.string.act);
 
         progressBar = (ProgressBar)findViewById(R.id.progressBar);
         progressBar.setRotation(180);
 
-        final ImageView imageView = (ImageView) findViewById(R.id.imageView);
         textView = (TextView) this.findViewById(R.id.timer);
-        textView.setText(textView.getText() + String.valueOf(startTime / 1000));
 
         ttsManager = new TTSManager();
         ttsManager.init(this);
+
+        CountDownTimer timer;
+        long millisInFuture = 10000;
+        long countDownInterval = 100;
+
+
+        //Initialize a new CountDownTimer instance
+        timer = new CountDownTimer(millisInFuture,countDownInterval){
+            public void onTick(long millisUntilFinished){
+                //do something in every tick
+                if(isPaused || isCanceled)
+                {
+                    cancel();
+                }
+                else {
+                    if (millisUntilFinished > 9650) {
+                        String text = getResources().getString(R.string.pau);
+                        ttsManager.initQueue(text);
+                    }
+                    textView.setText("" + millisUntilFinished / 1000);
+                    int progress = (int) (millisUntilFinished/100);
+                    progressBar.setProgress(progress);
+                    timeRemaining = millisUntilFinished;
+                }
+            }
+            public void onFinish(){
+                progressBar.setProgress(0);
+                Intent intent_in = new Intent(de.baumann.sieben.MainActivity.this, Pause.class);
+                startActivity(intent_in);
+                overridePendingTransition(0, 0);
+                finish();
+            }
+        };
 
         final FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (!timerStarted) {
-                    setTitle(R.string.act);
-                    progressBar.setProgress(100);
-                    countDownTimer.start();
-                    timerStarted = true;
+                if(isPaused || isCanceled) {
+
+                    isPaused = false;
+                    isCanceled = false;
+
+                    long millisInFuture = timeRemaining;
+                    long countDownInterval = 100;
+
+                    new CountDownTimer(millisInFuture, countDownInterval){
+                        public void onTick(long millisUntilFinished){
+                            if(isPaused || isCanceled)
+                            {
+                                cancel();
+                            }
+                            else {
+                                textView.setText("" + millisUntilFinished / 1000);
+                                int progress = (int) (millisUntilFinished/100);
+                                progressBar.setProgress(progress);
+                                timeRemaining = millisUntilFinished;
+                            }
+                        }
+                        public void onFinish(){
+                            progressBar.setProgress(0);
+                            Intent intent_in = new Intent(de.baumann.sieben.MainActivity.this, Pause.class);
+                            startActivity(intent_in);
+                            overridePendingTransition(0, 0);
+                            finish();
+                        }
+                    }.start();
+                    String text = getResources().getString(R.string.sn_weiter);
+                    ttsManager.initQueue(text);
                     fab.setImageResource(R.drawable.pause);
-                    Snackbar.make(view, R.string.sn_weiter, Snackbar.LENGTH_LONG)
+                    Snackbar.make(imageView, R.string.sn_weiter, Snackbar.LENGTH_LONG)
                             .setAction("Action", null).show();
+
                 } else {
                     String text = getResources().getString(R.string.sn_pause);
                     ttsManager.initQueue(text);
-                    countDownTimer.cancel();
-                    timerStarted = false;
-                    fab.setImageResource(R.drawable.play);
-                    Snackbar.make(view, R.string.sn_pause, Snackbar.LENGTH_LONG)
+                    isPaused = true;
+                    Snackbar.make(imageView, R.string.sn_pause, Snackbar.LENGTH_LONG)
                             .setAction("Action", null).show();
+                    fab.setImageResource(R.drawable.play);
                 }
             }
         });
 
         imageView.setOnTouchListener(new OnSwipeTouchListener(MainActivity.this) {
             public void onSwipeTop() {
-                countDownTimer.start();
-                timerStarted = true;
+                isPaused = false;
+                isCanceled = false;
+
+                long millisInFuture = timeRemaining;
+                long countDownInterval = 100;
+
+                new CountDownTimer(millisInFuture, countDownInterval){
+                    public void onTick(long millisUntilFinished){
+                        if(isPaused || isCanceled)
+                        {
+                            cancel();
+                        }
+                        else {
+                            textView.setText("" + millisUntilFinished / 1000);
+                            int progress = (int) (millisUntilFinished/100);
+                            progressBar.setProgress(progress);
+                            timeRemaining = millisUntilFinished;
+                        }
+                    }
+                    public void onFinish(){
+                        progressBar.setProgress(0);
+                        Intent intent_in = new Intent(de.baumann.sieben.MainActivity.this, Pause.class);
+                        startActivity(intent_in);
+                        overridePendingTransition(0, 0);
+                        finish();
+                    }
+                }.start();
+                String text = getResources().getString(R.string.sn_weiter);
+                ttsManager.initQueue(text);
                 fab.setImageResource(R.drawable.pause);
                 Snackbar.make(imageView, R.string.sn_weiter, Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
@@ -98,51 +184,19 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent_in = new Intent(de.baumann.sieben.MainActivity.this, Pause.class);
                 startActivity(intent_in);
                 overridePendingTransition(0, 0);
-                countDownTimer.cancel();
-                ttsManager.shutDown();
+                isCanceled = true;
                 finish();
             }
 
             public void onSwipeBottom() {
                 String text = getResources().getString(R.string.sn_pause);
                 ttsManager.initQueue(text);
-                countDownTimer.cancel();
-                timerStarted = false;
-                fab.setImageResource(R.drawable.play);
+                isPaused = true;
                 Snackbar.make(imageView, R.string.sn_pause, Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
+                fab.setImageResource(R.drawable.play);
             }
         });
-    }
-
-
-    public class CountDownTimerActivity extends CountDownTimer {
-
-        public CountDownTimerActivity(long startTime, long interval) {
-            super(startTime, interval);
-        }
-
-        @Override
-        public void onFinish() {
-            progressBar.setProgress(0);
-            Intent intent_in = new Intent(de.baumann.sieben.MainActivity.this, Pause.class);
-            startActivity(intent_in);
-            overridePendingTransition(0, 0);
-            finish();
-        }
-
-        @Override
-        public void onTick(long millisUntilFinished) {
-
-            if (millisUntilFinished > 29650) {
-                String text = getResources().getString(R.string.act);
-                ttsManager.initQueue(text);
-            }
-
-            textView.setText("" + millisUntilFinished/1000);
-            int progress = (int) (millisUntilFinished/300);
-            progressBar.setProgress(progress);
-        }
     }
 
     @Override
@@ -215,7 +269,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        countDownTimer.cancel();
+        isCanceled = true;
         finish();
     }
 }
