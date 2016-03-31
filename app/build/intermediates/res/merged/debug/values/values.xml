@@ -366,6 +366,7 @@
     <string name="sn_last">That\'s the last exercise.</string>
     <string name="sn_pause">A short Break …</string>
     <string name="sn_weiter">… let\'s start again!</string>
+    <string name="start">Swipe up to begin …</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>

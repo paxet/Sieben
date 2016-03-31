@@ -68,10 +68,6 @@ public class Pause extends AppCompatActivity {
                     cancel();
                 }
                 else {
-                    if (millisUntilFinished > 9650) {
-                        String text = getResources().getString(R.string.pau);
-                        ttsManager.initQueue(text);
-                    }
                     textView.setText("" + millisUntilFinished / 1000);
                     int progress = (int) (millisUntilFinished/100);
                     progressBar.setProgress(progress);
@@ -79,6 +75,8 @@ public class Pause extends AppCompatActivity {
                 }
             }
             public void onFinish(){
+                String text = getResources().getString(R.string.act_2);
+                ttsManager.initQueue(text);
                 progressBar.setProgress(0);
                 Intent intent_in = new Intent(de.baumann.sieben.Pause.this, MainActivity2.class);
                 startActivity(intent_in);
@@ -114,6 +112,8 @@ public class Pause extends AppCompatActivity {
                             }
                         }
                         public void onFinish(){
+                            String text = getResources().getString(R.string.act_2);
+                            ttsManager.initQueue(text);
                             progressBar.setProgress(0);
                             Intent intent_in = new Intent(de.baumann.sieben.Pause.this, MainActivity2.class);
                             startActivity(intent_in);
@@ -160,6 +160,8 @@ public class Pause extends AppCompatActivity {
                         }
                     }
                     public void onFinish(){
+                        String text = getResources().getString(R.string.act_2);
+                        ttsManager.initQueue(text);
                         progressBar.setProgress(0);
                         Intent intent_in = new Intent(de.baumann.sieben.Pause.this, MainActivity2.class);
                         startActivity(intent_in);
@@ -175,6 +177,8 @@ public class Pause extends AppCompatActivity {
             }
 
             public void onSwipeRight() {
+                String text = getResources().getString(R.string.act);
+                ttsManager.initQueue(text);
                 Intent intent_in = new Intent(de.baumann.sieben.Pause.this, MainActivity.class);
                 startActivity(intent_in);
                 overridePendingTransition(0, 0);
@@ -183,6 +187,8 @@ public class Pause extends AppCompatActivity {
             }
 
             public void onSwipeLeft() {
+                String text = getResources().getString(R.string.pau_2);
+                ttsManager.initQueue(text);
                 Intent intent_in = new Intent(de.baumann.sieben.Pause.this, Pause2.class);
                 startActivity(intent_in);
                 overridePendingTransition(0, 0);

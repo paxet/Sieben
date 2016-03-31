@@ -68,10 +68,6 @@ public class MainActivity7 extends AppCompatActivity {
                     cancel();
                 }
                 else {
-                    if (millisUntilFinished > 29650) {
-                        String text = getResources().getString(R.string.pau);
-                        ttsManager.initQueue(text);
-                    }
                     textView.setText("" + millisUntilFinished / 1000);
                     int progress = (int) (millisUntilFinished/300);
                     progressBar.setProgress(progress);
@@ -79,6 +75,8 @@ public class MainActivity7 extends AppCompatActivity {
                 }
             }
             public void onFinish(){
+                String text = getResources().getString(R.string.pau_7);
+                ttsManager.initQueue(text);
                 progressBar.setProgress(0);
                 Intent intent_in = new Intent(de.baumann.sieben.MainActivity7.this, Pause7.class);
                 startActivity(intent_in);
@@ -114,6 +112,8 @@ public class MainActivity7 extends AppCompatActivity {
                             }
                         }
                         public void onFinish(){
+                            String text = getResources().getString(R.string.pau_7);
+                            ttsManager.initQueue(text);
                             progressBar.setProgress(0);
                             Intent intent_in = new Intent(de.baumann.sieben.MainActivity7.this, Pause7.class);
                             startActivity(intent_in);
@@ -160,6 +160,8 @@ public class MainActivity7 extends AppCompatActivity {
                         }
                     }
                     public void onFinish(){
+                        String text = getResources().getString(R.string.pau_7);
+                        ttsManager.initQueue(text);
                         progressBar.setProgress(0);
                         Intent intent_in = new Intent(de.baumann.sieben.MainActivity7.this, Pause7.class);
                         startActivity(intent_in);
@@ -175,6 +177,8 @@ public class MainActivity7 extends AppCompatActivity {
             }
 
             public void onSwipeRight() {
+                String text = getResources().getString(R.string.pau_5);
+                ttsManager.initQueue(text);
                 Intent intent_in = new Intent(de.baumann.sieben.MainActivity7.this, Pause5.class);
                 startActivity(intent_in);
                 overridePendingTransition(0, 0);
@@ -183,6 +187,8 @@ public class MainActivity7 extends AppCompatActivity {
             }
 
             public void onSwipeLeft() {
+                String text = getResources().getString(R.string.pau_7);
+                ttsManager.initQueue(text);
                 Intent intent_in = new Intent(de.baumann.sieben.MainActivity7.this, Pause7.class);
                 startActivity(intent_in);
                 overridePendingTransition(0, 0);

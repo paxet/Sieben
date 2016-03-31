@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Seven</string>
+    <string name="start">Swipe up to begin …</string>
 
     //Menu
     <string name="action_license">License</string>

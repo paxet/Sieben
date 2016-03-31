@@ -34,9 +34,11 @@ class TTSManager {
         }
     };
 
-    public void shutDown() {
-        mTts.shutdown();
-    }
+// --Commented out by Inspection START (31.03.16 09:38):
+//    public void shutDown() {
+//        mTts.shutdown();
+//    }
+// --Commented out by Inspection STOP (31.03.16 09:38)
 
 // --Commented out by Inspection START (28.03.16 22:50):
 //    public void addQueue(String text) {

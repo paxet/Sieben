@@ -25,6 +25,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     private TextView textView;
+    private TextView textView2;
     private ProgressBar progressBar;
     private TTSManager ttsManager = null;
     private ImageView imageView;
@@ -50,6 +51,9 @@ public class MainActivity extends AppCompatActivity {
         progressBar.setRotation(180);
 
         textView = (TextView) this.findViewById(R.id.timer);
+        textView2 = (TextView) this.findViewById(R.id.timer2);
+        textView2.setText(R.string.start);
+
 
         ttsManager = new TTSManager();
         ttsManager.init(this);
@@ -68,17 +72,16 @@ public class MainActivity extends AppCompatActivity {
                     cancel();
                 }
                 else {
-                    if (millisUntilFinished > 29650) {
-                        String text = getResources().getString(R.string.pau);
-                        ttsManager.initQueue(text);
-                    }
                     textView.setText("" + millisUntilFinished / 1000);
+                    textView2.setText("");
                     int progress = (int) (millisUntilFinished/300);
                     progressBar.setProgress(progress);
                     timeRemaining = millisUntilFinished;
                 }
             }
             public void onFinish(){
+                String text = getResources().getString(R.string.pau);
+                ttsManager.initQueue(text);
                 progressBar.setProgress(0);
                 Intent intent_in = new Intent(de.baumann.sieben.MainActivity.this, Pause.class);
                 startActivity(intent_in);
@@ -107,12 +110,15 @@ public class MainActivity extends AppCompatActivity {
                             }
                             else {
                                 textView.setText("" + millisUntilFinished / 1000);
+                                textView2.setText("");
                                 int progress = (int) (millisUntilFinished/300);
                                 progressBar.setProgress(progress);
                                 timeRemaining = millisUntilFinished;
                             }
                         }
                         public void onFinish(){
+                            String text = getResources().getString(R.string.pau);
+                            ttsManager.initQueue(text);
                             progressBar.setProgress(0);
                             Intent intent_in = new Intent(de.baumann.sieben.MainActivity.this, Pause.class);
                             startActivity(intent_in);
@@ -153,12 +159,15 @@ public class MainActivity extends AppCompatActivity {
                         }
                         else {
                             textView.setText("" + millisUntilFinished / 1000);
+                            textView2.setText("");
                             int progress = (int) (millisUntilFinished/300);
                             progressBar.setProgress(progress);
                             timeRemaining = millisUntilFinished;
                         }
                     }
                     public void onFinish(){
+                        String text = getResources().getString(R.string.pau);
+                        ttsManager.initQueue(text);
                         progressBar.setProgress(0);
                         Intent intent_in = new Intent(de.baumann.sieben.MainActivity.this, Pause.class);
                         startActivity(intent_in);
@@ -181,6 +190,8 @@ public class MainActivity extends AppCompatActivity {
             }
 
             public void onSwipeLeft() {
+                String text = getResources().getString(R.string.pau);
+                ttsManager.initQueue(text);
                 Intent intent_in = new Intent(de.baumann.sieben.MainActivity.this, Pause.class);
                 startActivity(intent_in);
                 overridePendingTransition(0, 0);

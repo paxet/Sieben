@@ -53,7 +53,7 @@
     <string name="act_4">4. Übung - Sit Ups</string>
     <string name="act_5">5. Übung - Auf den Stuhl steigen</string>
     <string name="act_6">6. Übung - Kniebeugen</string>
-    <string name="act_7">7. Übung - Tricepts mit Stuhl</string>
+    <string name="act_7">7. Übung - Tricepts auf Stuhl</string>
     <string name="act_8">8. Übung - Planke</string>
     <string name="act_9">9. Übung - Auf der Stelle laufen</string>
     <string name="action_changelog">Changelog</string>
@@ -107,7 +107,7 @@
     <string name="pau_3">Pause - dann: Sit Ups</string>
     <string name="pau_4">Pause - dann: Auf den Stuhl steigen</string>
     <string name="pau_5">Pause - dann: Kniebeugen</string>
-    <string name="pau_6">Pause - dann: Tricepts mit Stuhl</string>
+    <string name="pau_6">Pause - dann: Tricepts auf Stuhl</string>
     <string name="pau_7">Pause - dann: Planke</string>
     <string name="pau_8">Pause - dann: Auf der Stelle laufen</string>
     <string name="pau_9">Pause - dann: Ausholschritt</string>
@@ -115,5 +115,6 @@
     <string name="sn_last">Das ist die letzte Übung.</string>
     <string name="sn_pause">Eine kurze Pause …</string>
     <string name="sn_weiter">… und weiter geht\'s!</string>
+    <string name="start">Zum Beginnen nach oben wischen …</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

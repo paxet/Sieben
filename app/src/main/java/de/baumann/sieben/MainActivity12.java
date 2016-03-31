@@ -70,10 +70,6 @@ public class MainActivity12 extends AppCompatActivity {
                     cancel();
                 }
                 else {
-                    if (millisUntilFinished > 29650) {
-                        String text = getResources().getString(R.string.pau);
-                        ttsManager.initQueue(text);
-                    }
                     textView.setText("" + millisUntilFinished / 1000);
                     int progress = (int) (millisUntilFinished/300);
                     progressBar.setProgress(progress);
@@ -174,6 +170,8 @@ public class MainActivity12 extends AppCompatActivity {
             }
 
             public void onSwipeRight() {
+                String text = getResources().getString(R.string.pau_10);
+                ttsManager.initQueue(text);
                 Intent intent_in = new Intent(de.baumann.sieben.MainActivity12.this, Pause10.class);
                 startActivity(intent_in);
                 overridePendingTransition(0, 0);

@@ -16,12 +16,12 @@
         "source": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
-        "source": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_navigation_item_subheader.xml"
-    },
-    {
         "merged": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
         "source": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
+        "source": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_navigation_item_subheader.xml"
     },
     {
         "merged": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
@@ -40,12 +40,12 @@
         "source": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
-        "source": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/select_dialog_multichoice_material.xml"
-    },
-    {
         "merged": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
         "source": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/select_dialog_multichoice_material.xml"
     },
     {
         "merged": "/home/juergen/Projekte/Android/Android_Studio/Sieben/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
