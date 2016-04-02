@@ -40,7 +40,7 @@ public class MainActivity10 extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         imageView = (ImageView) findViewById(R.id.imageView);
-        imageView.setImageResource(R.mipmap.a10);
+        imageView.setImageResource(R.drawable.a10);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
