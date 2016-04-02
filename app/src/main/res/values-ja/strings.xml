@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">セブン</string>
+
+    //Menu
+    <string name="action_license">ライセンス</string>
+    <string name="action_help">ヘルプ</string>
+    <string name="action_changelog">変更履歴</string>
+
+    //Snackbar
+    <string name="sn_pause">一時休止 …</string>
+    <string name="sn_weiter">… 再開しましょう!</string>
+    <string name="end">完了!</string>
+    <string name="sn_first">最初のエクササイズです。</string>
+    <string name="sn_last">最後のエクササイズです。</string>
+
+    //Titles
+    <string name="act">1. エクササイズ | 足広げジャンプ</string>
+    <string name="act_2">2. エクササイズ | 壁にもたれて行う空気イス</string>
+    <string name="act_3">3. エクササイズ | 腕立て伏せ</string>
+    <string name="act_4">4. エクササイズ | 腹筋</string>
+    <string name="act_5">5. エクササイズ | 椅子の上で踏み台昇降</string>
+    <string name="act_6">6. エクササイズ | スクワット</string>
+    <string name="act_7">7. エクササイズ | 上腕三頭筋 - 椅子の上で</string>
+    <string name="act_8">8. エクササイズ | プランク</string>
+    <string name="act_9">9. エクササイズ | もも上げ</string>
+    <string name="act_10">10. エクササイズ | ランジ</string>
+    <string name="act_11">11. エクササイズ | 腕立て伏せ - ローテーション</string>
+    <string name="act_12">12. エクササイズ | サイド プランク</string>
+
+    <string name="pau">休止 | その後: 壁にもたれて行う空気イス</string>
+    <string name="pau_2">休止 | その後: 腕立て伏せ</string>
+    <string name="pau_3">休止 | その後: 腹筋</string>
+    <string name="pau_4">休止 | その後: 椅子の上で踏み台昇降</string>
+    <string name="pau_5">休止 | その後: スクワット</string>
+    <string name="pau_6">休止 | その後: 上腕三頭筋 - 椅子の上で</string>
+    <string name="pau_7">休止 | その後: プランク</string>
+    <string name="pau_8">休止 | その後: もも上げ</string>
+    <string name="pau_9">休止 | その後: ランジ</string>
+    <string name="pau_10">休止 | その後: 腕立て伏せ - ローテーション</string>
+    <string name="pau_11">休止 | その後: サイド プランク</string>
+
+    //License Dialog
+    <string name="about_yes">OK</string>
+    <string name="about_title">Copyright © 2016  by scoute-dich</string>
+    <string name="about_text">
+        &lt;b>Contributors:&lt;/b>&lt;br>
+
+        &#8226; Development: scoute-dich https://github.com/scoute-dich&lt;br>
+        &#8226; Japanese translation:naofum https://github.com/naofum&lt;br> &lt;br>
+
+        このプログラムはフリーソフトウェアです: you can redistribute it and/or modify
+        it under the terms of the GNU General Public License as published by
+        the Free Software Foundation, either version 3 of the License, or
+        (at your option) any later version.
+
+        This program is distributed in the hope that it will be useful,
+        but WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+        GNU General Public License for more details.
+
+        You should have received a copy of the GNU General Public License
+        along with this program.  If not, see http://www.gnu.org/licenses.&lt;br> &lt;br>
+
+        &lt;i>The pictures from the workout can be found on the Blog of \"C. Gilbert\"
+        (http://almostfearless.com/the-21-minute-workout-or-7-minutes-if-youre-really-fit).Thanks to her
+        for the permission to use them in the app.&lt;/i></string>
+
+    //Changelog Dialog
+    <string name="changelog_text">
+        &lt;i>さらに詳しい情報は、GitHub のプロジェクトサイトを参照してください:&lt;br>
+        https://github.com/scoute-dich/Seven&lt;/i>&lt;br>&lt;br>
+
+        &lt;b>v1.5:&lt;/b>&lt;br>
+        &#8226; text to speech support&lt;br>
+        &#8226; countdown pause and resume support&lt;br>
+        &#8226; code clean up&lt;br>&lt;br>
+
+        &lt;b>v1.3:&lt;/b>&lt;br>
+        &#8226; スワイプ機能を追加しました (ヘルプダイアログを参照してください)&lt;br>
+        &#8226; 画面をオンのままにします&lt;br>
+        &#8226; 新しいダイアログ (ヘルプ/変更履歴)&lt;br>&lt;br>
+
+        &lt;b>v1.2:&lt;/b>&lt;br>
+        &#8226; デフォルトの言語を英語に変更しました&lt;br>&lt;br>
+
+        &lt;b>v1.1:&lt;/b>&lt;br>
+        &#8226; スナックバーの統合&lt;br>&lt;br>
+
+        &lt;b>v1.0:&lt;/b>&lt;br>
+        &#8226; 初回リリース
+    </string>
+
+    //Help Dialog
+    <string name="help_text">
+        &lt;i>左にスワイプ: &lt;/i>次のエクササイズに切り替えます&lt;br>&lt;br>
+
+        &lt;i>右にスワイプ: &lt;/i>前のエクササイズに切り替えます&lt;br>&lt;br>
+
+        &lt;i>下にスワイプ: &lt;/i>一時休止します&lt;br>&lt;br>
+
+        &lt;i>上にスワイプ: &lt;/i>エクササイズを再開します
+    </string>
+
+</resources>

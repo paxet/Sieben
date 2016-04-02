@@ -1,0 +1,31 @@
+### v1.5
+- text to speech support
+- countdown pause and resume support
+- code clean up
+
+### v1.4
+
+- set screenorientation to portrait
+- fixed project-link
+
+### v1.3.1
+
+- added Japanese translation (thanks to naofum)
+
+### v1.3
+
+- added swipe function (see help dialog)
+- keep screen awake
+- new dialogs (help/changelog)
+
+### v1.2
+
+- changed default language to english
+
+### v1.1
+
+- better integration of snackbar
+
+### v1.0
+
+- first release
