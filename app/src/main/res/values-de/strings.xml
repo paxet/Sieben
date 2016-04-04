@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Sieben</string>
-    <string name="start">Zum Beginnen nach oben wischen …</string>
+    <string name="start">Zum Beginnen (nach 5 sek. Pause) nach oben wischen …</string>
+    <string name="start2">5 Sekunden Pause vor der ersten Übung …</string>
 
-    //Menu
+    //Menu Settings
+    <string name="action_settings">Einstellungen | Hilfe | Über</string>
     <string name="action_license">Lizenz</string>
     <string name="action_help">Hilfe</string>
-    <string name="action_changelog">Changelog</string>
+    <string name="action_changelog">Änderungen</string>
+
+    <string name="pref_1">Über die App</string>
+    <string name="pref_2">Ton Einstellungen</string>
+
+    <string name="action_changelog_summary">Was gibt es neues …</string>
+    <string name="action_license_summary">Linzensiert unter GPL3</string>
+    <string name="action_help_summary">Erklärung der Wischfunktion …</string>
+
+    <string name="action_tts">TTS</string>
+    <string name="action_tts_summary">Möchtest du Sprachanweisungen hören?</string>
+    <string name="action_beep">Beep</string>
+    <string name="action_beep_summary">Möchtest du am Ende jeder Übung ein kurzes \"Beep\" hören?</string>
 
     //Snackbar
     <string name="sn_pause">Eine kurze Pause …</string>
@@ -14,6 +28,7 @@
     <string name="end">Geschafft!</string>
     <string name="sn_first">Das ist die erste Übung.</string>
     <string name="sn_last">Das ist die letzte Übung.</string>
+    <string name="sn_change">Bitte von der rechten auf die linke Seite wechseln.</string>
 
     //Titles
     <string name="act">1. Übung - Hampelmänner</string>
@@ -27,7 +42,8 @@
     <string name="act_9">9. Übung - Auf der Stelle laufen</string>
     <string name="act_10">10. Übung - Ausholschritt</string>
     <string name="act_11">11. Übung - Liegestützen mit Drehung</string>
-    <string name="act_12">12. Übung - Planke auf Seite</string>
+    <string name="act_12">12. Übung - Planke auf rechter Seite</string>
+    <string name="act_122">12. Übung - Planke auf linker Seite</string>
 
     <string name="pau">Pause - dann: Wand sitzen</string>
     <string name="pau_2">Pause - dann: Liegestützen</string>
@@ -39,16 +55,20 @@
     <string name="pau_8">Pause - dann: Auf der Stelle laufen</string>
     <string name="pau_9">Pause - dann: Ausholschritt</string>
     <string name="pau_10">Pause - dann: Liegestützen mit Drehung</string>
-    <string name="pau_11">Pause - dann: Planke auf Seite</string>
+    <string name="pau_11">Pause - dann: Planke auf rechter Seite</string>
+    <string name="pau_112">Pause - Bitte Seite wechseln</string>
 
     //License Dialog
     <string name="about_yes">OK</string>
     <string name="about_title">Copyright © 2016  by scoute-dich</string>
     <string name="about_text">
-        &lt;b>Mitwirkende:&lt;/b>&lt;br>
+        &lt;b>Beteiligte:&lt;/b>&lt;br>&lt;br>
 
-        &#8226; Entwickler: scoute-dich https://github.com/scoute-dich&lt;br>
-        &#8226; Japanische Übersetzung:naofum https://github.com/naofum&lt;br> &lt;br>
+        &lt;i>Entwicklung&lt;/i>&lt;br>
+        scoute-dich https://github.com/scoute-dich&lt;br> &lt;br>
+
+        &lt;i>Übersetzugen&lt;/i>&lt;br>
+        Japanisch: naofum https://github.com/naofum&lt;br> &lt;br>
 
         This program is free software: you can redistribute it and/or modify
         it under the terms of the GNU General Public License as published by
@@ -72,6 +92,12 @@
     <string name="changelog_text">
         &lt;i>Besuche für mehr Informationen die Projektseite auf Github:&lt;br>
         https://github.com/scoute-dich/Sieben&lt;/i>&lt;br>&lt;br>
+
+        &lt;b>v1.6:&lt;/b>&lt;br>
+        &#8226; Fab-Knopf entfernt&lt;br>
+        &#8226; Ton Einstellungen&lt;br>
+        &#8226; letzte Übung in zwei Teile geteilt&lt;br>
+        &#8226; Pause vor der ersten Ünung&lt;br>&lt;br>
 
         &lt;b>v1.5:&lt;/b>&lt;br>
         &#8226; Text zu Sprache Unterstützung&lt;br>

@@ -1,4 +1,10 @@
 ### v1.5
+- removed fab-button
+- added audio settings
+- splited last exercise in two parts
+- break before first exercise
+
+### v1.5
 - text to speech support
 - countdown pause and resume support
 - code clean up

@@ -1,19 +1,17 @@
 package de.baumann.sieben;
 
-import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
+import android.media.AudioManager;
+import android.media.ToneGenerator;
 import android.os.Bundle;
 import android.os.CountDownTimer;
+import android.preference.PreferenceManager;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.text.Html;
-import android.text.SpannableString;
-import android.text.method.LinkMovementMethod;
-import android.text.util.Linkify;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -32,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
     private boolean isPaused = false;
     private boolean isCanceled = false;
-    private long timeRemaining = 30000;
+    private long timeRemaining = 5000;
 
 
     @Override
@@ -41,11 +39,13 @@ public class MainActivity extends AppCompatActivity {
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.activity_main);
 
+        PreferenceManager.setDefaultValues(this, R.xml.user_settings, false);
+        SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(this);
+
         imageView = (ImageView) findViewById(R.id.imageView);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        setTitle(R.string.act);
 
         progressBar = (ProgressBar)findViewById(R.id.progressBar);
         progressBar.setRotation(180);
@@ -59,12 +59,13 @@ public class MainActivity extends AppCompatActivity {
         ttsManager.init(this);
 
         CountDownTimer timer;
-        long millisInFuture = 30000;
+        long millisInFuture = 5000;
         long countDownInterval = 100;
 
 
         //Initialize a new CountDownTimer instance
         timer = new CountDownTimer(millisInFuture,countDownInterval){
+            SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(MainActivity.this);
             public void onTick(long millisUntilFinished){
                 //do something in every tick
                 if(isPaused || isCanceled)
@@ -74,76 +75,33 @@ public class MainActivity extends AppCompatActivity {
                 else {
                     textView.setText("" + millisUntilFinished / 1000);
                     textView2.setText("");
-                    int progress = (int) (millisUntilFinished/300);
+                    int progress = (int) (millisUntilFinished/50);
                     progressBar.setProgress(progress);
                     timeRemaining = millisUntilFinished;
                 }
             }
             public void onFinish(){
-                String text = getResources().getString(R.string.pau);
-                ttsManager.initQueue(text);
+
+                if (sharedPref.getBoolean ("beep", false)){
+                    final ToneGenerator tg = new ToneGenerator(AudioManager.STREAM_NOTIFICATION, 100);
+                    tg.startTone(ToneGenerator.TONE_PROP_BEEP);
+                }
+
+                if (sharedPref.getBoolean ("tts", false)){
+                    String text = getResources().getString(R.string.act);
+                    ttsManager.initQueue(text);
+                }
+
                 progressBar.setProgress(0);
-                Intent intent_in = new Intent(de.baumann.sieben.MainActivity.this, Pause.class);
+                Intent intent_in = new Intent(MainActivity.this, MainActivity1.class);
                 startActivity(intent_in);
                 overridePendingTransition(0, 0);
                 finish();
             }
         };
 
-        final FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if(isPaused || isCanceled) {
-
-                    isPaused = false;
-                    isCanceled = false;
-
-                    long millisInFuture = timeRemaining;
-                    long countDownInterval = 100;
-
-                    new CountDownTimer(millisInFuture, countDownInterval){
-                        public void onTick(long millisUntilFinished){
-                            if(isPaused || isCanceled)
-                            {
-                                cancel();
-                            }
-                            else {
-                                textView.setText("" + millisUntilFinished / 1000);
-                                textView2.setText("");
-                                int progress = (int) (millisUntilFinished/300);
-                                progressBar.setProgress(progress);
-                                timeRemaining = millisUntilFinished;
-                            }
-                        }
-                        public void onFinish(){
-                            String text = getResources().getString(R.string.pau);
-                            ttsManager.initQueue(text);
-                            progressBar.setProgress(0);
-                            Intent intent_in = new Intent(de.baumann.sieben.MainActivity.this, Pause.class);
-                            startActivity(intent_in);
-                            overridePendingTransition(0, 0);
-                            finish();
-                        }
-                    }.start();
-                    String text = getResources().getString(R.string.sn_weiter);
-                    ttsManager.initQueue(text);
-                    fab.setImageResource(R.drawable.pause);
-                    Snackbar.make(imageView, R.string.sn_weiter, Snackbar.LENGTH_LONG)
-                            .setAction("Action", null).show();
-
-                } else {
-                    String text = getResources().getString(R.string.sn_pause);
-                    ttsManager.initQueue(text);
-                    isPaused = true;
-                    Snackbar.make(imageView, R.string.sn_pause, Snackbar.LENGTH_LONG)
-                            .setAction("Action", null).show();
-                    fab.setImageResource(R.drawable.play);
-                }
-            }
-        });
-
         imageView.setOnTouchListener(new OnSwipeTouchListener(MainActivity.this) {
+            SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(MainActivity.this);
             public void onSwipeTop() {
                 isPaused = false;
                 isCanceled = false;
@@ -160,39 +118,57 @@ public class MainActivity extends AppCompatActivity {
                         else {
                             textView.setText("" + millisUntilFinished / 1000);
                             textView2.setText("");
-                            int progress = (int) (millisUntilFinished/300);
+                            int progress = (int) (millisUntilFinished/50);
                             progressBar.setProgress(progress);
                             timeRemaining = millisUntilFinished;
                         }
                     }
                     public void onFinish(){
-                        String text = getResources().getString(R.string.pau);
-                        ttsManager.initQueue(text);
+
+                        if (sharedPref.getBoolean ("beep", false)){
+                            final ToneGenerator tg = new ToneGenerator(AudioManager.STREAM_NOTIFICATION, 100);
+                            tg.startTone(ToneGenerator.TONE_PROP_BEEP);
+                        }
+
+                        if (sharedPref.getBoolean ("tts", false)){
+                            String text = getResources().getString(R.string.act);
+                            ttsManager.initQueue(text);
+                        }
+
                         progressBar.setProgress(0);
-                        Intent intent_in = new Intent(de.baumann.sieben.MainActivity.this, Pause.class);
+                        Intent intent_in = new Intent(MainActivity.this, MainActivity1.class);
                         startActivity(intent_in);
                         overridePendingTransition(0, 0);
                         finish();
                     }
                 }.start();
-                String text = getResources().getString(R.string.sn_weiter);
-                ttsManager.initQueue(text);
-                fab.setImageResource(R.drawable.pause);
-                Snackbar.make(imageView, R.string.sn_weiter, Snackbar.LENGTH_LONG)
+
+                if (sharedPref.getBoolean ("tts", false)){
+                    String text = getResources().getString(R.string.start2);
+                    ttsManager.initQueue(text);
+                }
+
+                Snackbar.make(imageView, R.string.start2, Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
 
             public void onSwipeRight() {
-                String text = getResources().getString(R.string.sn_first);
-                ttsManager.initQueue(text);
+                if (sharedPref.getBoolean ("tts", false)){
+                    String text = getResources().getString(R.string.sn_first);
+                    ttsManager.initQueue(text);
+                }
+
                 Snackbar.make(imageView, R.string.sn_first, Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
 
             public void onSwipeLeft() {
-                String text = getResources().getString(R.string.pau);
-                ttsManager.initQueue(text);
-                Intent intent_in = new Intent(de.baumann.sieben.MainActivity.this, Pause.class);
+                if (sharedPref.getBoolean ("tts", false)){
+                    String text = getResources().getString(R.string.pau);
+                    ttsManager.initQueue(text);
+                }
+
+                Intent intent_in = new Intent(MainActivity.this, Pause.class);
                 startActivity(intent_in);
                 overridePendingTransition(0, 0);
                 isCanceled = true;
@@ -200,12 +176,14 @@ public class MainActivity extends AppCompatActivity {
             }
 
             public void onSwipeBottom() {
-                String text = getResources().getString(R.string.sn_pause);
-                ttsManager.initQueue(text);
+                if (sharedPref.getBoolean ("tts", false)){
+                    String text = getResources().getString(R.string.sn_pause);
+                    ttsManager.initQueue(text);
+                }
+
                 isPaused = true;
                 Snackbar.make(imageView, R.string.sn_pause, Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
-                fab.setImageResource(R.drawable.play);
             }
         });
     }
@@ -219,60 +197,14 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
+
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_license) {
-            final SpannableString s = new SpannableString(Html.fromHtml(getString(R.string.about_text)));
-            Linkify.addLinks(s, Linkify.WEB_URLS);
-
-            final AlertDialog d = new AlertDialog.Builder(MainActivity.this)
-                    .setTitle(R.string.about_title)
-                    .setMessage( s )
-                    .setPositiveButton(getString(R.string.about_yes),
-                            new DialogInterface.OnClickListener() {
-                                public void onClick(DialogInterface dialog, int id) {
-                                    dialog.cancel();
-                                }
-                            }).show();
-            d.show();
-            ((TextView)d.findViewById(android.R.id.message)).setMovementMethod(LinkMovementMethod.getInstance());
-        }
-
-        if (id == R.id.action_changelog) {
-            final SpannableString s = new SpannableString(Html.fromHtml(getString(R.string.changelog_text)));
-            Linkify.addLinks(s, Linkify.WEB_URLS);
-
-            final AlertDialog d = new AlertDialog.Builder(MainActivity.this)
-                    .setTitle(R.string.action_changelog)
-                    .setMessage( s )
-                    .setPositiveButton(getString(R.string.about_yes),
-                            new DialogInterface.OnClickListener() {
-                                public void onClick(DialogInterface dialog, int id) {
-                                    dialog.cancel();
-                                }
-                            }).show();
-            d.show();
-            ((TextView)d.findViewById(android.R.id.message)).setMovementMethod(LinkMovementMethod.getInstance());
-        }
-
-        if (id == R.id.action_help) {
-            final SpannableString s = new SpannableString(Html.fromHtml(getString(R.string.help_text)));
-            Linkify.addLinks(s, Linkify.WEB_URLS);
-
-            final AlertDialog d = new AlertDialog.Builder(MainActivity.this)
-                    .setMessage( s )
-                    .setPositiveButton(getString(R.string.about_yes),
-                            new DialogInterface.OnClickListener() {
-                                public void onClick(DialogInterface dialog, int id) {
-                                    dialog.cancel();
-                                }
-                            }).show();
-            d.show();
-            ((TextView)d.findViewById(android.R.id.message)).setMovementMethod(LinkMovementMethod.getInstance());
+        if (id == R.id.action_settings) {
+            Intent intent_in = new Intent(MainActivity.this, UserSettingsActivity.class);
+            startActivity(intent_in);
+            overridePendingTransition(0, 0);
+            isCanceled = true;
         }
 
         return super.onOptionsItemSelected(item);

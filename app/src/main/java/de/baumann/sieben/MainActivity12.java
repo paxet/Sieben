@@ -3,9 +3,13 @@ package de.baumann.sieben;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
+import android.media.AudioManager;
+import android.media.ToneGenerator;
 import android.os.Bundle;
 import android.os.CountDownTimer;
+import android.preference.PreferenceManager;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -57,12 +61,13 @@ public class MainActivity12 extends AppCompatActivity {
         ttsManager.init(this);
 
         CountDownTimer timer;
-        long millisInFuture = 30000;
+        long millisInFuture = 15000;
         long countDownInterval = 100;
 
 
         //Initialize a new CountDownTimer instance
         timer = new CountDownTimer(millisInFuture,countDownInterval){
+            SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(MainActivity12.this);
             public void onTick(long millisUntilFinished){
                 //do something in every tick
                 if(isPaused || isCanceled)
@@ -71,70 +76,33 @@ public class MainActivity12 extends AppCompatActivity {
                 }
                 else {
                     textView.setText("" + millisUntilFinished / 1000);
-                    int progress = (int) (millisUntilFinished/300);
+                    int progress = (int) (millisUntilFinished/150);
                     progressBar.setProgress(progress);
                     timeRemaining = millisUntilFinished;
                 }
             }
             public void onFinish(){
-                String text = getResources().getString(R.string.end);
-                ttsManager.initQueue(text);
+
+                if (sharedPref.getBoolean ("beep", false)){
+                    final ToneGenerator tg = new ToneGenerator(AudioManager.STREAM_NOTIFICATION, 100);
+                    tg.startTone(ToneGenerator.TONE_PROP_BEEP);
+                }
+
+                if (sharedPref.getBoolean ("tts", false)){
+                    String text = getResources().getString(R.string.pau_112);
+                    ttsManager.initQueue(text);
+                }
+
                 progressBar.setProgress(0);
-                textView.setText(R.string.end);
+                Intent intent_in = new Intent(de.baumann.sieben.MainActivity12.this, Pause112.class);
+                startActivity(intent_in);
+                overridePendingTransition(0, 0);
+                finish();
             }
         }.start();
 
-        final FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setImageResource(R.drawable.pause);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if(isPaused || isCanceled) {
-
-                    isPaused = false;
-                    isCanceled = false;
-
-                    long millisInFuture = timeRemaining;
-                    long countDownInterval = 100;
-
-                    new CountDownTimer(millisInFuture, countDownInterval){
-                        public void onTick(long millisUntilFinished){
-                            if(isPaused || isCanceled)
-                            {
-                                cancel();
-                            }
-                            else {
-                                textView.setText("" + millisUntilFinished / 1000);
-                                int progress = (int) (millisUntilFinished/300);
-                                progressBar.setProgress(progress);
-                                timeRemaining = millisUntilFinished;
-                            }
-                        }
-                        public void onFinish(){
-                            String text = getResources().getString(R.string.end);
-                            ttsManager.initQueue(text);
-                            progressBar.setProgress(0);
-                            textView.setText(R.string.end);
-                        }
-                    }.start();
-                    String text = getResources().getString(R.string.sn_weiter);
-                    ttsManager.initQueue(text);
-                    fab.setImageResource(R.drawable.pause);
-                    Snackbar.make(imageView, R.string.sn_weiter, Snackbar.LENGTH_LONG)
-                            .setAction("Action", null).show();
-
-                } else {
-                    String text = getResources().getString(R.string.sn_pause);
-                    ttsManager.initQueue(text);
-                    isPaused = true;
-                    Snackbar.make(imageView, R.string.sn_pause, Snackbar.LENGTH_LONG)
-                            .setAction("Action", null).show();
-                    fab.setImageResource(R.drawable.play);
-                }
-            }
-        });
-
         imageView.setOnTouchListener(new OnSwipeTouchListener(MainActivity12.this) {
+            SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(MainActivity12.this);
             public void onSwipeTop() {
                 isPaused = false;
                 isCanceled = false;
@@ -150,28 +118,43 @@ public class MainActivity12 extends AppCompatActivity {
                         }
                         else {
                             textView.setText("" + millisUntilFinished / 1000);
-                            int progress = (int) (millisUntilFinished/300);
+                            int progress = (int) (millisUntilFinished/150);
                             progressBar.setProgress(progress);
                             timeRemaining = millisUntilFinished;
                         }
                     }
                     public void onFinish(){
-                        String text = getResources().getString(R.string.end);
-                        ttsManager.initQueue(text);
+
+                        if (sharedPref.getBoolean ("beep", false)){
+                            final ToneGenerator tg = new ToneGenerator(AudioManager.STREAM_NOTIFICATION, 100);
+                            tg.startTone(ToneGenerator.TONE_PROP_BEEP);
+                        }
+
+                        if (sharedPref.getBoolean ("tts", false)){
+                            String text = getResources().getString(R.string.pau_112);
+                            ttsManager.initQueue(text);
+                        }
+
                         progressBar.setProgress(0);
-                        textView.setText(R.string.end);
+                        Intent intent_in = new Intent(de.baumann.sieben.MainActivity12.this, Pause112.class);
+                        startActivity(intent_in);
+                        overridePendingTransition(0, 0);
+                        finish();
                     }
                 }.start();
-                String text = getResources().getString(R.string.sn_weiter);
-                ttsManager.initQueue(text);
-                fab.setImageResource(R.drawable.pause);
+                if (sharedPref.getBoolean ("tts", false)){
+                    String text = getResources().getString(R.string.sn_weiter);
+                    ttsManager.initQueue(text);
+                }
                 Snackbar.make(imageView, R.string.sn_weiter, Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
 
             public void onSwipeRight() {
-                String text = getResources().getString(R.string.pau_10);
-                ttsManager.initQueue(text);
+                if (sharedPref.getBoolean ("tts", false)){
+                    String text = getResources().getString(R.string.pau_10);
+                    ttsManager.initQueue(text);
+                }
                 Intent intent_in = new Intent(de.baumann.sieben.MainActivity12.this, Pause10.class);
                 startActivity(intent_in);
                 overridePendingTransition(0, 0);
@@ -180,19 +163,22 @@ public class MainActivity12 extends AppCompatActivity {
             }
 
             public void onSwipeLeft() {
-                String text = getResources().getString(R.string.sn_last);
-                ttsManager.initQueue(text);
+                if (sharedPref.getBoolean ("tts", false)){
+                    String text = getResources().getString(R.string.sn_last);
+                    ttsManager.initQueue(text);
+                }
                 Snackbar.make(imageView, R.string.sn_last, Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
 
             public void onSwipeBottom() {
-                String text = getResources().getString(R.string.sn_pause);
-                ttsManager.initQueue(text);
+                if (sharedPref.getBoolean ("tts", false)){
+                    String text = getResources().getString(R.string.sn_pause);
+                    ttsManager.initQueue(text);
+                }
                 isPaused = true;
                 Snackbar.make(imageView, R.string.sn_pause, Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
-                fab.setImageResource(R.drawable.play);
             }
         });
     }
@@ -212,54 +198,11 @@ public class MainActivity12 extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_license) {
-            final SpannableString s = new SpannableString(Html.fromHtml(getString(R.string.about_text)));
-            Linkify.addLinks(s, Linkify.WEB_URLS);
-
-            final AlertDialog d = new AlertDialog.Builder(MainActivity12.this)
-                    .setTitle(R.string.about_title)
-                    .setMessage( s )
-                    .setPositiveButton(getString(R.string.about_yes),
-                            new DialogInterface.OnClickListener() {
-                                public void onClick(DialogInterface dialog, int id) {
-                                    dialog.cancel();
-                                }
-                            }).show();
-            d.show();
-            ((TextView)d.findViewById(android.R.id.message)).setMovementMethod(LinkMovementMethod.getInstance());
-        }
-
-        if (id == R.id.action_changelog) {
-            final SpannableString s = new SpannableString(Html.fromHtml(getString(R.string.changelog_text)));
-            Linkify.addLinks(s, Linkify.WEB_URLS);
-
-            final AlertDialog d = new AlertDialog.Builder(MainActivity12.this)
-                    .setTitle(R.string.action_changelog)
-                    .setMessage( s )
-                    .setPositiveButton(getString(R.string.about_yes),
-                            new DialogInterface.OnClickListener() {
-                                public void onClick(DialogInterface dialog, int id) {
-                                    dialog.cancel();
-                                }
-                            }).show();
-            d.show();
-            ((TextView)d.findViewById(android.R.id.message)).setMovementMethod(LinkMovementMethod.getInstance());
-        }
-
-        if (id == R.id.action_help) {
-            final SpannableString s = new SpannableString(Html.fromHtml(getString(R.string.help_text)));
-            Linkify.addLinks(s, Linkify.WEB_URLS);
-
-            final AlertDialog d = new AlertDialog.Builder(MainActivity12.this)
-                    .setMessage( s )
-                    .setPositiveButton(getString(R.string.about_yes),
-                            new DialogInterface.OnClickListener() {
-                                public void onClick(DialogInterface dialog, int id) {
-                                    dialog.cancel();
-                                }
-                            }).show();
-            d.show();
-            ((TextView)d.findViewById(android.R.id.message)).setMovementMethod(LinkMovementMethod.getInstance());
+        if (id == R.id.action_settings) {
+            Intent intent_in = new Intent(MainActivity12.this, UserSettingsActivity.class);
+            startActivity(intent_in);
+            overridePendingTransition(0, 0);
+            isCanceled = true;
         }
 
         return super.onOptionsItemSelected(item);

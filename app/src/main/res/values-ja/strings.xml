@@ -44,10 +44,13 @@
     <string name="about_yes">OK</string>
     <string name="about_title">Copyright © 2016  by scoute-dich</string>
     <string name="about_text">
-        &lt;b>Contributors:&lt;/b>&lt;br>
+        &lt;b>Contributors:&lt;/b>&lt;br>&lt;br>
 
-        &#8226; Development: scoute-dich https://github.com/scoute-dich&lt;br>
-        &#8226; Japanese translation:naofum https://github.com/naofum&lt;br> &lt;br>
+        &lt;i>Development&lt;/i>&lt;br>
+        scoute-dich https://github.com/scoute-dich&lt;br> &lt;br>
+
+        &lt;i>Translations&lt;/i>&lt;br>
+        Japanese: naofum https://github.com/naofum&lt;br> &lt;br>
 
         このプログラムはフリーソフトウェアです: you can redistribute it and/or modify
         it under the terms of the GNU General Public License as published by
@@ -70,6 +73,12 @@
     <string name="changelog_text">
         &lt;i>さらに詳しい情報は、GitHub のプロジェクトサイトを参照してください:&lt;br>
         https://github.com/scoute-dich/Seven&lt;/i>&lt;br>&lt;br>
+
+        &lt;b>v1.6:&lt;/b>&lt;br>
+        &#8226; removed fab-button&lt;br>
+        &#8226; added audio settings&lt;br>
+        &#8226; splited last exercise in two parts&lt;br>
+        &#8226; break before first exercise&lt;br>&lt;br>
 
         &lt;b>v1.5:&lt;/b>&lt;br>
         &#8226; text to speech support&lt;br>

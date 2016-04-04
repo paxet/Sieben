@@ -1,7 +1,5 @@
 package de.baumann.sieben;
 
-import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
@@ -14,10 +12,6 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.text.Html;
-import android.text.SpannableString;
-import android.text.method.LinkMovementMethod;
-import android.text.util.Linkify;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -26,7 +20,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 
-public class Pause extends AppCompatActivity {
+public class MainActivity1 extends AppCompatActivity {
 
     private TextView textView;
     private ProgressBar progressBar;
@@ -36,6 +30,7 @@ public class Pause extends AppCompatActivity {
     private boolean isPaused = false;
     private boolean isCanceled = false;
     private long timeRemaining = 0;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,11 +42,11 @@ public class Pause extends AppCompatActivity {
         SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(this);
 
         imageView = (ImageView) findViewById(R.id.imageView);
-        imageView.setImageResource(R.drawable.a02);
+        imageView.setImageResource(R.drawable.a01);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        setTitle(R.string.pau);
+        setTitle(R.string.act);
 
         progressBar = (ProgressBar)findViewById(R.id.progressBar);
         progressBar.setRotation(180);
@@ -62,13 +57,13 @@ public class Pause extends AppCompatActivity {
         ttsManager.init(this);
 
         CountDownTimer timer;
-        long millisInFuture = 10000;
+        long millisInFuture = 30000;
         long countDownInterval = 100;
 
 
         //Initialize a new CountDownTimer instance
         timer = new CountDownTimer(millisInFuture,countDownInterval){
-            SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(Pause.this);
+            SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(MainActivity1.this);
             public void onTick(long millisUntilFinished){
                 //do something in every tick
                 if(isPaused || isCanceled)
@@ -77,7 +72,7 @@ public class Pause extends AppCompatActivity {
                 }
                 else {
                     textView.setText("" + millisUntilFinished / 1000);
-                    int progress = (int) (millisUntilFinished/100);
+                    int progress = (int) (millisUntilFinished/300);
                     progressBar.setProgress(progress);
                     timeRemaining = millisUntilFinished;
                 }
@@ -90,20 +85,20 @@ public class Pause extends AppCompatActivity {
                 }
 
                 if (sharedPref.getBoolean ("tts", false)){
-                    String text = getResources().getString(R.string.act_2);
+                    String text = getResources().getString(R.string.pau);
                     ttsManager.initQueue(text);
                 }
 
                 progressBar.setProgress(0);
-                Intent intent_in = new Intent(de.baumann.sieben.Pause.this, MainActivity2.class);
+                Intent intent_in = new Intent(MainActivity1.this, Pause.class);
                 startActivity(intent_in);
                 overridePendingTransition(0, 0);
                 finish();
             }
         }.start();
 
-        imageView.setOnTouchListener(new OnSwipeTouchListener(Pause.this) {
-            SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(Pause.this);
+        imageView.setOnTouchListener(new OnSwipeTouchListener(MainActivity1.this) {
+            SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(MainActivity1.this);
             public void onSwipeTop() {
                 isPaused = false;
                 isCanceled = false;
@@ -119,7 +114,7 @@ public class Pause extends AppCompatActivity {
                         }
                         else {
                             textView.setText("" + millisUntilFinished / 1000);
-                            int progress = (int) (millisUntilFinished/100);
+                            int progress = (int) (millisUntilFinished/300);
                             progressBar.setProgress(progress);
                             timeRemaining = millisUntilFinished;
                         }
@@ -132,43 +127,44 @@ public class Pause extends AppCompatActivity {
                         }
 
                         if (sharedPref.getBoolean ("tts", false)){
-                            String text = getResources().getString(R.string.act_2);
+                            String text = getResources().getString(R.string.pau);
                             ttsManager.initQueue(text);
                         }
 
                         progressBar.setProgress(0);
-                        Intent intent_in = new Intent(de.baumann.sieben.Pause.this, MainActivity2.class);
+                        Intent intent_in = new Intent(MainActivity1.this, Pause.class);
                         startActivity(intent_in);
                         overridePendingTransition(0, 0);
                         finish();
                     }
                 }.start();
+
                 if (sharedPref.getBoolean ("tts", false)){
                     String text = getResources().getString(R.string.sn_weiter);
                     ttsManager.initQueue(text);
                 }
+
                 Snackbar.make(imageView, R.string.sn_weiter, Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
 
             public void onSwipeRight() {
                 if (sharedPref.getBoolean ("tts", false)){
-                    String text = getResources().getString(R.string.act);
+                    String text = getResources().getString(R.string.sn_first);
                     ttsManager.initQueue(text);
                 }
-                Intent intent_in = new Intent(de.baumann.sieben.Pause.this, MainActivity.class);
-                startActivity(intent_in);
-                overridePendingTransition(0, 0);
-                isCanceled = true;
-                finish();
+
+                Snackbar.make(imageView, R.string.sn_first, Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
             }
 
             public void onSwipeLeft() {
                 if (sharedPref.getBoolean ("tts", false)){
-                    String text = getResources().getString(R.string.pau_2);
+                    String text = getResources().getString(R.string.pau);
                     ttsManager.initQueue(text);
                 }
-                Intent intent_in = new Intent(de.baumann.sieben.Pause.this, Pause2.class);
+
+                Intent intent_in = new Intent(MainActivity1.this, Pause.class);
                 startActivity(intent_in);
                 overridePendingTransition(0, 0);
                 isCanceled = true;
@@ -180,6 +176,7 @@ public class Pause extends AppCompatActivity {
                     String text = getResources().getString(R.string.sn_pause);
                     ttsManager.initQueue(text);
                 }
+
                 isPaused = true;
                 Snackbar.make(imageView, R.string.sn_pause, Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
@@ -196,14 +193,11 @@ public class Pause extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
+
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            Intent intent_in = new Intent(Pause.this, UserSettingsActivity.class);
+            Intent intent_in = new Intent(MainActivity1.this, UserSettingsActivity.class);
             startActivity(intent_in);
             overridePendingTransition(0, 0);
             isCanceled = true;
