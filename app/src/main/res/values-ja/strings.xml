@@ -110,5 +110,20 @@
 
         &lt;i>上にスワイプ: &lt;/i>エクササイズを再開します
     </string>
+    <string name="act_122">12. Exercise - Side plank left</string>
+    <string name="action_beep">Beep</string>
+    <string name="action_beep_summary">Do you want to hear a short \"Beep\" after each exercise?</string>
+    <string name="action_changelog_summary">See what\'s new …</string>
+    <string name="action_help_summary">Learn about the swipe gestures …</string>
+    <string name="action_license_summary">App is licensed under GPL3</string>
+    <string name="action_settings">Settings | Help | About</string>
+    <string name="action_tts">TTS</string>
+    <string name="action_tts_summary">Do you want to hear voice commands?</string>
+    <string name="pau_112">Break - please change sides</string>
+    <string name="pref_1">About the app</string>
+    <string name="pref_2">Sound settings</string>
+    <string name="sn_change">Please change from right to left side.</string>
+    <string name="start">Swipe up to begin (after 5 sec. break) …</string>
+    <string name="start2">5 seconds break before first exersise …</string>
 
 </resources>
