@@ -1,3 +1,10 @@
+### v1.6 - 1.6.2
+- fixed broken link
+- removed fab-button
+- added audio settings
+- splited last exercise in two parts
+- break before first exercise
+
 ### v1.5
 - removed fab-button
 - added audio settings

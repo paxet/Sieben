@@ -74,10 +74,8 @@
         &lt;i>さらに詳しい情報は、GitHub のプロジェクトサイトを参照してください:&lt;br>
         https://github.com/scoute-dich/Seven&lt;/i>&lt;br>&lt;br>
 
-        &lt;b>v1.6.1:&lt;/b>&lt;br>
-        &#8226; fixed broken link&lt;br>&lt;br>
-
-        &lt;b>v1.6:&lt;/b>&lt;br>
+        &lt;b>v1.6 - 1.6.2:&lt;/b>&lt;br>
+        &#8226; fixed broken link&lt;br>
         &#8226; removed fab-button&lt;br>
         &#8226; added audio settings&lt;br>
         &#8226; splited last exercise in two parts&lt;br>
