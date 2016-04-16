@@ -2,7 +2,6 @@ package de.baumann.sieben;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.os.Bundle;
 import android.preference.Preference;
 import android.preference.PreferenceFragment;
@@ -13,9 +12,6 @@ import android.text.method.LinkMovementMethod;
 import android.text.util.Linkify;
 import android.widget.TextView;
 
-/**
- * Created by juergen on 03.04.16. Licensed under GPL.
- */
 public class UserSettingsActivity extends AppCompatActivity {
 
     @Override
@@ -24,6 +20,7 @@ public class UserSettingsActivity extends AppCompatActivity {
         //setContentView(R.layout.activity_user_settings);
 
         android.support.v7.app.ActionBar actionBar = getSupportActionBar();
+        assert actionBar != null;
         actionBar.setDisplayHomeAsUpEnabled(true);
         setTitle(R.string.action_settings);
 
@@ -37,7 +34,7 @@ public class UserSettingsActivity extends AppCompatActivity {
     public static class SettingsFragment extends PreferenceFragment {
 
         private void addChangelogListener() {
-            Preference reset = (Preference) findPreference("changelog");
+            Preference reset = findPreference("changelog");
 
             reset.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener()
             {
@@ -65,7 +62,7 @@ public class UserSettingsActivity extends AppCompatActivity {
         }
 
         private void addHelpListener() {
-            Preference reset = (Preference) findPreference("help");
+            Preference reset = findPreference("help");
 
             reset.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener()
             {
@@ -92,7 +89,7 @@ public class UserSettingsActivity extends AppCompatActivity {
         }
 
         private void addLicenseListener() {
-            Preference reset = (Preference) findPreference("license");
+            Preference reset = findPreference("license");
 
             reset.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener()
             {
@@ -133,9 +130,6 @@ public class UserSettingsActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        Intent intent_in = new Intent(de.baumann.sieben.UserSettingsActivity.this, MainActivity.class);
-        startActivity(intent_in);
-        overridePendingTransition(0, 0);
         finish();
     }
 }

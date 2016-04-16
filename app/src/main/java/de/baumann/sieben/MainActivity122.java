@@ -38,6 +38,7 @@ public class MainActivity122 extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         imageView = (ImageView) findViewById(R.id.imageView);
+        assert imageView != null;
         imageView.setImageResource(R.drawable.a12);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -45,6 +46,7 @@ public class MainActivity122 extends AppCompatActivity {
         setTitle(R.string.act_122);
 
         progressBar = (ProgressBar)findViewById(R.id.progressBar);
+        assert progressBar != null;
         progressBar.setRotation(180);
 
         textView = (TextView) this.findViewById(R.id.timer);
@@ -52,14 +54,13 @@ public class MainActivity122 extends AppCompatActivity {
         ttsManager = new TTSManager();
         ttsManager.init(this);
 
-        CountDownTimer timer;
         long millisInFuture = 15000;
         long countDownInterval = 100;
 
 
         //Initialize a new CountDownTimer instance
-        timer = new CountDownTimer(millisInFuture,countDownInterval){
-            SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(MainActivity122.this);
+        new CountDownTimer(millisInFuture,countDownInterval){
+            final SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(MainActivity122.this);
             public void onTick(long millisUntilFinished){
                 //do something in every tick
                 if(isPaused || isCanceled)
@@ -91,7 +92,7 @@ public class MainActivity122 extends AppCompatActivity {
         }.start();
 
         imageView.setOnTouchListener(new OnSwipeTouchListener(MainActivity122.this) {
-            SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(MainActivity122.this);
+            final SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(MainActivity122.this);
             public void onSwipeTop() {
                 isPaused = false;
                 isCanceled = false;

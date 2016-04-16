@@ -2,13 +2,13 @@
 - fixed broken link
 - removed fab-button
 - added audio settings
-- splited last exercise in two parts
+- split last exercise in two parts
 - break before first exercise
 
 ### v1.5
 - removed fab-button
 - added audio settings
-- splited last exercise in two parts
+- split last exercise in two parts
 - break before first exercise
 
 ### v1.5

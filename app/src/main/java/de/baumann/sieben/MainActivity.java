@@ -8,13 +8,11 @@ import android.media.ToneGenerator;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.preference.PreferenceManager;
-import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -40,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         PreferenceManager.setDefaultValues(this, R.xml.user_settings, false);
-        SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(this);
 
         imageView = (ImageView) findViewById(R.id.imageView);
 
@@ -48,24 +45,25 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         progressBar = (ProgressBar)findViewById(R.id.progressBar);
+        assert progressBar != null;
         progressBar.setRotation(180);
 
         textView = (TextView) this.findViewById(R.id.timer);
         textView2 = (TextView) this.findViewById(R.id.timer2);
+        assert textView2 != null;
         textView2.setText(R.string.start);
 
 
         ttsManager = new TTSManager();
         ttsManager.init(this);
 
-        CountDownTimer timer;
         long millisInFuture = 5000;
         long countDownInterval = 100;
 
 
         //Initialize a new CountDownTimer instance
-        timer = new CountDownTimer(millisInFuture,countDownInterval){
-            SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(MainActivity.this);
+        new CountDownTimer(millisInFuture,countDownInterval){
+            final SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(MainActivity.this);
             public void onTick(long millisUntilFinished){
                 //do something in every tick
                 if(isPaused || isCanceled)
@@ -101,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
         };
 
         imageView.setOnTouchListener(new OnSwipeTouchListener(MainActivity.this) {
-            SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(MainActivity.this);
+            final SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(MainActivity.this);
             public void onSwipeTop() {
                 isPaused = false;
                 isCanceled = false;

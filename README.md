@@ -4,8 +4,8 @@
 A small android application to perform the seven minutes workout. It's very basic:
 
 - you can perform the workout
-- pause and resume an exercice
-- jump to previous or next exercice
+- pause and resume an exercise
+- jump to previous or next exercise
 - english and german
 
 ### Links:

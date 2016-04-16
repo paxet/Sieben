@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">セブン</string>
 
     //Menu
@@ -16,29 +16,29 @@
 
     //Titles
     <string name="act">1. エクササイズ | 足広げジャンプ</string>
-    <string name="act_2">2. エクササイズ | 壁にもたれて行う空気イス</string>
-    <string name="act_3">3. エクササイズ | 腕立て伏せ</string>
-    <string name="act_4">4. エクササイズ | 腹筋</string>
-    <string name="act_5">5. エクササイズ | 椅子の上で踏み台昇降</string>
-    <string name="act_6">6. エクササイズ | スクワット</string>
-    <string name="act_7">7. エクササイズ | 上腕三頭筋 - 椅子の上で</string>
-    <string name="act_8">8. エクササイズ | プランク</string>
-    <string name="act_9">9. エクササイズ | もも上げ</string>
-    <string name="act_10">10. エクササイズ | ランジ</string>
-    <string name="act_11">11. エクササイズ | 腕立て伏せ - ローテーション</string>
-    <string name="act_12">12. エクササイズ | サイド プランク</string>
+    <string name="act_2" tools:keep="@string/act_2">2. エクササイズ | 壁にもたれて行う空気イス</string>
+    <string name="act_3" tools:keep="@string/act_3">3. エクササイズ | 腕立て伏せ</string>
+    <string name="act_4" tools:keep="@string/act_4">4. エクササイズ | 腹筋</string>
+    <string name="act_5" tools:keep="@string/act_5">5. エクササイズ | 椅子の上で踏み台昇降</string>
+    <string name="act_6" tools:keep="@string/act_6">6. エクササイズ | スクワット</string>
+    <string name="act_7" tools:keep="@string/act_7">7. エクササイズ | 上腕三頭筋 - 椅子の上で</string>
+    <string name="act_8" tools:keep="@string/act_8">8. エクササイズ | プランク</string>
+    <string name="act_9" tools:keep="@string/act_9">9. エクササイズ | もも上げ</string>
+    <string name="act_10" tools:keep="@string/act_10">10. エクササイズ | ランジ</string>
+    <string name="act_11" tools:keep="@string/act_11">11. エクササイズ | 腕立て伏せ - ローテーション</string>
+    <string name="act_12" tools:keep="@string/act_12">12. エクササイズ | サイド プランク</string>
 
     <string name="pau">休止 | その後: 壁にもたれて行う空気イス</string>
-    <string name="pau_2">休止 | その後: 腕立て伏せ</string>
-    <string name="pau_3">休止 | その後: 腹筋</string>
-    <string name="pau_4">休止 | その後: 椅子の上で踏み台昇降</string>
-    <string name="pau_5">休止 | その後: スクワット</string>
-    <string name="pau_6">休止 | その後: 上腕三頭筋 - 椅子の上で</string>
-    <string name="pau_7">休止 | その後: プランク</string>
-    <string name="pau_8">休止 | その後: もも上げ</string>
-    <string name="pau_9">休止 | その後: ランジ</string>
+    <string name="pau_2" tools:keep="@string/pau_2">休止 | その後: 腕立て伏せ</string>
+    <string name="pau_3" tools:keep="@string/pau_3">休止 | その後: 腹筋</string>
+    <string name="pau_4" tools:keep="@string/pau_4">休止 | その後: 椅子の上で踏み台昇降</string>
+    <string name="pau_5" tools:keep="@string/pau_5">休止 | その後: スクワット</string>
+    <string name="pau_6" tools:keep="@string/pau_6">休止 | その後: 上腕三頭筋 - 椅子の上で</string>
+    <string name="pau_7" tools:keep="@string/pau_7">休止 | その後: プランク</string>
+    <string name="pau_8" tools:keep="@string/pau_8">休止 | その後: もも上げ</string>
+    <string name="pau_9" tools:keep="@string/pau_9">休止 | その後: ランジ</string>
     <string name="pau_10">休止 | その後: 腕立て伏せ - ローテーション</string>
-    <string name="pau_11">休止 | その後: サイド プランク</string>
+    <string name="pau_11" tools:keep="@string/pau_11">休止 | その後: サイド プランク</string>
 
     //License Dialog
     <string name="about_yes">OK</string>
@@ -123,7 +123,7 @@
     <string name="pau_112">Break - please change sides</string>
     <string name="pref_1">About the app</string>
     <string name="pref_2">Sound settings</string>
-    <string name="sn_change">Please change from right to left side.</string>
+    <string name="sn_change" tools:keep="@string/sn_change">Please change from right to left side.</string>
     <string name="start">Swipe up to begin (after 5 sec. break) …</string>
     <string name="start2">5 seconds break before first exersise …</string>
 

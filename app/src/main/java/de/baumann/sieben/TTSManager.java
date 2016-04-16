@@ -1,8 +1,5 @@
 package de.baumann.sieben;
 
-/**
- * Created by juergen on 25.03.16. Part of Sieben. Licensed under GPL.
- */
 
 import android.content.Context;
 import android.os.Build;

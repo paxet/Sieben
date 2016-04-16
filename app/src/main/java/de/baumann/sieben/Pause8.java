@@ -1,7 +1,5 @@
 package de.baumann.sieben;
 
-import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
@@ -10,17 +8,11 @@ import android.media.ToneGenerator;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.preference.PreferenceManager;
-import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.text.Html;
-import android.text.SpannableString;
-import android.text.method.LinkMovementMethod;
-import android.text.util.Linkify;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -44,9 +36,9 @@ public class Pause8 extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         PreferenceManager.setDefaultValues(this, R.xml.user_settings, false);
-        SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(this);
 
         imageView = (ImageView) findViewById(R.id.imageView);
+        assert imageView != null;
         imageView.setImageResource(R.drawable.a09);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -54,6 +46,7 @@ public class Pause8 extends AppCompatActivity {
         setTitle(R.string.pau_8);
 
         progressBar = (ProgressBar)findViewById(R.id.progressBar);
+        assert progressBar != null;
         progressBar.setRotation(180);
 
         textView = (TextView) this.findViewById(R.id.timer);
@@ -61,14 +54,13 @@ public class Pause8 extends AppCompatActivity {
         ttsManager = new TTSManager();
         ttsManager.init(this);
 
-        CountDownTimer timer;
         long millisInFuture = 10000;
         long countDownInterval = 100;
 
 
         //Initialize a new CountDownTimer instance
-        timer = new CountDownTimer(millisInFuture,countDownInterval){
-            SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(Pause8.this);
+        new CountDownTimer(millisInFuture,countDownInterval){
+            final SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(Pause8.this);
             public void onTick(long millisUntilFinished){
                 //do something in every tick
                 if(isPaused || isCanceled)
@@ -103,7 +95,7 @@ public class Pause8 extends AppCompatActivity {
         }.start();
 
         imageView.setOnTouchListener(new OnSwipeTouchListener(Pause8.this) {
-            SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(Pause8.this);
+            final SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(Pause8.this);
             public void onSwipeTop() {
                 isPaused = false;
                 isCanceled = false;
