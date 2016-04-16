@@ -68,7 +68,7 @@ public class MainActivity122 extends AppCompatActivity {
                     cancel();
                 }
                 else {
-                    textView.setText("" + millisUntilFinished / 1000);
+                    textView.setText(String.valueOf(millisUntilFinished / 1000));
                     int progress = (int) (millisUntilFinished/150);
                     progressBar.setProgress(progress);
                     timeRemaining = millisUntilFinished;
@@ -107,7 +107,7 @@ public class MainActivity122 extends AppCompatActivity {
                             cancel();
                         }
                         else {
-                            textView.setText("" + millisUntilFinished / 1000);
+                            textView.setText(String.valueOf(millisUntilFinished / 1000));
                             int progress = (int) (millisUntilFinished/150);
                             progressBar.setProgress(progress);
                             timeRemaining = millisUntilFinished;
