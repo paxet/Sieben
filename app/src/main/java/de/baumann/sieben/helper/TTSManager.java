@@ -1,4 +1,4 @@
-package de.baumann.sieben;
+package de.baumann.sieben.helper;
 
 
 import android.content.Context;
@@ -8,7 +8,7 @@ import android.util.Log;
 
 import java.util.Locale;
 
-class TTSManager {
+public class TTSManager {
 
     private TextToSpeech mTts = null;
     private boolean isLoaded = false;

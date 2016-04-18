@@ -1,3 +1,7 @@
+### v1.7
+- option to select exercises
+- fixed lint warnings
+
 ### v1.6 - 1.6.2
 - fixed broken link
 - removed fab-button

@@ -28,6 +28,32 @@
     <string name="act_11" tools:keep="@string/act_11">11. エクササイズ | 腕立て伏せ - ローテーション</string>
     <string name="act_12" tools:keep="@string/act_12">12. エクササイズ | サイド プランク</string>
 
+    <string name="acte">1. Exercise</string>
+    <string name="act_2e" tools:keep="@string/act_2e">2. Exercise</string>
+    <string name="act_3e" tools:keep="@string/act_3e">3. Exercise</string>
+    <string name="act_4e" tools:keep="@string/act_4e">4. Exercise</string>
+    <string name="act_5e" tools:keep="@string/act_5e">5. Exercise</string>
+    <string name="act_6e" tools:keep="@string/act_6e">6. Exercise</string>
+    <string name="act_7e" tools:keep="@string/act_7e">7. Exercise</string>
+    <string name="act_8e" tools:keep="@string/act_8e">8. Exercise</string>
+    <string name="act_9e" tools:keep="@string/act_9e">9. Exercise</string>
+    <string name="act_10e" tools:keep="@string/act_10e">10. Exercise</string>
+    <string name="act_11e" tools:keep="@string/act_11e">11. Exercise</string>
+    <string name="act_12e" tools:keep="@string/act_12e">12. Exercise</string>
+
+    <string name="actee">Jumping jacks</string>
+    <string name="act_2ee" tools:keep="@string/act_2ee">Wall sit</string>
+    <string name="act_3ee" tools:keep="@string/act_3ee">Push ups</string>
+    <string name="act_4ee" tools:keep="@string/act_4ee">Abdominal crunch</string>
+    <string name="act_5ee" tools:keep="@string/act_5ee">Step up on chair</string>
+    <string name="act_6ee" tools:keep="@string/act_6ee">Squat</string>
+    <string name="act_7ee" tools:keep="@string/act_7ee">Tricepts on chair</string>
+    <string name="act_8ee" tools:keep="@string/act_8ee">Plank</string>
+    <string name="act_9ee" tools:keep="@string/act_9ee">High knees running</string>
+    <string name="act_10ee" tools:keep="@string/act_10ee">Lunge</string>
+    <string name="act_11ee" tools:keep="@string/act_11ee">Push up with rotation</string>
+    <string name="act_12ee" tools:keep="@string/act_12ee">Side plank</string>
+
     <string name="pau">休止 | その後: 壁にもたれて行う空気イス</string>
     <string name="pau_2" tools:keep="@string/pau_2">休止 | その後: 腕立て伏せ</string>
     <string name="pau_3" tools:keep="@string/pau_3">休止 | その後: 腹筋</string>
@@ -73,6 +99,10 @@
     <string name="changelog_text">
         &lt;i>さらに詳しい情報は、GitHub のプロジェクトサイトを参照してください:&lt;br>
         https://github.com/scoute-dich/Seven&lt;/i>&lt;br>&lt;br>
+
+        &lt;b>v1.7:&lt;/b>&lt;br>
+        &#8226; option to select exercises&lt;br>
+        &#8226; fixed lint warnings&lt;br>&lt;br>
 
         &lt;b>v1.6 - 1.6.2:&lt;/b>&lt;br>
         &#8226; fixed broken link&lt;br>
@@ -122,9 +152,11 @@
     <string name="action_tts_summary">Do you want to hear voice commands?</string>
     <string name="pau_112">Break - please change sides</string>
     <string name="pref_1">About the app</string>
-    <string name="pref_2">Sound settings</string>
+    <string name="pref_2">Settings</string>
     <string name="sn_change" tools:keep="@string/sn_change">Please change from right to left side.</string>
     <string name="start">Swipe up to begin (after 5 sec. break) …</string>
     <string name="start2">5 seconds break before first exersise …</string>
+    <string name="action_exercises">Exercises</string>
+    <string name="action_exercises_summary">Which exercises do you want to perform?</string>
 
 </resources>

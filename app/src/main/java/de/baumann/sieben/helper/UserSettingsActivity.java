@@ -1,4 +1,4 @@
-package de.baumann.sieben;
+package de.baumann.sieben.helper;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -12,6 +12,8 @@ import android.text.method.LinkMovementMethod;
 import android.text.util.Linkify;
 import android.widget.TextView;
 
+import de.baumann.sieben.R;
+
 public class UserSettingsActivity extends AppCompatActivity {
 
     @Override
@@ -24,11 +26,14 @@ public class UserSettingsActivity extends AppCompatActivity {
         actionBar.setDisplayHomeAsUpEnabled(true);
         setTitle(R.string.action_settings);
 
-
-        // Display the fragment as the main content
         getFragmentManager().beginTransaction()
-                .replace(android.R.id.content, new SettingsFragment())
-                .commit();
+                            .replace(android.R.id.content, new SettingsFragment())
+                            .commit();
+    }
+
+    @Override
+    public void onBackPressed() {
+        if( !getFragmentManager().popBackStackImmediate() ) super.onBackPressed();
     }
 
     public static class SettingsFragment extends PreferenceFragment {
@@ -125,11 +130,23 @@ public class UserSettingsActivity extends AppCompatActivity {
             addHelpListener();
             addLicenseListener();
             addChangelogListener();
+
+            findPreference( "nested" ).setOnPreferenceClickListener( new Preference.OnPreferenceClickListener() {
+                @Override public boolean onPreferenceClick( Preference preference ) {
+                    getFragmentManager().beginTransaction().replace( android.R.id.content, new NestedFragment() ).addToBackStack( NestedFragment.class.getSimpleName() ).commit();
+                    return true;
+                }
+            } );
         }
     }
 
-    @Override
-    public void onBackPressed() {
-        finish();
+    public static class NestedFragment extends PreferenceFragment {
+        @Override
+        public void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+
+            addPreferencesFromResource(R.xml.user_settings2);
+
+        }
     }
 }

@@ -17,6 +17,10 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import de.baumann.sieben.helper.OnSwipeTouchListener;
+import de.baumann.sieben.helper.TTSManager;
+import de.baumann.sieben.helper.UserSettingsActivity;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -80,21 +84,120 @@ public class MainActivity extends AppCompatActivity {
             }
             public void onFinish(){
 
+                progressBar.setProgress(0);
+
                 if (sharedPref.getBoolean ("beep", false)){
                     final ToneGenerator tg = new ToneGenerator(AudioManager.STREAM_NOTIFICATION, 100);
                     tg.startTone(ToneGenerator.TONE_PROP_BEEP);
                 }
 
                 if (sharedPref.getBoolean ("tts", false)){
-                    String text = getResources().getString(R.string.act);
-                    ttsManager.initQueue(text);
+
+                    if (sharedPref.getBoolean("act1", false)) {
+                        String text = getResources().getString(R.string.act);
+                        ttsManager.initQueue(text);
+                    } else  if (sharedPref.getBoolean("act2", false)) {
+                        String text = getResources().getString(R.string.act_2);
+                        ttsManager.initQueue(text);
+                    } else  if (sharedPref.getBoolean("act3", false)) {
+                        String text = getResources().getString(R.string.act_3);
+                        ttsManager.initQueue(text);
+                    } else  if (sharedPref.getBoolean("act4", false)) {
+                        String text = getResources().getString(R.string.act_4);
+                        ttsManager.initQueue(text);
+                    } else  if (sharedPref.getBoolean("act5", false)) {
+                        String text = getResources().getString(R.string.act_5);
+                        ttsManager.initQueue(text);
+                    } else  if (sharedPref.getBoolean("act6", false)) {
+                        String text = getResources().getString(R.string.act_6);
+                        ttsManager.initQueue(text);
+                    } else  if (sharedPref.getBoolean("act7", false)) {
+                        String text = getResources().getString(R.string.act_7);
+                        ttsManager.initQueue(text);
+                    } else  if (sharedPref.getBoolean("act8", false)) {
+                        String text = getResources().getString(R.string.act_8);
+                        ttsManager.initQueue(text);
+                    } else  if (sharedPref.getBoolean("act9", false)) {
+                        String text = getResources().getString(R.string.act_9);
+                        ttsManager.initQueue(text);
+                    } else  if (sharedPref.getBoolean("act10", false)) {
+                        String text = getResources().getString(R.string.act_10);
+                        ttsManager.initQueue(text);
+                    } else  if (sharedPref.getBoolean("act11", false)) {
+                        String text = getResources().getString(R.string.act_11);
+                        ttsManager.initQueue(text);
+                    } else  if (sharedPref.getBoolean("act12", false)) {
+                        String text = getResources().getString(R.string.act_12);
+                        ttsManager.initQueue(text);
+                    } else {
+                        String text = getResources().getString(R.string.end);
+                        ttsManager.initQueue(text);
+                    }
                 }
 
-                progressBar.setProgress(0);
-                Intent intent_in = new Intent(MainActivity.this, MainActivity1.class);
-                startActivity(intent_in);
-                overridePendingTransition(0, 0);
-                finish();
+                if (sharedPref.getBoolean("act1", false)) {
+                    Intent intent_in = new Intent(MainActivity.this, MainActivity1.class);
+                    startActivity(intent_in);
+                    overridePendingTransition(0, 0);
+                    finish();
+                } else if (sharedPref.getBoolean("act2", false)) {
+                    Intent intent_in = new Intent(MainActivity.this, MainActivity2.class);
+                    startActivity(intent_in);
+                    overridePendingTransition(0, 0);
+                    finish();
+                } else if (sharedPref.getBoolean("act3", false)) {
+                    Intent intent_in = new Intent(MainActivity.this, MainActivity3.class);
+                    startActivity(intent_in);
+                    overridePendingTransition(0, 0);
+                    finish();
+                } else if (sharedPref.getBoolean("act4", false)) {
+                    Intent intent_in = new Intent(MainActivity.this, MainActivity4.class);
+                    startActivity(intent_in);
+                    overridePendingTransition(0, 0);
+                    finish();
+                } else if (sharedPref.getBoolean("act5", false)) {
+                    Intent intent_in = new Intent(MainActivity.this, MainActivity5.class);
+                    startActivity(intent_in);
+                    overridePendingTransition(0, 0);
+                    finish();
+                }else if (sharedPref.getBoolean("act6", false)) {
+                    Intent intent_in = new Intent(MainActivity.this, MainActivity6.class);
+                    startActivity(intent_in);
+                    overridePendingTransition(0, 0);
+                    finish();
+                } else if (sharedPref.getBoolean("act7", false)) {
+                    Intent intent_in = new Intent(MainActivity.this, MainActivity7.class);
+                    startActivity(intent_in);
+                    overridePendingTransition(0, 0);
+                    finish();
+                } else if (sharedPref.getBoolean("act8", false)) {
+                    Intent intent_in = new Intent(MainActivity.this, MainActivity8.class);
+                    startActivity(intent_in);
+                    overridePendingTransition(0, 0);
+                    finish();
+                } else if (sharedPref.getBoolean("act9", false)) {
+                    Intent intent_in = new Intent(MainActivity.this, MainActivity9.class);
+                    startActivity(intent_in);
+                    overridePendingTransition(0, 0);
+                    finish();
+                }else if (sharedPref.getBoolean("act10", false)) {
+                    Intent intent_in = new Intent(MainActivity.this, MainActivity10.class);
+                    startActivity(intent_in);
+                    overridePendingTransition(0, 0);
+                    finish();
+                } else if (sharedPref.getBoolean("act11", false)) {
+                    Intent intent_in = new Intent(MainActivity.this, MainActivity11.class);
+                    startActivity(intent_in);
+                    overridePendingTransition(0, 0);
+                    finish();
+                } else if (sharedPref.getBoolean("act12", false)) {
+                    Intent intent_in = new Intent(MainActivity.this, MainActivity12.class);
+                    startActivity(intent_in);
+                    overridePendingTransition(0, 0);
+                    finish();
+                } else {
+                    textView.setText(R.string.end);
+                }
             }
         };
 
@@ -129,15 +232,114 @@ public class MainActivity extends AppCompatActivity {
                         }
 
                         if (sharedPref.getBoolean ("tts", false)){
-                            String text = getResources().getString(R.string.act);
-                            ttsManager.initQueue(text);
+
+                            if (sharedPref.getBoolean("act1", false)) {
+                                String text = getResources().getString(R.string.act);
+                                ttsManager.initQueue(text);
+                            } else  if (sharedPref.getBoolean("act2", false)) {
+                                String text = getResources().getString(R.string.act_2);
+                                ttsManager.initQueue(text);
+                            } else  if (sharedPref.getBoolean("act3", false)) {
+                                String text = getResources().getString(R.string.act_3);
+                                ttsManager.initQueue(text);
+                            } else  if (sharedPref.getBoolean("act4", false)) {
+                                String text = getResources().getString(R.string.act_4);
+                                ttsManager.initQueue(text);
+                            } else  if (sharedPref.getBoolean("act5", false)) {
+                                String text = getResources().getString(R.string.act_5);
+                                ttsManager.initQueue(text);
+                            } else  if (sharedPref.getBoolean("act6", false)) {
+                                String text = getResources().getString(R.string.act_6);
+                                ttsManager.initQueue(text);
+                            } else  if (sharedPref.getBoolean("act7", false)) {
+                                String text = getResources().getString(R.string.act_7);
+                                ttsManager.initQueue(text);
+                            } else  if (sharedPref.getBoolean("act8", false)) {
+                                String text = getResources().getString(R.string.act_8);
+                                ttsManager.initQueue(text);
+                            } else  if (sharedPref.getBoolean("act9", false)) {
+                                String text = getResources().getString(R.string.act_9);
+                                ttsManager.initQueue(text);
+                            } else  if (sharedPref.getBoolean("act10", false)) {
+                                String text = getResources().getString(R.string.act_10);
+                                ttsManager.initQueue(text);
+                            } else  if (sharedPref.getBoolean("act11", false)) {
+                                String text = getResources().getString(R.string.act_11);
+                                ttsManager.initQueue(text);
+                            } else  if (sharedPref.getBoolean("act12", false)) {
+                                String text = getResources().getString(R.string.act_12);
+                                ttsManager.initQueue(text);
+                            } else {
+                                String text = getResources().getString(R.string.end);
+                                ttsManager.initQueue(text);
+                            }
                         }
 
                         progressBar.setProgress(0);
-                        Intent intent_in = new Intent(MainActivity.this, MainActivity1.class);
-                        startActivity(intent_in);
-                        overridePendingTransition(0, 0);
-                        finish();
+
+                        if (sharedPref.getBoolean("act1", false)) {
+                            Intent intent_in = new Intent(MainActivity.this, MainActivity1.class);
+                            startActivity(intent_in);
+                            overridePendingTransition(0, 0);
+                            finish();
+                        } else if (sharedPref.getBoolean("act2", false)) {
+                            Intent intent_in = new Intent(MainActivity.this, MainActivity2.class);
+                            startActivity(intent_in);
+                            overridePendingTransition(0, 0);
+                            finish();
+                        } else if (sharedPref.getBoolean("act3", false)) {
+                            Intent intent_in = new Intent(MainActivity.this, MainActivity3.class);
+                            startActivity(intent_in);
+                            overridePendingTransition(0, 0);
+                            finish();
+                        } else if (sharedPref.getBoolean("act4", false)) {
+                            Intent intent_in = new Intent(MainActivity.this, MainActivity4.class);
+                            startActivity(intent_in);
+                            overridePendingTransition(0, 0);
+                            finish();
+                        } else if (sharedPref.getBoolean("act5", false)) {
+                            Intent intent_in = new Intent(MainActivity.this, MainActivity5.class);
+                            startActivity(intent_in);
+                            overridePendingTransition(0, 0);
+                            finish();
+                        }else if (sharedPref.getBoolean("act6", false)) {
+                            Intent intent_in = new Intent(MainActivity.this, MainActivity6.class);
+                            startActivity(intent_in);
+                            overridePendingTransition(0, 0);
+                            finish();
+                        } else if (sharedPref.getBoolean("act7", false)) {
+                            Intent intent_in = new Intent(MainActivity.this, MainActivity7.class);
+                            startActivity(intent_in);
+                            overridePendingTransition(0, 0);
+                            finish();
+                        } else if (sharedPref.getBoolean("act8", false)) {
+                            Intent intent_in = new Intent(MainActivity.this, MainActivity8.class);
+                            startActivity(intent_in);
+                            overridePendingTransition(0, 0);
+                            finish();
+                        } else if (sharedPref.getBoolean("act9", false)) {
+                            Intent intent_in = new Intent(MainActivity.this, MainActivity9.class);
+                            startActivity(intent_in);
+                            overridePendingTransition(0, 0);
+                            finish();
+                        }else if (sharedPref.getBoolean("act10", false)) {
+                            Intent intent_in = new Intent(MainActivity.this, MainActivity10.class);
+                            startActivity(intent_in);
+                            overridePendingTransition(0, 0);
+                            finish();
+                        } else if (sharedPref.getBoolean("act11", false)) {
+                            Intent intent_in = new Intent(MainActivity.this, MainActivity11.class);
+                            startActivity(intent_in);
+                            overridePendingTransition(0, 0);
+                            finish();
+                        } else if (sharedPref.getBoolean("act12", false)) {
+                            Intent intent_in = new Intent(MainActivity.this, MainActivity12.class);
+                            startActivity(intent_in);
+                            overridePendingTransition(0, 0);
+                            finish();
+                        } else {
+                            textView.setText(R.string.end);
+                        }
                     }
                 }.start();
 
@@ -161,16 +363,112 @@ public class MainActivity extends AppCompatActivity {
             }
 
             public void onSwipeLeft() {
+
+                isCanceled = true;
+
                 if (sharedPref.getBoolean ("tts", false)){
-                    String text = getResources().getString(R.string.pau);
-                    ttsManager.initQueue(text);
+
+                    if (sharedPref.getBoolean ("tts", false)){
+
+                        if (sharedPref.getBoolean("act2", false)) {
+                            String text = getResources().getString(R.string.pau);
+                            ttsManager.initQueue(text);
+                        } else  if (sharedPref.getBoolean("act3", false)) {
+                            String text = getResources().getString(R.string.pau_2);
+                            ttsManager.initQueue(text);
+                        } else  if (sharedPref.getBoolean("act4", false)) {
+                            String text = getResources().getString(R.string.pau_3);
+                            ttsManager.initQueue(text);
+                        } else  if (sharedPref.getBoolean("act5", false)) {
+                            String text = getResources().getString(R.string.pau_4);
+                            ttsManager.initQueue(text);
+                        } else  if (sharedPref.getBoolean("act6", false)) {
+                            String text = getResources().getString(R.string.pau_5);
+                            ttsManager.initQueue(text);
+                        } else  if (sharedPref.getBoolean("act7", false)) {
+                            String text = getResources().getString(R.string.pau_6);
+                            ttsManager.initQueue(text);
+                        } else  if (sharedPref.getBoolean("act8", false)) {
+                            String text = getResources().getString(R.string.pau_7);
+                            ttsManager.initQueue(text);
+                        } else  if (sharedPref.getBoolean("act9", false)) {
+                            String text = getResources().getString(R.string.pau_8);
+                            ttsManager.initQueue(text);
+                        } else  if (sharedPref.getBoolean("act10", false)) {
+                            String text = getResources().getString(R.string.pau_9);
+                            ttsManager.initQueue(text);
+                        } else  if (sharedPref.getBoolean("act11", false)) {
+                            String text = getResources().getString(R.string.pau_10);
+                            ttsManager.initQueue(text);
+                        } else  if (sharedPref.getBoolean("act12", false)) {
+                            String text = getResources().getString(R.string.pau_11);
+                            ttsManager.initQueue(text);
+                        } else {
+                            String text = getResources().getString(R.string.end);
+                            ttsManager.initQueue(text);
+                        }
+                    }
                 }
 
-                Intent intent_in = new Intent(MainActivity.this, Pause.class);
-                startActivity(intent_in);
-                overridePendingTransition(0, 0);
-                isCanceled = true;
-                finish();
+                if (sharedPref.getBoolean("act2", false)) {
+                    Intent intent_in = new Intent(MainActivity.this, Pause.class);
+                    startActivity(intent_in);
+                    overridePendingTransition(0, 0);
+                    finish();
+                } else if (sharedPref.getBoolean("act3", false)) {
+                    Intent intent_in = new Intent(MainActivity.this, Pause2.class);
+                    startActivity(intent_in);
+                    overridePendingTransition(0, 0);
+                    finish();
+                } else if (sharedPref.getBoolean("act4", false)) {
+                    Intent intent_in = new Intent(MainActivity.this, Pause3.class);
+                    startActivity(intent_in);
+                    overridePendingTransition(0, 0);
+                    finish();
+                } else if (sharedPref.getBoolean("act5", false)) {
+                    Intent intent_in = new Intent(MainActivity.this, Pause4.class);
+                    startActivity(intent_in);
+                    overridePendingTransition(0, 0);
+                    finish();
+                }else if (sharedPref.getBoolean("act6", false)) {
+                    Intent intent_in = new Intent(MainActivity.this, Pause5.class);
+                    startActivity(intent_in);
+                    overridePendingTransition(0, 0);
+                    finish();
+                } else if (sharedPref.getBoolean("act7", false)) {
+                    Intent intent_in = new Intent(MainActivity.this, Pause6.class);
+                    startActivity(intent_in);
+                    overridePendingTransition(0, 0);
+                    finish();
+                } else if (sharedPref.getBoolean("act8", false)) {
+                    Intent intent_in = new Intent(MainActivity.this, Pause7.class);
+                    startActivity(intent_in);
+                    overridePendingTransition(0, 0);
+                    finish();
+                } else if (sharedPref.getBoolean("act9", false)) {
+                    Intent intent_in = new Intent(MainActivity.this, Pause8.class);
+                    startActivity(intent_in);
+                    overridePendingTransition(0, 0);
+                    finish();
+                }else if (sharedPref.getBoolean("act10", false)) {
+                    Intent intent_in = new Intent(MainActivity.this, Pause9.class);
+                    startActivity(intent_in);
+                    overridePendingTransition(0, 0);
+                    finish();
+                } else if (sharedPref.getBoolean("act11", false)) {
+                    Intent intent_in = new Intent(MainActivity.this, Pause10.class);
+                    startActivity(intent_in);
+                    overridePendingTransition(0, 0);
+                    finish();
+                } else if (sharedPref.getBoolean("act12", false)) {
+                    Intent intent_in = new Intent(MainActivity.this, Pause11.class);
+                    startActivity(intent_in);
+                    overridePendingTransition(0, 0);
+                    finish();
+                } else {
+                    textView2.setText("");
+                    textView.setText(R.string.end);
+                }
             }
 
             public void onSwipeBottom() {

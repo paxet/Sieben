@@ -11,7 +11,7 @@
     <string name="action_changelog">Änderungen</string>
 
     <string name="pref_1">Über die App</string>
-    <string name="pref_2">Ton Einstellungen</string>
+    <string name="pref_2">Einstellungen</string>
 
     <string name="action_changelog_summary">Was gibt es neues …</string>
     <string name="action_license_summary">Linzensiert unter GPL3</string>
@@ -21,6 +21,9 @@
     <string name="action_tts_summary">Möchtest du Sprachanweisungen hören?</string>
     <string name="action_beep">Beep</string>
     <string name="action_beep_summary">Möchtest du am Ende jeder Übung ein kurzes \"Beep\" hören?</string>
+
+    <string name="action_exercises">Übungen</string>
+    <string name="action_exercises_summary">Welche Übungen möchtest du machen?</string>
 
     //Snackbar
     <string name="sn_pause">Eine kurze Pause …</string>
@@ -58,6 +61,32 @@
     <string name="pau_11" tools:keep="@string/pau_11">Pause - dann: Planke auf rechter Seite</string>
     <string name="pau_112">Pause - Bitte Seite wechseln</string>
 
+    <string name="acte">1. Übung</string>
+    <string name="act_2e" tools:keep="@string/act_2e">2. Übung</string>
+    <string name="act_3e" tools:keep="@string/act_3e">3. Übung</string>
+    <string name="act_4e" tools:keep="@string/act_4e">4. Übung</string>
+    <string name="act_5e" tools:keep="@string/act_5e">5. Übung</string>
+    <string name="act_6e" tools:keep="@string/act_6e">6. Übung</string>
+    <string name="act_7e" tools:keep="@string/act_7e">7. Übung</string>
+    <string name="act_8e" tools:keep="@string/act_8e">8. Übung</string>
+    <string name="act_9e" tools:keep="@string/act_9e">9. Übung</string>
+    <string name="act_10e" tools:keep="@string/act_10e">10. Übung</string>
+    <string name="act_11e" tools:keep="@string/act_11e">11. Übung</string>
+    <string name="act_12e" tools:keep="@string/act_12e">12. Übung</string>
+
+    <string name="actee">Hampelmänner</string>
+    <string name="act_2ee" tools:keep="@string/act_2ee">Wand sitzen</string>
+    <string name="act_3ee" tools:keep="@string/act_3ee">Liegestützen</string>
+    <string name="act_4ee" tools:keep="@string/act_4ee">Sit Ups</string>
+    <string name="act_5ee" tools:keep="@string/act_5ee">Auf den Stuhl steigen</string>
+    <string name="act_6ee" tools:keep="@string/act_6ee">Kniebeugen</string>
+    <string name="act_7ee" tools:keep="@string/act_7ee">Tricepts auf Stuhl</string>
+    <string name="act_8ee" tools:keep="@string/act_8ee">Planke</string>
+    <string name="act_9ee" tools:keep="@string/act_9ee">Auf der Stelle laufen</string>
+    <string name="act_10ee" tools:keep="@string/act_10ee">Ausholschritt</string>
+    <string name="act_11ee" tools:keep="@string/act_11ee">Liegestützen mit Drehung</string>
+    <string name="act_12ee" tools:keep="@string/act_12ee">Planke auf der Seite</string>
+
     //License Dialog
     <string name="about_yes">OK</string>
     <string name="about_title">Copyright © 2016  by scoute-dich</string>
@@ -92,6 +121,10 @@
     <string name="changelog_text">
         &lt;i>Besuche für mehr Informationen die Projektseite auf Github:&lt;br>
         https://github.com/scoute-dich/Sieben&lt;/i>&lt;br>&lt;br>
+
+        &lt;b>v1.7:&lt;/b>&lt;br>
+        &#8226; Möglichkeit Übungen auszuwählen&lt;br>
+        &#8226; fixed lint Warnungen&lt;br>&lt;br>
 
         &lt;b>v1.6 - 1.6.2:&lt;/b>&lt;br>
         &#8226; fixed ungültiger Link&lt;br>

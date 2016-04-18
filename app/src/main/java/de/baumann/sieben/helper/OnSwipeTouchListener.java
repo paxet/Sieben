@@ -1,4 +1,4 @@
-package de.baumann.sieben;
+package de.baumann.sieben.helper;
 
 import android.content.Context;
 import android.view.GestureDetector;
@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.View.OnTouchListener;
 
 
-class OnSwipeTouchListener implements OnTouchListener {
+public class OnSwipeTouchListener implements OnTouchListener {
 
     private final GestureDetector gestureDetector;
 
