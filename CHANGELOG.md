@@ -1,4 +1,4 @@
-### v1.7
+### v1.7 - 1.7.1
 - option to select exercises
 - fixed lint warnings
 
