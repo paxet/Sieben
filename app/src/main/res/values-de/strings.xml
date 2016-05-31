@@ -88,12 +88,12 @@
 
     //License Dialog
     <string name="about_yes">OK</string>
-    <string name="about_title">Copyright © 2016  by scoute-dich</string>
+    <string name="about_title">Copyright © 2016  by Gaukler Faun</string>
     <string name="about_text">
         &lt;b>Beteiligte:&lt;/b>&lt;br>&lt;br>
 
         &lt;i>Entwicklung&lt;/i>&lt;br>
-        scoute-dich https://github.com/scoute-dich&lt;br> &lt;br>
+        Gaukler Faun https://github.com/scoute-dich&lt;br> &lt;br>
 
         &lt;i>Übersetzugen&lt;/i>&lt;br>
         Japanisch: naofum https://github.com/naofum&lt;br> &lt;br>
