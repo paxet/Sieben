@@ -23,7 +23,6 @@
     <string name="action_beep_summary">Möchtest du am Ende jeder Übung ein kurzes \"Beep\" hören?</string>
 
     <string name="action_exercises">Übungen</string>
-    <string name="action_exercises_summary">Welche Übungen möchtest du machen?</string>
 
     //Snackbar
     <string name="sn_pause">Eine kurze Pause …</string>
@@ -121,6 +120,9 @@
     <string name="changelog_text">
         &lt;i>Besuche für mehr Informationen die Projektseite auf Github:&lt;br>
         https://github.com/scoute-dich/Sieben&lt;/i>&lt;br>&lt;br>
+
+        &lt;b>v1.7.2:&lt;/b>&lt;br>
+        &#8226; Bug fixes&lt;br>&lt;br>
 
         &lt;b>v1.7 - 1.7.1:&lt;/b>&lt;br>
         &#8226; Möglichkeit Übungen auszuwählen&lt;br>

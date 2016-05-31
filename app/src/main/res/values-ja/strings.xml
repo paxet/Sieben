@@ -100,6 +100,9 @@
         &lt;i>さらに詳しい情報は、GitHub のプロジェクトサイトを参照してください:&lt;br>
         https://github.com/scoute-dich/Seven&lt;/i>&lt;br>&lt;br>
 
+        &lt;b>v1.7.2:&lt;/b>&lt;br>
+        &#8226; bug fixes&lt;br>&lt;br>
+
         &lt;b>v1.7 - 1.7.1:&lt;/b>&lt;br>
         &#8226; option to select exercises&lt;br>
         &#8226; fixed lint warnings&lt;br>&lt;br>
@@ -157,6 +160,5 @@
     <string name="start">Swipe up to begin (after 5 sec. break) …</string>
     <string name="start2">5 seconds break before first exersise …</string>
     <string name="action_exercises">Exercises</string>
-    <string name="action_exercises_summary">Which exercises do you want to perform?</string>
 
 </resources>

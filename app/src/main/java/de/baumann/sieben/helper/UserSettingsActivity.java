@@ -130,23 +130,6 @@ public class UserSettingsActivity extends AppCompatActivity {
             addHelpListener();
             addLicenseListener();
             addChangelogListener();
-
-            findPreference( "nested" ).setOnPreferenceClickListener( new Preference.OnPreferenceClickListener() {
-                @Override public boolean onPreferenceClick( Preference preference ) {
-                    getFragmentManager().beginTransaction().replace( android.R.id.content, new NestedFragment() ).addToBackStack( NestedFragment.class.getSimpleName() ).commit();
-                    return true;
-                }
-            } );
-        }
-    }
-
-    public static class NestedFragment extends PreferenceFragment {
-        @Override
-        public void onCreate(Bundle savedInstanceState) {
-            super.onCreate(savedInstanceState);
-
-            addPreferencesFromResource(R.xml.user_settings2);
-
         }
     }
 }

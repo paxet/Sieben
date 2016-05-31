@@ -33,7 +33,6 @@
         android:textAlignment="center"
         android:textSize="46sp"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_marginBottom="46dp"
         android:gravity="center_vertical|center_horizontal" />
@@ -61,7 +60,9 @@
         android:progress="100"
         android:layout_above="@+id/timer"
         android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"/>
+        android:layout_alignParentEnd="true"
+        android:progressTint="@color/colorAccent"
+        android:progressBackgroundTint="@color/colorPrimary"/>
 
 
 </RelativeLayout>

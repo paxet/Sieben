@@ -23,7 +23,6 @@
     <string name="action_beep_summary">Do you want to hear a short \"Beep\" after each exercise?</string>
 
     <string name="action_exercises">Exercises</string>
-    <string name="action_exercises_summary">Which exercises do you want to perform?</string>
 
     //Snackbar
     <string name="sn_pause">A short Break …</string>
@@ -120,6 +119,9 @@
     <string name="changelog_text">
         &lt;i>For more informations visit the project site on github:&lt;br>
         https://github.com/scoute-dich/Sieben&lt;/i>&lt;br>&lt;br>
+
+        &lt;b>v1.7.2:&lt;/b>&lt;br>
+        &#8226; bug fixes&lt;br>&lt;br>
 
         &lt;b>v1.7 - 1.7.1:&lt;/b>&lt;br>
         &#8226; option to select exercises&lt;br>
