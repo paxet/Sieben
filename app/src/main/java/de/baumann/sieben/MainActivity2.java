@@ -127,52 +127,52 @@ public class MainActivity2 extends AppCompatActivity {
                     Intent intent_in = new Intent(MainActivity2.this, Pause2.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
-                    finish();
+                    finishAffinity();
                 } else if (sharedPref.getBoolean("act4", false)) {
                     Intent intent_in = new Intent(MainActivity2.this, Pause3.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
-                    finish();
+                    finishAffinity();
                 } else if (sharedPref.getBoolean("act5", false)) {
                     Intent intent_in = new Intent(MainActivity2.this, Pause4.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
-                    finish();
+                    finishAffinity();
                 }else if (sharedPref.getBoolean("act6", false)) {
                     Intent intent_in = new Intent(MainActivity2.this, Pause5.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
-                    finish();
+                    finishAffinity();
                 } else if (sharedPref.getBoolean("act7", false)) {
                     Intent intent_in = new Intent(MainActivity2.this, Pause6.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
-                    finish();
+                    finishAffinity();
                 } else if (sharedPref.getBoolean("act8", false)) {
                     Intent intent_in = new Intent(MainActivity2.this, Pause7.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
-                    finish();
+                    finishAffinity();
                 } else if (sharedPref.getBoolean("act9", false)) {
                     Intent intent_in = new Intent(MainActivity2.this, Pause8.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
-                    finish();
+                    finishAffinity();
                 }else if (sharedPref.getBoolean("act10", false)) {
                     Intent intent_in = new Intent(MainActivity2.this, Pause9.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
-                    finish();
+                    finishAffinity();
                 } else if (sharedPref.getBoolean("act11", false)) {
                     Intent intent_in = new Intent(MainActivity2.this, Pause10.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
-                    finish();
+                    finishAffinity();
                 } else if (sharedPref.getBoolean("act12", false)) {
                     Intent intent_in = new Intent(MainActivity2.this, Pause11.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
-                    finish();
+                    finishAffinity();
                 } else {
                     textView.setText(R.string.end);
                 }
@@ -252,52 +252,52 @@ public class MainActivity2 extends AppCompatActivity {
                             Intent intent_in = new Intent(MainActivity2.this, Pause2.class);
                             startActivity(intent_in);
                             overridePendingTransition(0, 0);
-                            finish();
+                            finishAffinity();
                         } else if (sharedPref.getBoolean("act4", false)) {
                             Intent intent_in = new Intent(MainActivity2.this, Pause3.class);
                             startActivity(intent_in);
                             overridePendingTransition(0, 0);
-                            finish();
+                            finishAffinity();
                         } else if (sharedPref.getBoolean("act5", false)) {
                             Intent intent_in = new Intent(MainActivity2.this, Pause4.class);
                             startActivity(intent_in);
                             overridePendingTransition(0, 0);
-                            finish();
+                            finishAffinity();
                         }else if (sharedPref.getBoolean("act6", false)) {
                             Intent intent_in = new Intent(MainActivity2.this, Pause5.class);
                             startActivity(intent_in);
                             overridePendingTransition(0, 0);
-                            finish();
+                            finishAffinity();
                         } else if (sharedPref.getBoolean("act7", false)) {
                             Intent intent_in = new Intent(MainActivity2.this, Pause6.class);
                             startActivity(intent_in);
                             overridePendingTransition(0, 0);
-                            finish();
+                            finishAffinity();
                         } else if (sharedPref.getBoolean("act8", false)) {
                             Intent intent_in = new Intent(MainActivity2.this, Pause7.class);
                             startActivity(intent_in);
                             overridePendingTransition(0, 0);
-                            finish();
+                            finishAffinity();
                         } else if (sharedPref.getBoolean("act9", false)) {
                             Intent intent_in = new Intent(MainActivity2.this, Pause8.class);
                             startActivity(intent_in);
                             overridePendingTransition(0, 0);
-                            finish();
+                            finishAffinity();
                         }else if (sharedPref.getBoolean("act10", false)) {
                             Intent intent_in = new Intent(MainActivity2.this, Pause9.class);
                             startActivity(intent_in);
                             overridePendingTransition(0, 0);
-                            finish();
+                            finishAffinity();
                         } else if (sharedPref.getBoolean("act11", false)) {
                             Intent intent_in = new Intent(MainActivity2.this, Pause10.class);
                             startActivity(intent_in);
                             overridePendingTransition(0, 0);
-                            finish();
+                            finishAffinity();
                         } else if (sharedPref.getBoolean("act12", false)) {
                             Intent intent_in = new Intent(MainActivity2.this, Pause11.class);
                             startActivity(intent_in);
                             overridePendingTransition(0, 0);
-                            finish();
+                            finishAffinity();
                         } else {
                             textView.setText(R.string.end);
                         }
@@ -331,7 +331,7 @@ public class MainActivity2 extends AppCompatActivity {
                     Intent intent_in = new Intent(MainActivity2.this, MainActivity.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
-                    finish();
+                    finishAffinity();
                 } else {
                     Snackbar.make(imageView, R.string.sn_first, Snackbar.LENGTH_LONG)
                             .setAction("Action", null).show();
@@ -384,52 +384,52 @@ public class MainActivity2 extends AppCompatActivity {
                     Intent intent_in = new Intent(MainActivity2.this, Pause2.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
-                    finish();
+                    finishAffinity();
                 } else if (sharedPref.getBoolean("act4", false)) {
                     Intent intent_in = new Intent(MainActivity2.this, Pause3.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
-                    finish();
+                    finishAffinity();
                 } else if (sharedPref.getBoolean("act5", false)) {
                     Intent intent_in = new Intent(MainActivity2.this, Pause4.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
-                    finish();
+                    finishAffinity();
                 }else if (sharedPref.getBoolean("act6", false)) {
                     Intent intent_in = new Intent(MainActivity2.this, Pause5.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
-                    finish();
+                    finishAffinity();
                 } else if (sharedPref.getBoolean("act7", false)) {
                     Intent intent_in = new Intent(MainActivity2.this, Pause6.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
-                    finish();
+                    finishAffinity();
                 } else if (sharedPref.getBoolean("act8", false)) {
                     Intent intent_in = new Intent(MainActivity2.this, Pause7.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
-                    finish();
+                    finishAffinity();
                 } else if (sharedPref.getBoolean("act9", false)) {
                     Intent intent_in = new Intent(MainActivity2.this, Pause8.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
-                    finish();
+                    finishAffinity();
                 }else if (sharedPref.getBoolean("act10", false)) {
                     Intent intent_in = new Intent(MainActivity2.this, Pause9.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
-                    finish();
+                    finishAffinity();
                 } else if (sharedPref.getBoolean("act11", false)) {
                     Intent intent_in = new Intent(MainActivity2.this, Pause10.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
-                    finish();
+                    finishAffinity();
                 } else if (sharedPref.getBoolean("act12", false)) {
                     Intent intent_in = new Intent(MainActivity2.this, Pause11.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
-                    finish();
+                    finishAffinity();
                 } else {
                     textView.setText(R.string.end);
                 }
@@ -472,6 +472,6 @@ public class MainActivity2 extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         isCanceled = true;
-        finish();
+        finishAffinity();
     }
 }
