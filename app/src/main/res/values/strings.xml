@@ -120,44 +120,48 @@
         &lt;i>For more informations visit the project site on github:&lt;br>
         https://github.com/scoute-dich/Sieben&lt;/i>&lt;br>&lt;br>
 
-        &lt;b>v1.7.2 - 1.7.2.1:&lt;/b>&lt;br>
+        &lt;b>v 1.7.3:&lt;/b>&lt;br>
+        &#8226; show picture of first chosen exercise on start&lt;br>
         &#8226; bug fixes&lt;br>&lt;br>
 
-        &lt;b>v1.7 - 1.7.1:&lt;/b>&lt;br>
+        &lt;b>v 1.7.2 - 1.7.2.1:&lt;/b>&lt;br>
+        &#8226; bug fixes&lt;br>&lt;br>
+
+        &lt;b>v 1.7 - 1.7.1:&lt;/b>&lt;br>
         &#8226; option to select exercises&lt;br>
         &#8226; fixed lint warnings&lt;br>&lt;br>
 
-        &lt;b>v1.6 - 1.6.2:&lt;/b>&lt;br>
+        &lt;b>v 1.6 - 1.6.2:&lt;/b>&lt;br>
         &#8226; fixed broken link&lt;br>
         &#8226; removed fab-button&lt;br>
         &#8226; added audio settings&lt;br>
         &#8226; split last exercise in two parts&lt;br>
         &#8226; break before first exercise&lt;br>&lt;br>
 
-        &lt;b>v1.5:&lt;/b>&lt;br>
+        &lt;b>v 1.5:&lt;/b>&lt;br>
         &#8226; text to speech support&lt;br>
         &#8226; countdown pause and resume support&lt;br>
         &#8226; code clean up&lt;br>&lt;br>
 
-        &lt;b>v1.4:&lt;/b>&lt;br>
+        &lt;b>v 1.4:&lt;/b>&lt;br>
         &#8226; set screen orientation to portrait&lt;br>
         &#8226; fixed project-link&lt;br>&lt;br>
 
-        &lt;b>v1.3.1:&lt;/b>&lt;br>
+        &lt;b>v 1.3.1:&lt;/b>&lt;br>
         &#8226; added Japanese translation&lt;br>&lt;br>
 
-        &lt;b>v1.3:&lt;/b>&lt;br>
+        &lt;b>v 1.3:&lt;/b>&lt;br>
         &#8226; added swipe function (see help dialog)&lt;br>
         &#8226; keep screen awake&lt;br>
         &#8226; new dialogs (help/changelog)&lt;br>&lt;br>
 
-        &lt;b>v1.2:&lt;/b>&lt;br>
+        &lt;b>v 1.2:&lt;/b>&lt;br>
         &#8226; changed default language to english&lt;br>&lt;br>
 
-        &lt;b>v1.1:&lt;/b>&lt;br>
+        &lt;b>v 1.1:&lt;/b>&lt;br>
         &#8226; better integration of snackbar&lt;br>&lt;br>
 
-        &lt;b>v1.0:&lt;/b>&lt;br>
+        &lt;b>v 1.0:&lt;/b>&lt;br>
         &#8226; first release
     </string>
 

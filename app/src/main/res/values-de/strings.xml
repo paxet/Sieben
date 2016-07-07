@@ -121,44 +121,48 @@
         &lt;i>Besuche für mehr Informationen die Projektseite auf Github:&lt;br>
         https://github.com/scoute-dich/Sieben&lt;/i>&lt;br>&lt;br>
 
-        &lt;b>v1.7.2 - 1.7.2.1:&lt;/b>&lt;br>
+        &lt;b>v 1.7.3:&lt;/b>&lt;br>
+        &#8226; Bild der ersten ausgewählten Übung beim Start&lt;br>
         &#8226; Bug fixes&lt;br>&lt;br>
 
-        &lt;b>v1.7 - 1.7.1:&lt;/b>&lt;br>
+        &lt;b>v 1.7.2 - 1.7.2.1:&lt;/b>&lt;br>
+        &#8226; Bug fixes&lt;br>&lt;br>
+
+        &lt;b>v 1.7 - 1.7.1:&lt;/b>&lt;br>
         &#8226; Möglichkeit Übungen auszuwählen&lt;br>
         &#8226; fixed lint Warnungen&lt;br>&lt;br>
 
-        &lt;b>v1.6 - 1.6.2:&lt;/b>&lt;br>
+        &lt;b>v 1.6 - 1.6.2:&lt;/b>&lt;br>
         &#8226; fixed ungültiger Link&lt;br>
         &#8226; Fab-Knopf entfernt&lt;br>
         &#8226; Ton Einstellungen&lt;br>
         &#8226; letzte Übung in zwei Teile geteilt&lt;br>
         &#8226; Pause vor der ersten Ünung&lt;br>&lt;br>
 
-        &lt;b>v1.5:&lt;/b>&lt;br>
+        &lt;b>v 1.5:&lt;/b>&lt;br>
         &#8226; Text zu Sprache Unterstützung&lt;br>
         &#8226; Countdown Pause und fortfahren&lt;br>
         &#8226; Code Verbesserungen&lt;br>&lt;br>
 
-        &lt;b>v1.4:&lt;/b>&lt;br>
+        &lt;b>v 1.4:&lt;/b>&lt;br>
         &#8226; Bildschirmorientierung: Portrait&lt;br>
         &#8226; Projektlink gefixed&lt;br>&lt;br>
 
-        &lt;b>v1.3.1:&lt;/b>&lt;br>
+        &lt;b>v 1.3.1:&lt;/b>&lt;br>
         &#8226; Japanische Übersetzung&lt;br>&lt;br>
 
-        &lt;b>v1.3:&lt;/b>&lt;br>
+        &lt;b>v 1.3:&lt;/b>&lt;br>
         &#8226; Wischfunktion hinzugefügt (siehe Hilfe Dialog)&lt;br>
         &#8226; Bildschirm bleibt an&lt;br>
         &#8226; neue Dialoge (Hilfe/Changelog)&lt;br>&lt;br>
 
-        &lt;b>v1.2:&lt;/b>&lt;br>
+        &lt;b>v 1.2:&lt;/b>&lt;br>
         &#8226; Standardsprache auf Englisch geändert&lt;br>&lt;br>
 
-        &lt;b>v1.1:&lt;/b>&lt;br>
+        &lt;b> v1.1:&lt;/b>&lt;br>
         &#8226; bessere integration der Snackbar&lt;br>&lt;br>
 
-        &lt;b>v1.0:&lt;/b>&lt;br>
+        &lt;b>v 1.0:&lt;/b>&lt;br>
         &#8226; erste Version
     </string>
 

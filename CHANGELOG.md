@@ -1,3 +1,7 @@
+### v1.7.3
+- how picture of first chosen exercise on start
+- bug fixes
+
 ### v1.7.2.1
 - bug fixes
 

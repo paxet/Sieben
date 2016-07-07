@@ -1,4 +1,4 @@
-package de.baumann.sieben;
+package de.baumann.sieben.workouts;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -17,6 +17,18 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import de.baumann.sieben.MainActivity;
+import de.baumann.sieben.pause.Pause;
+import de.baumann.sieben.pause.Pause10;
+import de.baumann.sieben.pause.Pause11;
+import de.baumann.sieben.pause.Pause2;
+import de.baumann.sieben.pause.Pause3;
+import de.baumann.sieben.pause.Pause4;
+import de.baumann.sieben.pause.Pause5;
+import de.baumann.sieben.pause.Pause6;
+import de.baumann.sieben.pause.Pause7;
+import de.baumann.sieben.pause.Pause9;
+import de.baumann.sieben.R;
 import de.baumann.sieben.helper.OnSwipeTouchListener;
 import de.baumann.sieben.helper.TTSManager;
 import de.baumann.sieben.helper.UserSettingsActivity;
@@ -296,7 +308,7 @@ public class MainActivity9 extends AppCompatActivity {
                         String text = getResources().getString(R.string.pau_11);
                         ttsManager.initQueue(text);
                     } else {
-                        String text = getResources().getString(R.string.end);
+                        String text = getResources().getString(R.string.sn_last);
                         ttsManager.initQueue(text);
                     }
                 }
@@ -317,7 +329,8 @@ public class MainActivity9 extends AppCompatActivity {
                     overridePendingTransition(0, 0);
                     finishAffinity();
                 } else {
-                    textView.setText(R.string.end);
+                    Snackbar.make(imageView, R.string.sn_last, Snackbar.LENGTH_LONG)
+                            .setAction("Action", null).show();
                 }
             }
 

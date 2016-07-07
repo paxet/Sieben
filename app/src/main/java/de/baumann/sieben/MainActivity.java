@@ -20,6 +20,29 @@ import android.widget.TextView;
 import de.baumann.sieben.helper.OnSwipeTouchListener;
 import de.baumann.sieben.helper.TTSManager;
 import de.baumann.sieben.helper.UserSettingsActivity;
+import de.baumann.sieben.pause.Pause;
+import de.baumann.sieben.pause.Pause10;
+import de.baumann.sieben.pause.Pause11;
+import de.baumann.sieben.pause.Pause2;
+import de.baumann.sieben.pause.Pause3;
+import de.baumann.sieben.pause.Pause4;
+import de.baumann.sieben.pause.Pause5;
+import de.baumann.sieben.pause.Pause6;
+import de.baumann.sieben.pause.Pause7;
+import de.baumann.sieben.pause.Pause8;
+import de.baumann.sieben.pause.Pause9;
+import de.baumann.sieben.workouts.MainActivity1;
+import de.baumann.sieben.workouts.MainActivity10;
+import de.baumann.sieben.workouts.MainActivity11;
+import de.baumann.sieben.workouts.MainActivity12;
+import de.baumann.sieben.workouts.MainActivity2;
+import de.baumann.sieben.workouts.MainActivity3;
+import de.baumann.sieben.workouts.MainActivity4;
+import de.baumann.sieben.workouts.MainActivity5;
+import de.baumann.sieben.workouts.MainActivity6;
+import de.baumann.sieben.workouts.MainActivity7;
+import de.baumann.sieben.workouts.MainActivity8;
+import de.baumann.sieben.workouts.MainActivity9;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -42,8 +65,38 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         PreferenceManager.setDefaultValues(this, R.xml.user_settings, false);
+        SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(MainActivity.this);
 
         imageView = (ImageView) findViewById(R.id.imageView);
+        assert imageView != null;
+
+        if (sharedPref.getBoolean("act1", false)) {
+            imageView.setImageResource(R.drawable.a01);
+        } else  if (sharedPref.getBoolean("act2", false)) {
+            imageView.setImageResource(R.drawable.a02);
+        } else  if (sharedPref.getBoolean("act3", false)) {
+            imageView.setImageResource(R.drawable.a03);
+        } else  if (sharedPref.getBoolean("act4", false)) {
+            imageView.setImageResource(R.drawable.a04);
+        } else  if (sharedPref.getBoolean("act5", false)) {
+            imageView.setImageResource(R.drawable.a05);
+        } else  if (sharedPref.getBoolean("act6", false)) {
+            imageView.setImageResource(R.drawable.a06);
+        } else  if (sharedPref.getBoolean("act7", false)) {
+            imageView.setImageResource(R.drawable.a07);
+        } else  if (sharedPref.getBoolean("act8", false)) {
+            imageView.setImageResource(R.drawable.a08);
+        } else  if (sharedPref.getBoolean("act9", false)) {
+            imageView.setImageResource(R.drawable.a09);
+        } else  if (sharedPref.getBoolean("act10", false)) {
+            imageView.setImageResource(R.drawable.a10);
+        } else  if (sharedPref.getBoolean("act11", false)) {
+            imageView.setImageResource(R.drawable.a11);
+        } else  if (sharedPref.getBoolean("act12", false)) {
+            imageView.setImageResource(R.drawable.a12);
+        } else {
+            imageView.setImageResource(R.drawable.a01);
+        }
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -264,7 +317,7 @@ public class MainActivity extends AppCompatActivity {
                             String text = getResources().getString(R.string.pau_11);
                             ttsManager.initQueue(text);
                         } else {
-                            String text = getResources().getString(R.string.end);
+                            String text = getResources().getString(R.string.sn_last);
                             ttsManager.initQueue(text);
                         }
                     }
@@ -326,8 +379,8 @@ public class MainActivity extends AppCompatActivity {
                     overridePendingTransition(0, 0);
                     finishAffinity();
                 } else {
-                    textView2.setText("");
-                    textView.setText(R.string.end);
+                    Snackbar.make(imageView, R.string.sn_last, Snackbar.LENGTH_LONG)
+                            .setAction("Action", null).show();
                 }
             }
 

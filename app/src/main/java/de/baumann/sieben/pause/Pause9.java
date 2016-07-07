@@ -1,4 +1,4 @@
-package de.baumann.sieben;
+package de.baumann.sieben.pause;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -17,12 +17,15 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import de.baumann.sieben.MainActivity;
+import de.baumann.sieben.R;
 import de.baumann.sieben.helper.OnSwipeTouchListener;
 import de.baumann.sieben.helper.TTSManager;
 import de.baumann.sieben.helper.UserSettingsActivity;
+import de.baumann.sieben.workouts.MainActivity10;
 
 
-public class Pause3 extends AppCompatActivity {
+public class Pause9 extends AppCompatActivity {
 
     private TextView textView;
     private ProgressBar progressBar;
@@ -43,11 +46,11 @@ public class Pause3 extends AppCompatActivity {
 
         imageView = (ImageView) findViewById(R.id.imageView);
         assert imageView != null;
-        imageView.setImageResource(R.drawable.a04);
+        imageView.setImageResource(R.drawable.a10);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        setTitle(R.string.pau_3);
+        setTitle(R.string.pau_9);
 
         progressBar = (ProgressBar)findViewById(R.id.progressBar);
         assert progressBar != null;
@@ -61,10 +64,9 @@ public class Pause3 extends AppCompatActivity {
         long millisInFuture = 10000;
         long countDownInterval = 100;
 
-
         //Initialize a new CountDownTimer instance
         new CountDownTimer(millisInFuture,countDownInterval){
-            final SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(Pause3.this);
+            final SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(Pause9.this);
             public void onTick(long millisUntilFinished){
                 //do something in every tick
                 if(isPaused || isCanceled)
@@ -86,20 +88,20 @@ public class Pause3 extends AppCompatActivity {
                 }
 
                 if (sharedPref.getBoolean ("tts", false)){
-                    String text = getResources().getString(R.string.act_4);
+                    String text = getResources().getString(R.string.act_10);
                     ttsManager.initQueue(text);
                 }
 
                 progressBar.setProgress(0);
-                Intent intent_in = new Intent(de.baumann.sieben.Pause3.this, MainActivity4.class);
+                Intent intent_in = new Intent(Pause9.this, MainActivity10.class);
                 startActivity(intent_in);
                 overridePendingTransition(0, 0);
                 finishAffinity();
             }
         }.start();
 
-        imageView.setOnTouchListener(new OnSwipeTouchListener(Pause3.this) {
-            final SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(Pause3.this);
+        imageView.setOnTouchListener(new OnSwipeTouchListener(Pause9.this) {
+            final SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(Pause9.this);
             public void onSwipeTop() {
                 isPaused = false;
                 isCanceled = false;
@@ -128,12 +130,12 @@ public class Pause3 extends AppCompatActivity {
                         }
 
                         if (sharedPref.getBoolean ("tts", false)){
-                            String text = getResources().getString(R.string.act_4);
+                            String text = getResources().getString(R.string.act_10);
                             ttsManager.initQueue(text);
                         }
 
                         progressBar.setProgress(0);
-                        Intent intent_in = new Intent(de.baumann.sieben.Pause3.this, MainActivity4.class);
+                        Intent intent_in = new Intent(Pause9.this, MainActivity10.class);
                         startActivity(intent_in);
                         overridePendingTransition(0, 0);
                         finishAffinity();
@@ -151,7 +153,25 @@ public class Pause3 extends AppCompatActivity {
                 isCanceled = true;
 
                 if (sharedPref.getBoolean ("tts", false)){
-                    if (sharedPref.getBoolean("act3", false)) {
+                    if (sharedPref.getBoolean("act9", false)) {
+                        String text = getResources().getString(R.string.pau_8);
+                        ttsManager.initQueue(text);
+                    } else if (sharedPref.getBoolean("act8", false)) {
+                        String text = getResources().getString(R.string.pau_7);
+                        ttsManager.initQueue(text);
+                    } else if (sharedPref.getBoolean("act7", false)) {
+                        String text = getResources().getString(R.string.pau_6);
+                        ttsManager.initQueue(text);
+                    } else if (sharedPref.getBoolean("act6", false)) {
+                        String text = getResources().getString(R.string.pau_5);
+                        ttsManager.initQueue(text);
+                    } else if (sharedPref.getBoolean("act5", false)) {
+                        String text = getResources().getString(R.string.pau_4);
+                        ttsManager.initQueue(text);
+                    } else if (sharedPref.getBoolean("act4", false)) {
+                        String text = getResources().getString(R.string.pau_3);
+                        ttsManager.initQueue(text);
+                    } else if (sharedPref.getBoolean("act3", false)) {
                         String text = getResources().getString(R.string.pau_2);
                         ttsManager.initQueue(text);
                     } else if (sharedPref.getBoolean("act2", false)) {
@@ -166,18 +186,48 @@ public class Pause3 extends AppCompatActivity {
                     }
                 }
 
-                if (sharedPref.getBoolean("act3", false)) {
-                    Intent intent_in = new Intent(Pause3.this, Pause2.class);
+                if (sharedPref.getBoolean("act9", false)) {
+                    Intent intent_in = new Intent(Pause9.this, Pause8.class);
+                    startActivity(intent_in);
+                    overridePendingTransition(0, 0);
+                    finishAffinity();
+                } else if (sharedPref.getBoolean("act8", false)) {
+                    Intent intent_in = new Intent(Pause9.this, Pause7.class);
+                    startActivity(intent_in);
+                    overridePendingTransition(0, 0);
+                    finishAffinity();
+                } else if (sharedPref.getBoolean("act7", false)) {
+                    Intent intent_in = new Intent(Pause9.this, Pause6.class);
+                    startActivity(intent_in);
+                    overridePendingTransition(0, 0);
+                    finishAffinity();
+                } else if (sharedPref.getBoolean("act6", false)) {
+                    Intent intent_in = new Intent(Pause9.this, Pause5.class);
+                    startActivity(intent_in);
+                    overridePendingTransition(0, 0);
+                    finishAffinity();
+                } else if (sharedPref.getBoolean("act5", false)) {
+                    Intent intent_in = new Intent(Pause9.this, Pause4.class);
+                    startActivity(intent_in);
+                    overridePendingTransition(0, 0);
+                    finishAffinity();
+                } else if (sharedPref.getBoolean("act4", false)) {
+                    Intent intent_in = new Intent(Pause9.this, Pause3.class);
+                    startActivity(intent_in);
+                    overridePendingTransition(0, 0);
+                    finishAffinity();
+                } else if (sharedPref.getBoolean("act3", false)) {
+                    Intent intent_in = new Intent(Pause9.this, Pause2.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
                     finishAffinity();
                 } else if (sharedPref.getBoolean("act2", false)) {
-                    Intent intent_in = new Intent(Pause3.this, Pause.class);
+                    Intent intent_in = new Intent(Pause9.this, Pause.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
                     finishAffinity();
                 } else if (sharedPref.getBoolean("act1", false)) {
-                    Intent intent_in = new Intent(Pause3.this, MainActivity.class);
+                    Intent intent_in = new Intent(Pause9.this, MainActivity.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
                     finishAffinity();
@@ -192,78 +242,31 @@ public class Pause3 extends AppCompatActivity {
 
                 if (sharedPref.getBoolean ("tts", false)){
 
-                    if (sharedPref.getBoolean("act5", false)) {
-                        String text = getResources().getString(R.string.pau_4);
-                        ttsManager.initQueue(text);
-                    } else  if (sharedPref.getBoolean("act6", false)) {
-                        String text = getResources().getString(R.string.pau_5);
-                        ttsManager.initQueue(text);
-                    } else  if (sharedPref.getBoolean("act7", false)) {
-                        String text = getResources().getString(R.string.pau_6);
-                        ttsManager.initQueue(text);
-                    } else  if (sharedPref.getBoolean("act8", false)) {
-                        String text = getResources().getString(R.string.pau_7);
-                        ttsManager.initQueue(text);
-                    } else  if (sharedPref.getBoolean("act9", false)) {
-                        String text = getResources().getString(R.string.pau_8);
-                        ttsManager.initQueue(text);
-                    } else  if (sharedPref.getBoolean("act10", false)) {
-                        String text = getResources().getString(R.string.pau_9);
-                        ttsManager.initQueue(text);
-                    } else  if (sharedPref.getBoolean("act11", false)) {
+                    if (sharedPref.getBoolean("act11", false)) {
                         String text = getResources().getString(R.string.pau_10);
                         ttsManager.initQueue(text);
                     } else  if (sharedPref.getBoolean("act12", false)) {
                         String text = getResources().getString(R.string.pau_11);
                         ttsManager.initQueue(text);
                     } else {
-                        String text = getResources().getString(R.string.end);
+                        String text = getResources().getString(R.string.sn_last);
                         ttsManager.initQueue(text);
                     }
                 }
 
-                if (sharedPref.getBoolean("act5", false)) {
-                    Intent intent_in = new Intent(Pause3.this, Pause4.class);
-                    startActivity(intent_in);
-                    overridePendingTransition(0, 0);
-                    finishAffinity();
-                }else if (sharedPref.getBoolean("act6", false)) {
-                    Intent intent_in = new Intent(Pause3.this, Pause5.class);
-                    startActivity(intent_in);
-                    overridePendingTransition(0, 0);
-                    finishAffinity();
-                } else if (sharedPref.getBoolean("act7", false)) {
-                    Intent intent_in = new Intent(Pause3.this, Pause6.class);
-                    startActivity(intent_in);
-                    overridePendingTransition(0, 0);
-                    finishAffinity();
-                } else if (sharedPref.getBoolean("act8", false)) {
-                    Intent intent_in = new Intent(Pause3.this, Pause7.class);
-                    startActivity(intent_in);
-                    overridePendingTransition(0, 0);
-                    finishAffinity();
-                } else if (sharedPref.getBoolean("act9", false)) {
-                    Intent intent_in = new Intent(Pause3.this, Pause8.class);
-                    startActivity(intent_in);
-                    overridePendingTransition(0, 0);
-                    finishAffinity();
-                }else if (sharedPref.getBoolean("act10", false)) {
-                    Intent intent_in = new Intent(Pause3.this, Pause9.class);
-                    startActivity(intent_in);
-                    overridePendingTransition(0, 0);
-                    finishAffinity();
-                } else if (sharedPref.getBoolean("act11", false)) {
-                    Intent intent_in = new Intent(Pause3.this, Pause10.class);
+                if (sharedPref.getBoolean("act11", false)) {
+                    Intent intent_in = new Intent(Pause9.this, Pause10.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
                     finishAffinity();
                 } else if (sharedPref.getBoolean("act12", false)) {
-                    Intent intent_in = new Intent(Pause3.this, Pause11.class);
+                    Intent intent_in = new Intent(Pause9.this, Pause11.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
                     finishAffinity();
                 } else {
-                    textView.setText(R.string.end);
+                    Snackbar.make(imageView, R.string.sn_last, Snackbar.LENGTH_LONG)
+                            .setAction("Action", null).show();
                 }
             }
 
@@ -295,7 +298,7 @@ public class Pause3 extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            Intent intent_in = new Intent(Pause3.this, UserSettingsActivity.class);
+            Intent intent_in = new Intent(Pause9.this, UserSettingsActivity.class);
             startActivity(intent_in);
             overridePendingTransition(0, 0);
             isCanceled = true;

@@ -1,4 +1,4 @@
-package de.baumann.sieben;
+package de.baumann.sieben.workouts;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -17,12 +17,24 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import de.baumann.sieben.MainActivity;
+import de.baumann.sieben.pause.Pause;
+import de.baumann.sieben.pause.Pause10;
+import de.baumann.sieben.pause.Pause11;
+import de.baumann.sieben.pause.Pause2;
+import de.baumann.sieben.pause.Pause3;
+import de.baumann.sieben.pause.Pause4;
+import de.baumann.sieben.pause.Pause5;
+import de.baumann.sieben.pause.Pause6;
+import de.baumann.sieben.pause.Pause8;
+import de.baumann.sieben.pause.Pause9;
+import de.baumann.sieben.R;
 import de.baumann.sieben.helper.OnSwipeTouchListener;
 import de.baumann.sieben.helper.TTSManager;
 import de.baumann.sieben.helper.UserSettingsActivity;
 
 
-public class MainActivity6 extends AppCompatActivity {
+public class MainActivity8 extends AppCompatActivity {
 
     private TextView textView;
     private ProgressBar progressBar;
@@ -41,11 +53,11 @@ public class MainActivity6 extends AppCompatActivity {
 
         imageView = (ImageView) findViewById(R.id.imageView);
         assert imageView != null;
-        imageView.setImageResource(R.drawable.a06);
+        imageView.setImageResource(R.drawable.a08);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        setTitle(R.string.act_6);
+        setTitle(R.string.act_8);
 
         progressBar = (ProgressBar)findViewById(R.id.progressBar);
         assert progressBar != null;
@@ -62,7 +74,7 @@ public class MainActivity6 extends AppCompatActivity {
 
         //Initialize a new CountDownTimer instance
         new CountDownTimer(millisInFuture,countDownInterval){
-            final SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(MainActivity6.this);
+            final SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(MainActivity8.this);
             public void onTick(long millisUntilFinished){
                 //do something in every tick
                 if(isPaused || isCanceled)
@@ -87,13 +99,7 @@ public class MainActivity6 extends AppCompatActivity {
 
                 if (sharedPref.getBoolean ("tts", false)){
 
-                    if (sharedPref.getBoolean("act7", false)) {
-                        String text = getResources().getString(R.string.pau_6);
-                        ttsManager.initQueue(text);
-                    } else  if (sharedPref.getBoolean("act8", false)) {
-                        String text = getResources().getString(R.string.pau_7);
-                        ttsManager.initQueue(text);
-                    } else  if (sharedPref.getBoolean("act9", false)) {
+                    if (sharedPref.getBoolean("act9", false)) {
                         String text = getResources().getString(R.string.pau_8);
                         ttsManager.initQueue(text);
                     } else  if (sharedPref.getBoolean("act10", false)) {
@@ -111,33 +117,23 @@ public class MainActivity6 extends AppCompatActivity {
                     }
                 }
 
-                if (sharedPref.getBoolean("act7", false)) {
-                    Intent intent_in = new Intent(MainActivity6.this, Pause6.class);
-                    startActivity(intent_in);
-                    overridePendingTransition(0, 0);
-                    finishAffinity();
-                } else if (sharedPref.getBoolean("act8", false)) {
-                    Intent intent_in = new Intent(MainActivity6.this, Pause7.class);
-                    startActivity(intent_in);
-                    overridePendingTransition(0, 0);
-                    finishAffinity();
-                } else if (sharedPref.getBoolean("act9", false)) {
-                    Intent intent_in = new Intent(MainActivity6.this, Pause8.class);
+                if (sharedPref.getBoolean("act9", false)) {
+                    Intent intent_in = new Intent(MainActivity8.this, Pause8.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
                     finishAffinity();
                 }else if (sharedPref.getBoolean("act10", false)) {
-                    Intent intent_in = new Intent(MainActivity6.this, Pause9.class);
+                    Intent intent_in = new Intent(MainActivity8.this, Pause9.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
                     finishAffinity();
                 } else if (sharedPref.getBoolean("act11", false)) {
-                    Intent intent_in = new Intent(MainActivity6.this, Pause10.class);
+                    Intent intent_in = new Intent(MainActivity8.this, Pause10.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
                     finishAffinity();
                 } else if (sharedPref.getBoolean("act12", false)) {
-                    Intent intent_in = new Intent(MainActivity6.this, Pause11.class);
+                    Intent intent_in = new Intent(MainActivity8.this, Pause11.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
                     finishAffinity();
@@ -147,8 +143,8 @@ public class MainActivity6 extends AppCompatActivity {
             }
         }.start();
 
-        imageView.setOnTouchListener(new OnSwipeTouchListener(MainActivity6.this) {
-            final SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(MainActivity6.this);
+        imageView.setOnTouchListener(new OnSwipeTouchListener(MainActivity8.this) {
+            final SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(MainActivity8.this);
             public void onSwipeTop() {
                 isPaused = false;
                 isCanceled = false;
@@ -180,13 +176,7 @@ public class MainActivity6 extends AppCompatActivity {
 
                         if (sharedPref.getBoolean ("tts", false)){
 
-                            if (sharedPref.getBoolean("act7", false)) {
-                                String text = getResources().getString(R.string.pau_6);
-                                ttsManager.initQueue(text);
-                            } else  if (sharedPref.getBoolean("act8", false)) {
-                                String text = getResources().getString(R.string.pau_7);
-                                ttsManager.initQueue(text);
-                            } else  if (sharedPref.getBoolean("act9", false)) {
+                            if (sharedPref.getBoolean("act9", false)) {
                                 String text = getResources().getString(R.string.pau_8);
                                 ttsManager.initQueue(text);
                             } else  if (sharedPref.getBoolean("act10", false)) {
@@ -204,33 +194,23 @@ public class MainActivity6 extends AppCompatActivity {
                             }
                         }
 
-                        if (sharedPref.getBoolean("act7", false)) {
-                            Intent intent_in = new Intent(MainActivity6.this, Pause6.class);
-                            startActivity(intent_in);
-                            overridePendingTransition(0, 0);
-                            finishAffinity();
-                        } else if (sharedPref.getBoolean("act8", false)) {
-                            Intent intent_in = new Intent(MainActivity6.this, Pause7.class);
-                            startActivity(intent_in);
-                            overridePendingTransition(0, 0);
-                            finishAffinity();
-                        } else if (sharedPref.getBoolean("act9", false)) {
-                            Intent intent_in = new Intent(MainActivity6.this, Pause8.class);
+                        if (sharedPref.getBoolean("act9", false)) {
+                            Intent intent_in = new Intent(MainActivity8.this, Pause8.class);
                             startActivity(intent_in);
                             overridePendingTransition(0, 0);
                             finishAffinity();
                         }else if (sharedPref.getBoolean("act10", false)) {
-                            Intent intent_in = new Intent(MainActivity6.this, Pause9.class);
+                            Intent intent_in = new Intent(MainActivity8.this, Pause9.class);
                             startActivity(intent_in);
                             overridePendingTransition(0, 0);
                             finishAffinity();
                         } else if (sharedPref.getBoolean("act11", false)) {
-                            Intent intent_in = new Intent(MainActivity6.this, Pause10.class);
+                            Intent intent_in = new Intent(MainActivity8.this, Pause10.class);
                             startActivity(intent_in);
                             overridePendingTransition(0, 0);
                             finishAffinity();
                         } else if (sharedPref.getBoolean("act12", false)) {
-                            Intent intent_in = new Intent(MainActivity6.this, Pause11.class);
+                            Intent intent_in = new Intent(MainActivity8.this, Pause11.class);
                             startActivity(intent_in);
                             overridePendingTransition(0, 0);
                             finishAffinity();
@@ -252,7 +232,13 @@ public class MainActivity6 extends AppCompatActivity {
 
                 if (sharedPref.getBoolean ("tts", false)){
 
-                    if (sharedPref.getBoolean("act5", false)) {
+                    if (sharedPref.getBoolean("act7", false)) {
+                        String text = getResources().getString(R.string.pau_6);
+                        ttsManager.initQueue(text);
+                    } else if (sharedPref.getBoolean("act6", false)) {
+                        String text = getResources().getString(R.string.pau_5);
+                        ttsManager.initQueue(text);
+                    } else if (sharedPref.getBoolean("act5", false)) {
                         String text = getResources().getString(R.string.pau_4);
                         ttsManager.initQueue(text);
                     } else if (sharedPref.getBoolean("act4", false)) {
@@ -273,28 +259,38 @@ public class MainActivity6 extends AppCompatActivity {
                     }
                 }
 
-                if (sharedPref.getBoolean("act5", false)) {
-                    Intent intent_in = new Intent(MainActivity6.this, Pause4.class);
+                if (sharedPref.getBoolean("act7", false)) {
+                    Intent intent_in = new Intent(MainActivity8.this, Pause6.class);
+                    startActivity(intent_in);
+                    overridePendingTransition(0, 0);
+                    finishAffinity();
+                } else if (sharedPref.getBoolean("act6", false)) {
+                    Intent intent_in = new Intent(MainActivity8.this, Pause5.class);
+                    startActivity(intent_in);
+                    overridePendingTransition(0, 0);
+                    finishAffinity();
+                } else if (sharedPref.getBoolean("act5", false)) {
+                    Intent intent_in = new Intent(MainActivity8.this, Pause4.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
                     finishAffinity();
                 } else if (sharedPref.getBoolean("act4", false)) {
-                    Intent intent_in = new Intent(MainActivity6.this, Pause3.class);
+                    Intent intent_in = new Intent(MainActivity8.this, Pause3.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
                     finishAffinity();
                 } else if (sharedPref.getBoolean("act3", false)) {
-                    Intent intent_in = new Intent(MainActivity6.this, Pause2.class);
+                    Intent intent_in = new Intent(MainActivity8.this, Pause2.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
                     finishAffinity();
                 } else if (sharedPref.getBoolean("act2", false)) {
-                    Intent intent_in = new Intent(MainActivity6.this, Pause.class);
+                    Intent intent_in = new Intent(MainActivity8.this, Pause.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
                     finishAffinity();
                 } else if (sharedPref.getBoolean("act1", false)) {
-                    Intent intent_in = new Intent(MainActivity6.this, MainActivity.class);
+                    Intent intent_in = new Intent(MainActivity8.this, MainActivity.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
                     finishAffinity();
@@ -308,15 +304,14 @@ public class MainActivity6 extends AppCompatActivity {
 
                 isCanceled = true;
 
+                if (sharedPref.getBoolean ("beep", false)){
+                    final ToneGenerator tg = new ToneGenerator(AudioManager.STREAM_NOTIFICATION, 100);
+                    tg.startTone(ToneGenerator.TONE_PROP_BEEP);
+                }
+
                 if (sharedPref.getBoolean ("tts", false)){
 
-                    if (sharedPref.getBoolean("act7", false)) {
-                        String text = getResources().getString(R.string.pau_6);
-                        ttsManager.initQueue(text);
-                    } else  if (sharedPref.getBoolean("act8", false)) {
-                        String text = getResources().getString(R.string.pau_7);
-                        ttsManager.initQueue(text);
-                    } else  if (sharedPref.getBoolean("act9", false)) {
+                    if (sharedPref.getBoolean("act9", false)) {
                         String text = getResources().getString(R.string.pau_8);
                         ttsManager.initQueue(text);
                     } else  if (sharedPref.getBoolean("act10", false)) {
@@ -329,43 +324,34 @@ public class MainActivity6 extends AppCompatActivity {
                         String text = getResources().getString(R.string.pau_11);
                         ttsManager.initQueue(text);
                     } else {
-                        String text = getResources().getString(R.string.end);
+                        String text = getResources().getString(R.string.sn_last);
                         ttsManager.initQueue(text);
                     }
                 }
 
-                if (sharedPref.getBoolean("act7", false)) {
-                    Intent intent_in = new Intent(MainActivity6.this, Pause6.class);
-                    startActivity(intent_in);
-                    overridePendingTransition(0, 0);
-                    finishAffinity();
-                } else if (sharedPref.getBoolean("act8", false)) {
-                    Intent intent_in = new Intent(MainActivity6.this, Pause7.class);
-                    startActivity(intent_in);
-                    overridePendingTransition(0, 0);
-                    finishAffinity();
-                } else if (sharedPref.getBoolean("act9", false)) {
-                    Intent intent_in = new Intent(MainActivity6.this, Pause8.class);
+                if (sharedPref.getBoolean("act9", false)) {
+                    Intent intent_in = new Intent(MainActivity8.this, Pause8.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
                     finishAffinity();
                 }else if (sharedPref.getBoolean("act10", false)) {
-                    Intent intent_in = new Intent(MainActivity6.this, Pause9.class);
+                    Intent intent_in = new Intent(MainActivity8.this, Pause9.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
                     finishAffinity();
                 } else if (sharedPref.getBoolean("act11", false)) {
-                    Intent intent_in = new Intent(MainActivity6.this, Pause10.class);
+                    Intent intent_in = new Intent(MainActivity8.this, Pause10.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
                     finishAffinity();
                 } else if (sharedPref.getBoolean("act12", false)) {
-                    Intent intent_in = new Intent(MainActivity6.this, Pause11.class);
+                    Intent intent_in = new Intent(MainActivity8.this, Pause11.class);
                     startActivity(intent_in);
                     overridePendingTransition(0, 0);
                     finishAffinity();
                 } else {
-                    textView.setText(R.string.end);
+                    Snackbar.make(imageView, R.string.sn_last, Snackbar.LENGTH_LONG)
+                            .setAction("Action", null).show();
                 }
             }
 
@@ -394,7 +380,7 @@ public class MainActivity6 extends AppCompatActivity {
         int id = item.getItemId();
 
         if (id == R.id.action_settings) {
-            Intent intent_in = new Intent(MainActivity6.this, UserSettingsActivity.class);
+            Intent intent_in = new Intent(MainActivity8.this, UserSettingsActivity.class);
             startActivity(intent_in);
             overridePendingTransition(0, 0);
             isCanceled = true;

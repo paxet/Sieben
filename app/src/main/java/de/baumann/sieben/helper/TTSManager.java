@@ -56,6 +56,7 @@ public class TTSManager {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                 mTts.speak(text, TextToSpeech.QUEUE_FLUSH, null, null);
             } else {
+                //noinspection deprecation
                 mTts.speak(text, TextToSpeech.QUEUE_FLUSH, null);
             }
         }
