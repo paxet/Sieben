@@ -35,6 +35,14 @@
             android:key="beep"
             android:defaultValue="true" />
 
+        <ListPreference
+            android:title="@string/action_duration"
+            android:summary="@string/action_duration_summary"
+            android:key="duration"
+            android:defaultValue="30"
+            android:entries="@array/listArrayDuration"
+            android:entryValues="@array/listValuesDuration" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

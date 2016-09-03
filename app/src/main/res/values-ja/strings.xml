@@ -97,8 +97,15 @@
 
     //Changelog Dialog
     <string name="changelog_text">
-        &lt;i>さらに詳しい情報は、GitHub のプロジェクトサイトを参照してください:&lt;br>
+        &lt;i>さらに詳しい情報は、GitHub のプロジェクトサイトを参照してください. If you want,
+        you can donate there to me via paypal:&lt;br>
         https://github.com/scoute-dich/Seven&lt;/i>&lt;br>&lt;br>
+
+        &lt;b>v 1.7.3:&lt;/b>&lt;br>
+        &#8226; Settings: duration of exercise&lt;br>
+        &#8226; gradle update&lt;br>
+        &#8226; show picture of first chosen exercise on start&lt;br>
+        &#8226; bug fixes&lt;br>&lt;br>
 
         &lt;b>v1.7.2 - 1.7.2.1:&lt;/b>&lt;br>
         &#8226; bug fixes&lt;br>&lt;br>
@@ -160,5 +167,21 @@
     <string name="start">Swipe up to begin (after 5 sec. break) …</string>
     <string name="start2">5 seconds break before first exersise …</string>
     <string name="action_exercises">Exercises</string>
+    <string name="action_duration">Duration</string>
+    <string name="action_duration_summary">Set the duration for an exercise.</string>
+
+
+    // Arrays
+    <string-array name="listArrayDuration">
+        <item>30 seconds</item>
+        <item>45 seconds</item>
+        <item>60 seconds</item>
+    </string-array>
+
+    <string-array name="listValuesDuration">
+        <item>30</item>
+        <item>44</item>
+        <item>60</item>
+    </string-array>
 
 </resources>

@@ -45,11 +45,18 @@ public class MainActivity4 extends AppCompatActivity {
     private boolean isCanceled = false;
     private long timeRemaining = 0;
 
+    private int duration;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.activity_main);
+
+        PreferenceManager.setDefaultValues(this, R.xml.user_settings, false);
+        SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(MainActivity4.this);
+        final String dur = sharedPref.getString("duration", "30");
+        duration = Integer.parseInt(dur);
 
         imageView = (ImageView) findViewById(R.id.imageView);
         assert imageView != null;
@@ -68,7 +75,7 @@ public class MainActivity4 extends AppCompatActivity {
         ttsManager = new TTSManager();
         ttsManager.init(this);
 
-        long millisInFuture = 30000;
+        long millisInFuture = duration * 1000;
         long countDownInterval = 100;
 
 
@@ -83,7 +90,7 @@ public class MainActivity4 extends AppCompatActivity {
                 }
                 else {
                     textView.setText(String.valueOf(millisUntilFinished / 1000));
-                    int progress = (int) (millisUntilFinished/300);
+                    int progress = (int) (millisUntilFinished/(duration *10));
                     progressBar.setProgress(progress);
                     timeRemaining = millisUntilFinished;
                 }
@@ -192,7 +199,7 @@ public class MainActivity4 extends AppCompatActivity {
                         }
                         else {
                             textView.setText(String.valueOf(millisUntilFinished / 1000));
-                            int progress = (int) (millisUntilFinished/300);
+                            int progress = (int) (millisUntilFinished/(duration *10));
                             progressBar.setProgress(progress);
                             timeRemaining = millisUntilFinished;
                         }

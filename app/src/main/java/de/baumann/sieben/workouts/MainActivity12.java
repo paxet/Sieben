@@ -46,13 +46,18 @@ public class MainActivity12 extends AppCompatActivity {
     private boolean isCanceled = false;
     private long timeRemaining = 0;
 
-
+    private int duration;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.activity_main);
+
+        PreferenceManager.setDefaultValues(this, R.xml.user_settings, false);
+        SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(MainActivity12.this);
+        final String dur = sharedPref.getString("duration", "30");
+        duration = Integer.parseInt(dur);
 
         imageView = (ImageView) findViewById(R.id.imageView);
         assert imageView != null;
@@ -71,7 +76,7 @@ public class MainActivity12 extends AppCompatActivity {
         ttsManager = new TTSManager();
         ttsManager.init(this);
 
-        long millisInFuture = 15000;
+        long millisInFuture = (duration * 1000)/2;
         long countDownInterval = 100;
 
 
@@ -86,7 +91,7 @@ public class MainActivity12 extends AppCompatActivity {
                 }
                 else {
                     textView.setText(String.valueOf(millisUntilFinished / 1000));
-                    int progress = (int) (millisUntilFinished/150);
+                    int progress = (int) (millisUntilFinished/((duration *10)/2));
                     progressBar.setProgress(progress);
                     timeRemaining = millisUntilFinished;
                 }
@@ -128,7 +133,7 @@ public class MainActivity12 extends AppCompatActivity {
                         }
                         else {
                             textView.setText(String.valueOf(millisUntilFinished / 1000));
-                            int progress = (int) (millisUntilFinished/150);
+                            int progress = (int) (millisUntilFinished/((duration *10)/2));
                             progressBar.setProgress(progress);
                             timeRemaining = millisUntilFinished;
                         }

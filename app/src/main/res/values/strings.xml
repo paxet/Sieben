@@ -21,6 +21,8 @@
     <string name="action_tts_summary">Do you want to hear voice commands?</string>
     <string name="action_beep">Beep</string>
     <string name="action_beep_summary">Do you want to hear a short \"Beep\" after each exercise?</string>
+    <string name="action_duration">Duration</string>
+    <string name="action_duration_summary">Set the duration for an exercise.</string>
 
     <string name="action_exercises">Exercises</string>
 
@@ -117,10 +119,13 @@
 
     //Changelog Dialog
     <string name="changelog_text">
-        &lt;i>For more informations visit the project site on github:&lt;br>
+        &lt;i>For more informations visit the project site on github. If you want,
+        you can donate there to me via paypal:&lt;br>
         https://github.com/scoute-dich/Sieben&lt;/i>&lt;br>&lt;br>
 
         &lt;b>v 1.7.3:&lt;/b>&lt;br>
+        &#8226; Settings: duration of exercise&lt;br>
+        &#8226; gradle update&lt;br>
         &#8226; show picture of first chosen exercise on start&lt;br>
         &#8226; bug fixes&lt;br>&lt;br>
 
@@ -175,5 +180,19 @@
 
         &lt;i>Swipe on top: &lt;/i>restart actual exercise
     </string>
+
+
+    // Arrays
+    <string-array name="listArrayDuration">
+        <item>30 seconds</item>
+        <item>45 seconds</item>
+        <item>60 seconds</item>
+    </string-array>
+
+    <string-array name="listValuesDuration">
+        <item>30</item>
+        <item>44</item>
+        <item>60</item>
+    </string-array>
 
 </resources>

@@ -1,4 +1,6 @@
 ### v1.7.3
+- Settings: duration of exercise
+- gradle update
 - how picture of first chosen exercise on start
 - bug fixes
 

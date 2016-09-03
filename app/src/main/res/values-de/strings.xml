@@ -21,6 +21,8 @@
     <string name="action_tts_summary">Möchtest du Sprachanweisungen hören?</string>
     <string name="action_beep">Beep</string>
     <string name="action_beep_summary">Möchtest du am Ende jeder Übung ein kurzes \"Beep\" hören?</string>
+    <string name="action_duration">Dauer</string>
+    <string name="action_duration_summary">Stelle die Dauer ener Übung ein.</string>
 
     <string name="action_exercises">Übungen</string>
 
@@ -118,11 +120,14 @@
 
     //Changelog Dialog
     <string name="changelog_text">
-        &lt;i>Besuche für mehr Informationen die Projektseite auf Github:&lt;br>
+        &lt;i>Besuche für mehr Informationen die Projektseite auf Github. Wenn du magst, kannst dumir dort über
+        Paypal eine Spende zukommen lassen:&lt;br>
         https://github.com/scoute-dich/Sieben&lt;/i>&lt;br>&lt;br>
 
         &lt;b>v 1.7.3:&lt;/b>&lt;br>
         &#8226; Bild der ersten ausgewählten Übung beim Start&lt;br>
+        &#8226; Einstellungen: Dauer der Übungen&lt;br>
+        &#8226; Gradle Update&lt;br>
         &#8226; Bug fixes&lt;br>&lt;br>
 
         &lt;b>v 1.7.2 - 1.7.2.1:&lt;/b>&lt;br>
@@ -176,4 +181,19 @@
 
         &lt;i>Nach oben wischen: &lt;/i>die aktuelle Übung von vorne beginnen
     </string>
+
+
+    // Arrays
+    <string-array name="listArrayDuration">
+        <item>30 Sekunden</item>
+        <item>45 Sekunden</item>
+        <item>60 Sekunden</item>
+    </string-array>
+
+    <string-array name="listValuesDuration">
+        <item>30</item>
+        <item>44</item>
+        <item>60</item>
+    </string-array>
+
 </resources>
