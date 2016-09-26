@@ -75,7 +75,7 @@ public class MainActivity2 extends AppCompatActivity {
         ttsManager = new TTSManager();
         ttsManager.init(this);
 
-        long millisInFuture = (duration *10);
+        long millisInFuture = duration * 1000;
         long countDownInterval = 100;
 
 

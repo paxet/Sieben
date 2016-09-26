@@ -1,3 +1,6 @@
+### v1.7.4
+- Bug fix: exercise 2
+
 ### v1.7.3
 - Settings: duration of exercise
 - gradle update

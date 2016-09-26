@@ -120,9 +120,12 @@
 
     //Changelog Dialog
     <string name="changelog_text">
-        &lt;i>Besuche für mehr Informationen die Projektseite auf Github. Wenn du magst, kannst dumir dort über
+        &lt;i>Besuche für mehr Informationen die Projektseite. Wenn du magst, kannst du mir dort über
         Paypal eine Spende zukommen lassen:&lt;br>
         https://github.com/scoute-dich/Sieben&lt;/i>&lt;br>&lt;br>
+
+        &lt;b>v 1.7.4:&lt;/b>&lt;br>
+        &#8226; Bug fix: Übung 2&lt;br>&lt;br>
 
         &lt;b>v 1.7.3:&lt;/b>&lt;br>
         &#8226; Bild der ersten ausgewählten Übung beim Start&lt;br>

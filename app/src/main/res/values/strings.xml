@@ -119,9 +119,12 @@
 
     //Changelog Dialog
     <string name="changelog_text">
-        &lt;i>For more informations visit the project site on github. If you want,
+        &lt;i>For more information about the project and used resources visit the project site. If you want,
         you can donate there to me via paypal:&lt;br>
         https://github.com/scoute-dich/Sieben&lt;/i>&lt;br>&lt;br>
+
+        &lt;b>v 1.7.4:&lt;/b>&lt;br>
+        &#8226; Bug fix: exercise 2&lt;br>&lt;br>
 
         &lt;b>v 1.7.3:&lt;/b>&lt;br>
         &#8226; Settings: duration of exercise&lt;br>
