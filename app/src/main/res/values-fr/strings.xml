@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Seven</string>
+    <string name="start">Glissez vers le haut pour démarrer (après 5 secondes de pause)…</string>
+    <string name="start2">5 secondes de pause avant le premier exercice…</string>
+
+    //Menu Settings
+    <string name="action_settings">Réglages | Aide | À propos</string>
+    <string name="action_license">Licence</string>
+    <string name="action_help">Aide</string>
+    <string name="action_changelog">Nouveautés</string>
+
+    <string name="pref_1">À propos</string>
+    <string name="pref_2">Réglages</string>
+
+    <string name="action_changelog_summary">Voir les nouveautés…</string>
+    <string name="action_license_summary">L\'application est distribuée selon les termes de la GPL3</string>
+    <string name="action_help_summary">Aide sur les gestes glissés …</string>
+
+    <string name="action_tts">Synthèse vocale</string>
+    <string name="action_tts_summary">Voulez-vous entendre des ordres par oral ?</string>
+    <string name="action_beep">Bip</string>
+    <string name="action_beep_summary">Voulez-vous entendre un signal sonore après chaque exercice ?</string>
+    <string name="action_duration">Durée</string>
+    <string name="action_duration_summary">Choisissez la durée des exercices</string>
+
+    <string name="action_exercises">Exercices</string>
+
+    //Snackbar
+    <string name="sn_pause">Courte pause …</string>
+    <string name="sn_weiter">… recommençons !</string>
+    <string name="end">Terminé !</string>
+    <string name="sn_first">Déjà au premier exercice.</string>
+    <string name="sn_last">Déjà au dernier exercice.</string>
+    <string name="sn_change" tools:keep="@string/sn_change">Merci de changer de côté.</string>
+
+    //Titles
+    <string name="act">Exercice 1 - Pantin</string>
+    <string name="act_2" tools:keep="@string/act_2">Exercice 2 - Chaise contre le mur</string>
+    <string name="act_3" tools:keep="@string/act_3">Exercice 3 - Pompes</string>
+    <string name="act_4" tools:keep="@string/act_4">Exercice 4 - Abdominaux</string>
+    <string name="act_5" tools:keep="@string/act_5">Exercice 5 - Monter et descendre d\'une chaise</string>
+    <string name="act_6" tools:keep="@string/act_6">Exercice 6 - Flexions</string>
+    <string name="act_7" tools:keep="@string/act_7">Exercice 7 - Triceps sur une chaise</string>
+    <string name="act_8" tools:keep="@string/act_8">Exercice 8 - Planche</string>
+    <string name="act_9" tools:keep="@string/act_9">Exercice 9 - Courir en levant les genoux</string>
+    <string name="act_10" tools:keep="@string/act_10">Exercice 10 - Fentes</string>
+    <string name="act_11" tools:keep="@string/act_11">Exercice 11 - Pompes tournées</string>
+    <string name="act_12" tools:keep="@string/act_12">Exercice 12 - Gainage à droite</string>
+    <string name="act_122">Exercice 12 - Gainage à gauche</string>
+
+    <string name="acte">Exercice 1</string>
+    <string name="act_2e" tools:keep="@string/act_2e">Exercice 2</string>
+    <string name="act_3e" tools:keep="@string/act_3e">Exercice 3</string>
+    <string name="act_4e" tools:keep="@string/act_4e">Exercice 4</string>
+    <string name="act_5e" tools:keep="@string/act_5e">Exercice 5</string>
+    <string name="act_6e" tools:keep="@string/act_6e">Exercice 6</string>
+    <string name="act_7e" tools:keep="@string/act_7e">Exercice 7</string>
+    <string name="act_8e" tools:keep="@string/act_8e">Exercice 8</string>
+    <string name="act_9e" tools:keep="@string/act_9e">Exercice 9</string>
+    <string name="act_10e" tools:keep="@string/act_10e">Exercice 10</string>
+    <string name="act_11e" tools:keep="@string/act_11e">Exercice 11</string>
+    <string name="act_12e" tools:keep="@string/act_12e">Exercice 12</string>
+
+    <string name="actee">Pantin</string>
+    <string name="act_2ee" tools:keep="@string/act_2ee">Chaise contre le mur</string>
+    <string name="act_3ee" tools:keep="@string/act_3ee">Pompes</string>
+    <string name="act_4ee" tools:keep="@string/act_4ee">Abdominaux</string>
+    <string name="act_5ee" tools:keep="@string/act_5ee">Monter et descendre d\'une chaise</string>
+    <string name="act_6ee" tools:keep="@string/act_6ee">Flexions</string>
+    <string name="act_7ee" tools:keep="@string/act_7ee">Triceps sur une chaise</string>
+    <string name="act_8ee" tools:keep="@string/act_8ee">Planche</string>
+    <string name="act_9ee" tools:keep="@string/act_9ee">Courir en levant les genoux</string>
+    <string name="act_10ee" tools:keep="@string/act_10ee">Fentes</string>
+    <string name="act_11ee" tools:keep="@string/act_11ee">Pompes tournées</string>
+    <string name="act_12ee" tools:keep="@string/act_12ee">Gainage</string>
+
+    <string name="pau">Pause - puis: Chaise contre le mur</string>
+    <string name="pau_2" tools:keep="@string/pau_2">Pause - puis: Pompes"</string>
+    <string name="pau_3" tools:keep="@string/pau_3">Pause - puis: Abdominaux</string>
+    <string name="pau_4" tools:keep="@string/pau_4">Pause - puis: Monter et descendre d'une chaise</string>
+    <string name="pau_5" tools:keep="@string/pau_5">Pause - puis: Flexions</string>
+    <string name="pau_6" tools:keep="@string/pau_6">Pause - puis: Triceps sur une chaise"</string>
+    <string name="pau_7" tools:keep="@string/pau_7">Pause - puis: Planche</string>
+    <string name="pau_8" tools:keep="@string/pau_8">Pause - puis: Courir en levant les genoux</string>
+    <string name="pau_9" tools:keep="@string/pau_9">Pause - puis: Fentes</string>
+    <string name="pau_10">Pause - puis: Pompes tournées</string>
+    <string name="pau_11" tools:keep="@string/pau_11">Pause - puis: Gainage à droite</string>
+    <string name="pau_112">Pause - changez de côté</string>
+
+    //License Dialog
+    <string name="about_yes">OK</string>
+    <string name="about_title">Copyright © 2016  by Gaukler Faun</string>
+    <string name="about_text">
+        &lt;b>Contributors:&lt;/b>&lt;br>&lt;br>
+
+        &lt;i>Development&lt;/i>&lt;br>
+        Gaukler Faun https://github.com/scoute-dich&lt;br> &lt;br>
+
+        &lt;i>Translations&lt;/i>&lt;br>
+        Japanese: naofum https://github.com/naofum&lt;br> &lt;br>
+
+        This program is free software: you can redistribute it and/or modify
+        it under the terms of the GNU General Public License as published by
+        the Free Software Foundation, either version 3 of the License, or
+        (at your option) any later version.
+
+        This program is distributed in the hope that it will be useful,
+        but WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+        GNU General Public License for more details.
+
+        You should have received a copy of the GNU General Public License
+        along with this program.  If not, see http://www.gnu.org/licenses.&lt;br> &lt;br>
+
+        &lt;i>The pictures from the workout can be found on the Blog of \"C. Gilbert\"
+        (http://almostfearless.com/the-21-minute-workout-or-7-minutes-if-youre-really-fit). Thanks to her
+        for the permission to use them in the app.&lt;/i></string>
+
+    //Changelog Dialog
+    <string name="changelog_text">
+        &lt;i>For more information about the project and used resources visit the project site. If you want,
+        you can donate there to me via paypal:&lt;br>
+        https://github.com/scoute-dich/Sieben&lt;/i>&lt;br>&lt;br>
+
+        &lt;b>v 1.7.4:&lt;/b>&lt;br>
+        &#8226; Bug fix: exercise 2&lt;br>&lt;br>
+
+        &lt;b>v 1.7.3:&lt;/b>&lt;br>
+        &#8226; Settings: duration of exercise&lt;br>
+        &#8226; gradle update&lt;br>
+        &#8226; show picture of first chosen exercise on start&lt;br>
+        &#8226; bug fixes&lt;br>&lt;br>
+
+        &lt;b>v 1.7.2 - 1.7.2.1:&lt;/b>&lt;br>
+        &#8226; bug fixes&lt;br>&lt;br>
+
+        &lt;b>v 1.7 - 1.7.1:&lt;/b>&lt;br>
+        &#8226; option to select exercises&lt;br>
+        &#8226; fixed lint warnings&lt;br>&lt;br>
+
+        &lt;b>v 1.6 - 1.6.2:&lt;/b>&lt;br>
+        &#8226; fixed broken link&lt;br>
+        &#8226; removed fab-button&lt;br>
+        &#8226; added audio settings&lt;br>
+        &#8226; split last exercise in two parts&lt;br>
+        &#8226; break before first exercise&lt;br>&lt;br>
+
+        &lt;b>v 1.5:&lt;/b>&lt;br>
+        &#8226; text to speech support&lt;br>
+        &#8226; countdown pause and resume support&lt;br>
+        &#8226; code clean up&lt;br>&lt;br>
+
+        &lt;b>v 1.4:&lt;/b>&lt;br>
+        &#8226; set screen orientation to portrait&lt;br>
+        &#8226; fixed project-link&lt;br>&lt;br>
+
+        &lt;b>v 1.3.1:&lt;/b>&lt;br>
+        &#8226; added Japanese translation&lt;br>&lt;br>
+
+        &lt;b>v 1.3:&lt;/b>&lt;br>
+        &#8226; added swipe function (see help dialog)&lt;br>
+        &#8226; keep screen awake&lt;br>
+        &#8226; new dialogs (help/changelog)&lt;br>&lt;br>
+
+        &lt;b>v 1.2:&lt;/b>&lt;br>
+        &#8226; changed default language to english&lt;br>&lt;br>
+
+        &lt;b>v 1.1:&lt;/b>&lt;br>
+        &#8226; better integration of snackbar&lt;br>&lt;br>
+
+        &lt;b>v 1.0:&lt;/b>&lt;br>
+        &#8226; first release
+    </string>
+
+    //Help Dialog
+    <string name="help_text">
+        &lt;i>Glissement à gauche : &lt;/i>exercice suivant&lt;br>&lt;br>
+
+        &lt;i>Glissement à droite : &lt;/i>exercice précédent&lt;br>&lt;br>
+
+        &lt;i>Glissement vers le bas : &lt;/i>pause&lt;br>&lt;br>
+
+        &lt;i>Glissement vers le haut : &lt;/i>redémarrer l'exercice courant
+    </string>
+
+
+    // Arrays
+    <string-array name="listArrayDuration">
+        <item>30 secondes</item>
+        <item>45 secondes</item>
+        <item>60 secondes</item>
+    </string-array>
+
+    <string-array name="listValuesDuration">
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+    </string-array>
+
+</resources>
