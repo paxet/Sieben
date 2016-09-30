@@ -17,6 +17,7 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import at.juggle.sieben.SoundPool;
 import de.baumann.sieben.MainActivity;
 import de.baumann.sieben.R;
 import de.baumann.sieben.helper.OnSwipeTouchListener;
@@ -84,8 +85,9 @@ public class Pause112 extends AppCompatActivity {
             public void onFinish(){
 
                 if (sharedPref.getBoolean ("beep", false)){
-                    final ToneGenerator tg = new ToneGenerator(AudioManager.STREAM_NOTIFICATION, 100);
-                    tg.startTone(ToneGenerator.TONE_PROP_BEEP);
+//                    final ToneGenerator tg = new ToneGenerator(AudioManager.STREAM_NOTIFICATION, 100);
+//                    tg.startTone(ToneGenerator.TONE_PROP_BEEP);
+                    SoundPool.playWhistle(getApplicationContext());
                 }
 
                 if (sharedPref.getBoolean ("tts", false)){
@@ -126,8 +128,9 @@ public class Pause112 extends AppCompatActivity {
                     public void onFinish(){
 
                         if (sharedPref.getBoolean ("beep", false)){
-                            final ToneGenerator tg = new ToneGenerator(AudioManager.STREAM_NOTIFICATION, 100);
-                            tg.startTone(ToneGenerator.TONE_PROP_BEEP);
+//                            final ToneGenerator tg = new ToneGenerator(AudioManager.STREAM_NOTIFICATION, 100);
+//                            tg.startTone(ToneGenerator.TONE_PROP_BEEP);
+                            SoundPool.playWhistle(getApplicationContext());
                         }
 
                         if (sharedPref.getBoolean ("tts", false)){
