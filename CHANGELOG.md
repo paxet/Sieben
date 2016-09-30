@@ -1,3 +1,8 @@
+### v1.7.5
+- Fixed some German strings
+- Added French translation
+- Added whistle sound instead of beep
+
 ### v1.7.4
 - Bug fix: exercise 2
 

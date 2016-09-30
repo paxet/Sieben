@@ -78,7 +78,7 @@
     <string name="pau">Pause - puis: Chaise contre le mur</string>
     <string name="pau_2" tools:keep="@string/pau_2">Pause - puis: Pompes"</string>
     <string name="pau_3" tools:keep="@string/pau_3">Pause - puis: Abdominaux</string>
-    <string name="pau_4" tools:keep="@string/pau_4">Pause - puis: Monter et descendre d'une chaise</string>
+    <string name="pau_4" tools:keep="@string/pau_4">Pause - puis: Monter et descendre d\'une chaise</string>
     <string name="pau_5" tools:keep="@string/pau_5">Pause - puis: Flexions</string>
     <string name="pau_6" tools:keep="@string/pau_6">Pause - puis: Triceps sur une chaise"</string>
     <string name="pau_7" tools:keep="@string/pau_7">Pause - puis: Planche</string>
@@ -98,7 +98,11 @@
         Gaukler Faun https://github.com/scoute-dich&lt;br> &lt;br>
 
         &lt;i>Translations&lt;/i>&lt;br>
+        French: jeberger https://github.com/jeberger&lt;br>
         Japanese: naofum https://github.com/naofum&lt;br> &lt;br>
+
+        &lt;i>Small fixes&lt;/i>&lt;br>
+        Mathias Lux https://github.com/dermotte&lt;br> &lt;br>
 
         This program is free software: you can redistribute it and/or modify
         it under the terms of the GNU General Public License as published by
@@ -123,6 +127,11 @@
         you can donate there to me via paypal:&lt;br>
         https://github.com/scoute-dich/Sieben&lt;/i>&lt;br>&lt;br>
 
+        &lt;b>v 1.7.5:&lt;/b>&lt;br>
+        &#8226; Fixed some German strings &lt;br>
+        &#8226; Added French translation &lt;br>
+        &#8226; Added whistle sound instead of beep &lt;br>&lt;br>
+
         &lt;b>v 1.7.4:&lt;/b>&lt;br>
         &#8226; Bug fix: exercise 2&lt;br>&lt;br>
 
@@ -132,7 +141,7 @@
         &#8226; show picture of first chosen exercise on start&lt;br>
         &#8226; bug fixes&lt;br>&lt;br>
 
-        &lt;b>v 1.7.2 - 1.7.2.1:&lt;/b>&lt;br>
+        &lt;b>v 1.7.2:&lt;/b>&lt;br>
         &#8226; bug fixes&lt;br>&lt;br>
 
         &lt;b>v 1.7 - 1.7.1:&lt;/b>&lt;br>
@@ -181,7 +190,7 @@
 
         &lt;i>Glissement vers le bas : &lt;/i>pause&lt;br>&lt;br>
 
-        &lt;i>Glissement vers le haut : &lt;/i>redémarrer l'exercice courant
+        &lt;i>Glissement vers le haut : &lt;/i>redémarrer l\'exercice courant
     </string>
 
 

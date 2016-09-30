@@ -36,6 +36,7 @@ public class UserSettingsActivity extends AppCompatActivity {
         if( !getFragmentManager().popBackStackImmediate() ) super.onBackPressed();
     }
 
+    @SuppressWarnings("deprecation")
     public static class SettingsFragment extends PreferenceFragment {
 
         private void addChangelogListener() {
@@ -46,7 +47,14 @@ public class UserSettingsActivity extends AppCompatActivity {
                 public boolean onPreferenceClick(Preference pref)
                 {
 
-                    final SpannableString s = new SpannableString(Html.fromHtml(getString(R.string.changelog_text)));
+                    SpannableString s;
+
+                    if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N) {
+                        s = new SpannableString(Html.fromHtml(getString(R.string.changelog_text),Html.FROM_HTML_MODE_LEGACY));
+                    } else {
+                        s = new SpannableString(Html.fromHtml(getString(R.string.changelog_text)));
+                    }
+
                     Linkify.addLinks(s, Linkify.WEB_URLS);
 
                     final AlertDialog d = new AlertDialog.Builder(getActivity())
@@ -74,7 +82,14 @@ public class UserSettingsActivity extends AppCompatActivity {
                 public boolean onPreferenceClick(Preference pref)
                 {
 
-                    final SpannableString s = new SpannableString(Html.fromHtml(getString(R.string.help_text)));
+                    SpannableString s;
+
+                    if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N) {
+                        s = new SpannableString(Html.fromHtml(getString(R.string.help_text),Html.FROM_HTML_MODE_LEGACY));
+                    } else {
+                        s = new SpannableString(Html.fromHtml(getString(R.string.help_text)));
+                    }
+
                     Linkify.addLinks(s, Linkify.WEB_URLS);
 
                     final AlertDialog d = new AlertDialog.Builder(getActivity())
@@ -101,7 +116,14 @@ public class UserSettingsActivity extends AppCompatActivity {
                 public boolean onPreferenceClick(Preference pref)
                 {
 
-                    final SpannableString s = new SpannableString(Html.fromHtml(getString(R.string.about_text)));
+                    SpannableString s;
+
+                    if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N) {
+                        s = new SpannableString(Html.fromHtml(getString(R.string.about_text),Html.FROM_HTML_MODE_LEGACY));
+                    } else {
+                        s = new SpannableString(Html.fromHtml(getString(R.string.about_text)));
+                    }
+
                     Linkify.addLinks(s, Linkify.WEB_URLS);
 
                     final AlertDialog d = new AlertDialog.Builder(getActivity())
