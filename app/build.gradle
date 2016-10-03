@@ -2,13 +2,13 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 24
-    buildToolsVersion '24.0.3'
+    buildToolsVersion '23.0.3'
 
     defaultConfig {
         applicationId "de.baumann.sieben"
         minSdkVersion 17
         targetSdkVersion 24
-        versionCode 27
+        versionCode 28
         versionName "1.7.5"
     }
     buildTypes {
