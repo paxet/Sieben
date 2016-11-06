@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
-import android.os.CountDownTimer;
 import android.preference.PreferenceManager;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -16,6 +15,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import at.juggle.sieben.SoundPool;
+import de.baumann.sieben.helper.CountDownTimer;
 import de.baumann.sieben.pause.Pause;
 import de.baumann.sieben.pause.Pause10;
 import de.baumann.sieben.pause.Pause11;

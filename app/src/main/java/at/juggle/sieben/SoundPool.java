@@ -11,6 +11,7 @@ import de.baumann.sieben.R;
  */
 
 public class SoundPool {
+    @SuppressWarnings("unused")
     public static int sndWhistle = R.raw.whistle_blow_cc0;
 
     public static void playWhistle(Context context) {
