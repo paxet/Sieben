@@ -53,6 +53,7 @@ public class MainActivity6 extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         PreferenceManager.setDefaultValues(this, R.xml.user_settings, false);
+        PreferenceManager.setDefaultValues(this, R.xml.user_settings_exercises, false);
         SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(MainActivity6.this);
         final String dur = sharedPref.getString("duration", "30");
         duration = Integer.parseInt(dur);

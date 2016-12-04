@@ -13,9 +13,9 @@
     <string name="pref_1">À propos</string>
     <string name="pref_2">Réglages</string>
 
-    <string name="action_changelog_summary">Voir les nouveautés…</string>
+    <string name="action_changelog_summary">Voir les nouveautés… (will open a website)</string>
     <string name="action_license_summary">L\'application est distribuée selon les termes de la GPL3</string>
-    <string name="action_help_summary">Aide sur les gestes glissés …</string>
+    <string name="action_help_summary">Gestes glissés</string>
 
     <string name="action_tts">Synthèse vocale</string>
     <string name="action_tts_summary">Voulez-vous entendre des ordres par oral ?</string>
@@ -24,7 +24,11 @@
     <string name="action_duration">Durée</string>
     <string name="action_duration_summary">Choisissez la durée des exercices</string>
 
+    <string name="action_donate">Donate</string>
+    <string name="action_donate_summary">If you like the app you can donate to me via Paypal.</string>
+
     <string name="action_exercises">Exercices</string>
+    <string name="action_exercises_summary">Choose the exercises you want to perform.</string>
 
     //Snackbar
     <string name="sn_pause">Courte pause …</string>
@@ -92,6 +96,8 @@
     <string name="about_yes">OK</string>
     <string name="about_title">Copyright © 2016  by Gaukler Faun</string>
     <string name="about_text">
+        For more information visit the project site on github: https://github.com/scoute-dich/Sieben&lt;br>&lt;br>
+
         &lt;b>Contributors:&lt;/b>&lt;br>&lt;br>
 
         &lt;i>Development&lt;/i>&lt;br>
@@ -117,70 +123,16 @@
         You should have received a copy of the GNU General Public License
         along with this program.  If not, see http://www.gnu.org/licenses.&lt;br> &lt;br>
 
+        &lt;i>MaterialDesignIcons&lt;br>
+        https://github.com/Templarian/MaterialDesign&lt;/i>&lt;br>&lt;br>
+
         &lt;i>The pictures from the workout can be found on the Blog of \"C. Gilbert\"
         (http://almostfearless.com/the-21-minute-workout-or-7-minutes-if-youre-really-fit). Thanks to her
-        for the permission to use them in the app.&lt;/i></string>
+        for the permission to use them in the app.&lt;/i>&lt;br>&lt;br>
 
-    //Changelog Dialog
-    <string name="changelog_text">
-        &lt;i>For more information about the project and used resources visit the project site. If you want,
-        you can donate there to me via paypal:&lt;br>
-        https://github.com/scoute-dich/Sieben&lt;/i>&lt;br>&lt;br>
+        &lt;i>The whistle is available under the Creative Commons 0 License from
+        http://freesound.org/people/MentalSanityOff/sounds/218318/ &lt;/i></string>
 
-        &lt;b>v 1.7.5:&lt;/b>&lt;br>
-        &#8226; Fixed some German strings &lt;br>
-        &#8226; Added French translation &lt;br>
-        &#8226; Added whistle sound instead of beep &lt;br>&lt;br>
-
-        &lt;b>v 1.7.4:&lt;/b>&lt;br>
-        &#8226; Bug fix: exercise 2&lt;br>&lt;br>
-
-        &lt;b>v 1.7.3:&lt;/b>&lt;br>
-        &#8226; Settings: duration of exercise&lt;br>
-        &#8226; gradle update&lt;br>
-        &#8226; show picture of first chosen exercise on start&lt;br>
-        &#8226; bug fixes&lt;br>&lt;br>
-
-        &lt;b>v 1.7.2:&lt;/b>&lt;br>
-        &#8226; bug fixes&lt;br>&lt;br>
-
-        &lt;b>v 1.7 - 1.7.1:&lt;/b>&lt;br>
-        &#8226; option to select exercises&lt;br>
-        &#8226; fixed lint warnings&lt;br>&lt;br>
-
-        &lt;b>v 1.6 - 1.6.2:&lt;/b>&lt;br>
-        &#8226; fixed broken link&lt;br>
-        &#8226; removed fab-button&lt;br>
-        &#8226; added audio settings&lt;br>
-        &#8226; split last exercise in two parts&lt;br>
-        &#8226; break before first exercise&lt;br>&lt;br>
-
-        &lt;b>v 1.5:&lt;/b>&lt;br>
-        &#8226; text to speech support&lt;br>
-        &#8226; countdown pause and resume support&lt;br>
-        &#8226; code clean up&lt;br>&lt;br>
-
-        &lt;b>v 1.4:&lt;/b>&lt;br>
-        &#8226; set screen orientation to portrait&lt;br>
-        &#8226; fixed project-link&lt;br>&lt;br>
-
-        &lt;b>v 1.3.1:&lt;/b>&lt;br>
-        &#8226; added Japanese translation&lt;br>&lt;br>
-
-        &lt;b>v 1.3:&lt;/b>&lt;br>
-        &#8226; added swipe function (see help dialog)&lt;br>
-        &#8226; keep screen awake&lt;br>
-        &#8226; new dialogs (help/changelog)&lt;br>&lt;br>
-
-        &lt;b>v 1.2:&lt;/b>&lt;br>
-        &#8226; changed default language to english&lt;br>&lt;br>
-
-        &lt;b>v 1.1:&lt;/b>&lt;br>
-        &#8226; better integration of snackbar&lt;br>&lt;br>
-
-        &lt;b>v 1.0:&lt;/b>&lt;br>
-        &#8226; first release
-    </string>
 
     //Help Dialog
     <string name="help_text">

@@ -42,6 +42,7 @@ public class Pause9 extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         PreferenceManager.setDefaultValues(this, R.xml.user_settings, false);
+        PreferenceManager.setDefaultValues(this, R.xml.user_settings_exercises, false);
 
         imageView = (ImageView) findViewById(R.id.imageView);
         assert imageView != null;

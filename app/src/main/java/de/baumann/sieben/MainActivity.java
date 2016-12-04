@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         PreferenceManager.setDefaultValues(this, R.xml.user_settings, false);
+        PreferenceManager.setDefaultValues(this, R.xml.user_settings_exercises, false);
         SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(MainActivity.this);
 
         imageView = (ImageView) findViewById(R.id.imageView);

@@ -1,3 +1,13 @@
+### v 1.9 (WIP)
+- improved: settings screen
+- added: donate (in settings)
+- updated: Japanese translation
+
+### v 1.8
+- maintenance release
+- issue 18 fixed (thanks to rsiccho)
+- Android N support
+
 ### v1.7.5
 - Fixed some German strings
 - Added French translation

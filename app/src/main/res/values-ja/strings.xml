@@ -70,6 +70,8 @@
     <string name="about_yes">OK</string>
     <string name="about_title">Copyright © 2016  by Gaukler Faun</string>
     <string name="about_text">
+        For more information visit the project site on github: https://github.com/scoute-dich/Sieben&lt;br>&lt;br>
+
         &lt;b>貢献者:&lt;/b>&lt;br>&lt;br>
 
         &lt;i>開発&lt;/i>&lt;br>
@@ -95,64 +97,17 @@
         You should have received a copy of the GNU General Public License
         along with this program.  If not, see http://www.gnu.org/licenses.&lt;br> &lt;br>
 
+        &lt;i>MaterialDesignIcons&lt;br>
+        https://github.com/Templarian/MaterialDesign&lt;/i>&lt;br>&lt;br>
+
         &lt;i>ワークアウトの写真は、次のブログで参照することができます \"C. Gilbert\"
         (http://almostfearless.com/the-21-minute-workout-or-7-minutes-if-youre-really-fit)。
-        アプリでの利用の許可をいただき感謝します。&lt;/i></string>
+        アプリでの利用の許可をいただき感謝します。&lt;/i>&lt;br>&lt;br>
+
+        &lt;i>The whistle is available under the Creative Commons 0 License from
+        http://freesound.org/people/MentalSanityOff/sounds/218318/ &lt;/i></string>
 
 
-    //Changelog Dialog
-    <string name="changelog_text">
-        &lt;i>さらに詳しい情報は、GitHub のプロジェクトサイトを参照してください。
-        PayPal で寄付していただくことができます:&lt;br>
-        https://github.com/scoute-dich/Seven&lt;/i>&lt;br>&lt;br>
-
-        &lt;b>v 1.7.5:&lt;/b>&lt;br>
-        &#8226; いくつかのドイツ語の文字列を修正 &lt;br>
-        &#8226; フランス語の翻訳を追加しました &lt;br>
-        &#8226; ビープ音の代わりにホイッスルサウンドを追加しました &lt;br>&lt;br>
-
-        &lt;b>v 1.7.4:&lt;/b>&lt;br>
-        &#8226; バグ修正: エクササイズ 2&lt;br>&lt;br>
-
-        &lt;b>v 1.7.3:&lt;/b>&lt;br>
-        &#8226; 設定: エクササイズの時間&lt;br>
-        &#8226; gradle アップデート&lt;br>
-        &#8226; 開始時に最初に選ばれたエクササイズの写真を表示します&lt;br>
-        &#8226; バグ修正&lt;br>&lt;br>
-
-        &lt;b>v1.7.2:&lt;/b>&lt;br>
-        &#8226; バグ修正&lt;br>&lt;br>
-
-        &lt;b>v1.7 - 1.7.1:&lt;/b>&lt;br>
-        &#8226; エクササイズを選択するオプション&lt;br>
-        &#8226; lint の警告を修正&lt;br>&lt;br>
-
-        &lt;b>v1.6 - 1.6.2:&lt;/b>&lt;br>
-        &#8226; リンク切れを修正&lt;br>
-        &#8226; fab ボタンを削除しました&lt;br>
-        &#8226; オーディオの設定を追加しました&lt;br>
-        &#8226; 最後のエクササイズを 2 つのパートに分割しました&lt;br>
-        &#8226; 最初のエクササイズの前に休止&lt;br>&lt;br>
-
-        &lt;b>v1.5:&lt;/b>&lt;br>
-        &#8226; 音声アナウンスのサポート&lt;br>
-        &#8226; 一時停止のカウントダウンと再開をサポート&lt;br>
-        &#8226; コードのクリーンアップ&lt;br>&lt;br>
-
-        &lt;b>v1.3:&lt;/b>&lt;br>
-        &#8226; スワイプ機能を追加しました (ヘルプダイアログを参照してください)&lt;br>
-        &#8226; 画面をオンのままにします&lt;br>
-        &#8226; 新しいダイアログ (ヘルプ/変更履歴)&lt;br>&lt;br>
-
-        &lt;b>v1.2:&lt;/b>&lt;br>
-        &#8226; デフォルトの言語を英語に変更しました&lt;br>&lt;br>
-
-        &lt;b>v1.1:&lt;/b>&lt;br>
-        &#8226; スナックバーの統合&lt;br>&lt;br>
-
-        &lt;b>v1.0:&lt;/b>&lt;br>
-        &#8226; 初回リリース
-    </string>
 
     //Help Dialog
     <string name="help_text">
@@ -167,7 +122,7 @@
     <string name="act_122">12. エクササイズ - サイド プランク 左</string>
     <string name="action_beep">ビープ</string>
     <string name="action_beep_summary">それぞれのエクササイズの後、短い \"ビープ音\" を鳴らしますか?</string>
-    <string name="action_changelog_summary">新着情報を表示 …</string>
+    <string name="action_changelog_summary">新着情報を表示 …  (will open a website)</string>
     <string name="action_help_summary">スワイプジェスチャーの詳細 …</string>
     <string name="action_license_summary">アプリは GPL3 の下でライセンスされます</string>
     <string name="action_settings">設定 | ヘルプ | アプリについて</string>
@@ -180,8 +135,12 @@
     <string name="start">上にスワイプして始めます (5 秒の休止後) …</string>
     <string name="start2">最初のエクササイズの前に 5 秒休止します …</string>
     <string name="action_exercises">エクササイズ</string>
+    <string name="action_exercises_summary">Choose the exercises you want to perform.</string>
     <string name="action_duration">時間</string>
     <string name="action_duration_summary">エクササイズの時間を設定します。</string>
+
+    <string name="action_donate">Donate</string>
+    <string name="action_donate_summary">If you like the app you can donate to me via Paypal.</string>
 
 
     // Arrays
