@@ -25,7 +25,7 @@
     <string name="action_duration_summary">Choisissez la durée des exercices</string>
 
     <string name="action_donate">Donate</string>
-    <string name="action_donate_summary">If you like the app you can donate to me via Paypal.</string>
+    <string name="action_donate_summary">If you like the app, you can donate to me via Paypal.</string>
 
     <string name="action_exercises">Exercices</string>
     <string name="action_exercises_summary">Choose the exercises you want to perform.</string>

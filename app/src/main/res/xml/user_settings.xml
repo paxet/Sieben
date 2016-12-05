@@ -29,7 +29,7 @@
 
         <Preference
             android:title="@string/action_exercises"
-            android:icon="@drawable/baby"
+            android:icon="@drawable/walk"
             android:summary="@string/action_exercises_summary"
             android:key="exercises" />
 

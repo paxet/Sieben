@@ -8,8 +8,8 @@ android {
         applicationId "de.baumann.sieben"
         minSdkVersion 17
         targetSdkVersion 25
-        versionCode 30
-        versionName "1.8"
+        versionCode 31
+        versionName "1.9"
     }
     buildTypes {
         release {

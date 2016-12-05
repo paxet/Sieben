@@ -1,4 +1,4 @@
-### v 1.9 (WIP)
+### v 1.9
 - improved: settings screen
 - added: donate (in settings)
 - updated: Japanese translation

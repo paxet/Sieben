@@ -60,9 +60,6 @@ public class UserSettingsActivity_Exercises extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        Intent intent_in = new Intent(UserSettingsActivity_Exercises.this, UserSettingsActivity.class);
-        startActivity(intent_in);
-        overridePendingTransition(0, 0);
         finish();
     }
 
@@ -72,9 +69,6 @@ public class UserSettingsActivity_Exercises extends AppCompatActivity {
         int id = item.getItemId();
 
         if (id == android.R.id.home) {
-            Intent intent_in = new Intent(UserSettingsActivity_Exercises.this, UserSettingsActivity.class);
-            startActivity(intent_in);
-            overridePendingTransition(0, 0);
             finish();
 
             return true;
