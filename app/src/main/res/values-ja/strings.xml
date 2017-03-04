@@ -142,26 +142,13 @@
     <string name="action_exercises">エクササイズ</string>
     <string name="action_exercises_summary">Choose the exercises you want to perform.</string>
     <string name="action_duration">時間: エクササイズ</string>
-    <string name="action_duration_summary">エクササイズの時間を設定します。</string>
 
     <string name="action_duration2">時間: Break</string>
-    <string name="action_duration2_summary">Breakの時間を設定します。</string>
 
     <string name="action_donate">Donate</string>
     <string name="action_donate_summary">If you like the app, you can donate to me via Paypal.</string>
 
 
     // Arrays
-    <string-array name="listArrayDuration">
-        <item>30 秒</item>
-        <item>45 秒</item>
-        <item>60 秒</item>
-    </string-array>
-
-    <string-array name="listValuesDuration">
-        <item>30</item>
-        <item>44</item>
-        <item>60</item>
-    </string-array>
 
 </resources>

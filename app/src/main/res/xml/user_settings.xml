@@ -21,7 +21,7 @@
         <Preference
             android:title="@string/action_duration"
             android:icon="@drawable/history2"
-            android:summary="@string/action_duration_summary"
+            android:summary=""
             android:key="duration" />
 
         <Preference
@@ -33,7 +33,7 @@
         <Preference
             android:title="@string/action_exercises"
             android:icon="@drawable/walk"
-            android:summary=""
+            android:summary="@string/action_exercises_summary"
             android:key="exercises" />
 
     </PreferenceCategory>

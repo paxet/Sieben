@@ -27,9 +27,7 @@
     <string name="action_beep">Trillerpfeife</string>
     <string name="action_beep_summary">Möchtest du am Ende jeder Übung ein Signal hören?</string>
     <string name="action_duration">Dauer: Übung</string>
-    <string name="action_duration_summary">Stelle die Dauer der Übungen ein.</string>
     <string name="action_duration2">Dauer: Pausen</string>
-    <string name="action_duration2_summary">Stelle die Dauer der Pausen ein.</string>
 
     <string name="action_donate">Spenden</string>
     <string name="action_donate_summary">Wenn dir die App gefällt, würde ich mich über eine Spende (Paypal) freuen.</string>
@@ -156,16 +154,5 @@
 
 
     // Arrays
-    <string-array name="listArrayDuration">
-        <item>30 Sekunden</item>
-        <item>45 Sekunden</item>
-        <item>60 Sekunden</item>
-    </string-array>
-
-    <string-array name="listValuesDuration">
-        <item>30</item>
-        <item>44</item>
-        <item>60</item>
-    </string-array>
 
 </resources>

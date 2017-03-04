@@ -27,9 +27,7 @@
     <string name="action_beep">Bip</string>
     <string name="action_beep_summary">Voulez-vous entendre un signal sonore après chaque exercice ?</string>
     <string name="action_duration">Durée: Exercice</string>
-    <string name="action_duration_summary">Choisissez la durée des exercices</string>
     <string name="action_duration2">Durée: Pause</string>
-    <string name="action_duration2_summary">Choisissez la durée des pauses</string>
 
     <string name="action_donate">Donate</string>
     <string name="action_donate_summary">If you like the app, you can donate to me via Paypal.</string>
@@ -154,16 +152,5 @@
 
 
     // Arrays
-    <string-array name="listArrayDuration">
-        <item>30 secondes</item>
-        <item>45 secondes</item>
-        <item>60 secondes</item>
-    </string-array>
-
-    <string-array name="listValuesDuration">
-        <item>30</item>
-        <item>45</item>
-        <item>60</item>
-    </string-array>
 
 </resources>

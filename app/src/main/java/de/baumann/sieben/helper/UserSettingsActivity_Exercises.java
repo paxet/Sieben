@@ -19,7 +19,6 @@
 
 package de.baumann.sieben.helper;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
