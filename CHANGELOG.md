@@ -1,5 +1,6 @@
 ### v 2.0
 - new: duration for workouts and breaks free adjustable
+- new: workout preview pictures in settings
 
 ### v 1.9
 - improved: settings screen

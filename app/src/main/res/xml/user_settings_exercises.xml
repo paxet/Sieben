@@ -4,59 +4,69 @@
     <CheckBoxPreference
         android:title="@string/acte"
         android:summary="@string/actee"
+        android:icon="@drawable/a01b"
         android:defaultValue="true"
         android:key="act1" />
 
     <CheckBoxPreference
         android:title="@string/act_2e"
         android:summary="@string/act_2ee"
+        android:icon="@drawable/a02b"
         android:defaultValue="true"
         android:key="act2" />
 
     <CheckBoxPreference
         android:title="@string/act_3e"
         android:summary="@string/act_3ee"
+        android:icon="@drawable/a03b"
         android:defaultValue="true"
         android:key="act3" />
 
     <CheckBoxPreference
         android:title="@string/act_4e"
         android:summary="@string/act_4ee"
+        android:icon="@drawable/a04b"
         android:defaultValue="true"
         android:key="act4" />
 
     <CheckBoxPreference
         android:title="@string/act_5e"
         android:summary="@string/act_5ee"
+        android:icon="@drawable/a05b"
         android:defaultValue="true"
         android:key="act5" />
 
     <CheckBoxPreference
         android:title="@string/act_6e"
         android:summary="@string/act_6ee"
+        android:icon="@drawable/a06b"
         android:defaultValue="true"
         android:key="act6" />
 
     <CheckBoxPreference
         android:title="@string/act_7e"
         android:summary="@string/act_7ee"
+        android:icon="@drawable/a07b"
         android:defaultValue="true"
         android:key="act7" />
 
     <CheckBoxPreference
         android:title="@string/act_8e"
         android:summary="@string/act_8ee"
+        android:icon="@drawable/a08b"
         android:defaultValue="true"
         android:key="act8" />
 
     <CheckBoxPreference
         android:title="@string/act_9e"
         android:summary="@string/act_9ee"
+        android:icon="@drawable/a09b"
         android:defaultValue="true"
         android:key="act9" />
 
     <CheckBoxPreference
         android:title="@string/act_10e"
+        android:icon="@drawable/a10b"
         android:summary="@string/act_10ee"
         android:defaultValue="true"
         android:key="act10" />
@@ -64,12 +74,14 @@
     <CheckBoxPreference
         android:title="@string/act_11e"
         android:summary="@string/act_11ee"
+        android:icon="@drawable/a11b"
         android:defaultValue="true"
         android:key="act11" />
 
     <CheckBoxPreference
         android:title="@string/act_12e"
         android:summary="@string/act_12ee"
+        android:icon="@drawable/a12b"
         android:defaultValue="true"
         android:key="act12" />
 
