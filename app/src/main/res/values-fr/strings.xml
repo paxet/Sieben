@@ -3,6 +3,11 @@
     <string name="app_name">Seven</string>
     <string name="start">Glissez vers le haut pour démarrer (après 5 secondes de pause)…</string>
     <string name="start2">5 secondes de pause avant le premier exercice…</string>
+    <string name="app_ok">OK</string>
+    <string name="app_no">Cancel</string>
+    <string name="app_sec">seconds</string>
+    <string name="app_chosenTime">Chosen duration:</string>
+    <string name="app_standardTime">(Standard:</string>
 
     //Menu Settings
     <string name="action_settings">Réglages | Aide | À propos</string>
@@ -21,8 +26,10 @@
     <string name="action_tts_summary">Voulez-vous entendre des ordres par oral ?</string>
     <string name="action_beep">Bip</string>
     <string name="action_beep_summary">Voulez-vous entendre un signal sonore après chaque exercice ?</string>
-    <string name="action_duration">Durée</string>
+    <string name="action_duration">Durée: Exercice</string>
     <string name="action_duration_summary">Choisissez la durée des exercices</string>
+    <string name="action_duration2">Durée: Pause</string>
+    <string name="action_duration2_summary">Choisissez la durée des pauses</string>
 
     <string name="action_donate">Donate</string>
     <string name="action_donate_summary">If you like the app, you can donate to me via Paypal.</string>

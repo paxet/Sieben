@@ -3,6 +3,11 @@
     <string name="app_name">Seven</string>
     <string name="start">Swipe up to begin (after 5 sec. break) …</string>
     <string name="start2">5 seconds break before first exercise …</string>
+    <string name="app_ok">OK</string>
+    <string name="app_no">Cancel</string>
+    <string name="app_sec">seconds</string>
+    <string name="app_chosenTime">Chosen duration:</string>
+    <string name="app_standardTime">(Standard:</string>
 
     //Menu Settings
     <string name="action_settings">Settings | Help | About</string>
@@ -21,8 +26,10 @@
     <string name="action_tts_summary">Do you want to hear voice commands?</string>
     <string name="action_beep">Whistle</string>
     <string name="action_beep_summary">Do you want to hear a whistle after each exercise?</string>
-    <string name="action_duration">Duration</string>
+    <string name="action_duration">Duration: Workout</string>
     <string name="action_duration_summary">Set the duration for an exercise.</string>
+    <string name="action_duration2">Duration: Break</string>
+    <string name="action_duration2_summary">Set the duration for a break.</string>
     <string name="action_exercises">Exercises</string>
     <string name="action_exercises_summary">Choose the exercises you want to perform.</string>
 

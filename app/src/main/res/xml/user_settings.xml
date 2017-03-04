@@ -18,19 +18,22 @@
             android:key="beep"
             android:defaultValue="true" />
 
-        <ListPreference
+        <Preference
             android:title="@string/action_duration"
             android:icon="@drawable/history2"
             android:summary="@string/action_duration_summary"
-            android:key="duration"
-            android:defaultValue="30"
-            android:entries="@array/listArrayDuration"
-            android:entryValues="@array/listValuesDuration" />
+            android:key="duration" />
+
+        <Preference
+            android:title="@string/action_duration2"
+            android:icon="@drawable/sleep"
+            android:summary=""
+            android:key="duration2" />
 
         <Preference
             android:title="@string/action_exercises"
             android:icon="@drawable/walk"
-            android:summary="@string/action_exercises_summary"
+            android:summary=""
             android:key="exercises" />
 
     </PreferenceCategory>

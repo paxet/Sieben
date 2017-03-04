@@ -3,6 +3,11 @@
     <string name="app_name">Sieben</string>
     <string name="start">Zum Beginnen (nach 5 sek. Pause) nach oben wischen …</string>
     <string name="start2">5 Sekunden Pause vor der ersten Übung …</string>
+    <string name="app_ok">OK</string>
+    <string name="app_no">Abbrechen</string>
+    <string name="app_sec">Sekunden</string>
+    <string name="app_chosenTime">Ausgewählte Dauer:</string>
+    <string name="app_standardTime">(Standard:</string>
 
     //Menu Settings
     <string name="action_settings">Einstellungen | Hilfe | Über</string>
@@ -21,8 +26,10 @@
     <string name="action_tts_summary">Möchtest du Sprachanweisungen hören?</string>
     <string name="action_beep">Trillerpfeife</string>
     <string name="action_beep_summary">Möchtest du am Ende jeder Übung ein Signal hören?</string>
-    <string name="action_duration">Dauer</string>
+    <string name="action_duration">Dauer: Übung</string>
     <string name="action_duration_summary">Stelle die Dauer der Übungen ein.</string>
+    <string name="action_duration2">Dauer: Pausen</string>
+    <string name="action_duration2_summary">Stelle die Dauer der Pausen ein.</string>
 
     <string name="action_donate">Spenden</string>
     <string name="action_donate_summary">Wenn dir die App gefällt, würde ich mich über eine Spende (Paypal) freuen.</string>

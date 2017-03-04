@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">セブン</string>
+    <string name="app_ok">OK</string>
+    <string name="app_no">Cancel</string>
+    <string name="app_sec">seconds</string>
+    <string name="app_chosenTime">Chosen duration:</string>
+    <string name="app_standardTime">(Standard:</string>
 
     //Menu
     <string name="action_license">ライセンス</string>
@@ -136,8 +141,11 @@
     <string name="start2">最初のエクササイズの前に 5 秒休止します …</string>
     <string name="action_exercises">エクササイズ</string>
     <string name="action_exercises_summary">Choose the exercises you want to perform.</string>
-    <string name="action_duration">時間</string>
+    <string name="action_duration">時間: エクササイズ</string>
     <string name="action_duration_summary">エクササイズの時間を設定します。</string>
+
+    <string name="action_duration2">時間: Break</string>
+    <string name="action_duration2_summary">Breakの時間を設定します。</string>
 
     <string name="action_donate">Donate</string>
     <string name="action_donate_summary">If you like the app, you can donate to me via Paypal.</string>

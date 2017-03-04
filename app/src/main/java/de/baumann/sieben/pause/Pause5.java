@@ -35,6 +35,8 @@ public class Pause5 extends AppCompatActivity {
     private boolean isCanceled = false;
     private long timeRemaining = 0;
 
+    private int duration;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,6 +45,9 @@ public class Pause5 extends AppCompatActivity {
 
         PreferenceManager.setDefaultValues(this, R.xml.user_settings, false);
         PreferenceManager.setDefaultValues(this, R.xml.user_settings_exercises, false);
+        SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(Pause5.this);
+        final String dur = sharedPref.getString("duration2", "10");
+        duration = Integer.parseInt(dur);
 
         imageView = (ImageView) findViewById(R.id.imageView);
         assert imageView != null;
@@ -61,7 +66,7 @@ public class Pause5 extends AppCompatActivity {
         ttsManager = new TTSManager();
         ttsManager.init(this);
 
-        long millisInFuture = 10000;
+        long millisInFuture = duration * 1000;
         long countDownInterval = 100;
 
 
@@ -70,13 +75,11 @@ public class Pause5 extends AppCompatActivity {
             final SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(Pause5.this);
             public void onTick(long millisUntilFinished){
                 //do something in every tick
-                if(isPaused || isCanceled)
-                {
+                if(isPaused || isCanceled) {
                     cancel();
-                }
-                else {
+                } else {
                     textView.setText(String.valueOf(millisUntilFinished / 1000));
-                    int progress = (int) (millisUntilFinished/100);
+                    int progress = (int) (millisUntilFinished/(duration *10));
                     progressBar.setProgress(progress);
                     timeRemaining = millisUntilFinished;
                 }
@@ -113,13 +116,11 @@ public class Pause5 extends AppCompatActivity {
 
                 new CountDownTimer(millisInFuture, countDownInterval){
                     public void onTick(long millisUntilFinished){
-                        if(isPaused || isCanceled)
-                        {
+                        if(isPaused || isCanceled) {
                             cancel();
-                        }
-                        else {
+                        } else {
                             textView.setText(String.valueOf(millisUntilFinished / 1000));
-                            int progress = (int) (millisUntilFinished/100);
+                            int progress = (int) (millisUntilFinished/(duration *10));
                             progressBar.setProgress(progress);
                             timeRemaining = millisUntilFinished;
                         }
