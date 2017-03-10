@@ -9,14 +9,39 @@
     <string name="app_chosenTime">Ausgewählte Dauer:</string>
     <string name="app_standardTime">(Standard:</string>
 
+    //Statistics
+    <string name="stat_time">Gesamtzeit:</string>
+    <string name="stat_number">Anzahl:</string>
+    <string name="stat_average">Durchschnitt:</string>
+    <string name="stat_sec">sek.</string>
+
+    <string name="sort">Einträge sortieren</string>
+    <string name="sort_icon">nach Titel</string>
+    <string name="sort_number">nach Anzahl</string>
+    <string name="sort_hms">nach Gesamtzeit</string>
+    <string name="sort_average">nach Durchschnitt</string>
+    <string name="sort_icon2">Titel</string>
+    <string name="sort_number2">Anzahl</string>
+    <string name="sort_hms2">Gesamtzeit</string>
+    <string name="sort_average2">Durchschnitt</string>
+
     //Menu Settings
     <string name="action_settings">Einstellungen | Hilfe | Über</string>
     <string name="action_license">Lizenz</string>
     <string name="action_help">Hilfe</string>
     <string name="action_changelog">Änderungen</string>
+    <string name="action_reset">Dauer zurücksetzen</string>
 
     <string name="pref_1">Über die App</string>
     <string name="pref_2">Einstellungen</string>
+    <string name="pref_3">Erweitert</string>
+
+    <string name="action_durationEx">Dauer pro Übung</string>
+    <string name="action_durationEx_summary">Stelle eine unterschiedliche Dauer pro Übung ein.</string>
+
+    <string name="action_stat">Statistik</string>
+    <string name="action_stat_summary">Ein paar Informationen über die Anzahl der gemachten Übungen und die Gesamtzeit sowie die
+        Durchschnittszeit der einzelnen Übungen.</string>
 
     <string name="action_changelog_summary">Was gibt es neues … (wird eine Internetseite öffnen)</string>
     <string name="action_license_summary">Linzensiert unter GPL3</string>

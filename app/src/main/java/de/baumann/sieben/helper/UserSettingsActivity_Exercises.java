@@ -45,6 +45,7 @@ public class UserSettingsActivity_Exercises extends AppCompatActivity {
 
         PreferenceManager.setDefaultValues(this, R.xml.user_settings, false);
         PreferenceManager.setDefaultValues(this, R.xml.user_settings_exercises, false);
+        PreferenceManager.setDefaultValues(this, R.xml.user_settings_duration, false);
     }
 
     public static class SettingsFragment extends PreferenceFragment {
@@ -69,7 +70,6 @@ public class UserSettingsActivity_Exercises extends AppCompatActivity {
 
         if (id == android.R.id.home) {
             finish();
-
             return true;
         }
 

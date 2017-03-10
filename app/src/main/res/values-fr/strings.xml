@@ -9,14 +9,39 @@
     <string name="app_chosenTime">Chosen duration:</string>
     <string name="app_standardTime">(Standard:</string>
 
+    //Statistics
+    <string name="stat_time">Overall time:</string>
+    <string name="stat_number">Count:</string>
+    <string name="stat_average">Average:</string>
+    <string name="stat_sec">sec.</string>
+
+    <string name="sort">Sort entries</string>
+    <string name="sort_icon">by name</string>
+    <string name="sort_number">by count</string>
+    <string name="sort_hms">by overall time</string>
+    <string name="sort_average">by average</string>
+    <string name="sort_icon2">name</string>
+    <string name="sort_number2">count</string>
+    <string name="sort_hms2">overall time</string>
+    <string name="sort_average2">average</string>
+
     //Menu Settings
     <string name="action_settings">Réglages | Aide | À propos</string>
     <string name="action_license">Licence</string>
     <string name="action_help">Aide</string>
     <string name="action_changelog">Nouveautés</string>
+    <string name="action_reset">Reset durations</string>
 
     <string name="pref_1">À propos</string>
     <string name="pref_2">Réglages</string>
+    <string name="pref_3">Advanced</string>
+
+    <string name="action_durationEx">Duration per exercise</string>
+    <string name="action_durationEx_summary">Set different duration per exercise.</string>
+
+    <string name="action_stat">Statistics</string>
+    <string name="action_stat_summary">Show some information about performed exercises, total time and average per exercise.</string>
+
 
     <string name="action_changelog_summary">Voir les nouveautés… (will open a website)</string>
     <string name="action_license_summary">L\'application est distribuée selon les termes de la GPL3</string>

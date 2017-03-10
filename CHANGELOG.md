@@ -1,5 +1,7 @@
-### v 2.0
+### v 2.0 (WIP)
+- new: statistics
 - new: duration for workouts and breaks free adjustable
+- new: duration per workout (advanced settings)
 - new: workout preview pictures in settings
 
 ### v 1.9
@@ -23,7 +25,7 @@
 ### v 1.7.3
 - Settings: duration of exercise
 - gradle update
-- how picture of first chosen exercise on start
+- picture of first chosen exercise on start
 - bug fixes
 
 ### v 1.7.2

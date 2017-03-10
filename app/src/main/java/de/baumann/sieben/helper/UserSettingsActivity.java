@@ -39,6 +39,7 @@ public class UserSettingsActivity extends AppCompatActivity {
 
         PreferenceManager.setDefaultValues(this, R.xml.user_settings, false);
         PreferenceManager.setDefaultValues(this, R.xml.user_settings_exercises, false);
+        PreferenceManager.setDefaultValues(this, R.xml.user_settings_duration, false);
     }
 
     @Override
@@ -158,7 +159,21 @@ public class UserSettingsActivity extends AppCompatActivity {
                     Intent intent_in = new Intent(getActivity(), UserSettingsActivity_Exercises.class);
                     startActivity(intent_in);
                     getActivity().overridePendingTransition(0, 0);
+                    return true;
+                }
+            });
+        }
 
+        private void add_exerciseDurationListener() {
+
+            Preference reset = findPreference("exercises_duration");
+
+            reset.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
+                public boolean onPreferenceClick(Preference pref) {
+
+                    Intent intent_in = new Intent(getActivity(), UserSettingsActivity_Duration.class);
+                    startActivity(intent_in);
+                    getActivity().overridePendingTransition(0, 0);
                     return true;
                 }
             });
@@ -279,6 +294,21 @@ public class UserSettingsActivity extends AppCompatActivity {
             });
         }
 
+        private void add_statListener() {
+
+            Preference reset = findPreference("stat");
+
+            reset.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
+                public boolean onPreferenceClick(Preference pref) {
+
+                    Intent intent_in = new Intent(getActivity(), Activity_statistics.class);
+                    startActivity(intent_in);
+                    getActivity().overridePendingTransition(0, 0);
+                    return true;
+                }
+            });
+        }
+
 
         @Override
         public void onCreate(Bundle savedInstanceState) {
@@ -286,6 +316,7 @@ public class UserSettingsActivity extends AppCompatActivity {
 
             PreferenceManager.setDefaultValues(getActivity(), R.xml.user_settings, false);
             PreferenceManager.setDefaultValues(getActivity(), R.xml.user_settings_exercises, false);
+            PreferenceManager.setDefaultValues(getActivity(), R.xml.user_settings_duration, false);
             final SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(getActivity());
             final String durationWorkout = getString(R.string.app_chosenTime)
                     + " " + sharedPref.getString("duration", "30") + " " + getString(R.string.app_sec)
@@ -302,6 +333,8 @@ public class UserSettingsActivity extends AppCompatActivity {
             add_exerciseChooseListener();
             add_durationListener();
             add_duration_break_Listener();
+            add_exerciseDurationListener();
+            add_statListener();
 
             new Handler().postDelayed(new Runnable() {
                 public void run() {

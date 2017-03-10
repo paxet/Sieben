@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:title="@string/act"
+        android:summary="@string/actee"
+        android:icon="@drawable/a01b"
+        android:key="duration_ex1" />
+
+    <Preference
+        android:title="@string/act_2"
+        android:summary="@string/act_2ee"
+        android:icon="@drawable/a02b"
+        android:key="duration_ex2" />
+
+    <Preference
+        android:title="@string/act_3"
+        android:summary="@string/act_3ee"
+        android:icon="@drawable/a03b"
+        android:key="duration_ex3" />
+
+    <Preference
+        android:title="@string/act_4"
+        android:summary="@string/act_4ee"
+        android:icon="@drawable/a04b"
+        android:key="duration_ex4" />
+
+    <Preference
+        android:title="@string/act_5"
+        android:summary="@string/act_5ee"
+        android:icon="@drawable/a05b"
+        android:key="duration_ex5" />
+
+    <Preference
+        android:title="@string/act_6"
+        android:summary="@string/act_6ee"
+        android:icon="@drawable/a06b"
+        android:key="duration_ex6" />
+
+    <Preference
+        android:title="@string/act_7"
+        android:summary="@string/act_7ee"
+        android:icon="@drawable/a07b"
+        android:key="duration_ex7" />
+
+    <Preference
+        android:title="@string/act_8"
+        android:summary="@string/act_8ee"
+        android:icon="@drawable/a08b"
+        android:key="duration_ex8" />
+
+    <Preference
+        android:title="@string/act_9"
+        android:summary="@string/act_9ee"
+        android:icon="@drawable/a09b"
+        android:key="duration_ex9" />
+
+    <Preference
+        android:title="@string/act_10"
+        android:icon="@drawable/a10b"
+        android:summary="@string/act_10ee"
+        android:key="duration_ex10" />
+
+    <Preference
+        android:title="@string/act_11"
+        android:summary="@string/act_11ee"
+        android:icon="@drawable/a11b"
+        android:key="duration_ex11" />
+
+    <Preference
+        android:title="@string/act_12"
+        android:summary="@string/act_12ee"
+        android:icon="@drawable/a12b"
+        android:key="duration_ex12" />
+
+</PreferenceScreen>

@@ -45,6 +45,7 @@ public class MainActivity122 extends AppCompatActivity {
     private long timeRemaining = 0;
 
     private int duration;
+    private SharedPreferences sharedPref;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,9 +55,14 @@ public class MainActivity122 extends AppCompatActivity {
 
         PreferenceManager.setDefaultValues(this, R.xml.user_settings, false);
         PreferenceManager.setDefaultValues(this, R.xml.user_settings_exercises, false);
-        SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(MainActivity122.this);
-        final String dur = sharedPref.getString("duration", "30");
-        duration = Integer.parseInt(dur);
+        PreferenceManager.setDefaultValues(this, R.xml.user_settings_duration, false);
+        sharedPref = PreferenceManager.getDefaultSharedPreferences(MainActivity122.this);
+        final String dur = sharedPref.getString("duration_ex12", "0");
+        if (dur.equals("0")) {
+            duration = Integer.parseInt(sharedPref.getString("duration", "30"));
+        } else {
+            duration = Integer.parseInt(dur);
+        }
 
         imageView = (ImageView) findViewById(R.id.imageView);
         assert imageView != null;
@@ -81,14 +87,11 @@ public class MainActivity122 extends AppCompatActivity {
 
         //Initialize a new CountDownTimer instance
         new CountDownTimer(millisInFuture,countDownInterval){
-            final SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(MainActivity122.this);
             public void onTick(long millisUntilFinished){
                 //do something in every tick
-                if(isPaused || isCanceled)
-                {
+                if(isPaused || isCanceled) {
                     cancel();
-                }
-                else {
+                } else {
                     textView.setText(String.valueOf(millisUntilFinished / 1000));
                     int progress = (int) (millisUntilFinished/((duration *10)/2));
                     progressBar.setProgress(progress);
@@ -96,20 +99,7 @@ public class MainActivity122 extends AppCompatActivity {
                 }
             }
             public void onFinish(){
-
-                if (sharedPref.getBoolean ("beep", false)){
-//                    final ToneGenerator tg = new ToneGenerator(AudioManager.STREAM_NOTIFICATION, 100);
-//                    tg.startTone(ToneGenerator.TONE_PROP_BEEP);
-                    SoundPool.playWhistle(getApplicationContext());
-                }
-
-                if (sharedPref.getBoolean ("tts", false)){
-                    String text = getResources().getString(R.string.end);
-                    ttsManager.initQueue(text);
-                }
-
-                progressBar.setProgress(0);
-                textView.setText(R.string.end);
+                onCountdownFinish();
             }
         }.start();
 
@@ -124,11 +114,9 @@ public class MainActivity122 extends AppCompatActivity {
 
                 new CountDownTimer(millisInFuture, countDownInterval){
                     public void onTick(long millisUntilFinished){
-                        if(isPaused || isCanceled)
-                        {
+                        if(isPaused || isCanceled) {
                             cancel();
-                        }
-                        else {
+                        } else {
                             textView.setText(String.valueOf(millisUntilFinished / 1000));
                             int progress = (int) (millisUntilFinished/((duration *10)/2));
                             progressBar.setProgress(progress);
@@ -136,20 +124,7 @@ public class MainActivity122 extends AppCompatActivity {
                         }
                     }
                     public void onFinish(){
-
-                        if (sharedPref.getBoolean ("beep", false)){
-//                            final ToneGenerator tg = new ToneGenerator(AudioManager.STREAM_NOTIFICATION, 100);
-//                            tg.startTone(ToneGenerator.TONE_PROP_BEEP);
-                            SoundPool.playWhistle(getApplicationContext());
-                        }
-
-                        if (sharedPref.getBoolean ("tts", false)){
-                            String text = getResources().getString(R.string.end);
-                            ttsManager.initQueue(text);
-                        }
-
-                        progressBar.setProgress(0);
-                        textView.setText(R.string.end);
+                        onCountdownFinish();
                     }
                 }.start();
                 if (sharedPref.getBoolean ("tts", false)){
@@ -315,5 +290,25 @@ public class MainActivity122 extends AppCompatActivity {
     public void onBackPressed() {
         isCanceled = true;
         finishAffinity();
+    }
+
+    private void onCountdownFinish() {
+
+        progressBar.setProgress(0);
+
+        sharedPref.edit().putInt("ex12_number", (sharedPref.getInt("ex12_number", 0) + 1)).apply();
+        sharedPref.edit().putInt("ex12_time", (sharedPref.getInt("ex12_time", 0) + (duration * 1000))).apply();
+
+        if (sharedPref.getBoolean ("beep", false)){
+            SoundPool.playWhistle(getApplicationContext());
+        }
+
+        if (sharedPref.getBoolean ("tts", false)){
+            String text = getResources().getString(R.string.end);
+            ttsManager.initQueue(text);
+        }
+
+        progressBar.setProgress(0);
+        textView.setText(R.string.end);
     }
 }
