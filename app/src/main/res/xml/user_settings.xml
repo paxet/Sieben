@@ -41,6 +41,13 @@
     <PreferenceCategory
         android:title="@string/pref_3">
 
+        <CheckBoxPreference
+            android:title="@string/action_endless"
+            android:icon="@drawable/repeat"
+            android:summary="@string/action_endless_summary"
+            android:key="endless"
+            android:defaultValue="false" />
+
         <Preference
             android:title="@string/action_durationEx"
             android:icon="@drawable/timer"
@@ -59,9 +66,9 @@
         android:title="@string/pref_1">
 
         <Preference
-            android:title="@string/action_help"
+            android:title="@string/action_intro"
             android:icon="@drawable/information_outline"
-            android:summary="@string/action_help_summary"
+            android:summary="@string/action_intro_summary"
             android:key="help" />
 
         <Preference

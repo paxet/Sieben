@@ -15,6 +15,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import at.juggle.sieben.SoundPool;
+import de.baumann.sieben.MainActivity;
 import de.baumann.sieben.helper.CountDownTimer;
 import de.baumann.sieben.pause.Pause;
 import de.baumann.sieben.pause.Pause10;
@@ -400,7 +401,15 @@ public class MainActivity1 extends AppCompatActivity {
             overridePendingTransition(0, 0);
             finishAffinity();
         } else {
-            textView.setText(R.string.end);
+            if (sharedPref.getBoolean("endless", false)) {
+                Intent intent_in = new Intent(MainActivity1.this, MainActivity.class);
+                intent_in.setAction("endless_workout");
+                startActivity(intent_in);
+                overridePendingTransition(0, 0);
+                finishAffinity();
+            } else {
+                textView.setText(R.string.end);
+            }
         }
     }
 }

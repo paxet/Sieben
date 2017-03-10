@@ -74,27 +74,9 @@ public class UserSettingsActivity extends AppCompatActivity {
                 public boolean onPreferenceClick(Preference pref)
                 {
 
-                    SpannableString s;
-
-                    if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N) {
-                        s = new SpannableString(Html.fromHtml(getString(R.string.help_text),Html.FROM_HTML_MODE_LEGACY));
-                    } else {
-                        s = new SpannableString(Html.fromHtml(getString(R.string.help_text)));
-                    }
-
-                    Linkify.addLinks(s, Linkify.WEB_URLS);
-
-                    final AlertDialog d = new AlertDialog.Builder(getActivity())
-                            .setTitle(R.string.action_help)
-                            .setMessage(s)
-                            .setPositiveButton(getString(R.string.about_yes),
-                                    new DialogInterface.OnClickListener() {
-                                        public void onClick(DialogInterface dialog, int id) {
-                                            dialog.cancel();
-                                        }
-                                    }).show();
-                    d.show();
-                    ((TextView)d.findViewById(android.R.id.message)).setMovementMethod(LinkMovementMethod.getInstance());
+                    Intent intent_in = new Intent(getActivity(), Activity_intro.class);
+                    startActivity(intent_in);
+                    getActivity().overridePendingTransition(0, 0);
 
                     return true;
                 }

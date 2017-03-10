@@ -25,10 +25,24 @@
     <string name="sort_hms2">Gesamtzeit</string>
     <string name="sort_average2">Durchschnitt</string>
 
+    //Intro
+
+    <string name="intro1_title">Sieben</string>
+    <string name="intro1_text">Danke, dass du dich für Sieben entschieden hast. Die App ist quelloffen und komplett frei (wie in
+        Freiheit).</string>
+
+    <string name="intro2_title">Gesten</string>
+    <string name="intro2_text">Wische auf dem Bild nach unten, um eine Pause zu machen und nach oben um weiterzumachen. Wische
+        nach rechts um zur vorherigen und nach links um zur nächsten Übung zu gelangen.</string>
+
+    <string name="intro3_title">Einstellungen</string>
+    <string name="intro3_text">Es gibt ein paar einfache Einstellungen (Dauer der Übungen und Pausen, Übungen auswählen). Außerdem
+        gibt es eine kleine Statistik über deine beendeten Übungen. So und jetzt, geht\'s los …</string>
+
+
     //Menu Settings
     <string name="action_settings">Einstellungen | Hilfe | Über</string>
     <string name="action_license">Lizenz</string>
-    <string name="action_help">Hilfe</string>
     <string name="action_changelog">Änderungen</string>
     <string name="action_reset">Dauer zurücksetzen</string>
 
@@ -39,13 +53,18 @@
     <string name="action_durationEx">Dauer pro Übung</string>
     <string name="action_durationEx_summary">Stelle eine unterschiedliche Dauer pro Übung ein.</string>
 
+    <string name="action_endless">Endlostraining</string>
+    <string name="action_endless_summary">Workout nach der letzten Übung noch einmal starten.</string>
+
+    <string name="action_intro">Einführung</string>
+    <string name="action_intro_summary">Die Einführung noch einmal anzeigen.</string>
+
     <string name="action_stat">Statistik</string>
     <string name="action_stat_summary">Ein paar Informationen über die Anzahl der gemachten Übungen und die Gesamtzeit sowie die
         Durchschnittszeit der einzelnen Übungen.</string>
 
     <string name="action_changelog_summary">Was gibt es neues … (wird eine Internetseite öffnen)</string>
     <string name="action_license_summary">Linzensiert unter GPL3</string>
-    <string name="action_help_summary">Erklärung der Wischfunktion …</string>
 
     <string name="action_tts">TTS</string>
     <string name="action_tts_summary">Möchtest du Sprachanweisungen hören?</string>
@@ -156,6 +175,9 @@
         &lt;i>MaterialDesignIcons&lt;br>
         https://github.com/Templarian/MaterialDesign&lt;/i>&lt;br>&lt;br>
 
+        &lt;i>Android Onboarder&lt;br>
+        https://github.com/chyrta/AndroidOnboarder&lt;/i>&lt;br>&lt;br>
+
         &lt;i>Die Bilder für den Workout habe ich auf dem Blog von  \"C. Gilbert\" gefunden
         (http://almostfearless.com/the-21-minute-workout-or-7-minutes-if-youre-really-fit). Ihr
         ebenfalls ein großes Dankeschön für die Erlaubnis die Bilder in dieser App nutzen
@@ -164,20 +186,5 @@
         &lt;i>Die Trillerpfeife ist unter Creative Commons 0 Lizenz von
         http://freesound.org/people/MentalSanityOff/sounds/218318/ erhältlich. &lt;/i></string>
 
-    //Changelog Dialog
-
-    //Help Dialog
-    <string name="help_text">
-        &lt;i>Nach links wischen: &lt;/i>zur nächsten Übung wechseln&lt;br>&lt;br>
-
-        &lt;i>Nach rechts wischen: &lt;/i>zur vorherigen Übung wechseln&lt;br>&lt;br>
-
-        &lt;i>Nach unten wischen: &lt;/i>eine Pause machen&lt;br>&lt;br>
-
-        &lt;i>Nach oben wischen: &lt;/i>die aktuelle Übung fortsetzen
-    </string>
-
-
-    // Arrays
 
 </resources>

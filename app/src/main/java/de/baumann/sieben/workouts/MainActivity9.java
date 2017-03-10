@@ -341,7 +341,15 @@ public class MainActivity9 extends AppCompatActivity {
             overridePendingTransition(0, 0);
             finishAffinity();
         } else {
-            textView.setText(R.string.end);
+            if (sharedPref.getBoolean("endless", false)) {
+                Intent intent_in = new Intent(MainActivity9.this, MainActivity.class);
+                intent_in.setAction("endless_workout");
+                startActivity(intent_in);
+                overridePendingTransition(0, 0);
+                finishAffinity();
+            } else {
+                textView.setText(R.string.end);
+            }
         }
     }
 }

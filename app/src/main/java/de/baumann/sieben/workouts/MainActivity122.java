@@ -308,7 +308,14 @@ public class MainActivity122 extends AppCompatActivity {
             ttsManager.initQueue(text);
         }
 
-        progressBar.setProgress(0);
-        textView.setText(R.string.end);
+        if (sharedPref.getBoolean("endless", false)) {
+            Intent intent_in = new Intent(MainActivity122.this, MainActivity.class);
+            intent_in.setAction("endless_workout");
+            startActivity(intent_in);
+            overridePendingTransition(0, 0);
+            finishAffinity();
+        } else {
+            textView.setText(R.string.end);
+        }
     }
 }

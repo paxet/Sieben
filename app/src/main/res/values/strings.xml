@@ -25,11 +25,24 @@
     <string name="sort_hms2">overall time</string>
     <string name="sort_average2">average</string>
 
+    //Intro
+
+    <string name="intro1_title">Seven</string>
+    <string name="intro1_text">Thanks for choosing Seven. It\'s open source and complete free (as in freedom).</string>
+
+    <string name="intro2_title">Gestures</string>
+    <string name="intro2_text">Swipe down on the image to make a break, swipe up to continue with the workout. Swipe right to
+    reach the previous exercise and left to skip the current one.</string>
+
+    <string name="intro3_title">Settings</string>
+    <string name="intro3_text">There are same basic settings for the app (duration of exercises and breaks, choose exercises). You
+        can also open a statistic overview over done exercises. Now, let\'s start …</string>
+
+
 
     //Menu Settings
     <string name="action_settings">Settings | Help | About</string>
     <string name="action_license">License</string>
-    <string name="action_help">Help</string>
     <string name="action_changelog">Changelog</string>
     <string name="action_reset">Reset durations</string>
 
@@ -40,12 +53,17 @@
     <string name="action_durationEx">Duration per exercise</string>
     <string name="action_durationEx_summary">Set different duration per exercise.</string>
 
+    <string name="action_intro">Intro</string>
+    <string name="action_intro_summary">Show the intro screen again.</string>
+
     <string name="action_stat">Statistics</string>
     <string name="action_stat_summary">Show some information about performed exercises, total time and average per exercise.</string>
 
+    <string name="action_endless">Endless</string>
+    <string name="action_endless_summary">Start workout again after last exercise.</string>
+
     <string name="action_changelog_summary">See what\'s new … (will open a website)</string>
     <string name="action_license_summary">App is licensed under GPL3</string>
-    <string name="action_help_summary">Learn about the swipe gestures …</string>
 
     <string name="action_tts">TTS</string>
     <string name="action_tts_summary">Do you want to hear voice commands?</string>
@@ -155,6 +173,9 @@
         &lt;i>MaterialDesignIcons&lt;br>
         https://github.com/Templarian/MaterialDesign&lt;/i>&lt;br>&lt;br>
 
+        &lt;i>Android Onboarder&lt;br>
+        https://github.com/chyrta/AndroidOnboarder&lt;/i>&lt;br>&lt;br>
+
         &lt;i>The pictures from the workout can be found on the Blog of \"C. Gilbert\"
         (http://almostfearless.com/the-21-minute-workout-or-7-minutes-if-youre-really-fit). Thanks to her
         for the permission to use them in the app.&lt;/i>&lt;br>&lt;br>
@@ -162,20 +183,5 @@
         &lt;i>The whistle is available under the Creative Commons 0 License from
         http://freesound.org/people/MentalSanityOff/sounds/218318/ &lt;/i></string>
 
-
-
-    //Help Dialog
-    <string name="help_text">
-        &lt;i>Swipe on left: &lt;/i>switch to next exercise&lt;br>&lt;br>
-
-        &lt;i>Swipe on right: &lt;/i>switch to previous exercise&lt;br>&lt;br>
-
-        &lt;i>Swipe on bottom: &lt;/i>make a break&lt;br>&lt;br>
-
-        &lt;i>Swipe on top: &lt;/i>resume actual exercise
-    </string>
-
-
-    // Arrays
 
 </resources>

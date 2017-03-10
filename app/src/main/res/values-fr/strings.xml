@@ -25,10 +25,24 @@
     <string name="sort_hms2">overall time</string>
     <string name="sort_average2">average</string>
 
+    //Intro
+
+    <string name="intro1_title">Seven</string>
+    <string name="intro1_text">Thanks for choosing Seven. It\'s open source and complete free (as in freedom).</string>
+
+    <string name="intro2_title">Gestures</string>
+    <string name="intro2_text">Swipe down on the image to make a break, swipe up to continue with the workout. Swipe right to
+    reach the previous exercise and left to skip the current one.</string>
+
+    <string name="intro3_title">Settings</string>
+    <string name="intro3_text">There are same basic settings for the app (duration of exercises and breaks, choose exercises). You
+        can also open a statistic overview over done exercises. Now, let\'s start …</string>
+
+
+
     //Menu Settings
     <string name="action_settings">Réglages | Aide | À propos</string>
     <string name="action_license">Licence</string>
-    <string name="action_help">Aide</string>
     <string name="action_changelog">Nouveautés</string>
     <string name="action_reset">Reset durations</string>
 
@@ -42,10 +56,14 @@
     <string name="action_stat">Statistics</string>
     <string name="action_stat_summary">Show some information about performed exercises, total time and average per exercise.</string>
 
+    <string name="action_endless">Endless</string>
+    <string name="action_endless_summary">Start workout again after last exercise.</string>
+
+    <string name="action_intro">Intro</string>
+    <string name="action_intro_summary">Show the intro screen again.</string>
 
     <string name="action_changelog_summary">Voir les nouveautés… (will open a website)</string>
     <string name="action_license_summary">L\'application est distribuée selon les termes de la GPL3</string>
-    <string name="action_help_summary">Gestes glissés</string>
 
     <string name="action_tts">Synthèse vocale</string>
     <string name="action_tts_summary">Voulez-vous entendre des ordres par oral ?</string>
@@ -156,6 +174,9 @@
         &lt;i>MaterialDesignIcons&lt;br>
         https://github.com/Templarian/MaterialDesign&lt;/i>&lt;br>&lt;br>
 
+        &lt;i>Android Onboarder&lt;br>
+        https://github.com/chyrta/AndroidOnboarder&lt;/i>&lt;br>&lt;br>
+
         &lt;i>The pictures from the workout can be found on the Blog of \"C. Gilbert\"
         (http://almostfearless.com/the-21-minute-workout-or-7-minutes-if-youre-really-fit). Thanks to her
         for the permission to use them in the app.&lt;/i>&lt;br>&lt;br>
@@ -163,19 +184,5 @@
         &lt;i>The whistle is available under the Creative Commons 0 License from
         http://freesound.org/people/MentalSanityOff/sounds/218318/ &lt;/i></string>
 
-
-    //Help Dialog
-    <string name="help_text">
-        &lt;i>Glissement à gauche : &lt;/i>exercice suivant&lt;br>&lt;br>
-
-        &lt;i>Glissement à droite : &lt;/i>exercice précédent&lt;br>&lt;br>
-
-        &lt;i>Glissement vers le bas : &lt;/i>pause&lt;br>&lt;br>
-
-        &lt;i>Glissement vers le haut : &lt;/i>redémarrer l\'exercice courant
-    </string>
-
-
-    // Arrays
 
 </resources>

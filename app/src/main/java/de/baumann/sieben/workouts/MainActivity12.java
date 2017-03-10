@@ -298,8 +298,6 @@ public class MainActivity12 extends AppCompatActivity {
         progressBar.setProgress(0);
 
         if (sharedPref.getBoolean ("beep", false)){
-//                    final ToneGenerator tg = new ToneGenerator(AudioManager.STREAM_NOTIFICATION, 100);
-//                    tg.startTone(ToneGenerator.TONE_PROP_BEEP);
             SoundPool.playWhistle(getApplicationContext());
         }
 

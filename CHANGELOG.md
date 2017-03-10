@@ -1,7 +1,9 @@
 ### v 2.0 (WIP)
+- new: intro screen
 - new: statistics
 - new: duration for workouts and breaks free adjustable
 - new: duration per workout (advanced settings)
+- new: endless workout
 - new: workout preview pictures in settings
 
 ### v 1.9
