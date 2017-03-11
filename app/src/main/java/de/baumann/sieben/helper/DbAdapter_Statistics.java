@@ -45,7 +45,7 @@ class DbAdapter_Statistics {
 
         @Override
         public void onCreate(SQLiteDatabase db) {
-            db.execSQL("CREATE TABLE IF NOT EXISTS "+dbTable+" (_id INTEGER PRIMARY KEY autoincrement, ex_title, ex_hms, ex_icon, ex_number, ex_average, ex_hmsInt, ex_averageInt, UNIQUE(ex_title))");
+            db.execSQL("CREATE TABLE IF NOT EXISTS "+dbTable+" (_id INTEGER PRIMARY KEY autoincrement, ex_title, ex_hms, ex_icon, ex_number, ex_average, ex_number_int, ex_averageInt, UNIQUE(ex_title))");
         }
 
         @Override
@@ -69,9 +69,9 @@ class DbAdapter_Statistics {
 
     //insert data
     @SuppressWarnings("SameParameterValue")
-    void insert(String ex_title, String ex_hms, String ex_icon, String ex_number, String ex_average, int ex_hmsInt, long ex_averageInt) {
+    void insert(String ex_title, String ex_hms, String ex_icon, String ex_number, String ex_average, String ex_number_int, String ex_averageInt) {
         if(!isExist(ex_title)) {
-            sqlDb.execSQL("INSERT INTO ex_table (ex_title, ex_hms, ex_icon, ex_number, ex_average, ex_hmsInt, ex_averageInt) VALUES('" + ex_title + "','" + ex_hms + "','" + ex_icon + "','" + ex_number + "','" + ex_average + "','" + ex_hmsInt + "','" + ex_averageInt + "')");
+            sqlDb.execSQL("INSERT INTO ex_table (ex_title, ex_hms, ex_icon, ex_number, ex_average, ex_number_int, ex_averageInt) VALUES('" + ex_title + "','" + ex_hms + "','" + ex_icon + "','" + ex_number + "','" + ex_average + "','" + ex_number_int + "','" + ex_averageInt + "')");
         }
     }
     //check entry already in database or not
@@ -87,14 +87,14 @@ class DbAdapter_Statistics {
         PreferenceManager.setDefaultValues(context, R.xml.user_settings, false);
         SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(context);
 
-        String[] columns = new String[]{"_id", "ex_title", "ex_hms", "ex_icon","ex_number","ex_average","ex_hmsInt","ex_averageInt"};
+        String[] columns = new String[]{"_id", "ex_title", "ex_hms", "ex_icon","ex_number","ex_average","ex_number_int","ex_averageInt"};
 
         if (sp.getString("sortDBF", "title").equals("title")) {
             return sqlDb.query(dbTable, columns, null, null, null, null, "ex_icon");
         } else if (sp.getString("sortDBF", "title").equals("number")) {
-            return sqlDb.query(dbTable, columns, null, null, null, null, "ex_number" + " DESC");
+            return sqlDb.query(dbTable, columns, null, null, null, null, "ex_number_int" + " DESC");
         } else if (sp.getString("sortDBF", "title").equals("hms")) {
-            return sqlDb.query(dbTable, columns, null, null, null, null, "ex_hmsInt" + " DESC");
+            return sqlDb.query(dbTable, columns, null, null, null, null, "ex_hms" + " DESC");
         } else if (sp.getString("sortDBF", "title").equals("average")) {
             return sqlDb.query(dbTable, columns, null, null, null, null, "ex_averageInt" + " DESC");
         }

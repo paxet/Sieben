@@ -19,6 +19,8 @@ import de.baumann.sieben.R;
 
 public class UserSettingsActivity_Duration extends AppCompatActivity {
 
+    private SharedPreferences sharedPref;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,6 +38,7 @@ public class UserSettingsActivity_Duration extends AppCompatActivity {
         PreferenceManager.setDefaultValues(this, R.xml.user_settings, false);
         PreferenceManager.setDefaultValues(this, R.xml.user_settings_exercises, false);
         PreferenceManager.setDefaultValues(this, R.xml.user_settings_duration, false);
+        sharedPref = PreferenceManager.getDefaultSharedPreferences(UserSettingsActivity_Duration.this);
     }
 
     public static class SettingsFragment extends PreferenceFragment {
@@ -69,7 +72,7 @@ public class UserSettingsActivity_Duration extends AppCompatActivity {
             });
 
             builder.setView(dialogView);
-            builder.setTitle(getString(R.string.action_duration));
+            builder.setTitle(getString(R.string.action_durationEx));
             builder.setPositiveButton(getString(R.string.app_ok), new DialogInterface.OnClickListener() {
 
                 public void onClick(DialogInterface dialog, int whichButton) {
@@ -289,25 +292,35 @@ public class UserSettingsActivity_Duration extends AppCompatActivity {
 
         if (id == R.id.action_reset) {
 
-            PreferenceManager.setDefaultValues(this, R.xml.user_settings, false);
-            PreferenceManager.setDefaultValues(this, R.xml.user_settings_exercises, false);
-            PreferenceManager.setDefaultValues(this, R.xml.user_settings_duration, false);
-            final SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(this);
+            final android.support.v7.app.AlertDialog.Builder dialog = new android.support.v7.app.AlertDialog.Builder(UserSettingsActivity_Duration.this)
+                    .setTitle(R.string.app_con)
+                    .setMessage(R.string.app_con_message)
+                    .setPositiveButton(R.string.app_ok, new DialogInterface.OnClickListener() {
 
-            sharedPref.edit().putString("duration_ex1", "0").apply();
-            sharedPref.edit().putString("duration_ex2", "0").apply();
-            sharedPref.edit().putString("duration_ex3", "0").apply();
-            sharedPref.edit().putString("duration_ex4", "0").apply();
-            sharedPref.edit().putString("duration_ex5", "0").apply();
-            sharedPref.edit().putString("duration_ex6", "0").apply();
-            sharedPref.edit().putString("duration_ex7", "0").apply();
-            sharedPref.edit().putString("duration_ex8", "0").apply();
-            sharedPref.edit().putString("duration_ex9", "0").apply();
-            sharedPref.edit().putString("duration_ex10", "0").apply();
-            sharedPref.edit().putString("duration_ex11", "0").apply();
-            sharedPref.edit().putString("duration_ex12", "0").apply();
+                        public void onClick(DialogInterface dialog, int whichButton) {
+                            sharedPref.edit().putString("duration_ex1", "0").apply();
+                            sharedPref.edit().putString("duration_ex2", "0").apply();
+                            sharedPref.edit().putString("duration_ex3", "0").apply();
+                            sharedPref.edit().putString("duration_ex4", "0").apply();
+                            sharedPref.edit().putString("duration_ex5", "0").apply();
+                            sharedPref.edit().putString("duration_ex6", "0").apply();
+                            sharedPref.edit().putString("duration_ex7", "0").apply();
+                            sharedPref.edit().putString("duration_ex8", "0").apply();
+                            sharedPref.edit().putString("duration_ex9", "0").apply();
+                            sharedPref.edit().putString("duration_ex10", "0").apply();
+                            sharedPref.edit().putString("duration_ex11", "0").apply();
+                            sharedPref.edit().putString("duration_ex12", "0").apply();
 
-            finish();
+                            finish();
+                        }
+                    })
+                    .setNegativeButton(R.string.app_no, new DialogInterface.OnClickListener() {
+
+                        public void onClick(DialogInterface dialog, int whichButton) {
+                            dialog.cancel();
+                        }
+                    });
+            dialog.show();
         }
 
         return super.onOptionsItemSelected(item);

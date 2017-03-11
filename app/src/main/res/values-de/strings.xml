@@ -8,12 +8,13 @@
     <string name="app_sec">Sekunden</string>
     <string name="app_chosenTime">Ausgewählte Dauer:</string>
     <string name="app_standardTime">(Standard:</string>
+    <string name="app_con">Bestätigung</string>
+    <string name="app_con_message">Möchtest du die Einstellungenwirklich löschen?</string>
 
     //Statistics
-    <string name="stat_time">Gesamtzeit:</string>
+    <string name="stat_time">Gesamt:</string>
     <string name="stat_number">Anzahl:</string>
     <string name="stat_average">Durchschnitt:</string>
-    <string name="stat_sec">sek.</string>
 
     <string name="sort">Einträge sortieren</string>
     <string name="sort_icon">nach Titel</string>
@@ -22,13 +23,13 @@
     <string name="sort_average">nach Durchschnitt</string>
     <string name="sort_icon2">Titel</string>
     <string name="sort_number2">Anzahl</string>
-    <string name="sort_hms2">Gesamtzeit</string>
-    <string name="sort_average2">Durchschnitt</string>
+    <string name="sort_hms2">Gesamtzeit (h:m:s)</string>
+    <string name="sort_average2">Durchschnitt (m:s)</string>
 
     //Intro
 
     <string name="intro1_title">Sieben</string>
-    <string name="intro1_text">Danke, dass du dich für Sieben entschieden hast. Die App ist quelloffen und komplett frei (wie in
+    <string name="intro1_text">Danke, dass du dich für \"Sieben\" entschieden hast. Die App ist quelloffen und komplett frei (wie in
         Freiheit).</string>
 
     <string name="intro2_title">Gesten</string>
@@ -42,13 +43,11 @@
 
     //Menu Settings
     <string name="action_settings">Einstellungen | Hilfe | Über</string>
-    <string name="action_license">Lizenz</string>
-    <string name="action_changelog">Änderungen</string>
     <string name="action_reset">Dauer zurücksetzen</string>
 
-    <string name="pref_1">Über die App</string>
     <string name="pref_2">Einstellungen</string>
     <string name="pref_3">Erweitert</string>
+    <string name="pref_4">Sonstiges</string>
 
     <string name="action_durationEx">Dauer pro Übung</string>
     <string name="action_durationEx_summary">Stelle eine unterschiedliche Dauer pro Übung ein.</string>
@@ -56,15 +55,9 @@
     <string name="action_endless">Endlostraining</string>
     <string name="action_endless_summary">Workout nach der letzten Übung noch einmal starten.</string>
 
-    <string name="action_intro">Einführung</string>
-    <string name="action_intro_summary">Die Einführung noch einmal anzeigen.</string>
-
     <string name="action_stat">Statistik</string>
     <string name="action_stat_summary">Ein paar Informationen über die Anzahl der gemachten Übungen und die Gesamtzeit sowie die
         Durchschnittszeit der einzelnen Übungen.</string>
-
-    <string name="action_changelog_summary">Was gibt es neues … (wird eine Internetseite öffnen)</string>
-    <string name="action_license_summary">Linzensiert unter GPL3</string>
 
     <string name="action_tts">TTS</string>
     <string name="action_tts_summary">Möchtest du Sprachanweisungen hören?</string>
@@ -72,9 +65,6 @@
     <string name="action_beep_summary">Möchtest du am Ende jeder Übung ein Signal hören?</string>
     <string name="action_duration">Dauer: Übung</string>
     <string name="action_duration2">Dauer: Pausen</string>
-
-    <string name="action_donate">Spenden</string>
-    <string name="action_donate_summary">Wenn dir die App gefällt, würde ich mich über eine Spende (Paypal) freuen.</string>
 
     <string name="action_exercises">Übungen</string>
     <string name="action_exercises_summary">Wähle die Übungen aus, die du machen willst.</string>
@@ -142,22 +132,9 @@
     <string name="act_12ee" tools:keep="@string/act_12ee">Seitstütz</string>
 
     //License Dialog
-    <string name="about_yes">OK</string>
     <string name="about_title">Copyright © 2016  by Gaukler Faun</string>
     <string name="about_text">
         Besuche für mehr Informationen die Projektseite auf Github: https://github.com/scoute-dich/Sieben&lt;br>&lt;br>
-
-        &lt;b>Beteiligte:&lt;/b>&lt;br>&lt;br>
-
-        &lt;i>Entwicklung&lt;/i>&lt;br>
-        Gaukler Faun https://github.com/scoute-dich&lt;br> &lt;br>
-
-        &lt;i>Übersetzugen&lt;/i>&lt;br>
-        Französisch: jeberger https://github.com/jeberger&lt;br>
-        Japanisch: naofum https://github.com/naofum&lt;br> &lt;br>
-
-        &lt;i>Trillerpfeife und kleine Änderungen&lt;/i>&lt;br>
-        Mathias Lux https://github.com/dermotte&lt;br> &lt;br>
 
         This program is free software: you can redistribute it and/or modify
         it under the terms of the GNU General Public License as published by
@@ -170,21 +147,46 @@
         GNU General Public License for more details.
 
         You should have received a copy of the GNU General Public License
-        along with this program.  If not, see http://www.gnu.org/licenses.&lt;br> &lt;br>
+        along with this program.  If not, see http://www.gnu.org/licenses.</string>
 
-        &lt;i>MaterialDesignIcons&lt;br>
-        https://github.com/Templarian/MaterialDesign&lt;/i>&lt;br>&lt;br>
+    // About
 
-        &lt;i>Android Onboarder&lt;br>
-        https://github.com/chyrta/AndroidOnboarder&lt;/i>&lt;br>&lt;br>
+    <string name="about_settings">Über die App … und Anderes</string>
+    <string name="about_settings_text">Changelog, Hilfe, Lizent, benutzte Bibliotheken und mehr.</string>
 
-        &lt;i>Die Bilder für den Workout habe ich auf dem Blog von  \"C. Gilbert\" gefunden
-        (http://almostfearless.com/the-21-minute-workout-or-7-minutes-if-youre-really-fit). Ihr
+    <string name="about_title_dev">Entwickler</string>
+    <string name="about_title_libs">Benutzte Ressourcen</string>
+    <string name="about_title_ext">Beteiligte</string>
+    <string name="about_title_ext1">Französische Übersetzung</string>
+    <string name="about_title_ext2">Kleine Verbesserungen und die Trillerpfeife</string>
+    <string name="about_title_ext3">Japanische Übersetzung</string>
+
+    <string name="about_changelog">Änderungen</string>
+    <string name="about_changelog_summary">Öffne die Github Seite und schaue, was es Neues gibt … (braucht eine Internetverbindung)</string>
+
+    <string name="about_license">Lizenz</string>
+    <string name="about_license_summary">Die App steht unter der GPL Lizenz und ist komplett frei (wie in Freiheit). Der Quellcode kann
+        eingesehen werden.</string>
+
+    <string name="about_dev">Gaukler Faun</string>
+    <string name="about_dev_summary">Öffne mein Github Profil (braucht eine Internetverbindung).</string>
+
+    <string name="about_intro">Einführung</string>
+    <string name="about_intro_summary">Zeige noch einmal die Einführung an.</string>
+
+    <string name="about_donate">Spende</string>
+    <string name="about_donate_summary">Wenn dir die App gefällt, kannst du mir gerne etwas über Paypal spenden (braucht eine
+        Internetverbindung).</string>
+
+    <string name="about_license_1_title">Workout Bilder</string>
+    <string name="about_license_2_title">Pfeife</string>
+    <string name="about_license_1">Die Bilder für den Workout habe ich auf dem Blog von  \"C. Gilbert\" gefunden. Ihr
         ebenfalls ein großes Dankeschön für die Erlaubnis die Bilder in dieser App nutzen
-        zu dürfen.&lt;/i>&lt;br>&lt;br>
-
-        &lt;i>Die Trillerpfeife ist unter Creative Commons 0 Lizenz von
-        http://freesound.org/people/MentalSanityOff/sounds/218318/ erhältlich. &lt;/i></string>
+        zu dürfen.</string>
+    <string name="about_license_2">Die Trillerpfeife ist unter der Creative Commons 0 Lizenz erhältlich.</string>
+    <string name="about_license_3">Gebraucht um den \"Introschirm\" zu erstellen.</string>
+    <string name="about_license_7">Gebraucht um den \"About screen\" zu erstellen.</string>
+    <string name="about_license_8">Die Quelle von fast allen Icons.</string>
 
 
 </resources>

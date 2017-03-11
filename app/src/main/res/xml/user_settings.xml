@@ -54,40 +54,22 @@
             android:summary="@string/action_durationEx_summary"
             android:key="exercises_duration" />
 
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_4">
+
         <Preference
             android:title="@string/action_stat"
             android:icon="@drawable/chart_bar"
             android:summary="@string/action_stat_summary"
             android:key="stat" />
 
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:title="@string/pref_1">
-
         <Preference
-            android:title="@string/action_intro"
+            android:title="@string/about_settings"
             android:icon="@drawable/information_outline"
-            android:summary="@string/action_intro_summary"
+            android:summary="@string/about_settings_text"
             android:key="help" />
-
-        <Preference
-            android:title="@string/action_license"
-            android:icon="@drawable/copyright"
-            android:summary="@string/action_license_summary"
-            android:key="license" />
-
-        <Preference
-            android:title="@string/action_changelog"
-            android:icon="@drawable/format_list_bulleted"
-            android:summary="@string/action_changelog_summary"
-            android:key="changelog" />
-
-        <Preference
-            android:title="@string/action_donate"
-            android:icon="@drawable/coin"
-            android:summary="@string/action_donate_summary"
-            android:key="donate" />
 
     </PreferenceCategory>
 

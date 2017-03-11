@@ -149,6 +149,11 @@
             android:name=".helper.Activity_intro"
             android:launchMode="singleTask"
             android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".about.About_activity"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

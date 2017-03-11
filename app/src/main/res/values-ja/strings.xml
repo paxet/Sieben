@@ -6,10 +6,8 @@
     <string name="app_sec">seconds</string>
     <string name="app_chosenTime">Chosen duration:</string>
     <string name="app_standardTime">(Standard:</string>
-
-    //Menu
-    <string name="action_license">ライセンス</string>
-    <string name="action_changelog">変更履歴</string>
+    <string name="app_con">Confirmation</string>
+    <string name="app_con_message">Do you really want to reset?</string>
 
     //Snackbar
     <string name="sn_pause">一時休止 …</string>
@@ -71,22 +69,9 @@
     <string name="pau_11" tools:keep="@string/pau_11">休止 | その後: サイド プランク</string>
 
     //License Dialog
-    <string name="about_yes">OK</string>
     <string name="about_title">Copyright © 2016  by Gaukler Faun</string>
     <string name="about_text">
         For more information visit the project site on github: https://github.com/scoute-dich/Sieben&lt;br>&lt;br>
-
-        &lt;b>貢献者:&lt;/b>&lt;br>&lt;br>
-
-        &lt;i>開発&lt;/i>&lt;br>
-        Gaukler Faun https://github.com/scoute-dich&lt;br> &lt;br>
-
-        &lt;i>翻訳&lt;/i>&lt;br>
-        French: jeberger https://github.com/jeberger&lt;br>
-        Japanese: naofum https://github.com/naofum&lt;br> &lt;br>
-
-        &lt;i>小規模の修正&lt;/i>&lt;br>
-        Mathias Lux https://github.com/dermotte&lt;br> &lt;br>
 
         このプログラムはフリーソフトウェアです: you can redistribute it and/or modify
         it under the terms of the GNU General Public License as published by
@@ -99,32 +84,16 @@
         GNU General Public License for more details.
 
         You should have received a copy of the GNU General Public License
-        along with this program.  If not, see http://www.gnu.org/licenses.&lt;br> &lt;br>
-
-        &lt;i>MaterialDesignIcons&lt;br>
-        https://github.com/Templarian/MaterialDesign&lt;/i>&lt;br>&lt;br>
-
-        &lt;i>Android Onboarder&lt;br>
-        https://github.com/chyrta/AndroidOnboarder&lt;/i>&lt;br>&lt;br>
-
-        &lt;i>ワークアウトの写真は、次のブログで参照することができます \"C. Gilbert\"
-        (http://almostfearless.com/the-21-minute-workout-or-7-minutes-if-youre-really-fit)。
-        アプリでの利用の許可をいただき感謝します。&lt;/i>&lt;br>&lt;br>
-
-        &lt;i>The whistle is available under the Creative Commons 0 License from
-        http://freesound.org/people/MentalSanityOff/sounds/218318/ &lt;/i></string>
+        along with this program.  If not, see http://www.gnu.org/licenses.</string>
 
 
     <string name="act_122">12. エクササイズ - サイド プランク 左</string>
     <string name="action_beep">ビープ</string>
     <string name="action_beep_summary">それぞれのエクササイズの後、短い \"ビープ音\" を鳴らしますか?</string>
-    <string name="action_changelog_summary">新着情報を表示 …  (will open a website)</string>
-    <string name="action_license_summary">アプリは GPL3 の下でライセンスされます</string>
     <string name="action_settings">設定 | ヘルプ | アプリについて</string>
     <string name="action_tts">TTS</string>
     <string name="action_tts_summary">ボイスコマンドを聞きたいですか?</string>
     <string name="pau_112">休止 - サイドを変えてください</string>
-    <string name="pref_1">アプリについて</string>
     <string name="pref_2">設定</string>
     <string name="sn_change" tools:keep="@string/sn_change">右から左に変更してください。</string>
     <string name="start">上にスワイプして始めます (5 秒の休止後) …</string>
@@ -135,10 +104,8 @@
 
     <string name="action_duration2">時間: Break</string>
 
-    <string name="action_donate">Donate</string>
-    <string name="action_donate_summary">If you like the app, you can donate to me via Paypal.</string>
-
     <string name="pref_3">Advanced</string>
+    <string name="pref_4">Miscellaneous</string>
 
     <string name="action_durationEx">Duration per exercise</string>
     <string name="action_durationEx_summary">Set different duration per exercise.</string>
@@ -155,7 +122,6 @@
     <string name="stat_time">Overall time:</string>
     <string name="stat_number">Count:</string>
     <string name="stat_average">Average:</string>
-    <string name="stat_sec">sec.</string>
 
     <string name="sort">Sort entries</string>
     <string name="sort_icon">by name</string>
@@ -164,13 +130,13 @@
     <string name="sort_average">by average</string>
     <string name="sort_icon2">name</string>
     <string name="sort_number2">count</string>
-    <string name="sort_hms2">overall time</string>
-    <string name="sort_average2">average</string>
+    <string name="sort_hms2">overall time (h:m:s)</string>
+    <string name="sort_average2">average (m:s)</string>
 
     //Intro
 
     <string name="intro1_title">Seven</string>
-    <string name="intro1_text">Thanks for choosing Seven. It\'s open source and complete free (as in freedom).</string>
+    <string name="intro1_text">Thanks for choosing \"Seven\". It\'s open source and complete free (as in freedom).</string>
 
     <string name="intro2_title">Gestures</string>
     <string name="intro2_text">Swipe down on the image to make a break, swipe up to continue with the workout. Swipe right to
@@ -180,8 +146,42 @@
     <string name="intro3_text">There are same basic settings for the app (duration of exercises and breaks, choose exercises). You
         can also open a statistic overview over done exercises. Now, let\'s start …</string>
 
-    <string name="action_intro">Intro</string>
-    <string name="action_intro_summary">Show the intro screen again.</string>
+
+    // About
+
+    <string name="about_settings">About … and other things</string>
+    <string name="about_settings_text">Changelog, help, license, used libraries and more.</string>
+
+    <string name="about_title_dev">Developer</string>
+    <string name="about_title_libs">Used resources</string>
+    <string name="about_title_ext">Contributors</string>
+    <string name="about_title_ext1">French translation</string>
+    <string name="about_title_ext2">Small fixes and whistle</string>
+    <string name="about_title_ext3">Japanese translation</string>
+
+    <string name="about_changelog">Changelog</string>
+    <string name="about_changelog_summary">Open Github site and see what\'s new … (needs internet connection)</string>
+
+    <string name="about_license">License</string>
+    <string name="about_license_summary">The app is licensed under GPL and completely open source and free (as in freedom).</string>
+
+    <string name="about_dev">Gaukler Faun</string>
+    <string name="about_dev_summary">Open my profile on Github (needs internet connection).</string>
+
+    <string name="about_intro">Intro</string>
+    <string name="about_intro_summary">Show the intro screen one more time.</string>
+
+    <string name="about_donate">Donate</string>
+    <string name="about_donate_summary">If you like the app, you can donate to me via Paypal (needs internet connection).</string>
+
+    <string name="about_license_1_title">Workout images</string>
+    <string name="about_license_2_title">Whistle</string>
+    <string name="about_license_1">The pictures from the workout can be found on the Blog of \"C. Gilbert\". Thanks to her
+        for the permission to use them in the app.</string>
+    <string name="about_license_2">The whistle is available under the Creative Commons 0 License.</string>
+    <string name="about_license_3">Used to build the intro screen.</string>
+    <string name="about_license_7">Used to create the \"About screen\".</string>
+    <string name="about_license_8">The source of nearly all icons.</string>
 
 
 

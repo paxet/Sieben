@@ -58,7 +58,7 @@ public class Activity_intro extends OnboarderActivity {
         // Define your actions when the user press 'Finish' button
         PreferenceManager.setDefaultValues(this, R.xml.user_settings, false);
         SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(this);
-        sharedPref.edit().putBoolean("introShowDo_notShow", false).apply();
+        sharedPref.edit().putBoolean("intro_notShow", false).apply();
         finish();
     }
 }

@@ -19,6 +19,7 @@
 
 package de.baumann.sieben.helper;
 
+import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
 import android.database.Cursor;
@@ -95,22 +96,31 @@ public class Activity_statistics extends AppCompatActivity {
                 TimeUnit.MILLISECONDS.toMinutes(time) % TimeUnit.HOURS.toMinutes(1),
                 TimeUnit.MILLISECONDS.toSeconds(time) % TimeUnit.MINUTES.toSeconds(1));
 
+        String number_int;
+        if (number < 10) {
+            number_int = "00" + String.valueOf(number);
+        } else if (number >= 10 && number < 100) {
+            number_int = "0" + String.valueOf(number);
+        } else {
+            number_int = String.valueOf(number);
+        }
+
         String number_string = String.valueOf(number);
 
         long seconds;
-        String average;
+        String average_int;
         if (number > 0) {
-            seconds = (time / number) / 1000;
-            average = Long.toString(seconds);
+            seconds = (time / number);
+            average_int = String.format(Locale.getDefault(), "%02d:%02d", TimeUnit.MILLISECONDS.toMinutes(seconds),
+                    TimeUnit.MILLISECONDS.toSeconds(seconds) % TimeUnit.MINUTES.toSeconds(1));
         } else {
-            average = "0";
-            seconds = 0;
+            average_int = "00:00";
         }
 
         db.insert(name, getString(R.string.stat_time) + " " + hms, icon,
                 getString(R.string.stat_number) + " " + number_string,
-                getString(R.string.stat_average) + " " + average + " " + getString(R.string.stat_sec),
-                time, seconds);
+                getString(R.string.stat_average) + " " + average_int,
+                number_int, average_int);
         Log.w("Seven", "Exercise added");
     }
 
@@ -215,6 +225,11 @@ public class Activity_statistics extends AppCompatActivity {
         }
     }
 
+    private void reset (String number, String time) {
+        sharedPref.edit().putInt(number, 0).apply();
+        sharedPref.edit().putInt(time, 0).apply();
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -253,6 +268,38 @@ public class Activity_statistics extends AppCompatActivity {
             
             case android.R.id.home:
                 finish();
+                return true;
+
+            case R.id.action_reset:
+                final android.support.v7.app.AlertDialog.Builder dialog = new android.support.v7.app.AlertDialog.Builder(Activity_statistics.this)
+                        .setTitle(R.string.app_con)
+                        .setMessage(R.string.app_con_message)
+                        .setPositiveButton(R.string.app_ok, new DialogInterface.OnClickListener() {
+
+                            public void onClick(DialogInterface dialog, int whichButton) {
+                                reset("ex1_number", "ex1_time");
+                                reset("ex2_number", "ex2_time");
+                                reset("ex3_number", "ex3_time");
+                                reset("ex4_number", "ex4_time");
+                                reset("ex5_number", "ex5_time");
+                                reset("ex6_number", "ex6_time");
+                                reset("ex7_number", "ex7_time");
+                                reset("ex8_number", "ex8_time");
+                                reset("ex9_number", "ex9_time");
+                                reset("ex10_number", "ex10_time");
+                                reset("ex11_number", "ex11_time");
+                                reset("ex12_number", "ex12_time");
+                                finish();
+                            }
+                        })
+                        .setNegativeButton(R.string.app_no, new DialogInterface.OnClickListener() {
+
+                            public void onClick(DialogInterface dialog, int whichButton) {
+                                dialog.cancel();
+                            }
+                        });
+                dialog.show();
+
                 return true;
         }
 

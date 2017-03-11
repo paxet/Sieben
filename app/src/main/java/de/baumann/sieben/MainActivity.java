@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         PreferenceManager.setDefaultValues(this, R.xml.user_settings_exercises, false);
         sharedPref = PreferenceManager.getDefaultSharedPreferences(MainActivity.this);
 
-        boolean show = sharedPref.getBoolean("showIntroScreen_notShow", true);
+        boolean show = sharedPref.getBoolean("intro_notShow", true);
 
         if (show){
             Intent mainIntent = new Intent(MainActivity.this, Activity_intro.class);
