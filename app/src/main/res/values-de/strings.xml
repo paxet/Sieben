@@ -152,7 +152,7 @@
     // About
 
     <string name="about_settings">Über die App … und Anderes</string>
-    <string name="about_settings_text">Changelog, Hilfe, Lizent, benutzte Bibliotheken und mehr.</string>
+    <string name="about_settings_text">Changelog, Hilfe, Lizenz, benutzte Bibliotheken und mehr.</string>
 
     <string name="about_title_dev">Entwickler</string>
     <string name="about_title_libs">Benutzte Ressourcen</string>

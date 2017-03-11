@@ -1,5 +1,6 @@
-### v 2.0 (WIP)
+### v 2.0
 - new: intro screen
+- new: about screen
 - new: statistics
 - new: duration for workouts and breaks free adjustable
 - new: duration per workout (advanced settings)
