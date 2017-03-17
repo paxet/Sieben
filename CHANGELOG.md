@@ -1,3 +1,6 @@
+### v 2.1
+- fix: license dialog
+
 ### v 2.0
 - new: intro screen
 - new: about screen

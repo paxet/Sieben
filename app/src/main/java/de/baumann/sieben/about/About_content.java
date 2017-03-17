@@ -7,7 +7,10 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.support.v4.content.ContextCompat;
+import android.text.Html;
+import android.text.SpannableString;
 import android.text.method.LinkMovementMethod;
+import android.text.util.Linkify;
 import android.widget.TextView;
 
 import com.danielstone.materialaboutlibrary.ConvenienceBuilder;
@@ -58,9 +61,21 @@ class About_content {
                 .setOnClickListener(new MaterialAboutActionItem.OnClickListener() {
                     @Override
                     public void onClick() {
+
+                        SpannableString s;
+
+                        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N) {
+                            s = new SpannableString(Html.fromHtml(c.getString(R.string.about_text),Html.FROM_HTML_MODE_LEGACY));
+                        } else {
+                            //noinspection deprecation
+                            s = new SpannableString(Html.fromHtml(c.getString(R.string.about_text)));
+                        }
+
+                        Linkify.addLinks(s, Linkify.WEB_URLS);
+
                         final AlertDialog d = new AlertDialog.Builder(c)
                                 .setTitle(R.string.about_title)
-                                .setMessage(R.string.about_text)
+                                .setMessage(s)
                                 .setPositiveButton(c.getString(R.string.app_ok),
                                         new DialogInterface.OnClickListener() {
                                             public void onClick(DialogInterface dialog, int id) {
