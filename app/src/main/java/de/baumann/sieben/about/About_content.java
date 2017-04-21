@@ -124,10 +124,17 @@ class About_content {
         authorCardBuilder2.title(R.string.about_title_ext);
 
         authorCardBuilder2.addItem(new MaterialAboutActionItem.Builder()
-                .text("Jeberger")
+                .text("jeberger")
                 .subText(R.string.about_title_ext1)
                 .icon(R.drawable.github_circle)
                 .setOnClickListener(ConvenienceBuilder.createWebsiteOnClickAction(c, Uri.parse("https://github.com/jeberger")))
+                .build());
+
+        authorCardBuilder2.addItem(new MaterialAboutActionItem.Builder()
+                .text("Maurits Cornelis")
+                .subText(R.string.about_title_ext4)
+                .icon(R.drawable.github_circle)
+                .setOnClickListener(ConvenienceBuilder.createWebsiteOnClickAction(c, Uri.parse("https://github.com/MauritsCornelis")))
                 .build());
 
         authorCardBuilder2.addItem(new MaterialAboutActionItem.Builder()
@@ -141,7 +148,7 @@ class About_content {
                 .text("Neofaum")
                 .subText(R.string.about_title_ext3)
                 .icon(R.drawable.github_circle)
-                .setOnClickListener(ConvenienceBuilder.createWebsiteOnClickAction(c, Uri.parse("https://github.com/scoute-dich/MuPDF/releases")))
+                .setOnClickListener(ConvenienceBuilder.createWebsiteOnClickAction(c, Uri.parse("https://github.com/naofum")))
                 .build());
 
         MaterialAboutCard.Builder convenienceCardBuilder = new MaterialAboutCard.Builder();

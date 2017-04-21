@@ -1,3 +1,7 @@
+### v 2.2
+- added: Spanisch translation (@MauritsCornelis)
+- updated: contributors list
+
 ### v 2.1
 - fix: license dialog
 

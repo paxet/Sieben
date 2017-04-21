@@ -159,6 +159,7 @@
     <string name="about_title_ext1">French translation</string>
     <string name="about_title_ext2">Small fixes and whistle</string>
     <string name="about_title_ext3">Japanese translation</string>
+    <string name="about_title_ext4">Spanish translation</string>
 
     <string name="about_changelog">Changelog</string>
     <string name="about_changelog_summary">Open Github site and see what\'s new … (needs internet connection)</string>
