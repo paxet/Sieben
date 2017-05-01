@@ -1,80 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Seven</string>
-    <string name="start">Glissez vers le haut pour démarrer (après 5 secondes de pause)…</string>
+    <string name="start">Faîtes glisser vers le haut pour démarrer (après 5 secondes de pause)…</string>
     <string name="start2">5 secondes de pause avant le premier exercice…</string>
     <string name="app_ok">OK</string>
-    <string name="app_no">Cancel</string>
-    <string name="app_sec">seconds</string>
-    <string name="app_chosenTime">Chosen duration:</string>
-    <string name="app_standardTime">(Standard:</string>
+    <string name="app_no">Annuler</string>
+    <string name="app_sec">secondes</string>
+    <string name="app_chosenTime">Durée choisie :</string>
+    <string name="app_standardTime">(Par défaut :</string>
     <string name="app_con">Confirmation</string>
-    <string name="app_con_message">Do you really want to reset?</string>
+    <string name="app_con_message">Voulez vous vraiment réinitialiser ?</string>
 
     //Statistics
-    <string name="stat_time">Overall time:</string>
-    <string name="stat_number">Count:</string>
-    <string name="stat_average">Average:</string>
+    <string name="stat_time">Durée totale :</string>
+    <string name="stat_number">Nombre :</string>
+    <string name="stat_average">Moyenne :</string>
 
-    <string name="sort">Sort entries</string>
-    <string name="sort_icon">by name</string>
-    <string name="sort_number">by count</string>
-    <string name="sort_hms">by overall time</string>
-    <string name="sort_average">by average</string>
-    <string name="sort_icon2">name</string>
-    <string name="sort_number2">count</string>
-    <string name="sort_hms2">overall time (h:m:s)</string>
-    <string name="sort_average2">average (m:s)</string>
+    <string name="sort">Trier</string>
+    <string name="sort_icon">par nom</string>
+    <string name="sort_number">par nombre</string>
+    <string name="sort_hms">par durée totale</string>
+    <string name="sort_average">par moyenne</string>
+    <string name="sort_icon2">nom</string>
+    <string name="sort_number2">nombre</string>
+    <string name="sort_hms2">durée totale (h:m:s)</string>
+    <string name="sort_average2">moyenne (m:s)</string>
 
     //Intro
-
     <string name="intro1_title">Seven</string>
-    <string name="intro1_text">Thanks for choosing \"Seven\". It\'s open source and complete free (as in freedom).</string>
+    <string name="intro1_text">Merci d\'avoir choisi \"Seven\", une application libre (comme dans liberté)</string>
 
-    <string name="intro2_title">Gestures</string>
-    <string name="intro2_text">Swipe down on the image to make a break, swipe up to continue with the workout. Swipe right to
-    reach the previous exercise and left to skip the current one.</string>
+    <string name="intro2_title">Gestes</string>
+    <string name="intro2_text">Faîtes glisser vers le bas pour faire une pause, vers le haut pour poursuivre l\'entraînement. Faîtes glisser vers la droite pour accéder à l\'exercice précédent et vers la gauche pour passer l\'exercice en cours.</string>
 
-    <string name="intro3_title">Settings</string>
-    <string name="intro3_text">There are same basic settings for the app (duration of exercises and breaks, choose exercises). You
-        can also open a statistic overview over done exercises. Now, let\'s start …</string>
-
-
+    <string name="intro3_title">Réglages</string>
+    <string name="intro3_text">Quelques réglages pour l\'application (durée des exercices et des pauses…). Vous pouvez accéder à un aperçu statistique des exercices réalisés. Allons-y…</string>
 
     //Menu Settings
-    <string name="action_settings">Réglages | Aide | À propos</string>
-    <string name="action_reset">Reset durations</string>
+    <string name="action_settings">Réglages</string>
+    <string name="action_reset">Réinitialiser les durées</string>
 
     <string name="pref_2">Réglages</string>
-    <string name="pref_3">Advanced</string>
-    <string name="pref_4">Miscellaneous</string>
+    <string name="pref_3">Avancés</string>
+    <string name="pref_4">Divers</string>
 
-    <string name="action_durationEx">Duration per exercise</string>
-    <string name="action_durationEx_summary">Set different duration per exercise.</string>
+    <string name="action_durationEx">Durée par exercice</string>
+    <string name="action_durationEx_summary">Définir une durée différente pour chaque exercice.</string>
 
-    <string name="action_stat">Statistics</string>
-    <string name="action_stat_summary">Show some information about performed exercises, total time and average per exercise.</string>
+    <string name="action_stat">Statistiques</string>
+    <string name="action_stat_summary">Voir quelques informations sur les exercices pratiqués, le temps total et moyen par exercice.</string>
 
-    <string name="action_endless">Endless</string>
-    <string name="action_endless_summary">Start workout again after last exercise.</string>
-
+    <string name="action_endless">Entraînement sans fin</string>
+    <string name="action_endless_summary">Recommencer l\'entraînement après le dernier exercice.</string>
 
     <string name="action_tts">Synthèse vocale</string>
     <string name="action_tts_summary">Voulez-vous entendre des ordres par oral ?</string>
     <string name="action_beep">Bip</string>
     <string name="action_beep_summary">Voulez-vous entendre un signal sonore après chaque exercice ?</string>
-    <string name="action_duration">Durée: Exercice</string>
-    <string name="action_duration2">Durée: Pause</string>
+    <string name="action_duration">Durée : Exercice</string>
+    <string name="action_duration2">Durée : Pause</string>
 
     <string name="action_exercises">Exercices</string>
-    <string name="action_exercises_summary">Choose the exercises you want to perform.</string>
+    <string name="action_exercises_summary">Choisissez les exercices que vous souhaitez pratiquer.</string>
 
     //Snackbar
-    <string name="sn_pause">Courte pause …</string>
-    <string name="sn_weiter">… recommençons !</string>
-    <string name="end">Terminé !</string>
-    <string name="sn_first">Déjà au premier exercice.</string>
-    <string name="sn_last">Déjà au dernier exercice.</string>
+    <string name="sn_pause">Une courte pause …</string>
+    <string name="sn_weiter">… Recommençons !</string>
+    <string name="end">C\'est terminé !</string>
+    <string name="sn_first">Vous êtes déjà au premier exercice</string>
+    <string name="sn_last">Vous êtes déjà au dernier exercice</string>
     <string name="sn_change" tools:keep="@string/sn_change">Merci de changer de côté.</string>
 
     //Titles
@@ -118,23 +112,24 @@
     <string name="act_11ee" tools:keep="@string/act_11ee">Pompes tournées</string>
     <string name="act_12ee" tools:keep="@string/act_12ee">Gainage</string>
 
-    <string name="pau">Pause - puis: Chaise contre le mur</string>
-    <string name="pau_2" tools:keep="@string/pau_2">Pause - puis: Pompes"</string>
-    <string name="pau_3" tools:keep="@string/pau_3">Pause - puis: Abdominaux</string>
-    <string name="pau_4" tools:keep="@string/pau_4">Pause - puis: Monter et descendre d\'une chaise</string>
-    <string name="pau_5" tools:keep="@string/pau_5">Pause - puis: Flexions</string>
-    <string name="pau_6" tools:keep="@string/pau_6">Pause - puis: Triceps sur une chaise"</string>
-    <string name="pau_7" tools:keep="@string/pau_7">Pause - puis: Planche</string>
-    <string name="pau_8" tools:keep="@string/pau_8">Pause - puis: Courir en levant les genoux</string>
-    <string name="pau_9" tools:keep="@string/pau_9">Pause - puis: Fentes</string>
-    <string name="pau_10">Pause - puis: Pompes tournées</string>
-    <string name="pau_11" tools:keep="@string/pau_11">Pause - puis: Gainage à droite</string>
+    <string name="pau">Pause - puis : Chaise contre le mur</string>
+    <string name="pau_2" tools:keep="@string/pau_2">Pause - puis : Pompes"</string>
+    <string name="pau_3" tools:keep="@string/pau_3">Pause - puis : Abdominaux</string>
+    <string name="pau_4" tools:keep="@string/pau_4">Pause - puis : Monter et descendre d\'une chaise</string>
+    <string name="pau_5" tools:keep="@string/pau_5">Pause - puis : Flexions</string>
+    <string name="pau_6" tools:keep="@string/pau_6">Pause - puis : Triceps sur une chaise"</string>
+    <string name="pau_7" tools:keep="@string/pau_7">Pause - puis : Planche</string>
+    <string name="pau_8" tools:keep="@string/pau_8">Pause - puis : Courir en levant les genoux</string>
+    <string name="pau_9" tools:keep="@string/pau_9">Pause - puis : Fentes</string>
+    <string name="pau_10">Pause - puis : Pompes tournées</string>
+    <string name="pau_11" tools:keep="@string/pau_11">Pause - puis : Gainage à droite</string>
     <string name="pau_112">Pause - changez de côté</string>
 
     //License Dialog
-    <string name="about_title">Copyright © 2016  by Gaukler Faun</string>
+
+    <string name="about_title">Copyright © 2016 Gaukler Faun</string>
     <string name="about_text">
-        For more information visit the project site on github: https://github.com/scoute-dich/Sieben&lt;br>&lt;br>
+        Pour plus d\'informations, visitez le site github du projet : https://github.com/scoute-dich/Sieben&lt;br>&lt;br>
 
         This program is free software: you can redistribute it and/or modify
         it under the terms of the GNU General Public License as published by
@@ -149,42 +144,40 @@
         You should have received a copy of the GNU General Public License
         along with this program.  If not, see http://www.gnu.org/licenses.</string>
 
-
     // About
 
-    <string name="about_settings">About … and other things</string>
-    <string name="about_settings_text">Changelog, help, license, used libraries and more.</string>
+    <string name="about_settings">À propos de cette application</string>
+    <string name="about_settings_text">Notes de révisions, aide, licence, bibliothèques utilisées et plus encore</string>
 
-    <string name="about_title_dev">Developer</string>
-    <string name="about_title_libs">Used resources</string>
-    <string name="about_title_ext">Contributors</string>
-    <string name="about_title_ext1">French translation</string>
-    <string name="about_title_ext2">Small fixes and whistle</string>
-    <string name="about_title_ext3">Japanese translation</string>
+    <string name="about_title_dev">Développeur</string>
+    <string name="about_title_libs">Ressources utilisées</string>
+    <string name="about_title_ext">Contributeurs</string>
+    <string name="about_title_ext1">Traduction française</string>
+    <string name="about_title_ext2">Corrections mineures et sifflet</string>
+    <string name="about_title_ext3">Traduction japonaise</string>
+    <string name="about_title_ext4">Traduction espagnole</string>
 
     <string name="about_changelog">Changelog</string>
-    <string name="about_changelog_summary">Open Github site and see what\'s new … (needs internet connection)</string>
+    <string name="about_changelog_summary">Accédez aux notes de révions disponibles sur Github (connexion internet requise)</string>
 
-    <string name="about_license">License</string>
-    <string name="about_license_summary">The app is licensed under GPL and completely open source and free (as in freedom).</string>
+    <string name="about_license">Licence</string>
+    <string name="about_license_summary">Cette application est distribuée sous licence GPL. Son code est libre (comme dans liberté)</string>
 
     <string name="about_dev">Gaukler Faun</string>
-    <string name="about_dev_summary">Open my profile on Github (needs internet connection).</string>
+    <string name="about_dev_summary">Visitez mon profil sur Github (connexion internet requise)</string>
 
-    <string name="about_intro">Intro</string>
-    <string name="about_intro_summary">Show the intro screen one more time.</string>
+    <string name="about_intro">Introduction</string>
+    <string name="about_intro_summary">Visualisez à nouveau l\'introduction</string>
 
-    <string name="about_donate">Donate</string>
-    <string name="about_donate_summary">If you like the app, you can donate to me via Paypal (needs internet connection).</string>
+    <string name="about_donate">Don</string>
+    <string name="about_donate_summary">Si vous aimez cette application, vous pouvez me faire un don par Paypal (connexion internet requise)</string>
 
-    <string name="about_license_1_title">Workout images</string>
-    <string name="about_license_2_title">Whistle</string>
-    <string name="about_license_1">The pictures from the workout can be found on the Blog of \"C. Gilbert\". Thanks to her
-        for the permission to use them in the app.</string>
-    <string name="about_license_2">The whistle is available under the Creative Commons 0 License.</string>
-    <string name="about_license_3">Used to build the intro screen.</string>
-    <string name="about_license_7">Used to create the \"About screen\".</string>
-    <string name="about_license_8">The source of nearly all icons.</string>
-
+    <string name="about_license_1_title">Images de l\'entraînement</string>
+    <string name="about_license_2_title">Sifflet</string>
+    <string name="about_license_1">Les images de l\'entraînement peuvent être trouvées sur le blog de \"C. Gilbert\". Merci à elle de me permettre de les utiliser dans l\'application</string>
+    <string name="about_license_2">Le sifflet est disponible sous licence Creative Commons CC0</string>
+    <string name="about_license_3">Utilisée pour créer la séquence d\'introduction</string>
+    <string name="about_license_7">Utilisée pour l\'écran \"À propos\"</string>
+    <string name="about_license_8">La source de la plupart des icônes</string>
 
 </resources>
