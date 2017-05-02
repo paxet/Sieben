@@ -1,5 +1,9 @@
+### v 2.3
+- updated: French translation
+- updated: contributors list
+
 ### v 2.2
-- added: Spanisch translation (@MauritsCornelis)
+- added: Spanish translation (@MauritsCornelis)
 - updated: contributors list
 
 ### v 2.1

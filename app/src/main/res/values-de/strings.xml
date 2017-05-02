@@ -9,7 +9,7 @@
     <string name="app_chosenTime">Ausgewählte Dauer:</string>
     <string name="app_standardTime">(Standard:</string>
     <string name="app_con">Bestätigung</string>
-    <string name="app_con_message">Möchtest du die Einstellungenwirklich löschen?</string>
+    <string name="app_con_message">Möchtest du die Einstellungen wirklich löschen?</string>
 
     //Statistics
     <string name="stat_time">Gesamt:</string>
